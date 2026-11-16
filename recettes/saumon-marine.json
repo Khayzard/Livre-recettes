@@ -1,13 +1,13 @@
 {
   "slug": "saumon-marine",
   "titre": "Saumon mariné, choux de Bruxelles rôtis et riz",
-  "resume": "Filets de saumon dans la marinade maison à la sauce soya, choux de Bruxelles rôtis et riz.",
+  "resume": "Pavés de saumon marinés à la sauce soya et à l'érable, cuits au four, avec choux de Bruxelles rôtis et riz. Marinade : version proposée en attendant la recette de Cindy.",
   "portions": 10,
   "temps": {
-    "prep": "15 min + marinade (30 min à 4 h)",
-    "cuisson": "15–20 min (choux : 25–30 min)"
+    "prep": "15 min + marinade (30 min à 4 h)",
+    "cuisson": "15–20 min (choux : 25–30 min)"
   },
-  "tempsTotal": "45 min + marinade",
+  "tempsTotal": "45 min + marinade",
   "etiquettes": [
     "poisson",
     "four"
@@ -15,12 +15,12 @@
   "temperatures": [
     {
       "quoi": "Saumon",
-      "temp": "63 °C (145 °F)",
+      "temp": "63 °C (145 °F)",
       "note": "la chair se défait à la fourchette"
     },
     {
       "quoi": "Restes réchauffés",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "jusqu'au centre"
     }
   ],
@@ -32,9 +32,41 @@
           "q": 3.5,
           "u": "lb",
           "nom": "de filets de saumon"
+        }
+      ]
+    },
+    {
+      "groupe": "Marinade soya-érable, qui sert aussi de sauce (version maison proposée)",
+      "items": [
+        {
+          "q": 0.3333,
+          "u": "t",
+          "nom": "de sauce soya"
         },
         {
-          "texte": "Marinade maison (à base de sauce soya)"
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "de sirop d'érable"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de jus de citron"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile végétale"
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "gousses d'ail, hachées finement"
+        },
+        {
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de poivre moulu"
         }
       ]
     },
@@ -52,12 +84,12 @@
           "nom": "d'huile d'olive"
         },
         {
-          "texte": "Sel, poivre"
-        },
-        {
           "q": 0.5,
           "u": "c. à thé",
           "nom": "de poudre d'ail"
+        },
+        {
+          "texte": "Sel et poivre"
         }
       ]
     },
@@ -82,20 +114,100 @@
       ]
     }
   ],
+  "miseEnPlace": [
+    "Saumon : s'il est congelé, le décongeler au frigo la veille. Passer le doigt sur la chair pour repérer les arêtes et les retirer à la pince. Laisser la peau. Couper les filets en travers en pavés de 5 à 6 cm de large (environ 150 g, un par portion), avec un grand couteau, d'un seul mouvement. Assécher avec du papier absorbant.",
+    "Ail (marinade) : écraser chaque gousse avec le plat du couteau, retirer la pelure, puis hacher très finement en morceaux de 1 à 2 mm (ou passer au presse-ail).",
+    "Citron (marinade) : le rouler sur le comptoir en appuyant, le couper en deux, le presser et retirer les pépins.",
+    "Choux de Bruxelles : couper 2 à 3 mm de la base brunie, retirer les feuilles extérieures abîmées, puis couper chaque chou en deux de la tige vers la tête. Couper en quatre ceux qui font plus de 4 cm.",
+    "Riz : mesuré ; eau ou bouillon mesuré.",
+    "Équipement : bol moyen et fouet (ou fourchette) pour la marinade ; grand sac de congélation de 4 L ou plat en verre de 23 × 33 cm ; 3 plaques de 33 × 46 cm (13 × 18 po) avec papier parchemin ; casserole de 4 à 5 L avec couvercle qui ferme bien et passoire fine pour le riz ; petite casserole de 1 L pour la sauce ; spatule large ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Mettre le saumon dans la marinade, au frigo, de 30 min à 4 h maximum (plus longtemps, l'acide ou le sel « cuit » le poisson).",
-    "Préchauffer le four à 400 °F (200 °C).",
-    "Choux de Bruxelles : couper les bouts, couper en deux, mélanger avec l'huile, le sel, le poivre et l'ail. Étaler face coupée en dessous et rôtir 25–30 min (enfourner avant le saumon).",
-    "Riz : rincer, porter à ébullition avec l'eau ou le bouillon et le sel. Couvrir, cuire 18 min à feu doux et laisser reposer 5 min.",
-    "Saumon : égoutter les filets (jeter la marinade crue, ou la faire bouillir 2 min pour en faire une sauce). Cuire sur une plaque avec papier parchemin 12–18 min selon l'épaisseur, jusqu'à 63 °C."
+    {
+      "titre": "Préparer la marinade et faire mariner le saumon",
+      "texte": "Dans le bol moyen, mettre la sauce soya, le sirop d'érable, le jus de citron, l'huile, l'ail haché et le poivre du groupe « Marinade soya-érable ». Fouetter à la fourchette 30 secondes, jusqu'à ce que le sirop soit dissous et la marinade homogène. Déposer les pavés de saumon dans le sac de 4 L (ou dans le plat en verre, côté chair en dessous), verser la marinade, chasser l'air et fermer. Retourner le sac deux ou trois fois pour bien enrober chaque pavé. Mettre à plat dans une assiette, sur la tablette du bas du frigo, et retourner le sac à mi-temps.",
+      "duree": "5 min + 30 min au frigo au minimum (4 h au maximum)",
+      "reperes": "Marinade brun ambré, sans couche de sirop au fond du bol ; tous les pavés baignent dans la marinade.",
+      "pourquoi": "Au-delà de 4 h, le sel de la sauce soya et l'acide du citron « cuisent » le poisson : la chair devient ferme et sèche. La recette de marinade de la famille n'est pas dans les sources : si elle est disponible, l'utiliser à la place, même durée. Les sources ne donnent pas les quantités ; version maison proposée, à ajuster."
+    },
+    {
+      "titre": "Préchauffer le four",
+      "texte": "Placer une grille au tiers supérieur et une au tiers inférieur du four, puis allumer. Tapisser les 3 plaques de papier parchemin.",
+      "four": "400 °F (200 °C), grilles au tiers supérieur et au tiers inférieur",
+      "duree": "10–15 min pour chauffer",
+      "reperes": "Le four indique qu'il a atteint sa température.",
+      "pourquoi": "Un four bien chaud dore les choux au lieu de les cuire à la vapeur."
+    },
+    {
+      "titre": "Rôtir les choux de Bruxelles",
+      "texte": "Dans un grand bol, mélanger les choux coupés avec l'huile d'olive, la poudre d'ail, une bonne pincée de sel et du poivre. Les répartir sur 2 plaques, en une seule couche, face coupée en dessous, sans les tasser. Enfourner une plaque sur chaque grille. Après 15 minutes, regrouper tous les choux sur une seule plaque (ils ont rapetissé), les brasser et remettre cette plaque sur la grille du haut : la grille du bas est alors libre pour le saumon.",
+      "four": "400 °F (200 °C), grilles du haut et du bas",
+      "duree": "25–30 min en tout",
+      "reperes": "Face coupée brun doré, feuilles extérieures croustillantes, centre tendre quand on y pique la pointe d'un couteau.",
+      "pourquoi": "La face coupée posée sur la plaque chaude caramélise et enlève l'amertume. Trop tassés, les choux cuisent à la vapeur et restent pâles."
+    },
+    {
+      "titre": "Cuire le riz",
+      "texte": "Verser le riz dans la passoire fine et le rincer sous l'eau froide en le remuant avec la main, jusqu'à ce que l'eau soit presque claire ; bien égoutter. Dans la casserole de 4 à 5 L, mettre le riz, l'eau ou le bouillon et le sel (1 mesure de riz pour 1 ½ mesure de liquide). Porter à ébullition à feu vif, à découvert. Dès que ça bout, brasser une fois, couvrir, baisser le feu au plus bas et cuire sans soulever le couvercle. Retirer du feu et laisser reposer à couvert, puis défaire les grains à la fourchette.",
+      "feu": "vif jusqu'à ébullition, puis doux",
+      "duree": "18 min + 5 min de repos à couvert",
+      "reperes": "Tout le liquide est absorbé, de petits trous de vapeur marquent la surface ; les grains sont tendres et se détachent.",
+      "pourquoi": "Le rinçage enlève l'amidon de surface qui rend le riz collant. Le repos à couvert finit la cuisson à la vapeur."
+    },
+    {
+      "titre": "Égoutter le saumon et le déposer sur la plaque",
+      "texte": "Sortir les pavés du sac un à un en laissant la marinade s'égoutter au-dessus du sac. Les déposer sur la troisième plaque, peau en dessous, espacés de 2 à 3 cm. Verser la marinade du sac dans la petite casserole si on veut en faire une sauce (étape 7) ; sinon, la jeter. Se laver les mains.",
+      "duree": "3 min",
+      "reperes": "Pavés luisants, mais sans flaque de marinade autour.",
+      "pourquoi": "Un surplus de marinade sucrée brûle sur la plaque et fait de la fumée. La marinade a touché le poisson cru : elle ne se sert jamais telle quelle."
+    },
+    {
+      "titre": "Cuire le saumon au four",
+      "texte": "Enfourner la plaque de saumon sur la grille du bas quand il reste environ 15 minutes aux choux. Commencer à vérifier après 12 minutes : insérer le thermomètre à lecture instantanée de côté, au centre du pavé le plus épais. Les pavés minces (2 cm) sont prêts avant les plus épais (3 à 4 cm) : les retirer à mesure.",
+      "four": "400 °F (200 °C), grille du bas",
+      "duree": "12–18 min selon l'épaisseur",
+      "reperes": "63 °C (145 °F) au centre ; chair opaque, rose pâle, qui se défait en gros flocons à la fourchette.",
+      "pourquoi": "Le saumon passe vite de juteux à sec : le thermomètre évite de trop le cuire."
+    },
+    {
+      "titre": "Faire bouillir la marinade pour en faire une sauce (facultatif)",
+      "texte": "Pendant que le saumon cuit, porter la marinade de la petite casserole à pleine ébullition, à gros bouillons, et la maintenir 2 minutes complètes en brassant. Retirer du feu et verser dans un petit bol de service.",
+      "feu": "moyen-vif",
+      "duree": "2 min de pleine ébullition (environ 5 min en tout)",
+      "reperes": "Gros bouillons sur toute la surface pendant 2 minutes ; la sauce est un peu sirupeuse et brillante.",
+      "pourquoi": "La marinade a touché le poisson cru : 2 minutes de pleine ébullition la rendent sécuritaire et la concentrent en sauce."
+    },
+    {
+      "titre": "Laisser reposer et servir",
+      "texte": "Laisser reposer le saumon sur la plaque. Glisser la spatule entre la peau et la chair pour soulever chaque pavé (la peau reste collée au papier). Servir avec le riz et les choux de Bruxelles, et arroser d'un filet de sauce si on l'a préparée.",
+      "duree": "3 min de repos",
+      "reperes": "La chair se détache de la peau d'un seul morceau.",
+      "pourquoi": "Le repos laisse le jus se redistribuer : la chair reste moelleuse."
+    }
+  ],
+  "astuces": [
+    "Ne pas dépasser 4 h de marinade : le saumon devient ferme, trop salé et sec.",
+    "Couper des pavés de même largeur et retirer les plus minces en premier : ils cuisent plus vite que les morceaux du centre du filet.",
+    "Ne pas tasser les choux de Bruxelles : en une seule couche, face coupée en dessous, sinon ils ne dorent pas.",
+    "Ne jamais servir la marinade crue : la jeter, ou la faire bouillir 2 minutes complètes."
   ],
   "substitutions": [
     "Truite au lieu du saumon.",
     "Brocoli surgelé au lieu des choux de Bruxelles."
   ],
+  "mealPrep": [
+    "La marinade soya-érable (sans le saumon) peut être fouettée jusqu'à 3 jours d'avance et gardée au frigo dans un pot fermé ; le jour même, y mettre le saumon de 30 min à 4 h avant la cuisson (étape 1).",
+    "Si le saumon a été acheté congelé : le passer au frigo la veille au soir.",
+    "Les choux de Bruxelles peuvent être parés et coupés la veille, au frigo dans un contenant fermé."
+  ],
   "conservation": [
-    "Saumon et riz : 3 jours maximum au frigo. Bon froid sur du riz ou réchauffé doucement (couvert pour garder l'humidité).",
-    "Riz : réfrigérer dans l'heure."
+    "Frigo : 3 jours maximum pour le saumon et le riz, dans des contenants fermés. Riz : le refroidir et le réfrigérer dans l'heure. Choux de Bruxelles : 3 à 4 jours.",
+    "Congélateur : le saumon cuit se congèle jusqu'à 2 mois, mais il sèche un peu ; le riz cuit se congèle bien 2 mois, en sacs aplatis.",
+    "Réchauffer : doucement, à couvert pour garder l'humidité : micro-ondes à puissance moyenne, par tranches de 45 secondes, avec 1 c. à soupe d'eau sur le riz, jusqu'à 74 °C au centre. Le saumon est aussi bon froid, sur du riz.",
+    "Ne se congèlent pas bien : les choux de Bruxelles rôtis (ils deviennent mous et amers)."
+  ],
+  "notes": [
+    "⚠️ Version proposée : la vraie marinade de Cindy (à base de sauce soya) n'est pas encore notée. La marinade soya-érable de cette fiche est une version maison proposée, douce, en attendant que les quantités de Cindy soient ajoutées."
   ],
   "photo": "images/saumon-marine.jpg",
   "credit": {

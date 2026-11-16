@@ -3,6 +3,11 @@
   "titre": "Vol-au-vent au poulet et légumes",
   "resume": "Poulet et légumes dans une sauce crémeuse sans lactose, servis dans des croûtes feuilletées.",
   "portions": 10,
+  "temps": {
+    "prep": "25 min",
+    "cuisson": "40 min"
+  },
+  "tempsTotal": "~1 h 05",
   "etiquettes": [
     "poulet"
   ],
@@ -20,12 +25,12 @@
   ],
   "ingredients": [
     {
-      "groupe": "Garniture",
+      "groupe": "Garniture de poulet et légumes",
       "items": [
         {
           "q": 1.4,
           "u": "kg",
-          "nom": "de poulet, en cubes"
+          "nom": "de poulet désossé, sans peau (poitrines ou hauts de cuisse), en cubes"
         },
         {
           "q": 1,
@@ -45,12 +50,15 @@
         {
           "q": 227,
           "u": "g",
-          "nom": "de champignons"
+          "nom": "de champignons blancs"
         },
         {
           "q": 1,
           "u": "t",
-          "nom": "de maïs"
+          "nom": "de maïs en grains (surgelé, ou en conserve égoutté)"
+        },
+        {
+          "texte": "Huile de cuisson, sel et poivre"
         }
       ]
     },
@@ -65,12 +73,12 @@
         {
           "q": 0.6667,
           "u": "t",
-          "nom": "de farine"
+          "nom": "de farine tout usage"
         },
         {
           "q": 4,
           "u": "t",
-          "nom": "de bouillon"
+          "nom": "de bouillon de poulet"
         },
         {
           "q": 2,
@@ -78,7 +86,12 @@
           "nom": "de lait sans lactose"
         },
         {
-          "texte": "Thym"
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de thym séché"
+        },
+        {
+          "texte": "Sel et poivre (goûter à la fin : le bouillon est déjà salé)"
         }
       ]
     },
@@ -88,21 +101,98 @@
         {
           "q": 10,
           "u": "",
-          "nom": "croûtes de vol-au-vent (vérifier le beurre)"
+          "nom": "croûtes de vol-au-vent du commerce, déjà cuites (vérifier le beurre)"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Poulet : l'assécher avec du papier absorbant. Le couper d'abord en lanières de 2 cm de large contre le grain (en travers des fibres), puis recouper les lanières en cubes de 2 cm. Saler et poivrer légèrement.",
+    "Oignon : couper en deux de la racine à la tige, peler, poser à plat. Faire des entailles parallèles tous les 5 mm vers la racine sans la couper, puis trancher en travers pour obtenir des dés de 5 mm.",
+    "Carottes : peler, couper en deux sur la longueur, poser à plat et trancher en demi-rondelles de 5 mm.",
+    "Céleri : laver, fendre les branches larges en deux sur la longueur, puis trancher en travers en morceaux de 5 mm.",
+    "Champignons : essuyer avec un papier humide, couper 2 mm au bout du pied, puis couper en quartiers (les très gros en 6), pour des morceaux d'environ 2 cm.",
+    "Maïs : surgelé, pas besoin de le décongeler ; en conserve, bien l'égoutter.",
+    "Liquides : mesurer le bouillon et le lait sans lactose dans une grande tasse à mesurer de 2 L (ou deux contenants) et les laisser près de la cuisinière ; ils s'incorporent mieux s'ils ne sortent pas directement du frigo.",
+    "Équipement : grande casserole ou faitout à fond épais de 6 L ou plus ; grand bol pour le poulet saisi ; cuillère de bois et fouet ; louche ; plaque de 33 × 46 cm pour les croûtes ; planche et couteau du chef ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Saisir les cubes de poulet.",
-    "Ajouter les légumes et les faire revenir.",
-    "Faire un roux avec la margarine et la farine, puis ajouter le bouillon et le lait pour faire la sauce. Ajouter le thym.",
-    "Mijoter 10–12 min, jusqu'à ce que le poulet atteigne 74 °C.",
-    "Servir dans les croûtes chaudes."
+    {
+      "titre": "Commencer la garniture : saisir les cubes de poulet",
+      "texte": "Chauffer la grande casserole avec un filet d'huile. Quand l'huile miroite, ajouter la moitié des cubes de poulet en une seule couche et les laisser dorer 2 minutes sans y toucher, puis les retourner et dorer encore 2 minutes. Les transférer dans le grand bol. Répéter avec le reste du poulet, en ajoutant un filet d'huile au besoin. Le poulet n'est pas encore cuit au centre : il finira de cuire dans la sauce (étape 5).",
+      "feu": "moyen-vif",
+      "duree": "4–5 min par lot (2 lots)",
+      "reperes": "Cubes dorés sur au moins deux faces, encore rosés au centre ; des sucs bruns collent au fond de la casserole.",
+      "pourquoi": "En deux lots, le poulet dore ; tout d'un coup, il rend son eau et bout. Les sucs collés au fond donneront du goût à la sauce."
+    },
+    {
+      "titre": "Faire revenir les légumes de la garniture",
+      "texte": "Baisser le feu. Dans la même casserole (ne pas la laver), ajouter un filet d'huile si le fond est sec, puis l'oignon, les carottes et le céleri avec une pincée de sel. Cuire 5 minutes en brassant et en grattant les sucs du fond. Ajouter les champignons et cuire encore 4 à 5 minutes.",
+      "feu": "moyen",
+      "duree": "9–10 min",
+      "reperes": "Oignon translucide, champignons dorés et réduits de moitié, sans liquide au fond ; les carottes sont encore fermes (elles finiront de cuire dans la sauce).",
+      "pourquoi": "L'eau des champignons doit s'évaporer avant d'ajouter la farine, sinon la sauce sera trop claire."
+    },
+    {
+      "titre": "Préparer la sauce : faire le roux",
+      "texte": "Ajouter la margarine sur les légumes et la laisser fondre en brassant. Saupoudrer toute la farine sur les légumes et mélanger à la cuillère de bois jusqu'à ce qu'on ne voie plus de farine sèche. Cuire en brassant sans arrêt, en grattant le fond.",
+      "feu": "moyen",
+      "duree": "2 min",
+      "reperes": "Pâte blonde et épaisse qui enrobe les légumes et sent le biscuit, sans avoir bruni.",
+      "pourquoi": "Le roux (gras et farine cuits ensemble) épaissit la sauce ; deux minutes de cuisson enlèvent le goût de farine crue."
+    },
+    {
+      "titre": "Mouiller la sauce avec le bouillon et le lait",
+      "texte": "Verser environ le quart du bouillon en brassant vigoureusement avec le fouet ou la cuillère de bois jusqu'à obtenir une pâte lisse, sans grumeaux. Ajouter le reste du bouillon en 3 fois, en brassant à chaque ajout, puis le lait sans lactose et le thym. Monter le feu et porter à frémissement en brassant souvent et en grattant le fond.",
+      "feu": "moyen-vif, puis moyen dès que ça frémit",
+      "duree": "6–8 min",
+      "reperes": "Sauce lisse, couleur crème, qui commence à épaissir et à faire de petits bouillons au bord.",
+      "pourquoi": "Le liquide ajouté peu à peu se lie au roux sans faire de grumeaux ; versé d'un coup, la farine se met en mottes."
+    },
+    {
+      "titre": "Mijoter le poulet dans la sauce",
+      "texte": "Remettre dans la casserole le poulet saisi et tout le jus accumulé dans le bol, puis ajouter le maïs. Baisser le feu et laisser mijoter à découvert, en brassant toutes les 2 ou 3 minutes et en grattant le fond. Vérifier avec le thermomètre à lecture instantanée au centre de quelques gros cubes de poulet. Retirer du feu, goûter, saler et poivrer au besoin.",
+      "feu": "moyen-doux",
+      "duree": "10–12 min",
+      "reperes": "Poulet à 74 °C (165 °F), plus du tout rosé ; carottes tendres sous la fourchette ; la sauce nappe le dos de la cuillère et un trait tracé au doigt y reste net.",
+      "pourquoi": "Le poulet finit de cuire doucement dans la sauce et reste tendre ; à gros bouillons, il durcit et la sauce colle au fond."
+    },
+    {
+      "titre": "Réchauffer les croûtes de vol-au-vent",
+      "texte": "Pendant que la garniture mijote, déposer les croûtes sur la plaque (retirer le petit couvercle de pâte s'il y en a un et le réchauffer à côté). Les réchauffer au four selon les indications de l'emballage, à défaut à la température indiquée ici.",
+      "four": "350 °F (175 °C), grille au centre",
+      "duree": "5–8 min",
+      "reperes": "Croûtes chaudes au toucher, sèches et croustillantes, légèrement plus dorées.",
+      "pourquoi": "Une croûte chaude et croustillante résiste mieux à la sauce ; froide, elle ramollit tout de suite."
+    },
+    {
+      "titre": "Garnir les croûtes et servir",
+      "texte": "Poser une croûte chaude dans chaque assiette. Avec la louche, la remplir de garniture en la laissant déborder sur les côtés, poser le petit couvercle de pâte dessus et servir tout de suite.",
+      "duree": "3 min",
+      "reperes": "Garniture fumante et crémeuse, croûte encore croustillante sur les bords.",
+      "pourquoi": "On garnit à la dernière minute, dans l'assiette : une croûte garnie d'avance devient molle."
+    }
+  ],
+  "astuces": [
+    "Si la sauce est trop épaisse à la fin, la détendre avec un peu de bouillon ou d'eau, une cuillerée à la fois ; si elle est trop claire, la laisser mijoter 2 ou 3 minutes de plus à découvert.",
+    "Brasser et gratter le fond pendant le mijotage : une sauce au lait et à la farine colle et brûle vite à feu trop fort.",
+    "Lire les étiquettes : croûtes de vol-au-vent (plusieurs sont faites au beurre), margarine (sans produits laitiers) et bouillon.",
+    "Ne garnir que les croûtes qui seront mangées au repas ; pour les lunchs, garder la garniture et les croûtes séparées."
+  ],
+  "mealPrep": [
+    "Jusqu'à 2 jours avant : couper le poulet en cubes (au frigo, dans un contenant fermé, sur la tablette du bas) ; couper l'oignon, les carottes, le céleri et les champignons (au frigo, dans des contenants fermés).",
+    "La veille : toute la garniture en sauce (étapes 1 à 5) peut être faite d'avance, refroidie dans des contenants peu profonds et réfrigérée dans les 2 h. Le jour même, la réchauffer à feu moyen-doux en brassant, avec un peu de bouillon ou d'eau si la sauce a figé, jusqu'à 74 °C, puis reprendre à l'étape 6."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C.",
-    "Lunchs : garniture et 5 croûtes séparées ; réchauffer la garniture à 74 °C."
+    "Frigo : 3–4 jours pour la garniture en sauce, dans des contenants peu profonds, réfrigérée dans les 2 h. Croûtes : à la température de la pièce, dans leur emballage ou un contenant fermé.",
+    "Lunchs : garniture et croûtes séparées (5 croûtes sont prévues pour les lunchs dans la recette de 10) ; réchauffer la garniture à 74 °C et garnir la croûte au moment de manger.",
+    "Congélateur : 2 mois pour la garniture en sauce, en portions. Décongeler au frigo pendant la nuit ; la sauce peut se séparer un peu : bien la brasser en la réchauffant.",
+    "Réchauffer : à la casserole à feu moyen-doux en brassant, avec un peu de bouillon ou d'eau, ou au micro-ondes à couvert en brassant à mi-temps, jusqu'à 74 °C au centre (thermomètre à lecture instantanée). Croûtes : 5 minutes au four à 350 °F (175 °C).",
+    "Ne se congèlent pas bien : les croûtes déjà garnies (elles deviennent molles)."
+  ],
+  "notes": [
+    "La source dit « thym » sans quantité et « bouillon » sans préciser lequel : la quantité de thym séché est proposée, à ajuster, et un bouillon de poulet est suggéré. Le sel et le poivre ne sont pas dans la source ; ils sont ajoutés au goût.",
+    "La source résume la méthode en « saisir poulet, légumes, roux, sauce, mijoter 10–12 min ». Ici, le poulet saisi attend dans un bol pendant que le roux se fait sur les légumes, dans la même casserole, puis il retourne mijoter dans la sauce. Le réchauffage des croûtes (350 °F, 5–8 min) est proposé : suivre l'emballage s'il indique autre chose."
   ],
   "photo": "images/vol-au-vent-poulet.jpg",
   "credit": {

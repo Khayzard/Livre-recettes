@@ -4,10 +4,10 @@
   "resume": "Porc haché aux épices maison douces, servi en buffet avec tortillas de maïs souples et salade de chou crémeuse.",
   "portions": 10,
   "temps": {
-    "prep": "20 min",
-    "cuisson": "20 min"
+    "prep": "20 min",
+    "cuisson": "20 min"
   },
-  "tempsTotal": "40 min",
+  "tempsTotal": "40 min",
   "etiquettes": [
     "porc",
     "tacos"
@@ -15,16 +15,96 @@
   "temperatures": [
     {
       "quoi": "Porc haché",
-      "temp": "71 °C (160 °F)",
+      "temp": "71 °C (160 °F)",
       "note": "plus de rose"
     },
     {
       "quoi": "Restes réchauffés",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "jusqu'au centre"
     }
   ],
   "ingredients": [
+    {
+      "groupe": "Salade de chou crémeuse et sa vinaigrette",
+      "items": [
+        {
+          "q": 1,
+          "u": "",
+          "nom": "sac de mélange à salade de chou d'environ 400 g (ou {{0.5|}} chou vert émincé + {{2|}} carottes râpées)"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "oignons verts, en rondelles de 3 mm"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de mayonnaise"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de vinaigre blanc"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de sucre"
+        },
+        {
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.125,
+          "u": "c. à thé",
+          "nom": "de poivre moulu"
+        }
+      ]
+    },
+    {
+      "groupe": "Épices maison (douces, sans coriandre)",
+      "items": [
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de chili en poudre doux (vérifier qu'il est sans coriandre)"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de cumin moulu"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de paprika doux"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de poudre d'ail"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de poudre d'oignon"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "d'origan séché"
+        },
+        {
+          "q": 1.5,
+          "u": "c. à thé",
+          "nom": "de sel"
+        }
+      ]
+    },
     {
       "groupe": "Viande",
       "items": [
@@ -41,7 +121,7 @@
         {
           "q": 2,
           "u": "",
-          "nom": "poivrons (pas verts)"
+          "nom": "poivrons rouges, jaunes ou orange"
         },
         {
           "q": 0.5,
@@ -52,51 +132,14 @@
           "q": 0.5,
           "u": "t",
           "nom": "d'eau"
+        },
+        {
+          "texte": "Huile de cuisson (un filet, pour la poêle)"
         }
       ]
     },
     {
-      "groupe": "Épices maison (douces, sans coriandre)",
-      "items": [
-        {
-          "q": 2,
-          "u": "c. à soupe",
-          "nom": "de chili en poudre (vérifier qu'il est sans coriandre)"
-        },
-        {
-          "q": 1,
-          "u": "c. à soupe",
-          "nom": "de cumin"
-        },
-        {
-          "q": 2,
-          "u": "c. à thé",
-          "nom": "de paprika"
-        },
-        {
-          "q": 1,
-          "u": "c. à thé",
-          "nom": "de poudre d'ail"
-        },
-        {
-          "q": 1,
-          "u": "c. à thé",
-          "nom": "de poudre d'oignon"
-        },
-        {
-          "q": 1,
-          "u": "c. à thé",
-          "nom": "d'origan"
-        },
-        {
-          "q": 1.5,
-          "u": "c. à thé",
-          "nom": "de sel"
-        }
-      ]
-    },
-    {
-      "groupe": "Garnitures",
+      "groupe": "Tortillas et garnitures",
       "items": [
         {
           "q": 20,
@@ -112,7 +155,7 @@
         {
           "q": 2,
           "u": "",
-          "nom": "tomates, en dés"
+          "nom": "tomates, en dés de 1 cm"
         },
         {
           "q": 2,
@@ -120,61 +163,132 @@
           "nom": "de cheddar râpé sans lactose"
         },
         {
-          "texte": "Yogourt grec nature sans lactose (comme crème sure)"
-        },
-        {
-          "texte": "Salsa sans coriandre"
-        },
-        {
-          "texte": "Jus de lime"
-        }
-      ]
-    },
-    {
-      "groupe": "Salade de chou",
-      "items": [
-        {
-          "texte": "1 sac de mélange à salade de chou, ou ½ chou + 2 carottes râpées",
-          "pourBase": true
-        },
-        {
-          "q": 0.5,
+          "q": 1.5,
           "u": "t",
-          "nom": "de mayonnaise"
+          "nom": "de yogourt grec nature sans lactose (comme crème sure)"
+        },
+        {
+          "q": 1.5,
+          "u": "t",
+          "nom": "de salsa douce du commerce, sans coriandre (lire l'étiquette)"
         },
         {
           "q": 2,
-          "u": "c. à soupe",
-          "nom": "de vinaigre"
+          "u": "",
+          "nom": "limes, en quartiers (pour le jus)"
         },
         {
           "q": 1,
-          "u": "c. à soupe",
-          "nom": "de sucre"
-        },
-        {
-          "texte": "Sel, poivre"
-        },
-        {
-          "texte": "Oignons verts"
+          "u": "c. à thé",
+          "nom": "de flocons de piment, à table pour les adultes (facultatif)"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Chou (seulement si on n'utilise pas le sac) : retirer le cœur dur, poser le morceau à plat et émincer en lanières très fines de 2 à 3 mm ; râper les carottes de la salade sur les gros trous de la râpe.",
+    "Oignons verts (salade de chou) : couper la racine et le bout fané, puis trancher le blanc et le vert en rondelles de 3 mm.",
+    "Oignon (viande) : couper en deux de la racine à la tige, peler, poser à plat, trancher en lanières de 5 mm sans couper la racine, puis recouper en travers pour des dés de 5 mm.",
+    "Poivrons : couper en deux, retirer le pédoncule, les graines et les membranes blanches, puis trancher en lanières de 5 mm de large ; recouper les lanières en deux pour des bouts d'environ 4 cm qui entrent bien dans un taco.",
+    "Carottes (garniture) : peler et râper sur les gros trous de la râpe.",
+    "Tomates : retirer le pédoncule, couper en tranches de 1 cm, puis en bâtonnets, puis en dés de 1 cm.",
+    "Limes : couper en deux sur la longueur, puis chaque moitié en 2 ou 3 quartiers d'environ 1,5 cm de large.",
+    "Sauce tomate et eau : mesurées ensemble dans une tasse à mesurer.",
+    "Équipement : très grande poêle profonde de 30 à 35 cm ou faitout de 5 à 6 L ; grand bol de 4 L et fouet pour la salade de chou ; petit bol pour les épices ; cuillère de bois ; passoire ou grande cuillère pour retirer le gras ; poêle de 25 cm pour les tortillas ; linge propre ; râpe ; petits bols de service ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Salade de chou : mélanger la vinaigrette, ajouter le chou et les oignons verts. Réfrigérer pendant la cuisson.",
-    "Faire dorer le porc avec l'oignon haché dans une grande poêle, 10 min, en défaisant la viande. Égoutter le gras.",
-    "Ajouter les poivrons en lanières et cuire 3 min. Ajouter les épices, la sauce tomate et l'eau. Mijoter 5 min (porc haché : 71 °C).",
-    "Réchauffer les tortillas (poêle sèche, ou micro-ondes 30 s sous un linge humide).",
-    "Servir en buffet : viande, carottes, tomates, fromage, yogourt, salsa, lime et salade de chou. Les adultes ajoutent le piquant."
+    {
+      "titre": "Préparer la vinaigrette et la salade de chou",
+      "texte": "Dans le grand bol de 4 L, mettre la mayonnaise, le vinaigre, le sucre, le sel et le poivre du groupe « Salade de chou crémeuse et sa vinaigrette ». Fouetter jusqu'à ce que le sucre soit dissous et la vinaigrette lisse. Ajouter le mélange à salade de chou (ou le chou émincé et les carottes râpées) et les oignons verts. Mélanger avec deux grandes cuillères, en soulevant du fond, jusqu'à ce que tout soit enrobé. Couvrir et réfrigérer pendant la cuisson ; mélanger de nouveau juste avant de servir.",
+      "duree": "5 min + au moins 20 min au frigo (2 h au maximum pour qu'elle reste croquante)",
+      "reperes": "Vinaigrette lisse, sans grains de sucre au fond ; chaque lanière de chou est légèrement enrobée, sans flaque au fond du bol.",
+      "pourquoi": "Le repos au frigo attendrit un peu le chou et laisse les saveurs se mêler. Faite en premier, la salade est prête en même temps que la viande. La source ne donne pas la quantité de sel, de poivre ni d'oignons verts : quantités proposées, à ajuster."
+    },
+    {
+      "titre": "Mélanger les épices maison",
+      "texte": "Dans le petit bol, mettre tous les ingrédients du groupe « Épices maison » : chili en poudre, cumin, paprika, poudre d'ail, poudre d'oignon, origan et sel. Mélanger à la fourchette jusqu'à ce que la couleur soit uniforme. Garder près de la cuisinière. Si les épices ont été mélangées d'avance, passer à l'étape 3.",
+      "duree": "2 min",
+      "reperes": "Poudre brun-rouge uniforme, sans traînée blanche de sel.",
+      "pourquoi": "Mélangées d'avance, les épices se répartissent également dans la viande. Faites maison, elles sont douces et sans coriandre."
+    },
+    {
+      "titre": "Préparer les garnitures",
+      "texte": "Râper les carottes, couper les tomates en dés et les limes en quartiers (voir la mise en place). Mettre chaque garniture dans un petit bol : carottes, tomates, cheddar râpé, yogourt grec, salsa sans coriandre, limes. Garder au frigo jusqu'au service.",
+      "duree": "10 min",
+      "reperes": "Chaque garniture a son bol et sa cuillère.",
+      "pourquoi": "Une fois la viande prête, tout va vite : les garnitures doivent déjà être sur la table."
+    },
+    {
+      "titre": "Faire dorer le porc haché avec l'oignon",
+      "texte": "Chauffer la très grande poêle avec un filet d'huile. Quand l'huile miroite, ajouter le porc haché et l'oignon en dés. Laisser saisir 2 minutes sans toucher, puis défaire la viande à la cuillère de bois en petits morceaux, en brassant de temps en temps. Si la poêle fait moins de 30 cm, cuire en deux lots pour que la viande dore.",
+      "feu": "moyen-vif",
+      "duree": "10 min",
+      "reperes": "Viande en miettes de moins de 1 cm, brun doré, sans aucune trace de rose ; oignon tendre et translucide ; le jus rendu s'est presque tout évaporé.",
+      "pourquoi": "Une poêle bien chaude et pas trop pleine fait dorer la viande ; trop tassée, elle bout dans son jus et reste grise."
+    },
+    {
+      "titre": "Égoutter le gras",
+      "texte": "Retirer la poêle du feu. La pencher, pousser la viande d'un côté et retirer à la cuillère le gras liquide accumulé, dans un bol résistant à la chaleur (ou égoutter la viande dans une passoire posée sur un bol, puis la remettre dans la poêle). Jeter le gras à la poubelle une fois figé, jamais dans l'évier.",
+      "duree": "2 min",
+      "reperes": "Il ne reste qu'un mince film brillant au fond de la poêle.",
+      "pourquoi": "Trop de gras empêche les épices de coller à la viande et détrempe les tortillas."
+    },
+    {
+      "titre": "Ajouter les poivrons",
+      "texte": "Remettre la poêle sur le feu, ajouter les lanières de poivron et cuire en brassant.",
+      "feu": "moyen",
+      "duree": "3 min",
+      "reperes": "Poivrons de couleur vive, à peine attendris, encore un peu croquants.",
+      "pourquoi": "Ajoutés à la fin, les poivrons gardent leur couleur et un peu de croquant."
+    },
+    {
+      "titre": "Ajouter les épices, la sauce tomate et l'eau, puis mijoter",
+      "texte": "Saupoudrer toutes les épices maison sur la viande et brasser 30 secondes pour les réchauffer. Verser la sauce tomate et l'eau, mélanger en grattant le fond, porter à frémissement, puis laisser mijoter à découvert en brassant de temps en temps. Vérifier la température au thermomètre à lecture instantanée, au centre de la viande, à deux endroits. Goûter et ajuster le sel.",
+      "feu": "moyen, puis moyen-doux",
+      "duree": "5 min",
+      "reperes": "71 °C (160 °F) ; le liquide a réduit et enrobe la viande, qui est humide et luisante sans baigner ; ça sent bon le cumin.",
+      "pourquoi": "Les épices chauffées 30 secondes libèrent leur parfum. Le liquide dissout les sucs de la poêle et permet aux épices d'enrober toute la viande."
+    },
+    {
+      "titre": "Réchauffer les tortillas de maïs",
+      "texte": "Chauffer la poêle de 25 cm à sec (sans gras). Y déposer 2 tortillas sans les superposer et les chauffer de chaque côté. Les empiler à mesure dans un linge propre replié pour les garder chaudes et souples. Au micro-ondes : empiler 5 ou 6 tortillas sous un linge humide et chauffer 30 secondes.",
+      "feu": "moyen-vif",
+      "duree": "20–30 s par côté (environ 8 min en tout)",
+      "reperes": "Tortillas chaudes, souples, avec quelques petites taches dorées ; elles se plient sans craquer.",
+      "pourquoi": "Une tortilla de maïs froide se déchire ; chaude, elle est souple et goûte meilleur."
+    },
+    {
+      "titre": "Servir en buffet avec les garnitures et la salade de chou",
+      "texte": "Déposer la poêle de viande sur un sous-plat au centre de la table, avec les tortillas dans leur linge, les bols de garnitures et la salade de chou remélangée. Chacun garnit sa tortilla : viande, carottes, tomates, fromage, yogourt, salsa, un trait de jus de lime, et la salade de chou dans le taco ou à côté. Les adultes ajoutent les flocons de piment à table.",
+      "duree": "5 min",
+      "reperes": "Environ 2 tacos par personne ; la viande est servie bien chaude.",
+      "pourquoi": "En buffet, chacun choisit ses garnitures : les enfants mangent mieux ce qu'ils ont monté eux-mêmes."
+    }
+  ],
+  "astuces": [
+    "Ne pas brasser la viande sans arrêt au début : la laisser saisir 2 minutes pour qu'elle dore, puis la défaire.",
+    "Lire l'étiquette du chili en poudre et de la salsa : ne prendre que des produits doux et sans coriandre. Dans le doute, remplacer le chili en poudre par la même quantité de paprika doux.",
+    "Ne pas trop garnir les tortillas de maïs : elles sont petites et se déchirent si on les surcharge. Bien les réchauffer avant.",
+    "Si la viande semble sèche après le mijotage, ajouter 2 ou 3 cuillerées d'eau ; si elle baigne, prolonger de 2 minutes à découvert."
   ],
   "substitutions": [
-    "Dinde ou poulet haché au lieu du porc.",
-    "2 sachets d'assaisonnement à tacos au lieu des épices maison (vérifier : souvent avec coriandre)."
+    "Dinde ou poulet haché au lieu du porc (cuire alors jusqu'à 74 °C).",
+    "2 sachets d'assaisonnement à tacos doux du commerce (pour 10 portions) au lieu des épices maison : lire l'étiquette et ne prendre que des sachets sans coriandre."
+  ],
+  "mealPrep": [
+    "Les épices maison peuvent être mélangées d'avance (étape 2) et gardées dans un petit pot fermé, au garde-manger, jusqu'à 3 mois.",
+    "L'oignon et les poivrons peuvent être coupés la veille, au frigo dans des contenants fermés. Si le porc haché a été congelé, le passer au frigo la veille.",
+    "Faire la salade de chou et sa vinaigrette le jour même (étape 1) : elle ramollit en attendant."
   ],
   "conservation": [
-    "Bols tacos pour les lunchs (riz + viande + garnitures), ou viande en contenant séparé : 3–4 jours au frigo, se congèle.",
-    "Salade de chou : 2 jours."
+    "Frigo : 3–4 jours pour la viande, dans un contenant fermé à part des garnitures ; réfrigérer dans les 2 h. Pour les lunchs : bols tacos (riz + viande + garnitures). Salade de chou : 2 jours.",
+    "Congélateur : la viande assaisonnée se congèle 2–3 mois, en sacs aplatis. Décongeler au frigo.",
+    "Réchauffer : à la poêle à feu moyen avec un peu d'eau, en brassant, ou au micro-ondes à couvert en brassant à mi-chemin, jusqu'à 74 °C au centre.",
+    "Ne se congèlent pas bien : la salade de chou (la mayonnaise se sépare et le chou ramollit), les tomates, le yogourt et les carottes râpées."
+  ],
+  "notes": [
+    "La source ne donne pas de quantité pour le yogourt, la salsa et la lime : quantités proposées, à ajuster. La salsa reste un produit acheté.",
+    "Le piquant est ajouté à table par les adultes seulement (flocons de piment) ; la viande reste douce."
   ],
   "photo": "images/tacos-porc-hache.jpg",
   "credit": {

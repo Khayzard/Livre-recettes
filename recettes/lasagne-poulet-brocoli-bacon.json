@@ -3,12 +3,12 @@
   "titre": "Lasagne poulet, brocoli et bacon (sauce blanche sans lactose)",
   "resume": "Lasagne gratinée au poulet, bacon et brocoli, avec une béchamel au lait sans lactose.",
   "portions": 10,
-  "portionsNote": "10–12 portions : un grand plat 9 × 13 po bien plein, ou 1 plat + 1 petit",
+  "portionsNote": "10–12 portions : un grand plat 9 × 13 po bien plein, ou 1 plat + 1 petit",
   "temps": {
-    "prep": "40 min",
-    "cuisson": "50 min + 15 min de repos"
+    "prep": "40 min",
+    "cuisson": "50 min + 15 min de repos"
   },
-  "tempsTotal": "1 h 45",
+  "tempsTotal": "1 h 45",
   "etiquettes": [
     "poulet",
     "four"
@@ -16,28 +16,28 @@
   "temperatures": [
     {
       "quoi": "Poulet",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "au centre de la pièce la plus épaisse"
     },
     {
       "quoi": "Lasagne",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "au centre"
     },
     {
       "quoi": "Restes réchauffés",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "jusqu'au centre"
     }
   ],
   "ingredients": [
     {
-      "groupe": "Garniture",
+      "groupe": "Garniture au poulet, bacon et brocoli",
       "items": [
         {
           "q": 3.5,
           "u": "lb",
-          "nom": "de poitrines ou hauts de cuisse de poulet désossés"
+          "nom": "de poitrines ou hauts de cuisse de poulet désossés, sans peau"
         },
         {
           "q": 1,
@@ -50,12 +50,6 @@
           "nom": "têtes de brocoli"
         },
         {
-          "q": 15,
-          "u": "",
-          "nom": "pâtes à lasagne (ou prêtes à cuire)",
-          "qMax": 18
-        },
-        {
           "q": 1,
           "u": "",
           "nom": "oignon"
@@ -64,11 +58,14 @@
           "q": 3,
           "u": "",
           "nom": "gousses d'ail"
+        },
+        {
+          "texte": "Sel et poivre (pour le poulet)"
         }
       ]
     },
     {
-      "groupe": "Sauce blanche",
+      "groupe": "Sauce blanche sans lactose",
       "items": [
         {
           "q": 0.5,
@@ -91,7 +88,33 @@
           "nom": "de bouillon de poulet"
         },
         {
-          "texte": "Sel, poivre, une pincée de muscade"
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de poivre moulu"
+        },
+        {
+          "q": 0.125,
+          "u": "c. à thé",
+          "nom": "de muscade moulue (une pincée)"
+        }
+      ]
+    },
+    {
+      "groupe": "Pâtes à lasagne",
+      "items": [
+        {
+          "q": 15,
+          "u": "",
+          "nom": "pâtes à lasagne ordinaires (ou prêtes à cuire)",
+          "qMax": 18
+        },
+        {
+          "texte": "Eau et sel pour la cuisson des pâtes (si elles ne sont pas prêtes à cuire)"
         }
       ]
     },
@@ -106,35 +129,127 @@
         {
           "q": 0.5,
           "u": "t",
-          "nom": "de parmesan (naturellement très faible en lactose) ou plus de mozzarella sans lactose"
+          "nom": "de parmesan râpé (naturellement très faible en lactose) ou plus de mozzarella sans lactose"
         },
         {
-          "texte": "Persil haché"
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de persil frais haché"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Poulet : l'assécher avec du papier absorbant, retirer le gras visible. Couper chaque morceau en lanières de 1,5 cm de large dans le sens de la longueur, puis recouper en travers (contre le grain) pour obtenir des cubes de 1,5 cm. Se laver les mains et laver la planche après.",
+    "Bacon : laisser les tranches entières pour la cuisson ; une fois cuites et égouttées, les émietter avec les doigts en morceaux d'environ 1 cm.",
+    "Brocoli : détacher en petits bouquets de 2 cm (une petite bouchée) ; peler la tige avec un économe et la couper en dés de 1 cm.",
+    "Oignon : couper en deux de la racine à la tige, peler, poser à plat, trancher en lanières de 5 mm sans couper la racine, puis recouper en travers pour des dés de 5 mm.",
+    "Ail : écraser chaque gousse avec le plat du couteau, retirer la pelure, puis hacher finement en morceaux de 1 à 2 mm.",
+    "Persil : laver, bien assécher, détacher les feuilles et les hacher finement (1 à 2 mm).",
+    "Lait et bouillon : mesurés dans un même contenant, sortis du frigo 15 minutes d'avance (ou tiédis 2 minutes au micro-ondes). Beurre et farine mesurés. Fromages râpés.",
+    "Équipement : plat à lasagne profond de 23 × 33 cm (9 × 13 po), d'au moins 7 cm de haut ; grande poêle de 30 cm ; casserole de 4 L à fond épais et fouet pour la sauce blanche ; grande casserole de 6 à 8 L et passoire pour le brocoli et les pâtes ; très grand bol ; louche ; papier d'aluminium ; plaque à rebords à glisser sous le plat ; thermomètre à lecture instantanée. Sans batteur : tout se fait au fouet."
+  ],
   "etapes": [
-    "Cuire le bacon jusqu'à ce qu'il soit croustillant, égoutter et émietter. Garder 1 c. à soupe de gras.",
-    "Couper le poulet en petits cubes et le faire dorer dans le gras de bacon, en 2 fois, avec l'oignon et l'ail, 8–10 min, jusqu'à 74 °C. Saler, poivrer.",
-    "Couper le brocoli en petits bouquets, le blanchir 2 min dans l'eau bouillante, le passer à l'eau froide et bien égoutter.",
-    "Si ce ne sont pas des pâtes prêtes à cuire : les cuire 2 min de moins que le temps indiqué sur la boîte.",
-    "Sauce blanche : faire fondre le beurre, ajouter la farine et cuire 1 min en fouettant. Ajouter graduellement le lait et le bouillon en fouettant. Mijoter 5–8 min jusqu'à ce que ça épaississe. Assaisonner (sel, poivre, muscade) et ajouter le parmesan.",
-    "Préchauffer le four à 375 °F (190 °C). Mélanger le poulet, le bacon, le brocoli et environ ⅓ de la sauce.",
-    "Monter : un peu de sauce au fond, pâtes, ⅓ du mélange de poulet, sauce, mozzarella. Répéter 3 fois et finir avec pâtes, sauce et mozzarella.",
-    "Couvrir de papier d'aluminium et cuire 35 min, puis découvrir et cuire 15 min jusqu'à ce que ce soit doré (74 °C au centre). Laisser reposer 15 min."
+    {
+      "titre": "Garniture : cuire le bacon",
+      "texte": "Déposer les tranches de bacon côte à côte dans la grande poêle froide, puis allumer le feu. Cuire en retournant les tranches à la pince de temps en temps, par lots pour ne pas les superposer. Égoutter sur une assiette couverte de papier absorbant, laisser tiédir, puis émietter en morceaux de 1 cm. Vider le gras de la poêle dans un bol résistant à la chaleur, en gardant {{1|c. à soupe}} de gras dans la poêle (ne pas la laver).",
+      "feu": "moyen",
+      "duree": "8–10 min par lot (2 ou 3 lots)",
+      "reperes": "Bacon brun doré, croustillant, qui casse net une fois tiédi ; la mousse dans la poêle a presque disparu.",
+      "pourquoi": "Un départ à froid fait fondre le gras lentement : le bacon devient croustillant sans brûler. Le gras gardé parfume le poulet."
+    },
+    {
+      "titre": "Garniture : faire dorer le poulet avec l'oignon et l'ail",
+      "texte": "Chauffer la même poêle avec le gras de bacon gardé. Ajouter la moitié des cubes de poulet en une seule couche, saler et poivrer, et laisser dorer sans brasser 2 à 3 minutes. Ajouter la moitié de l'oignon et de l'ail, puis cuire en brassant de temps en temps. Vérifier au thermomètre à lecture instantanée dans un des plus gros cubes. Transférer dans le très grand bol, puis recommencer avec le reste du poulet, de l'oignon et de l'ail (ajouter un peu de gras de bacon si la poêle est sèche).",
+      "feu": "moyen-vif",
+      "duree": "8–10 min par lot (2 lots)",
+      "reperes": "Cubes dorés sur au moins deux faces, blancs et opaques au centre, jus clair ; 74 °C (165 °F) au centre ; oignon tendre et translucide.",
+      "pourquoi": "En deux lots, le poulet dore au lieu de bouillir dans son jus. L'ail ajouté après le début ne brûle pas."
+    },
+    {
+      "titre": "Garniture : blanchir le brocoli",
+      "texte": "Porter à ébullition la grande casserole remplie aux deux tiers d'eau, avec une bonne pincée de sel. Y plonger les bouquets et les dés de tige de brocoli. Égoutter dans la passoire, passer tout de suite sous l'eau froide jusqu'à ce que le brocoli soit froid, puis bien l'égoutter en secouant la passoire ; l'éponger avec un linge propre. Remplir de nouveau la casserole d'eau si les pâtes sont à cuire (étape 5).",
+      "feu": "vif",
+      "duree": "2 min à partir de la reprise de l'ébullition",
+      "reperes": "Brocoli vert vif, encore ferme sous la dent ; plus une goutte ne tombe de la passoire.",
+      "pourquoi": "Il finira de cuire au four : trop cuit ici, il devient mou et gris. Bien égoutté, il ne rend pas d'eau dans la lasagne."
+    },
+    {
+      "titre": "Préparer la sauce blanche sans lactose",
+      "texte": "Dans la casserole de 4 L, faire fondre le beurre. Ajouter la farine d'un seul coup et cuire en fouettant sans arrêt 1 minute, sans laisser colorer. Verser environ le quart du lait et du bouillon (réunis dans le même contenant) en fouettant vigoureusement jusqu'à ce que la pâte soit lisse, puis ajouter le reste en trois fois, en fouettant chaque fois jusqu'à ce que ce soit lisse. Monter le feu à moyen-vif et porter à frémissement en fouettant et en raclant bien le fond et les coins. Baisser le feu et laisser mijoter doucement en brassant souvent. Hors du feu, incorporer le sel, le poivre, la muscade et tout le parmesan du groupe « Fromages et finition ». Goûter et ajuster le sel. Couvrir pour éviter qu'une peau se forme.",
+      "feu": "moyen, puis moyen-doux pour mijoter",
+      "duree": "1 min pour le roux + 5 min pour porter à frémissement + 5–8 min de mijotage",
+      "reperes": "La sauce nappe le dos d'une cuillère : un trait tracé avec le doigt reste net. Elle est lisse, sans grumeaux, de la consistance d'une crème épaisse.",
+      "pourquoi": "Cuire la farine dans le beurre (le roux) enlève le goût de farine crue. Le liquide ajouté peu à peu, au fouet, empêche les grumeaux. Le sel, le poivre et la muscade ne sont pas quantifiés dans la source ; quantités proposées, à ajuster."
+    },
+    {
+      "titre": "Cuire les pâtes à lasagne",
+      "texte": "Pâtes prêtes à cuire : sauter cette étape. Sinon : porter de nouveau la grande casserole d'eau à forte ébullition, saler (environ 1 c. à soupe de sel pour 4 L d'eau), puis y glisser les pâtes une à une. Cuire 2 minutes de moins que le temps indiqué sur la boîte, en brassant doucement au début pour qu'elles ne collent pas. Égoutter, passer à l'eau froide, puis étaler les pâtes à plat sur un linge propre ou une plaque légèrement huilée, sans les superposer.",
+      "feu": "vif",
+      "duree": "selon la boîte, moins 2 min (souvent 8–10 min)",
+      "reperes": "Pâtes souples, mais encore fermes au centre quand on en croque un bout ; elles ne se déchirent pas.",
+      "pourquoi": "Elles finissent de cuire au four en absorbant la sauce : complètement cuites, elles deviendraient molles."
+    },
+    {
+      "titre": "Préchauffer le four et mélanger la garniture",
+      "texte": "Placer la grille au centre du four et allumer. Dans le très grand bol, réunir le poulet cuit avec l'oignon et l'ail, le bacon émietté et le brocoli bien égoutté. Ajouter environ le tiers de la sauce blanche et mélanger à la cuillère de bois jusqu'à ce que tout soit enrobé.",
+      "four": "375 °F (190 °C), grille au centre",
+      "duree": "5 min (10–15 min pour chauffer le four)",
+      "reperes": "Chaque morceau de la garniture est enrobé de sauce ; il n'y a pas de liquide clair au fond du bol.",
+      "pourquoi": "Un peu de sauce lie la garniture : les étages se tiennent à la coupe."
+    },
+    {
+      "titre": "Monter la lasagne avec la garniture et la sauce",
+      "texte": "Étaler une louche de sauce blanche au fond du plat de 23 × 33 cm. Couvrir d'un rang de pâtes (4 pâtes, ou 3 pâtes plus une cassée pour boucher les trous). Étaler le tiers de la garniture, napper d'une louche et demie de sauce et parsemer de {{0.5|t}} de mozzarella. Répéter ces étages (pâtes, garniture, sauce, mozzarella) deux autres fois. Terminer par un dernier rang de pâtes, toute la sauce qui reste, étalée jusqu'aux bords, et le reste de la mozzarella (environ {{1.5|t}}). Si le plat est plein à ras bord, mettre le surplus dans un petit plat à part.",
+      "duree": "10 min",
+      "reperes": "4 rangs de pâtes et 3 étages de garniture ; les pâtes du dessus sont entièrement couvertes de sauce ; il reste au moins 1 cm sous le bord du plat.",
+      "pourquoi": "La sauce au fond empêche les pâtes de coller. Une pâte qui dépasse de la sauce sèche et durcit au four."
+    },
+    {
+      "titre": "Cuire la lasagne à couvert",
+      "texte": "Couvrir le plat de papier d'aluminium légèrement huilé du côté fromage, en le bombant un peu pour qu'il ne touche pas le dessus. Déposer le plat sur la plaque à rebords et enfourner sur la grille du centre. Lasagne montée la veille et sortie du frigo : ajouter 10 à 15 minutes à cette étape.",
+      "four": "375 °F (190 °C), grille au centre",
+      "duree": "35 min (45–50 min si elle sort du frigo)",
+      "reperes": "La sauce bouillonne sur les bords du plat.",
+      "pourquoi": "À couvert, la vapeur réchauffe le centre et finit de cuire les pâtes sans que le dessus sèche. La plaque attrape les débordements."
+    },
+    {
+      "titre": "Gratiner à découvert",
+      "texte": "Retirer le papier d'aluminium et poursuivre la cuisson. Vérifier au thermomètre à lecture instantanée, planté au centre de la lasagne.",
+      "four": "375 °F (190 °C), grille au centre",
+      "duree": "15 min",
+      "reperes": "Dessus doré avec des taches brunes, bouillonnant sur tout le pourtour ; 74 °C (165 °F) au centre.",
+      "pourquoi": "À découvert, le fromage dore et le surplus d'humidité s'évapore."
+    },
+    {
+      "titre": "Laisser reposer et servir",
+      "texte": "Sortir la lasagne et la laisser reposer sur le comptoir, à découvert. Parsemer de persil haché, couper en portions avec un couteau bien affûté et servir à la spatule.",
+      "duree": "15 min de repos",
+      "reperes": "Les portions se tiennent : les étages restent en place et la sauce ne coule plus.",
+      "pourquoi": "Pendant le repos, la sauce épaissit et les pâtes absorbent le surplus de liquide. Coupée trop tôt, la lasagne s'effondre."
+    }
+  ],
+  "astuces": [
+    "Verser le lait trop vite dans le roux fait des grumeaux : y aller en quatre fois, en fouettant jusqu'à ce que ce soit lisse entre chaque ajout. S'il y a quand même des grumeaux, fouetter vigoureusement hors du feu ou passer la sauce au tamis.",
+    "Racler souvent le fond et les coins de la casserole : la sauce au lait colle et brûle vite si on la laisse sans surveillance.",
+    "Bien égoutter et éponger le brocoli : s'il est mouillé, la lasagne sera liquide.",
+    "Ne pas sauter le repos de 15 minutes : c'est ce qui donne des portions nettes."
   ],
   "substitutions": [
-    "Brocoli surgelé.",
-    "Épinards.",
+    "Brocoli surgelé : le décongeler, bien l'égoutter et l'éponger ; pas besoin de le blanchir.",
+    "Épinards à la place du brocoli.",
     "Pas de ricotta (impossible sans lactose) : garder la sauce blanche.",
-    "Option chou-fleur rôti : bouquets de chou-fleur, 2 c. à soupe d'huile, sel, poivre, paprika, au four à 425 °F pendant 25 min."
+    "Option chou-fleur rôti (accompagnement) : bouquets de chou-fleur de 3 à 4 cm, 2 c. à soupe d'huile, sel, poivre et paprika, sur une plaque, au four à 425 °F (220 °C) pendant 25 min."
   ],
   "mealPrep": [
-    "Faire d'avance : monter la lasagne la veille, la garder au frigo et ajouter 10–15 min de cuisson."
+    "Faire d'avance : monter la lasagne la veille (étapes 1 à 7), la couvrir et la garder au frigo ; le lendemain, reprendre à l'étape 8 en ajoutant 10–15 min de cuisson à couvert.",
+    "La garniture (bacon, poulet, brocoli) peut aussi être cuite la veille et gardée au frigo ; faire la sauce blanche le jour même, juste avant le montage."
   ],
   "conservation": [
-    "Portionner une fois refroidie : 4 jours au frigo, ou congeler jusqu'à 3 mois. Réchauffer à 74 °C."
+    "Frigo : 4 jours, portionnée une fois refroidie, dans des contenants fermés ; réfrigérer dans les 2 h.",
+    "Congélateur : jusqu'à 3 mois, en portions individuelles bien emballées. Décongeler au frigo la veille.",
+    "Réchauffer : au micro-ondes à couvert, à puissance moyenne, 3 à 4 minutes par portion, jusqu'à 74 °C au centre ; ou au four à 350 °F (175 °C), couvert d'aluminium, 20 à 30 minutes, jusqu'à 74 °C au centre. Ajouter 1 c. à soupe de lait sans lactose ou d'eau si elle semble sèche.",
+    "Se congèle bien dans l'ensemble ; le brocoli ramollit un peu et la sauce blanche peut paraître granuleuse au dégel : elle redevient lisse une fois bien chaude."
   ],
   "photo": "images/lasagne-poulet-brocoli-bacon.jpg",
   "credit": {

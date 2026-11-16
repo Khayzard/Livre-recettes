@@ -1,32 +1,32 @@
 {
   "slug": "wraps-cesar-poulet",
   "titre": "Wraps César au poulet",
-  "resume": "Poulet mariné au citron, romaine, croûtons et sauce César sans lactose maison, roulés dans une tortilla.",
+  "resume": "Poulet mariné au citron, romaine, croûtons et sauce César sans lactose maison, roulés dans une grande tortilla, avec des crudités.",
   "portions": 10,
   "temps": {
-    "prep": "20 min",
-    "cuisson": "20 min"
+    "prep": "20 min + 15 min de marinade (ou le matin même)",
+    "cuisson": "20 min"
   },
-  "tempsTotal": "40 min",
+  "tempsTotal": "~55 min",
   "etiquettes": [
     "poulet"
   ],
   "temperatures": [
     {
       "quoi": "Poulet",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "au centre de la pièce la plus épaisse"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
     }
   ],
   "ingredients": [
     {
-      "groupe": "Poulet",
+      "groupe": "Marinade au citron",
       "items": [
-        {
-          "q": 3.5,
-          "u": "lb",
-          "nom": "de poitrines de poulet"
-        },
         {
           "q": 3,
           "u": "c. à soupe",
@@ -45,38 +45,30 @@
         {
           "q": 1,
           "u": "c. à thé",
-          "nom": "de paprika"
+          "nom": "de paprika doux"
         },
         {
-          "texte": "Sel, poivre"
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de poivre"
         }
       ]
     },
     {
-      "groupe": "Wraps",
+      "groupe": "Poulet",
       "items": [
         {
-          "q": 2,
-          "u": "",
-          "nom": "cœurs de laitue romaine",
-          "qMax": 3
-        },
-        {
-          "q": 1,
+          "q": 3.5,
           "u": "lb",
-          "nom": "de bacon (facultatif)"
+          "nom": "de poitrines de poulet désossées, sans peau"
         },
         {
-          "q": 10,
-          "u": "",
-          "nom": "grandes tortillas",
-          "qMax": 12
-        },
-        {
-          "texte": "Croûtons ou pain grillé en cubes"
-        },
-        {
-          "texte": "Parmesan (faible en lactose) ou fromage râpé sans lactose"
+          "texte": "Huile de cuisson (seulement pour la cuisson à la poêle)"
         }
       ]
     },
@@ -106,7 +98,7 @@
         {
           "q": 1,
           "u": "c. à thé",
-          "nom": "de sauce Worcestershire"
+          "nom": "de sauce Worcestershire (lire l'étiquette)"
         },
         {
           "q": 2,
@@ -116,37 +108,165 @@
         {
           "q": 3,
           "u": "c. à soupe",
-          "nom": "de parmesan"
+          "nom": "de parmesan râpé fin (faible en lactose)"
         },
         {
-          "texte": "Poivre"
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de poivre"
         }
       ]
     },
     {
-      "groupe": "À côté",
+      "groupe": "Salade César et wraps",
       "items": [
         {
-          "texte": "Crudités : céleri, chou-fleur"
+          "q": 2,
+          "u": "",
+          "nom": "cœurs de laitue romaine",
+          "qMax": 3
+        },
+        {
+          "q": 1,
+          "u": "lb",
+          "nom": "de bacon (facultatif)"
+        },
+        {
+          "q": 3,
+          "u": "t",
+          "nom": "de croûtons du commerce (vérifier le lait), ou de pain grillé coupé en cubes"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de parmesan râpé (faible en lactose) ou de fromage râpé sans lactose"
+        },
+        {
+          "q": 10,
+          "u": "",
+          "nom": "grandes tortillas de blé de 25 cm (vérifier le lait)",
+          "qMax": 12
+        }
+      ]
+    },
+    {
+      "groupe": "Crudités",
+      "items": [
+        {
+          "q": 4,
+          "u": "",
+          "nom": "branches de céleri"
+        },
+        {
+          "q": 3,
+          "u": "t",
+          "nom": "de bouquets de chou-fleur (environ ½ chou-fleur)"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Poulet : l'assécher avec du papier absorbant. Si une poitrine fait plus de 3 cm d'épaisseur, la poser à plat, une main dessus, et la couper en deux à l'horizontale (lame parallèle à la planche) pour obtenir deux escalopes de 1,5 à 2 cm d'épaisseur.",
+    "Citron : le rouler sur le comptoir en appuyant, le couper en deux, le presser et retirer les pépins. Mesurer le jus pour la marinade et pour la sauce César séparément.",
+    "Ail (sauce César) : peler et râper finement à la râpe fine, ou hacher en morceaux de 1 mm.",
+    "Romaine : couper 1 cm à la base de chaque cœur, séparer les feuilles, laver et bien essorer (essoreuse ou linge propre). Empiler 5 ou 6 feuilles et trancher en travers en lanières de 1,5 cm de large.",
+    "Pain grillé (si on n'a pas de croûtons) : griller des tranches de pain au grille-pain jusqu'à ce qu'elles soient bien dorées et sèches, puis les couper en cubes de 1,5 cm (1 tranche donne environ ¾ tasse de cubes).",
+    "Parmesan : s'il est en bloc, le râper avec les petits trous de la râpe.",
+    "Céleri (crudités) : laver, couper en tronçons de 8 cm, puis fendre les tronçons larges en bâtonnets de 1 cm de large. Chou-fleur (crudités) : détacher en bouquets de 3 cm.",
+    "Équipement : grand bol de 4 L ou grand sac refermable pour la marinade ; bol de 500 ml et fouet pour la sauce César ; très grand bol de 6 L pour la salade ; grande poêle de 30 cm (ou plaque de 33 × 46 cm avec papier parchemin pour le four) ; une deuxième plaque de 33 × 46 cm pour le bacon ; pince ; planche et couteau du chef ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Mariner le poulet 15 min (ou le matin même).",
-    "Cuire à la poêle ou au BBQ, 6–7 min par côté, ou au four à 425 °F pendant 20 min, jusqu'à 74 °C. Reposer 5 min, puis trancher.",
-    "Mélanger la sauce César.",
-    "Hacher la romaine et la mélanger avec la sauce, les croûtons, le parmesan et le bacon émietté.",
-    "Réchauffer les tortillas 15 s. Garnir de salade et de poulet, rouler serré et couper en deux.",
-    "Servir avec les crudités."
+    {
+      "titre": "Préparer la marinade et faire mariner le poulet",
+      "texte": "Dans le grand bol de 4 L (ou le grand sac refermable), fouetter tous les ingrédients du groupe « Marinade au citron » jusqu'à ce que le sel soit dissous. Ajouter le poulet et le retourner avec les mains pour l'enrober partout. Couvrir (ou fermer le sac en chassant l'air) et réfrigérer : minimum 15 minutes, maximum 8 heures (le matin même pour le souper). Si le poulet a été mis à mariner le matin, passer à l'étape suivante.",
+      "duree": "5 min + 15 min à 8 h au frigo",
+      "reperes": "Le poulet est luisant et orangé partout, sans flaque de marinade au fond.",
+      "pourquoi": "Le citron et le sel parfument la chair et la gardent juteuse. Au-delà de 8 heures, l'acidité du citron rend la surface du poulet pâteuse."
+    },
+    {
+      "titre": "Préparer la sauce César sans lactose",
+      "texte": "Dans le bol de 500 ml, fouetter la mayonnaise, le yogourt grec, le jus de citron, la moutarde de Dijon et la sauce Worcestershire jusqu'à consistance lisse. Ajouter l'ail râpé, le parmesan du groupe « Sauce César sans lactose » et le poivre, puis fouetter encore. Couvrir et réfrigérer jusqu'au service. Si la sauce a été faite d'avance (meal prep, jusqu'à 3 jours), passer à l'étape suivante.",
+      "duree": "5 min",
+      "reperes": "Sauce crémeuse, couleur ivoire, qui nappe le dos d'une cuillère.",
+      "pourquoi": "Faite en premier, la sauce a le temps de prendre le goût de l'ail pendant que le poulet cuit."
+    },
+    {
+      "titre": "Cuire le bacon (facultatif)",
+      "texte": "Étaler les tranches de bacon côte à côte, sans les superposer, sur une plaque tapissée de papier parchemin. Enfourner. Égoutter sur du papier absorbant, laisser refroidir 5 minutes, puis émietter avec les doigts en morceaux d'environ 1 cm. Si le poulet cuit aussi au four, monter ensuite le four à 425 °F (220 °C).",
+      "four": "400 °F (200 °C), grille au centre",
+      "duree": "15–18 min",
+      "reperes": "Bacon brun doré et rigide quand on le soulève avec la pince ; il devient croustillant en refroidissant.",
+      "pourquoi": "Au four, le bacon cuit à plat, sans éclaboussures et sans surveillance, pendant qu'on s'occupe du reste."
+    },
+    {
+      "titre": "Cuire le poulet",
+      "texte": "Sortir le poulet de la marinade en le laissant égoutter ; jeter le liquide resté dans le bol. À la poêle : chauffer la grande poêle avec un filet d'huile ; quand l'huile miroite, déposer le poulet sans tasser les morceaux (en 2 lots au besoin) et cuire 6 à 7 minutes par côté, en ne le retournant qu'une fois. Au four : déposer le poulet sur une plaque tapissée de papier parchemin, en espaçant les morceaux, et cuire 20 minutes. Au BBQ : feu moyen, couvercle fermé, 6 à 7 minutes par côté. Dans tous les cas, vérifier avec le thermomètre à lecture instantanée au centre du morceau le plus épais.",
+      "feu": "moyen (version à la poêle ou au BBQ)",
+      "four": "425 °F (220 °C), grille au centre (version au four)",
+      "duree": "6–7 min par côté à la poêle ou au BBQ, ou 20 min au four",
+      "reperes": "74 °C (165 °F) au centre du morceau le plus épais ; le jus est clair et la chair n'est plus rosée ; le dessus est doré.",
+      "pourquoi": "Le poulet doit être égoutté : s'il baigne dans le liquide, il bout au lieu de dorer."
+    },
+    {
+      "titre": "Laisser reposer et trancher le poulet",
+      "texte": "Déposer le poulet sur la planche et le laisser reposer sans y toucher. Le trancher ensuite contre le grain (en travers des fibres) en lanières de 1 cm d'épaisseur.",
+      "duree": "5 min de repos + 5 min",
+      "reperes": "Les lanières sont juteuses et le jus reste dans la viande, pas sur la planche.",
+      "pourquoi": "Pendant le repos, le jus se répartit dans la viande ; tranché tout de suite, le poulet se vide et devient sec."
+    },
+    {
+      "titre": "Mélanger la salade César",
+      "texte": "Juste avant de monter les wraps, mettre la romaine tranchée dans le très grand bol de 6 L. Verser la sauce César et mélanger avec la pince (ou les mains propres) en soulevant du fond, jusqu'à ce que toutes les feuilles soient enrobées. Ajouter les croûtons, le parmesan du groupe « Salade César et wraps » et le bacon émietté, puis mélanger encore 2 ou 3 fois.",
+      "duree": "3 min",
+      "reperes": "Chaque lanière de romaine est luisante de sauce ; il n'y a pas de sauce au fond du bol.",
+      "pourquoi": "La romaine ramollit et les croûtons détrempent en 15 à 20 minutes dans la sauce : on mélange à la dernière minute."
+    },
+    {
+      "titre": "Réchauffer les tortillas",
+      "texte": "Empiler 5 ou 6 tortillas dans une assiette, les couvrir d'un linge propre humide (ou d'un papier absorbant humide) et les chauffer au micro-ondes environ 15 secondes par tortilla dans la pile, par tranches de 30 secondes. Répéter avec le reste. Les garder sous le linge.",
+      "duree": "2–3 min",
+      "reperes": "Tortillas chaudes et souples, qui se plient sans craquer.",
+      "pourquoi": "Une tortilla froide est raide et se déchire quand on la roule."
+    },
+    {
+      "titre": "Garnir et rouler les wraps",
+      "texte": "Poser une tortilla à plat. Déposer une bonne poignée de salade César en bande au centre, à l'horizontale, en laissant 5 cm libres de chaque côté et 5 cm en bas. Ajouter des lanières de poulet par-dessus (partager le poulet également entre les tortillas). Rabattre le bas de la tortilla sur les ingrédients, replier les deux côtés vers le centre, puis rouler en serrant vers le haut. Poser le wrap sur son ouverture et le couper en deux en biais avec le couteau du chef.",
+      "duree": "10 min",
+      "reperes": "Rouleau ferme, fermé aux deux bouts, qui se tient quand on le prend d'une main.",
+      "pourquoi": "Les côtés repliés empêchent la salade de tomber ; rouler serré tient le wrap fermé sans cure-dent."
+    },
+    {
+      "titre": "Servir avec les crudités",
+      "texte": "Servir les wraps tout de suite, avec les bâtonnets de céleri et les bouquets de chou-fleur à côté.",
+      "duree": "2 min",
+      "reperes": "Tortilla encore tiède, salade croquante.",
+      "pourquoi": "Un wrap qui attend ramollit : la tortilla boit la sauce."
+    }
+  ],
+  "astuces": [
+    "Ne pas monter les wraps d'avance : la tortilla et les croûtons détrempent. Pour les lunchs, garder le poulet, la romaine, les croûtons et la sauce César dans des contenants séparés.",
+    "Bien essorer la romaine : l'eau qui reste sur les feuilles dilue la sauce et l'empêche de coller.",
+    "Ne pas trop remplir : avec plus de deux poignées de salade, la tortilla ne se ferme plus.",
+    "Lire les étiquettes : tortillas et croûtons (certains contiennent du lait), sauce Worcestershire (contient habituellement des anchois)."
+  ],
+  "mealPrep": [
+    "Le matin même : préparer la marinade et y mettre le poulet (étape 1), au frigo jusqu'au souper (maximum 8 heures). Le soir, commencer à l'étape 2.",
+    "Jusqu'à 3 jours avant : préparer la sauce César sans lactose (étape 2), au frigo dans un contenant fermé.",
+    "La veille : laver, essorer et trancher la romaine (dans un contenant avec un papier absorbant), couper le céleri et le chou-fleur, cuire et émietter le bacon (étape 3)."
   ],
   "substitutions": [
-    "Sauce César du commerce (vérifier le lactose).",
+    "Sauce César du commerce (vérifier le lactose) : même quantité totale que la sauce maison ; sauter alors l'étape 2.",
     "Pain pita au lieu des tortillas."
   ],
   "conservation": [
-    "Ne pas monter les wraps d'avance. Poulet tranché : 3–4 jours au frigo ; salade et sauce en contenants séparés, à assembler le matin même.",
-    "Sauce César : 3 jours."
+    "Frigo : ne pas monter les wraps d'avance. Poulet tranché : 3–4 jours dans un contenant peu profond, réfrigéré dans les 2 h. Romaine, croûtons et sauce César dans des contenants séparés, à assembler le matin même. Sauce César : 3 jours.",
+    "Congélateur : poulet cuit tranché, 2 mois, dans un sac à congélation bien aplati. Décongeler au frigo.",
+    "Réchauffer (si on veut le poulet chaud) : à la poêle à feu moyen avec 1 c. à soupe d'eau, à couvert, 3 à 4 minutes, ou au micro-ondes à couvert, jusqu'à 74 °C au centre (thermomètre à lecture instantanée). Le poulet réfrigéré se mange aussi froid dans le wrap.",
+    "Ne se congèlent pas : la sauce César (elle se sépare), la romaine, les crudités et les wraps montés."
+  ],
+  "notes": [
+    "La source donne la marinade sans quantité pour le sel et le poivre, et ne donne pas de quantité pour les croûtons, le parmesan de la salade, le céleri et le chou-fleur : les quantités indiquées pour ces ingrédients sont proposées, à ajuster. Tout le reste vient de la source.",
+    "La source ne dit pas comment cuire le bacon : la cuisson au four (400 °F, 15–18 min) est celle de la salade César de la même famille de recettes."
   ],
   "photo": "images/wraps-cesar-poulet.jpg",
   "credit": {

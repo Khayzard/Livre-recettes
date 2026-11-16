@@ -1,12 +1,13 @@
 {
   "slug": "salade-cesar-poulet",
   "titre": "Salade César au poulet",
-  "resume": "Grosse salade César au poulet, bacon et croûtons maison, avec une sauce sans lactose.",
+  "resume": "Grosse salade César au poulet, bacon et croûtons maison, avec une sauce César sans lactose.",
   "portions": 10,
   "temps": {
-    "cuisson": "~50 min de four (ou poulet déjà cuit)"
+    "prep": "20 min",
+    "cuisson": "~50 min de four (ou poulet déjà cuit)"
   },
-  "tempsTotal": "~50 min",
+  "tempsTotal": "~1 h 10 (35 min si le poulet est déjà cuit)",
   "etiquettes": [
     "poulet",
     "four"
@@ -14,39 +15,18 @@
   "temperatures": [
     {
       "quoi": "Poulet",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "au centre de la pièce la plus épaisse"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
     }
   ],
   "ingredients": [
     {
-      "groupe": "Salade",
-      "items": [
-        {
-          "q": 1.2,
-          "u": "kg",
-          "nom": "de poulet"
-        },
-        {
-          "q": 4,
-          "u": "",
-          "nom": "cœurs de romaine",
-          "qMax": 5
-        },
-        {
-          "q": 450,
-          "u": "g",
-          "nom": "de bacon"
-        },
-        {
-          "q": 4,
-          "u": "t",
-          "nom": "de croûtons (vérifier le lait) ou maison"
-        }
-      ]
-    },
-    {
-      "groupe": "Sauce sans lactose",
+      "groupe": "Sauce César sans lactose",
       "items": [
         {
           "q": 1,
@@ -71,7 +51,7 @@
         {
           "q": 2,
           "u": "c. à thé",
-          "nom": "de sauce Worcestershire"
+          "nom": "de sauce Worcestershire (contient habituellement des anchois : lire l'étiquette)"
         },
         {
           "q": 2,
@@ -79,7 +59,63 @@
           "nom": "gousses d'ail"
         },
         {
-          "texte": "Poivre"
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Poulet",
+      "items": [
+        {
+          "q": 1.2,
+          "u": "kg",
+          "nom": "de poulet désossé, sans peau (poitrines ou hauts de cuisse)"
+        },
+        {
+          "texte": "Huile de cuisson, sel et poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Salade",
+      "items": [
+        {
+          "q": 4,
+          "u": "",
+          "nom": "cœurs de romaine",
+          "qMax": 5
+        },
+        {
+          "q": 450,
+          "u": "g",
+          "nom": "de bacon"
+        },
+        {
+          "q": 4,
+          "u": "t",
+          "nom": "de croûtons : du commerce (vérifier le lait), ou les croûtons maison ci-dessous"
+        }
+      ]
+    },
+    {
+      "groupe": "Croûtons maison (version maison proposée)",
+      "items": [
+        {
+          "q": 6,
+          "u": "",
+          "nom": "tranches de pain (vérifier le lait)"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile d'olive"
+        },
+        {
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de sel"
         }
       ]
     },
@@ -87,25 +123,100 @@
       "groupe": "Facultatif",
       "items": [
         {
-          "texte": "Parmesan, servi à part"
+          "q": 60,
+          "u": "g",
+          "nom": "de parmesan râpé, servi à part"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Poulet : l'assécher avec du papier absorbant. Si une poitrine fait plus de 3 cm d'épaisseur, la couper en deux à l'horizontale (lame parallèle à la planche) pour obtenir deux morceaux de 1,5 à 2 cm d'épaisseur. Poulet cuit la veille : le laisser au frigo jusqu'au moment de le trancher.",
+    "Ail (sauce César) : peler et râper finement à la râpe fine, ou hacher en morceaux de 1 mm.",
+    "Citron : le rouler sur le comptoir en appuyant, le couper en deux, le presser et retirer les pépins.",
+    "Romaine : couper 1 cm à la base de chaque cœur, séparer les feuilles, laver et bien essorer (essoreuse ou linge propre). Empiler 5 ou 6 feuilles, les fendre en deux sur la longueur, puis trancher en travers en morceaux de 3 cm.",
+    "Pain (croûtons maison) : empiler 2 ou 3 tranches, couper en bandes de 2 cm, puis en travers pour obtenir des cubes de 2 cm. On peut garder la croûte.",
+    "Parmesan (facultatif) : s'il est en bloc, le râper avec les petits trous de la râpe et le mettre dans un petit bol pour la table.",
+    "Équipement : 2 plaques de 33 × 46 cm (13 × 18 po) avec papier parchemin (une pour le bacon, puis le poulet ; une pour les croûtons) ; bol de 500 ml et fouet pour la sauce César ; grand bol pour enrober le pain ; très grand bol de 8 L pour la salade ; pince ; planche et couteau du chef ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Bacon au four à 400 °F, 15–18 min.",
-    "Croûtons dans le même four, 8–10 min.",
-    "Monter le four à 425 °F et cuire le poulet 20–25 min, jusqu'à 74 °C (environ 50 min de four en tout). Ou utiliser du poulet cuit la veille.",
-    "Mélanger la sauce.",
-    "Hacher la romaine, ajouter le poulet tranché, le bacon émietté, les croûtons et la sauce."
+    {
+      "titre": "Préparer la sauce César sans lactose",
+      "texte": "Dans le bol de 500 ml, fouetter la mayonnaise, le yogourt grec, le jus de citron, la moutarde de Dijon et la sauce Worcestershire jusqu'à consistance lisse. Ajouter l'ail râpé et le poivre, puis fouetter encore. Couvrir et réfrigérer jusqu'au service. Si la sauce a été faite d'avance (meal prep, jusqu'à 3 jours), passer à l'étape suivante.",
+      "duree": "5 min",
+      "reperes": "Sauce crémeuse, couleur ivoire, qui nappe le dos d'une cuillère.",
+      "pourquoi": "Faite en premier, la sauce a le temps de prendre le goût de l'ail pendant les cuissons au four."
+    },
+    {
+      "titre": "Cuire le bacon au four",
+      "texte": "Étaler les tranches de bacon côte à côte, sans les superposer, sur une plaque tapissée de papier parchemin. Enfourner. Avec la pince, déposer le bacon cuit sur du papier absorbant. Jeter le papier parchemin et le gras refroidi, puis remettre un papier parchemin propre sur la plaque pour le poulet.",
+      "four": "400 °F (200 °C), grille au centre",
+      "duree": "15–18 min",
+      "reperes": "Bacon brun doré et rigide quand on le soulève avec la pince ; il devient croustillant en refroidissant.",
+      "pourquoi": "Au four, le bacon cuit à plat, sans éclaboussures et sans surveillance."
+    },
+    {
+      "titre": "Dorer les croûtons maison",
+      "texte": "Croûtons du commerce : sauter cette étape. Croûtons maison : dans le grand bol, arroser les cubes de pain de l'huile d'olive, saupoudrer du sel et mélanger avec les mains jusqu'à ce que tous les cubes soient légèrement huilés. Les étaler en une seule couche sur la deuxième plaque tapissée de papier parchemin. Enfourner dans le même four ; brasser à mi-cuisson. Laisser refroidir sur la plaque.",
+      "four": "400 °F (200 °C), grille au centre",
+      "duree": "8–10 min",
+      "reperes": "Cubes dorés sur toutes les faces, secs et croquants en surface ; ils sonnent creux quand on les brasse sur la plaque.",
+      "pourquoi": "Les sources ne donnent pas les quantités ; version maison proposée, à ajuster. Les croûtons finissent de sécher en refroidissant : les sortir dès qu'ils sont dorés, sinon ils deviennent trop durs."
+    },
+    {
+      "titre": "Cuire le poulet",
+      "texte": "Si le poulet a été cuit la veille (meal prep), passer à l'étape suivante. Sinon : monter le four à 425 °F (220 °C). Déposer le poulet sur la plaque tapissée de papier parchemin propre, l'arroser d'un filet d'huile, saler et poivrer des deux côtés, et espacer les morceaux. Enfourner dès que le four a atteint sa température. Vérifier avec le thermomètre à lecture instantanée au centre du morceau le plus épais.",
+      "four": "425 °F (220 °C), grille au centre",
+      "duree": "20–25 min",
+      "reperes": "74 °C (165 °F) au centre du morceau le plus épais ; le jus est clair et la chair n'est plus rosée.",
+      "pourquoi": "Cuit en gros morceaux à four chaud, le poulet dore et reste juteux."
+    },
+    {
+      "titre": "Laisser reposer et trancher le poulet",
+      "texte": "Déposer le poulet sur la planche et le laisser reposer sans y toucher. Le trancher ensuite contre le grain (en travers des fibres) en lanières de 1 cm d'épaisseur ; recouper les plus longues en bouts de 4 à 5 cm. Le poulet cuit la veille se tranche froid, de la même façon. Pendant le repos, émietter le bacon avec les doigts en morceaux d'environ 1 cm.",
+      "duree": "5 min de repos + 5 min",
+      "reperes": "Les lanières sont juteuses et le jus reste dans la viande, pas sur la planche.",
+      "pourquoi": "Pendant le repos, le jus se répartit dans la viande ; tranché tout de suite, le poulet se vide et devient sec."
+    },
+    {
+      "titre": "Enrober la romaine de sauce César",
+      "texte": "Juste avant de servir, mettre la romaine dans le très grand bol de 8 L. Verser les trois quarts de la sauce César et mélanger avec la pince (ou les mains propres) en soulevant du fond, jusqu'à ce que toutes les feuilles soient enrobées. Goûter une feuille et ajouter le reste de la sauce au besoin.",
+      "duree": "3 min",
+      "reperes": "Chaque morceau de romaine est luisant de sauce ; il n'y a pas de sauce au fond du bol.",
+      "pourquoi": "On enrobe la romaine seule d'abord : la sauce se répartit mieux et les croûtons restent croquants."
+    },
+    {
+      "titre": "Ajouter le poulet, le bacon et les croûtons, puis servir",
+      "texte": "Ajouter les lanières de poulet, le bacon émietté et les croûtons sur la romaine. Mélanger 2 ou 3 fois, sans plus, et servir tout de suite. Mettre le parmesan dans un petit bol sur la table, pour que chacun se serve.",
+      "duree": "2 min",
+      "reperes": "Croûtons encore croquants, romaine croquante, poulet tiède ou froid.",
+      "pourquoi": "Le parmesan est servi à part : la personne qui ne tolère pas le lactose n'en prend pas."
+    }
+  ],
+  "astuces": [
+    "Bien essorer la romaine : l'eau qui reste sur les feuilles dilue la sauce et l'empêche de coller.",
+    "Mélanger à la dernière minute : la romaine ramollit et les croûtons détrempent en 15 à 20 minutes dans la sauce.",
+    "Surveiller les croûtons après 6 minutes : ils passent de dorés à brûlés rapidement, surtout sur les bords de la plaque.",
+    "Ne pas mettre le poulet brûlant sur la romaine : elle flétrit. Le laisser tiédir 5 minutes après l'avoir tranché."
+  ],
+  "mealPrep": [
+    "Jusqu'à 3 jours avant : préparer la sauce César sans lactose (étape 1), au frigo dans un contenant fermé.",
+    "La veille (ou poulet cuit le mercredi) : cuire le poulet (étape 4), le laisser tiédir et le réfrigérer dans les 2 h dans un contenant peu profond. Le jour même, le trancher froid à l'étape 5.",
+    "La veille : cuire et émietter le bacon (étape 2), dorer les croûtons maison (étape 3, dans un contenant fermé à la température de la pièce), laver, essorer et couper la romaine (au frigo, avec un papier absorbant)."
   ],
   "substitutions": [
-    "La sauce Worcestershire contient habituellement des anchois : vérifier, ou remplacer par sauce soya + vinaigre.",
-    "Parmesan seulement à part, pour la personne qui ne tolère pas le lactose."
+    "La sauce Worcestershire contient habituellement des anchois : vérifier l'étiquette, ou la remplacer par la même quantité au total de sauce soya et de vinaigre (moitié-moitié).",
+    "Parmesan seulement à part, pour que la personne qui ne tolère pas le lactose n'en ait pas dans son assiette."
   ],
   "conservation": [
-    "Lunchs : composants séparés.",
-    "Sauce César : 3 jours."
+    "Frigo : pour les lunchs, garder les composants séparés (poulet tranché, romaine, bacon, sauce César), réfrigérés dans les 2 h. Poulet : 3–4 jours. Sauce César : 3 jours. Romaine lavée et essorée : 3 jours. Croûtons : dans un contenant fermé à la température de la pièce, 5 jours. La salade déjà mélangée ne se garde pas.",
+    "Congélateur : poulet cuit tranché et bacon cuit, 2 mois, dans des sacs à congélation bien aplatis. Décongeler au frigo.",
+    "Réchauffer (si on veut le poulet chaud) : à la poêle à feu moyen avec 1 c. à soupe d'eau, à couvert, 3 à 4 minutes, ou au micro-ondes à couvert, jusqu'à 74 °C au centre (thermomètre à lecture instantanée). Le poulet réfrigéré se mange aussi froid dans la salade.",
+    "Ne se congèlent pas : la sauce César (elle se sépare), la romaine et la salade montée."
+  ],
+  "notes": [
+    "Les sources ne donnent pas les quantités ; version maison proposée, à ajuster. Cela concerne les croûtons maison (la source dit seulement « croûtons ou maison, même four 8–10 min »), la quantité de poivre de la sauce César et la quantité de parmesan servi à part.",
+    "La source dit « poulet » sans préciser la coupe ni comment le relever : des poitrines ou des hauts de cuisse désossés, simplement salés et poivrés, conviennent."
   ],
   "photo": "images/salade-cesar-poulet.jpg",
   "credit": {

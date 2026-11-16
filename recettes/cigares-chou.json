@@ -5,9 +5,10 @@
   "portions": 5,
   "portionsNote": "environ 12 à 14 cigares",
   "temps": {
-    "cuisson": "1 h 30 au four"
+    "prep": "45 min",
+    "cuisson": "15 min pour le riz + 1 h 30 au four"
   },
-  "tempsTotal": "Four 1 h 30",
+  "tempsTotal": "~2 h 30 (dont 1 h 30 au four)",
   "etiquettes": [
     "porc",
     "four"
@@ -26,13 +27,56 @@
   ],
   "ingredients": [
     {
-      "groupe": "Farce",
+      "groupe": "Sauce tomate aigre-douce",
+      "items": [
+        {
+          "q": 796,
+          "u": "ml",
+          "nom": "de tomates broyées (1 boîte de 796 ml pour la recette de base)"
+        },
+        {
+          "q": 680,
+          "u": "ml",
+          "nom": "de sauce tomate du commerce (1 pot ou 1 boîte de 680 ml pour la recette de base)"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de cassonade"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de vinaigre de cidre"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de paprika doux"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de sel"
+        }
+      ]
+    },
+    {
+      "groupe": "Chou",
       "items": [
         {
           "q": 1,
           "u": "",
-          "nom": "gros chou"
+          "nom": "gros chou vert (environ 1,5 kg)"
         },
+        {
+          "texte": "Eau et sel pour blanchir le chou"
+        }
+      ]
+    },
+    {
+      "groupe": "Farce",
+      "items": [
         {
           "q": 700,
           "u": "g",
@@ -41,7 +85,7 @@
         {
           "q": 0.75,
           "u": "t",
-          "nom": "de riz sec (≈ {{2.25|t}} cuit, précuit 15 min)"
+          "nom": "de riz blanc à grains longs, sec (≈ {{2.25|t}} cuit, précuit 15 min)"
         },
         {
           "q": 1,
@@ -59,49 +103,130 @@
           "nom": "œuf"
         },
         {
-          "texte": "Paprika, sel, poivre"
-        }
-      ]
-    },
-    {
-      "groupe": "Sauce",
-      "items": [
-        {
-          "q": 796,
-          "u": "ml",
-          "nom": "de tomates broyées"
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de paprika doux"
         },
         {
-          "q": 680,
-          "u": "ml",
-          "nom": "de sauce tomate"
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel"
         },
         {
-          "q": 2,
-          "u": "c. à soupe",
-          "nom": "de cassonade"
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de poivre"
         },
         {
-          "q": 2,
-          "u": "c. à soupe",
-          "nom": "de vinaigre de cidre"
-        },
-        {
-          "texte": "Paprika, sel"
+          "texte": "Eau pour précuire le riz (2 fois le volume de riz sec)"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Chou : retirer les 2 ou 3 feuilles extérieures abîmées. Poser le chou sur le côté et, avec un petit couteau pointu, découper autour du trognon un cône d'environ 5 cm de large et 6 cm de profondeur ; retirer le trognon. Les feuilles se détacheront plus facilement dans l'eau.",
+    "Oignon (farce, il y va cru) : couper en deux de la racine à la tige, peler, poser à plat. Faire des entailles parallèles tous les 3 mm vers la racine sans la couper, puis trancher en travers pour obtenir un hachis fin de 3 mm.",
+    "Ail (farce) : écraser chaque gousse avec le plat du couteau, peler, puis hacher en morceaux de 1 mm.",
+    "Porc haché et œuf : les sortir du frigo au moment de préparer la farce seulement.",
+    "Équipement : très grande casserole ou marmite de 8 à 10 L pour blanchir le chou ; petite casserole de 1,5 L avec couvercle pour le riz ; bol de 2 L et fouet pour la sauce ; grand bol de 4 L pour la farce ; plat de 23 × 33 cm (9 × 13 po) allant au four, profond de 5 cm ou plus ; papier d'aluminium ; pince et grande fourchette ; mesure de ⅓ tasse ; plaque avec linge propre pour égoutter les feuilles ; planche, couteau du chef et petit couteau ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Précuire le riz 15 min.",
-    "Blanchir le chou entier dans une très grande casserole d'eau bouillante et détacher 12 à 14 feuilles. (Si ça ne marche pas : chou haché au fond du plat, en « cigares paresseux ».)",
-    "Mélanger le porc, le riz, l'oignon, l'ail, l'œuf, le paprika, le sel et le poivre.",
-    "Rouler environ ⅓ tasse de farce dans chaque feuille.",
-    "Mélanger les ingrédients de la sauce et en napper les cigares dans un plat.",
-    "Cuire à 350 °F (175 °C), couvert, 1 h 15, puis 15 min à découvert. Le centre doit atteindre 71 °C."
+    {
+      "titre": "Préparer la sauce tomate aigre-douce",
+      "texte": "Dans le bol de 2 L, fouetter les tomates broyées, la sauce tomate du commerce, la cassonade, le vinaigre de cidre, le paprika et le sel du groupe « Sauce tomate aigre-douce » jusqu'à ce que la cassonade soit dissoute. Réserver sur le comptoir. Si la sauce a été faite d'avance (meal prep, jusqu'à 3 jours au frigo), passer à l'étape suivante.",
+      "duree": "3 min",
+      "reperes": "Sauce rouge uniforme, sans grains de cassonade au fond du bol.",
+      "pourquoi": "La sauce ne cuit pas d'avance : elle cuit au four avec les cigares. La cassonade et le vinaigre lui donnent son goût aigre-doux."
+    },
+    {
+      "titre": "Précuire le riz",
+      "texte": "Dans la petite casserole de 1,5 L, mettre le riz sec et {{1.5|t}} d'eau avec une pincée de sel. Porter à ébullition à feu vif, brasser une fois, couvrir, baisser à feu doux et cuire 15 minutes sans soulever le couvercle. Étaler le riz dans une grande assiette pour le faire tiédir.",
+      "feu": "vif, puis doux",
+      "duree": "15 min + 10 min pour tiédir",
+      "reperes": "Le riz a bu l'eau ; les grains sont presque tendres, encore un peu fermes au centre. Il est tiède au toucher avant d'aller dans la farce.",
+      "pourquoi": "Le riz finit de cuire au four dans le jus de la viande et de la sauce. Mis chaud dans la farce, il commencerait à cuire le porc et l'œuf."
+    },
+    {
+      "titre": "Blanchir le chou et détacher les feuilles",
+      "texte": "Remplir la très grande casserole d'eau aux deux tiers, saler (environ 1 c. à soupe de sel) et porter à grande ébullition. Piquer la grande fourchette dans le creux du trognon et plonger le chou entier dans l'eau, le creux vers le haut. Après 2 à 3 minutes, les feuilles extérieures ramollissent : les détacher une à une avec la pince et les déposer sur le linge. Continuer, en laissant le chou 1 à 2 minutes dans l'eau entre chaque couche, jusqu'à avoir de 12 à 14 belles feuilles pour la recette de base de 5 portions. Sortir le reste du chou et le garder. Si les feuilles se déchirent ou refusent de se détacher, voir les « cigares paresseux » à l'étape 6.",
+      "feu": "vif",
+      "duree": "15–20 min",
+      "reperes": "Feuilles vert vif, souples, qui se plient sans casser, mais pas molles ni translucides.",
+      "pourquoi": "Une feuille crue casse quand on la roule ; blanchie, elle devient souple. On ne détache que les feuilles ramollies pour ne pas les déchirer."
+    },
+    {
+      "titre": "Amincir la nervure des feuilles",
+      "texte": "Assécher les feuilles avec le linge. Poser chaque feuille à plat, le côté bombé vers le haut, et raser la grosse nervure centrale avec le couteau tenu à plat, pour qu'elle soit à la même épaisseur que le reste de la feuille (environ 2 mm), sans percer la feuille.",
+      "duree": "5 min",
+      "reperes": "Feuilles plates et souples d'un bout à l'autre, qui se roulent sans résistance.",
+      "pourquoi": "La nervure épaisse empêche de rouler serré et reste dure après la cuisson."
+    },
+    {
+      "titre": "Préparer la farce",
+      "texte": "Dans le grand bol de 4 L, mettre le porc haché, le riz tiédi, l'oignon haché, l'ail, l'œuf, le paprika, le sel et le poivre du groupe « Farce ». Mélanger avec les mains propres, en ouvrant les doigts comme une fourchette, juste assez pour que tout soit réparti. Se laver les mains.",
+      "duree": "3–4 min",
+      "reperes": "Farce homogène, où l'on voit le riz et l'oignon partout, qui se tient quand on en presse une poignée.",
+      "pourquoi": "Une farce trop travaillée devient compacte et caoutchouteuse après la cuisson."
+    },
+    {
+      "titre": "Rouler les cigares",
+      "texte": "Poser une feuille devant soi, le côté de la tige vers soi, l'intérieur de la feuille vers le haut. Déposer environ ⅓ tasse de farce (un peu moins dans les petites feuilles) en forme de boudin de 8 cm, à 3 cm du bas. Rabattre le bas de la feuille sur la farce, replier les deux côtés vers le centre, puis rouler jusqu'au bout, sans trop serrer. Répéter jusqu'à épuisement de la farce. Cigares paresseux (si les feuilles n'ont pas tenu) : trancher le chou en lanières de 1 cm, en couvrir le fond du plat, façonner la farce en boulettes de ⅓ tasse et les déposer sur le chou ; continuer à l'étape suivante.",
+      "duree": "15 min",
+      "reperes": "Rouleaux d'environ 8 cm de long, fermés aux deux bouts, qui tiennent seuls quand on les pose sur leur ouverture.",
+      "pourquoi": "Le riz gonfle encore à la cuisson : roulé trop serré, le cigare éclate."
+    },
+    {
+      "titre": "Monter le plat et napper de sauce",
+      "texte": "Préchauffer le four. Étaler une louche de sauce (environ le quart) au fond du plat de 23 × 33 cm ; on peut y ajouter quelques lanières de 1 cm du chou qui reste. Ranger les cigares côte à côte, bien collés, l'ouverture vers le bas, sur une seule couche. Verser le reste de la sauce sur les cigares pour les couvrir. Couvrir le plat hermétiquement de papier d'aluminium. Pour une recette doublée ou plus, utiliser deux plats.",
+      "four": "350 °F (175 °C), grille au centre",
+      "duree": "5 min",
+      "reperes": "Tous les cigares sont nappés de sauce ; le papier d'aluminium est bien scellé sur les bords du plat.",
+      "pourquoi": "L'ouverture en dessous empêche les cigares de se dérouler ; la sauce au fond les empêche de coller ; le plat couvert garde la vapeur qui attendrit le chou."
+    },
+    {
+      "titre": "Cuire au four, à couvert",
+      "texte": "Enfourner le plat couvert sur la grille du centre. Ne pas découvrir pendant cette première cuisson.",
+      "four": "350 °F (175 °C), grille au centre",
+      "duree": "1 h 15",
+      "reperes": "La sauce bouillonne sur les bords quand on soulève un coin du papier ; le chou se perce facilement à la pointe du couteau.",
+      "pourquoi": "La cuisson longue, à couvert, attendrit le chou et finit de cuire le riz dans la vapeur."
+    },
+    {
+      "titre": "Finir la cuisson à découvert",
+      "texte": "Retirer le papier d'aluminium (attention à la vapeur) et remettre le plat au four. À la fin, vérifier avec le thermomètre à lecture instantanée, piqué par le bout jusqu'au centre d'un cigare placé au milieu du plat.",
+      "four": "350 °F (175 °C), grille au centre",
+      "duree": "15 min",
+      "reperes": "71 °C (160 °F) ou plus au centre d'un cigare du milieu ; sauce épaissie qui bouillonne ; dessus des cigares légèrement coloré.",
+      "pourquoi": "À découvert, la sauce réduit et épaissit, et le dessus prend un peu de couleur."
+    },
+    {
+      "titre": "Laisser reposer et servir",
+      "texte": "Sortir le plat et le laisser reposer sur le comptoir. Servir 2 ou 3 cigares par personne, avec une bonne cuillerée de sauce du plat.",
+      "duree": "10 min de repos",
+      "reperes": "La sauce a cessé de bouillonner et nappe les cigares ; ils se servent sans se défaire.",
+      "pourquoi": "Le repos laisse la farce se raffermir : servis brûlants, les cigares s'ouvrent."
+    }
+  ],
+  "astuces": [
+    "Ne pas forcer une feuille qui résiste : remettre le chou dans l'eau bouillante 1 à 2 minutes et réessayer. Les feuilles déchirées servent à tapisser le fond du plat.",
+    "Bien assécher les feuilles avant de rouler : l'eau qui reste dilue la sauce.",
+    "Ne pas trop serrer les rouleaux et ne pas cuire le riz au complet d'avance : il finit de gonfler au four.",
+    "Garder le reste du chou au frigo, dans un sac : il sert pour un autre repas de la semaine (chou émincé)."
+  ],
+  "mealPrep": [
+    "Jusqu'à 3 jours avant : préparer la sauce tomate aigre-douce (étape 1), au frigo dans un contenant fermé.",
+    "La veille : précuire le riz (étape 2) et le réfrigérer ; blanchir le chou et préparer les feuilles (étapes 3 et 4), au frigo entre des papiers absorbants dans un contenant fermé.",
+    "La veille aussi, si on veut : rouler les cigares et monter le plat (étapes 5 à 7), couvrir et réfrigérer tout de suite. Le lendemain, enfourner directement du frigo en ajoutant 10 à 15 minutes à la cuisson à couvert, jusqu'à 71 °C au centre."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+    "Frigo : 3–4 jours, dans des contenants peu profonds avec la sauce, réfrigérés dans les 2 h.",
+    "Congélateur : 3 mois pour les cigares cuits, refroidis et couverts de sauce, dans des contenants hermétiques. Décongeler au frigo pendant la nuit.",
+    "Réchauffer : au four à 350 °F (175 °C), à couvert, 20 à 25 minutes, ou au micro-ondes à couvert avec la sauce, jusqu'à 74 °C au centre d'un cigare (thermomètre à lecture instantanée).",
+    "Ne se congèle pas bien : le chou cru ou seulement blanchi (il devient mou et aqueux) ; congeler les cigares une fois cuits."
+  ],
+  "notes": [
+    "La source nomme le paprika, le sel et le poivre de la farce, ainsi que le paprika et le sel de la sauce, sans quantités : les quantités indiquées pour ces assaisonnements sont proposées, à ajuster. La source dit « riz » sans préciser : un riz blanc à grains longs est suggéré.",
+    "La source donne 71 °C au centre des cigares (porc haché) ; les restes se réchauffent à 74 °C."
   ],
   "photo": "images/cigares-chou.jpg",
   "credit": {

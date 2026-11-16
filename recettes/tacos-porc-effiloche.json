@@ -1,13 +1,13 @@
 {
   "slug": "tacos-porc-effiloche",
   "titre": "Tacos de porc effiloché (style birria) à la mijoteuse",
-  "resume": "Épaule de porc frottée aux épices douces, cuite tout doucement à la mijoteuse, servie dans des tortillas de maïs souples.",
+  "resume": "Épaule de porc frottée la veille avec un frottage aux épices douces, cuite tout doucement à la mijoteuse avec orange et lime, effilochée et servie dans des tortillas de maïs souples.",
   "portions": 5,
   "temps": {
-    "prep": "~20 min (la veille)",
-    "cuisson": "8–10 h à basse (ou 5–6 h à haute)"
+    "prep": "~20 min (la veille) + 20 min (le jour même)",
+    "cuisson": "8–10 h à basse (ou 5–6 h à haute)"
   },
-  "tempsTotal": "8–10 h (mijoteuse)",
+  "tempsTotal": "8–10 h (mijoteuse)",
   "etiquettes": [
     "porc",
     "mijoteuse",
@@ -16,17 +16,17 @@
   "temperatures": [
     {
       "quoi": "Porc",
-      "temp": "71 °C (160 °F)",
+      "temp": "71 °C (160 °F)",
       "note": "à cœur"
     },
     {
       "quoi": "Pour effilocher",
-      "temp": "≈ 90–96 °C",
+      "temp": "≈ 90–96 °C",
       "note": "la viande se défait à la fourchette"
     },
     {
       "quoi": "Restes réchauffés",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "jusqu'au centre"
     }
   ],
@@ -37,20 +37,67 @@
         {
           "q": 1.3,
           "u": "kg",
-          "nom": "d'épaule de porc désossée"
+          "nom": "d'épaule de porc désossée (complètement décongelée au frigo)"
+        }
+      ]
+    },
+    {
+      "groupe": "Frottage aux épices douces, sans coriandre (version maison proposée)",
+      "items": [
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de paprika fumé doux"
         },
         {
-          "texte": "Frottage maison sans coriandre : paprika fumé, cumin, origan, ail en poudre, oignon en poudre, cassonade, sel, poivre"
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de cumin moulu"
         },
         {
           "q": 1,
+          "u": "c. à thé",
+          "nom": "d'origan séché"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de poudre d'ail"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de poudre d'oignon"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de cassonade"
+        },
+        {
+          "q": 1.5,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de poivre moulu"
+        }
+      ]
+    },
+    {
+      "groupe": "Dans la mijoteuse",
+      "items": [
+        {
+          "q": 1,
           "u": "",
-          "nom": "oignon"
+          "nom": "oignon jaune, en quartiers"
         },
         {
           "q": 3,
           "u": "",
-          "nom": "gousses d'ail"
+          "nom": "gousses d'ail, écrasées"
         },
         {
           "q": 0.5,
@@ -65,47 +112,47 @@
         {
           "q": 0.5,
           "u": "t",
-          "nom": "de bouillon"
+          "nom": "de bouillon de poulet (ou de légumes)"
         }
       ]
     },
     {
-      "groupe": "Pour servir",
+      "groupe": "Tortillas et garnitures",
       "items": [
         {
           "q": 15,
           "u": "",
-          "nom": "tortillas de maïs souples"
+          "nom": "tortillas de maïs souples (environ 3 par personne)"
         },
         {
           "q": 2,
           "u": "t",
-          "nom": "de chou émincé"
+          "nom": "de chou vert émincé en lanières de 2 à 3 mm"
         },
         {
           "q": 0.5,
           "u": "",
-          "nom": "oignon rouge"
+          "nom": "oignon rouge, en dés de 5 mm"
         },
         {
           "q": 2,
           "u": "",
-          "nom": "tomates"
+          "nom": "tomates, en dés de 1 cm"
         },
         {
           "q": 2,
           "u": "",
-          "nom": "avocats"
+          "nom": "avocats, en tranches de 5 mm"
         },
         {
           "q": 2,
           "u": "",
-          "nom": "limes"
+          "nom": "limes, en quartiers"
         }
       ]
     },
     {
-      "groupe": "Facultatif",
+      "groupe": "Garnitures facultatives",
       "items": [
         {
           "q": 1,
@@ -120,26 +167,110 @@
         {
           "q": 0.75,
           "u": "t",
-          "nom": "de salsa sans coriandre"
+          "nom": "de salsa douce du commerce, sans coriandre (lire l'étiquette)"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "La veille — Épaule de porc : elle doit être complètement décongelée (48 h ou plus au frigo selon la taille). L'assécher avec du papier absorbant. Retirer au couteau la couche de gras de surface là où elle dépasse 5 mm d'épaisseur, en laissant une mince couche. Si le morceau fait plus de 10 cm d'épaisseur, le couper en 2 ou 3 gros morceaux d'environ 8 à 10 cm, pour une cuisson plus égale.",
+    "Le matin — Oignon jaune : couper en deux de la racine à la tige, peler, puis couper chaque moitié en 2 quartiers en gardant un peu de racine pour qu'ils se tiennent (morceaux d'environ 4 cm).",
+    "Le matin — Ail : poser chaque gousse sous le plat du couteau, écraser d'un coup de paume, retirer la pelure ; laisser les gousses écrasées entières.",
+    "Le matin — Jus d'orange, jus de lime et bouillon : mesurés. Pour du jus de lime frais, rouler la lime sur le comptoir en appuyant, la couper en deux et la presser.",
+    "Avant de servir — Chou vert : retirer le cœur dur, poser le morceau à plat et émincer en lanières très fines de 2 à 3 mm.",
+    "Avant de servir — Oignon rouge : peler la demie, la poser à plat, trancher en lanières de 5 mm, puis recouper en travers pour des dés de 5 mm. Les rincer 10 secondes sous l'eau froide dans une passoire pour les adoucir.",
+    "Avant de servir — Tomates : retirer le pédoncule, couper en tranches de 1 cm, puis en bâtonnets, puis en dés de 1 cm.",
+    "Avant de servir — Limes : couper en deux sur la longueur, puis chaque moitié en 2 ou 3 quartiers d'environ 1,5 cm de large.",
+    "À la dernière minute (ils brunissent) — Avocats : couper en deux autour du noyau, tourner les moitiés pour les séparer, retirer le noyau à la cuillère, détacher la chair de la pelure avec une grande cuillère, puis trancher en lamelles de 5 mm. Arroser de quelques gouttes de lime.",
+    "Équipement : mijoteuse de 5 à 6 L ; contenant de 3 L avec couvercle (pour le porc frotté, au frigo) ; petit bol pour le frottage ; grande assiette creuse ou plaque à rebords et 2 fourchettes pour effilocher ; pince ; cuillère ou louche pour dégraisser ; poêle de 25 à 30 cm pour les tortillas ; linge propre ; petits bols de service ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "La veille au soir : frotter l'épaule (complètement décongelée au frigo) avec le mélange d'épices, dans un contenant fermé, au frigo. Ne pas mettre la cuve froide de la mijoteuse dans la base chaude : risque de fêlure.",
-    "Le matin : déposer le porc dans la cuve à température ambiante avec l'oignon et l'ail.",
-    "Ajouter le jus d'orange, le jus de lime et le bouillon.",
-    "Cuire à basse température 8–10 h (ou à haute 5–6 h), jusqu'à ce que la viande s'effiloche facilement (≈ 90–96 °C).",
-    "Effilocher le porc à la fourchette et le remettre dans le jus.",
-    "Réchauffer les tortillas de maïs et servir avec le chou, l'oignon rouge, les tomates, l'avocat, la lime et les garnitures facultatives."
+    {
+      "titre": "Préparer le frottage aux épices (la veille au soir)",
+      "texte": "Dans un petit bol, mettre tous les ingrédients du groupe « Frottage aux épices douces » : paprika fumé, cumin, origan, poudre d'ail, poudre d'oignon, cassonade, sel et poivre. Mélanger à la fourchette en écrasant les mottes de cassonade contre le bord du bol, jusqu'à ce que la couleur soit uniforme.",
+      "duree": "3 min",
+      "reperes": "Poudre brun-rouge uniforme, sans motte de cassonade ni traînée blanche de sel.",
+      "pourquoi": "Le chili en poudre et les sachets à tacos du commerce contiennent souvent des épices que la famille évite : le frottage maison est doux et sans coriandre. Les sources ne donnent pas les quantités ; version maison proposée, à ajuster."
+    },
+    {
+      "titre": "Frotter le porc avec le frottage et le laisser reposer au frigo (la veille au soir)",
+      "texte": "Déposer l'épaule bien asséchée dans le contenant de 3 L. Saupoudrer tout le frottage aux épices, puis masser avec les mains sur toutes les faces, y compris dans les replis de la viande, jusqu'à ce qu'il n'en reste plus au fond. Fermer le couvercle et mettre au frigo, sur la tablette du bas. Ne pas faire reposer le porc dans la cuve de la mijoteuse : une cuve froide placée dans la base chaude risque de se fêler. Se laver les mains et laver le comptoir.",
+      "duree": "5 min + 8 h au frigo au minimum (une nuit ; 24 h au maximum)",
+      "reperes": "Toute la surface de la viande est couverte d'une couche brun-rouge qui colle ; le lendemain, la surface est humide et foncée.",
+      "pourquoi": "Le sel du frottage pénètre la viande pendant la nuit : elle sera assaisonnée jusqu'au centre et restera juteuse."
+    },
+    {
+      "titre": "Mettre le porc dans la mijoteuse (le matin)",
+      "texte": "Vérifier que l'épaule est entièrement décongelée (elle est souple partout, sans centre dur). Déposer les quartiers d'oignon et les gousses d'ail écrasées au fond de la cuve, qui doit être à la température de la pièce. Poser le porc dessus, côté gras vers le haut, avec tout le jus accumulé dans le contenant.",
+      "duree": "5 min",
+      "reperes": "Le porc repose sur le lit d'oignon et ne dépasse pas le bord de la cuve ; le couvercle ferme bien à plat.",
+      "pourquoi": "L'oignon soulève un peu la viande et parfume le jus. Le gras sur le dessus fond et arrose le porc pendant la cuisson."
+    },
+    {
+      "titre": "Ajouter le jus d'orange, le jus de lime et le bouillon",
+      "texte": "Verser le jus d'orange, le jus de lime et le bouillon du groupe « Dans la mijoteuse » le long de la paroi de la cuve, pas directement sur la viande, pour ne pas laver les épices. Mettre le couvercle.",
+      "duree": "1 min",
+      "reperes": "Il y a un fond de liquide dans la cuve ; la viande n'est pas submergée, c'est normal.",
+      "pourquoi": "Le porc va rendre beaucoup de jus : pas besoin de plus de liquide. L'acidité de l'orange et de la lime équilibre le gras."
+    },
+    {
+      "titre": "Cuire à la mijoteuse",
+      "texte": "Régler la mijoteuse à basse température et laisser cuire sans soulever le couvercle (chaque ouverture fait perdre environ 20 minutes de chaleur). Si on est pressé, cuire à haute température. À la fin, piquer une fourchette dans la partie la plus épaisse et la tourner : la viande doit se défaire sans effort. Vérifier au thermomètre à lecture instantanée, au centre du morceau.",
+      "feu": "mijoteuse à basse température (ou à haute)",
+      "duree": "8–10 h à basse (ou 5–6 h à haute)",
+      "reperes": "La viande se défait en filaments dès qu'on tourne la fourchette ; thermomètre à environ 90–96 °C au centre (le porc est sécuritaire dès 71 °C, mais il ne s'effiloche bien qu'à partir de 90 °C).",
+      "pourquoi": "L'épaule est une coupe riche en collagène : il faut une cuisson longue et douce pour qu'il fonde et que la viande devienne tendre."
+    },
+    {
+      "titre": "Préparer les garnitures",
+      "texte": "Dans la dernière demi-heure de cuisson, couper le chou, l'oignon rouge, les tomates et les limes comme indiqué dans la mise en place, et les mettre chacun dans un petit bol. Mettre aussi en bols les garnitures facultatives : fromage râpé, yogourt grec et salsa sans coriandre. Garder le tout au frigo jusqu'au service. Trancher les avocats seulement au moment de servir et les arroser de quelques gouttes de lime.",
+      "duree": "15 min",
+      "reperes": "Chaque garniture a son bol ; les lanières de chou sont fines et croquantes, les dés bien réguliers.",
+      "pourquoi": "Des garnitures froides et croquantes font contraste avec le porc chaud et fondant. L'avocat coupé d'avance brunit."
+    },
+    {
+      "titre": "Effilocher le porc",
+      "texte": "Sortir le porc de la cuve avec la pince et le déposer dans la grande assiette creuse. Laisser tiédir 10 minutes. Pendant ce temps, retirer les quartiers d'oignon s'ils ne sont pas défaits (ou les écraser dans le jus) et dégraisser le jus de cuisson : incliner un peu la cuve et retirer à la cuillère la couche de gras transparent qui flotte. Effilocher la viande avec 2 fourchettes, en tirant dans le sens des fibres ; jeter les gros morceaux de gras. Remettre la viande effilochée dans le jus de la cuve et mélanger. Goûter et ajouter du sel au besoin. Garder à « réchaud » jusqu'au service.",
+      "duree": "10 min de repos + 10 min",
+      "reperes": "Filaments de 3 à 5 cm de long, luisants de jus, sans morceau de gras ; la viande a absorbé une bonne partie du jus.",
+      "pourquoi": "Le repos évite de se brûler et laisse la viande retenir son jus. Remise dans le jus de cuisson, elle reste moelleuse et bien assaisonnée."
+    },
+    {
+      "titre": "Réchauffer les tortillas de maïs",
+      "texte": "Chauffer la poêle de 25 à 30 cm à sec (sans gras). Y déposer 2 ou 3 tortillas sans les superposer et les chauffer de chaque côté. Les empiler à mesure dans un linge propre replié pour les garder chaudes et souples. Au micro-ondes : empiler 5 tortillas sous un linge humide et chauffer 30 secondes.",
+      "feu": "moyen-vif",
+      "duree": "20–30 s par côté (environ 5 min en tout)",
+      "reperes": "Tortillas chaudes, souples, avec quelques petites taches dorées ; elles se plient sans craquer.",
+      "pourquoi": "Une tortilla de maïs froide se déchire. La chaleur la rend souple et fait ressortir le goût du maïs."
+    },
+    {
+      "titre": "Monter les tacos et servir",
+      "texte": "Égoutter une portion de porc à la pince au-dessus de la cuve et la déposer au centre d'une tortilla chaude. Ajouter du chou, de l'oignon rouge, des tomates et de l'avocat, puis presser un quartier de lime sur le dessus. Chacun ajoute ses garnitures facultatives (fromage, yogourt, salsa). Servir aussitôt, avec un petit bol de jus de cuisson à table pour ceux qui veulent y tremper leur taco.",
+      "duree": "5 min",
+      "reperes": "Environ 3 tacos par personne ; les tortillas ne sont pas détrempées.",
+      "pourquoi": "Bien égoutter la viande évite que la tortilla ramollisse et se déchire."
+    }
+  ],
+  "astuces": [
+    "Ne pas soulever le couvercle pendant la cuisson : chaque ouverture ajoute environ 20 minutes. Vérifier seulement vers la fin.",
+    "Si la viande résiste à la fourchette, elle n'est pas prête : remettre le couvercle et prolonger de 30 à 60 minutes. Un porc à 75 °C est cuit, mais il ne s'effiloche pas encore.",
+    "Ne jamais mettre une épaule encore gelée dans la mijoteuse : le centre reste trop longtemps tiède. La décongeler complètement au frigo (48 h ou plus).",
+    "Ne pas faire reposer le porc frotté dans la cuve au frigo : une cuve froide dans la base chaude peut se fêler. Utiliser un contenant fermé."
   ],
   "substitutions": [
-    "Le chili en poudre et l'assaisonnement à tacos du commerce contiennent souvent de la coriandre : faire le frottage maison.",
-    "Pas de coriandre dans la salsa : en choisir une sans coriandre ou ajouter du persil."
+    "Chili en poudre et sachets à tacos du commerce : lire l'étiquette et ne prendre qu'un produit sans coriandre ; le plus sûr est de faire le frottage maison (étape 1).",
+    "Salsa : en choisir une sans coriandre (lire l'étiquette) ; on peut y ajouter du persil haché."
+  ],
+  "mealPrep": [
+    "Trois jours avant (ex. mercredi soir pour un samedi) : passer l'épaule du congélateur au frigo (48 h ou plus selon la taille).",
+    "La veille au soir : préparer le frottage aux épices et frotter le porc (étapes 1 et 2), dans un contenant fermé, au frigo. Le lendemain matin, reprendre à l'étape 3.",
+    "Le chou et l'oignon rouge peuvent être coupés la veille et gardés au frigo dans des contenants fermés. Ne pas couper d'avance : tomates, avocats, limes."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C.",
-    "Les restes deviennent le souper « restes de birria » : réchauffer à 74 °C."
+    "Frigo : 3–4 jours, porc effiloché avec son jus dans des contenants peu profonds ; réfrigérer dans les 2 h. Garnitures à part.",
+    "Congélateur : 2–3 mois pour le porc effiloché avec son jus, en sacs de congélation aplatis (portions d'un repas). Décongeler au frigo.",
+    "Réchauffer : à la casserole couverte, à feu moyen-doux, avec son jus (ajouter un peu d'eau s'il en manque), en brassant, jusqu'à 74 °C au centre ; ou au micro-ondes à couvert, en brassant à mi-chemin, jusqu'à 74 °C. Les restes deviennent le souper « restes de birria ».",
+    "Ne se congèlent pas bien : le chou, les tomates, l'avocat, le yogourt et les tortillas déjà garnies. Les tortillas nature se congèlent dans leur sac."
   ],
   "liens": [
     {

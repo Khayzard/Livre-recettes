@@ -1,8 +1,13 @@
 {
   "slug": "macaroni-porc-hache",
   "titre": "Macaroni au porc haché",
-  "resume": "Le macaroni à la viande, version porc haché : sauce tomate pleine de légumes, avec une salade.",
+  "resume": "Le macaroni à la viande, version porc haché : sauce tomate pleine de légumes, avec une salade et sa vinaigrette Dijon-miel.",
   "portions": 10,
+  "temps": {
+    "prep": "25 min",
+    "cuisson": "45 min"
+  },
+  "tempsTotal": "~1 h 10",
   "etiquettes": [
     "porc"
   ],
@@ -20,7 +25,77 @@
   ],
   "ingredients": [
     {
-      "groupe": "Sauce",
+      "groupe": "Vinaigrette Dijon-miel (version maison proposée)",
+      "items": [
+        {
+          "q": 0.3333,
+          "u": "t",
+          "nom": "d'huile d'olive"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de vinaigre de cidre"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de moutarde de Dijon"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de miel"
+        },
+        {
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.125,
+          "u": "c. à thé",
+          "nom": "de poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Assaisonnement de la sauce (version maison proposée)",
+      "items": [
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "d'origan séché"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de basilic séché"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de paprika doux"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sucre"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Sauce tomate à la viande",
       "items": [
         {
           "q": 1.4,
@@ -50,17 +125,17 @@
         {
           "q": 227,
           "u": "g",
-          "nom": "de champignons"
+          "nom": "de champignons blancs"
         },
         {
           "q": 2,
           "u": "",
-          "nom": "boîtes de 796 ml de tomates en dés"
+          "nom": "boîtes de 796 ml de tomates en dés"
         },
         {
           "q": 680,
           "u": "ml",
-          "nom": "de sauce tomate"
+          "nom": "de sauce tomate du commerce (1 pot ou 1 boîte de 680 ml)"
         },
         {
           "q": 2,
@@ -68,7 +143,7 @@
           "nom": "de pâte de tomate"
         },
         {
-          "texte": "Origan, basilic, paprika, sucre, sel, poivre"
+          "texte": "Huile de cuisson"
         }
       ]
     },
@@ -79,6 +154,9 @@
           "q": 900,
           "u": "g",
           "nom": "de macaroni"
+        },
+        {
+          "texte": "Eau et sel pour la cuisson des pâtes"
         }
       ]
     },
@@ -86,23 +164,117 @@
       "groupe": "Salade",
       "items": [
         {
-          "texte": "Romaine, concombre, tomates"
+          "q": 2,
+          "u": "",
+          "nom": "cœurs de romaine"
         },
         {
-          "texte": "Vinaigrette Dijon-miel"
+          "q": 1,
+          "u": "",
+          "nom": "concombre anglais"
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "tomates"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Oignons : couper en deux de la racine à la tige, peler, poser à plat. Faire des entailles parallèles tous les 5 mm vers la racine sans la couper, puis trancher en travers pour obtenir des dés de 5 mm.",
+    "Ail : écraser chaque gousse avec le plat du couteau, peler, puis hacher en morceaux de 1 à 2 mm.",
+    "Céleri : laver, fendre chaque branche en 3 bandes sur la longueur, puis couper en travers en dés de 5 mm.",
+    "Carottes : peler, puis râper avec les gros trous de la râpe (brins de 2 à 3 mm de large).",
+    "Champignons : essuyer avec un papier humide, couper 2 mm au bout du pied, puis trancher en lamelles de 5 mm.",
+    "Romaine (salade) : couper 1 cm à la base, séparer les feuilles, laver, bien essorer, puis trancher en travers en lanières de 2 cm.",
+    "Concombre (salade) : laver, couper en deux sur la longueur, puis trancher en demi-rondelles de 5 mm. Tomates (salade) : retirer le cœur, couper en quartiers, puis recouper chaque quartier en morceaux de 2 cm.",
+    "Boîtes et pot : ouvrir les boîtes de tomates en dés (ne pas les égoutter) et le pot de sauce tomate.",
+    "Équipement : casserole ou faitout de 8 L ou plus pour la sauce ; grande marmite séparée de 8 L ou plus pour les pâtes ; passoire ; cuillère de bois ; petit bol pour l'assaisonnement ; pot de 250 ml avec couvercle (ou petit bol et fouet) pour la vinaigrette ; grand bol de 4 L pour la salade ; râpe ; planche et couteau du chef ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Matériel : une casserole de 8 L ou plus pour la sauce et une grande marmite séparée pour les pâtes.",
-    "Faire dorer le porc avec les oignons, l'ail, le céleri, les carottes et les champignons, jusqu'à 71 °C.",
-    "Ajouter les tomates, la sauce tomate, la pâte de tomate et les assaisonnements. Mijoter 20 min.",
-    "Cuire le macaroni al dente et l'égoutter.",
-    "Mélanger les pâtes et la sauce. Servir avec la salade."
+    {
+      "titre": "Préparer la vinaigrette Dijon-miel",
+      "texte": "Dans le pot de 250 ml, mettre tous les ingrédients du groupe « Vinaigrette Dijon-miel ». Fermer le couvercle et secouer vigoureusement 20 secondes (ou fouetter dans un petit bol) jusqu'à ce que le miel soit dissous et que la vinaigrette soit homogène. Réserver au frigo. Si la vinaigrette a été faite d'avance (meal prep, jusqu'à 5 jours), passer à l'étape suivante.",
+      "duree": "3 min",
+      "reperes": "Vinaigrette jaune doré, opaque et légèrement épaisse, sans filet d'huile séparé.",
+      "pourquoi": "Les sources ne donnent pas les quantités ; version maison proposée, à ajuster. La moutarde lie l'huile et le vinaigre pour que la vinaigrette tienne sur la laitue."
+    },
+    {
+      "titre": "Préparer l'assaisonnement de la sauce",
+      "texte": "Dans le petit bol, mesurer tous les ingrédients du groupe « Assaisonnement de la sauce » et mélanger à la fourchette. Garder le bol à côté de la cuisinière. S'il a été préparé d'avance (meal prep), passer à l'étape suivante.",
+      "duree": "2 min",
+      "reperes": "Poudre uniforme, vert et rouge, sans mottes.",
+      "pourquoi": "Les sources ne donnent pas les quantités ; version maison proposée, à ajuster. Tout mesurer d'avance évite d'oublier un ingrédient quand la casserole est pleine. Le sucre adoucit l'acidité des tomates."
+    },
+    {
+      "titre": "Faire dorer le porc haché",
+      "texte": "Chauffer la casserole de 8 L avec un filet d'huile. Quand l'huile miroite, ajouter le porc haché, l'écraser en une couche et le laisser dorer 3 minutes sans y toucher. Le défaire ensuite à la cuillère de bois en morceaux de la taille d'un pois et poursuivre la cuisson en brassant de temps en temps. Vérifier avec le thermomètre à lecture instantanée dans un amas de viande. S'il y a beaucoup de gras fondu, incliner la casserole et en retirer à la cuillère, en en laissant un fond pour cuire les légumes.",
+      "feu": "moyen-vif",
+      "duree": "8–10 min",
+      "reperes": "Viande émiettée, brun doré par endroits, plus du tout rosée ; 71 °C (160 °F) au thermomètre.",
+      "pourquoi": "Le porc qui dore sans être brassé prend plus de goût ; brassé sans arrêt, il rend son eau et bout."
+    },
+    {
+      "titre": "Faire revenir les légumes avec le porc",
+      "texte": "Baisser le feu. Ajouter les oignons, le céleri, les carottes râpées et les champignons dans la casserole, avec le porc. Cuire en brassant de temps en temps. Ajouter l'ail et cuire 1 minute de plus en brassant.",
+      "feu": "moyen",
+      "duree": "7–8 min + 1 min pour l'ail",
+      "reperes": "Oignons translucides, champignons ramollis et réduits de moitié ; l'eau des champignons est évaporée ; l'ail sent bon sans avoir bruni.",
+      "pourquoi": "L'ail va à la fin : ajouté plus tôt, il brûle et devient amer."
+    },
+    {
+      "titre": "Ajouter les tomates et mijoter la sauce",
+      "texte": "Faire une place au fond de la casserole, y déposer la pâte de tomate et la cuire 1 minute en l'écrasant à la cuillère. Ajouter les tomates en dés avec leur jus, la sauce tomate du commerce et tout l'assaisonnement de la sauce. Bien mélanger en grattant le fond. Porter à ébullition à feu moyen-vif, puis baisser à feu doux et laisser mijoter à demi-couvert (couvercle entrouvert), en brassant toutes les 5 minutes. Goûter à la fin et rectifier le sel au besoin.",
+      "feu": "moyen-vif, puis doux",
+      "duree": "5 min pour l'ébullition + 20 min",
+      "reperes": "Petits bouillons réguliers ; la sauce épaissit et nappe la cuillère ; il n'y a plus de liquide clair en surface.",
+      "pourquoi": "Mijoter laisse l'eau des tomates s'évaporer et les goûts se mêler ; le couvercle entrouvert limite les éclaboussures."
+    },
+    {
+      "titre": "Cuire le macaroni",
+      "texte": "Dès que la sauce commence à mijoter, remplir la grande marmite d'eau aux trois quarts (compter environ 1 L d'eau et 1 c. à thé de sel par 100 g de pâtes), couvrir et porter à grande ébullition. Ajouter le sel, puis le macaroni, et brasser tout de suite pour qu'il ne colle pas. Cuire à découvert en brassant 2 ou 3 fois, 1 minute de moins que le temps indiqué sur l'emballage (habituellement 7 à 9 minutes en tout). Goûter une pâte. Égoutter dans la passoire, sans rincer.",
+      "feu": "vif",
+      "duree": "10–15 min pour l'ébullition + 7–9 min",
+      "reperes": "Al dente : la pâte est tendre mais encore un peu ferme sous la dent, sans cœur blanc farineux.",
+      "pourquoi": "Le macaroni continue de cuire dans la sauce chaude : cuit au complet dans l'eau, il devient mou. Non rincé, il garde l'amidon qui fait coller la sauce."
+    },
+    {
+      "titre": "Mélanger les pâtes et la sauce",
+      "texte": "Verser le macaroni égoutté dans la casserole de sauce (si la casserole est trop pleine, mélanger la moitié des pâtes et la moitié de la sauce dans la marmite vide). Mélanger à la cuillère de bois en soulevant du fond et laisser sur le feu 2 minutes, le temps que les pâtes boivent un peu de sauce. Retirer du feu.",
+      "feu": "doux",
+      "duree": "2–3 min",
+      "reperes": "Chaque macaroni est enrobé de sauce rouge ; le tout est fumant.",
+      "pourquoi": "Deux minutes ensemble sur le feu : la sauce entre dans les pâtes au lieu de glisser dessus."
+    },
+    {
+      "titre": "Monter la salade et servir",
+      "texte": "Dans le grand bol de 4 L, mettre la romaine, le concombre et les tomates. Juste avant de servir, secouer de nouveau la vinaigrette Dijon-miel, en verser la moitié sur la salade et mélanger avec la pince ; ajouter le reste au goût. Servir le macaroni dans des bols, avec la salade à côté.",
+      "duree": "3 min",
+      "reperes": "Feuilles luisantes, sans flaque de vinaigrette au fond du bol.",
+      "pourquoi": "La romaine ramollit dans la vinaigrette : on l'ajoute à la dernière minute, et seulement sur la salade qui sera mangée au repas."
+    }
+  ],
+  "astuces": [
+    "Utiliser deux grandes casseroles : une de 8 L ou plus pour la sauce et une grande marmite séparée pour les pâtes. Dans une casserole trop petite, la sauce déborde quand on ajoute les tomates.",
+    "Ne pas rincer les pâtes et ne pas les laisser attendre dans la passoire : elles collent en bloc. Les égoutter quand la sauce est prête.",
+    "Brasser le fond de la sauce pendant qu'elle mijote : les tomates et la pâte de tomate collent et brûlent facilement à feu trop fort.",
+    "Pour les lunchs, garder la salade et la vinaigrette à part ; arroser au moment de manger."
+  ],
+  "mealPrep": [
+    "Jusqu'à 5 jours avant : préparer la vinaigrette Dijon-miel (étape 1), au frigo dans son pot ; la sortir 10 minutes avant et bien la secouer.",
+    "Jusqu'à 2 jours avant : préparer l'assaisonnement de la sauce (étape 2, à la température de la pièce, dans un petit contenant fermé) ; couper les oignons, le céleri, les carottes et les champignons (au frigo, dans des contenants fermés).",
+    "La veille ou jusqu'à 3 jours avant : faire toute la sauce tomate à la viande (étapes 3 à 5), la refroidir dans des contenants peu profonds et la réfrigérer dans les 2 h. Le jour même, la réchauffer à feu moyen en brassant jusqu'à 74 °C, puis reprendre à l'étape 6."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+    "Frigo : 3–4 jours pour le macaroni en sauce (ou la sauce seule), dans des contenants peu profonds, réfrigéré dans les 2 h. Vinaigrette : 5 jours. Salade non arrosée : 2 jours.",
+    "Congélateur : 3 mois pour la sauce tomate à la viande seule (le mieux) ou 2 mois pour le macaroni en sauce, en portions. Décongeler au frigo pendant la nuit.",
+    "Réchauffer : à la casserole à feu moyen-doux avec 2 ou 3 c. à soupe d'eau, à couvert, en brassant, ou au micro-ondes à couvert en brassant à mi-temps, jusqu'à 74 °C au centre (thermomètre à lecture instantanée).",
+    "Ne se congèlent pas bien : la salade et la vinaigrette. Les pâtes congelées dans la sauce ramollissent un peu : pour le congélateur, congeler de préférence la sauce seule et cuire des pâtes fraîches."
+  ],
+  "notes": [
+    "Les sources ne donnent pas les quantités ; version maison proposée, à ajuster. Cela concerne l'assaisonnement de la sauce (la source nomme l'origan, le basilic, le paprika, le sucre, le sel et le poivre sans quantités), la vinaigrette Dijon-miel (la source ne donne que son nom) et les quantités de romaine, de concombre et de tomates de la salade.",
+    "La source fait dorer le porc et les légumes ensemble. Ici, le porc dore d'abord quelques minutes seul dans la même casserole, puis les légumes s'y ajoutent : il n'y a pas d'ingrédient ni de casserole en plus."
   ],
   "photo": "images/macaroni-porc-hache.jpg",
   "credit": {

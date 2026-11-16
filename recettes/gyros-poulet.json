@@ -4,10 +4,10 @@
   "resume": "Lanières de poulet marinées au yogourt et au citron, dans des pitas avec légumes et tzatziki maison.",
   "portions": 10,
   "temps": {
-    "prep": "marinade 2 à 8 h",
-    "cuisson": "18–22 min + 2–3 min sous le gril"
+    "prep": "30 min + marinade 2 à 8 h",
+    "cuisson": "18–22 min + 2–3 min sous le gril"
   },
-  "tempsTotal": "25 min + marinade",
+  "tempsTotal": "~1 h + marinade 2 à 8 h",
   "etiquettes": [
     "poulet",
     "four"
@@ -26,17 +26,12 @@
   ],
   "ingredients": [
     {
-      "groupe": "Poulet et marinade",
+      "groupe": "Marinade yogourt-citron (version maison proposée)",
       "items": [
-        {
-          "q": 1.6,
-          "u": "kg",
-          "nom": "de poulet, en lanières"
-        },
         {
           "q": 0.75,
           "u": "t",
-          "nom": "de yogourt grec sans lactose"
+          "nom": "de yogourt grec nature sans lactose"
         },
         {
           "q": 0.25,
@@ -54,17 +49,39 @@
           "nom": "gousses d'ail"
         },
         {
-          "texte": "Origan, paprika, cumin, sel, poivre"
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "d'origan séché"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de paprika doux"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de cumin moulu"
+        },
+        {
+          "q": 1.5,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de poivre"
         }
       ]
     },
     {
-      "groupe": "Tzatziki",
+      "groupe": "Tzatziki sans lactose (version maison proposée)",
       "items": [
         {
           "q": 2,
           "u": "t",
-          "nom": "de yogourt grec sans lactose"
+          "nom": "de yogourt grec nature sans lactose"
         },
         {
           "q": 1,
@@ -77,7 +94,37 @@
           "nom": "gousses d'ail"
         },
         {
-          "texte": "Citron, huile, aneth, sel"
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de jus de citron"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "d'huile d'olive"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "d'aneth séché"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de sel"
+        }
+      ]
+    },
+    {
+      "groupe": "Poulet",
+      "items": [
+        {
+          "q": 1.6,
+          "u": "kg",
+          "nom": "de poulet désossé, sans peau (poitrines ou hauts de cuisse), en lanières"
+        },
+        {
+          "texte": "Huile de cuisson (pour huiler le papier d'aluminium)"
         }
       ]
     },
@@ -90,20 +137,113 @@
           "nom": "pitas (vérifier le lait)"
         },
         {
-          "texte": "Tomates, concombre, oignon rouge, laitue"
+          "q": 4,
+          "u": "",
+          "nom": "tomates"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "concombre"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon rouge"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "laitue"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Poulet : l'assécher avec du papier absorbant. Repérer le sens des fibres, puis trancher contre le grain (en travers des fibres) en lanières de 1 cm d'épaisseur sur 5 à 6 cm de long. Si une poitrine fait plus de 3 cm d'épaisseur, la couper d'abord en deux à l'horizontale.",
+    "Ail (marinade et tzatziki) : peler et râper finement à la râpe fine, ou hacher en morceaux de 1 mm. Garder l'ail de chaque préparation à part.",
+    "Citron : le rouler sur le comptoir en appuyant, le couper en deux, le presser et retirer les pépins. Mesurer le jus pour la marinade et pour le tzatziki séparément.",
+    "Concombre du tzatziki : laver (inutile de peler), râper avec les gros trous de la râpe (brins de 3 mm), puis presser très fort dans un linge propre au-dessus de l'évier, jusqu'à ce qu'il ne coule presque plus de jus.",
+    "Tomates (pour servir) : retirer le cœur, couper en deux, poser à plat et trancher en demi-tranches de 5 mm.",
+    "Concombre (pour servir) : laver, couper en deux sur la longueur, puis trancher en demi-rondelles de 3 mm.",
+    "Oignon rouge : couper en deux de la racine à la tige, peler, poser à plat et trancher en demi-lunes très fines de 2 mm. Laitue : laver, essorer, empiler les feuilles et trancher en lanières de 1 cm.",
+    "Équipement : grand bol de 4 L ou grand sac refermable pour la marinade ; bol de 1 L pour le tzatziki ; fouet ; râpe ; linge propre ; 2 plaques de 33 × 46 cm (13 × 18 po) ; papier d'aluminium ; pince ; planche et couteau du chef ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Mariner le poulet 2 à 8 h au frigo. Jeter la marinade ensuite.",
-    "Préparer le tzatziki : mélanger tous les ingrédients.",
-    "Cuire le poulet au four à 425 °F 18–22 min, puis 2–3 min sous le gril, jusqu'à 74 °C.",
-    "Réchauffer les pitas et garnir de poulet, de légumes et de tzatziki."
+    {
+      "titre": "Préparer la marinade et faire mariner le poulet",
+      "texte": "Dans le grand bol de 4 L (ou le grand sac refermable), fouetter tous les ingrédients du groupe « Marinade yogourt-citron » jusqu'à consistance lisse. Ajouter les lanières de poulet et mélanger avec les mains pour bien les enrober. Couvrir (ou fermer le sac en chassant l'air) et réfrigérer : minimum 2 heures, maximum 8 heures. Si le poulet a été mis à mariner le matin (meal prep), passer à l'étape suivante.",
+      "duree": "10 min + 2 à 8 h au frigo",
+      "reperes": "Toutes les lanières sont couvertes d'une couche crémeuse, orangée, piquée d'origan.",
+      "pourquoi": "Les sources ne donnent pas les quantités d'origan, de paprika, de cumin, de sel et de poivre ; version maison proposée, à ajuster. Le yogourt et le citron attendrissent le poulet ; après 8 heures, la chair devient pâteuse."
+    },
+    {
+      "titre": "Préparer le tzatziki",
+      "texte": "Dans le bol de 1 L, mélanger à la cuillère le yogourt grec, le concombre râpé et bien pressé, l'ail râpé, le jus de citron, l'huile d'olive, l'aneth et le sel du groupe « Tzatziki sans lactose ». Couvrir et réfrigérer au moins 30 minutes ; il se garde 3 jours au frigo. S'il a été fait au meal prep, passer à l'étape suivante.",
+      "duree": "10 min + 30 min au frigo",
+      "reperes": "Tzatziki épais, qui tient sur la cuillère, sans liquide au fond du bol.",
+      "pourquoi": "Les sources ne donnent pas les quantités de citron, d'huile, d'aneth et de sel ; version maison proposée, à ajuster. Un concombre mal pressé rend son eau et le tzatziki devient liquide."
+    },
+    {
+      "titre": "Étaler le poulet sur les plaques",
+      "texte": "Placer une grille du four au tiers supérieur et une autre au tiers inférieur, puis préchauffer. Tapisser les 2 plaques de papier d'aluminium et l'huiler légèrement (pas de papier parchemin : il brûle sous le gril à l'étape 5). Sortir les lanières de poulet avec la pince en laissant retomber l'excès de marinade, et les étaler sur les plaques en une seule couche, sans qu'elles se touchent. Jeter la marinade qui reste dans le bol et laver le bol et la pince à l'eau chaude savonneuse.",
+      "four": "425 °F (220 °C), grilles au tiers supérieur et au tiers inférieur",
+      "duree": "10 min",
+      "reperes": "Lanières espacées, couvertes d'une mince pellicule de marinade, sans flaque autour.",
+      "pourquoi": "Espacé, le poulet rôtit ; entassé ou noyé de marinade, il bout dans son jus. La marinade a touché le poulet cru : on la jette."
+    },
+    {
+      "titre": "Cuire le poulet au four",
+      "texte": "Enfourner les 2 plaques. À mi-cuisson, retourner les lanières avec la pince propre et permuter les plaques (celle du haut en bas). Vérifier quelques lanières épaisses avec le thermomètre à lecture instantanée.",
+      "four": "425 °F (220 °C), grilles au tiers supérieur et au tiers inférieur",
+      "duree": "18–22 min",
+      "reperes": "Poulet opaque et ferme, 74 °C (165 °F) au centre des lanières les plus épaisses ; le jus sur la plaque est clair.",
+      "pourquoi": "Permuter les plaques égalise la cuisson : le haut du four est plus chaud que le bas."
+    },
+    {
+      "titre": "Griller le poulet sous le gril",
+      "texte": "Monter une grille à environ 15 cm de l'élément du haut et régler le four à « gril » (broil). Passer une plaque à la fois sous le gril, porte entrouverte si le four le demande, sans s'éloigner. Sortir la plaque dès que les bords colorent. Confirmer la température au thermomètre à lecture instantanée.",
+      "four": "Gril (broil), grille à environ 15 cm de l'élément du haut",
+      "duree": "2–3 min par plaque",
+      "reperes": "Bords des lanières brun doré, avec quelques pointes plus foncées ; 74 °C (165 °F) ou plus au centre.",
+      "pourquoi": "Le gril donne le goût grillé des gyros ; une minute de trop et le poulet sèche ou brûle."
+    },
+    {
+      "titre": "Réchauffer les pitas",
+      "texte": "Éteindre le four. Empiler les pitas en 2 piles, envelopper chaque pile de papier d'aluminium et les déposer dans le four éteint, encore chaud, pendant que le poulet repose sur ses plaques. Autre façon : à la poêle à sec, à feu moyen, 30 secondes par côté.",
+      "feu": "moyen (version à la poêle)",
+      "duree": "5 min",
+      "reperes": "Pitas chauds et souples, qui se plient sans craquer.",
+      "pourquoi": "Un pita froid casse quand on le plie ; enveloppé, il se réchauffe sans sécher."
+    },
+    {
+      "titre": "Garnir les pitas et servir",
+      "texte": "Mettre le poulet dans un plat de service, et les tomates, le concombre, l'oignon rouge, la laitue et le tzatziki dans des bols sur la table. Chacun garnit son pita : une cuillerée de tzatziki étalée au centre, du poulet, des légumes, puis on replie le pita en deux ou on le roule en cornet.",
+      "duree": "5 min",
+      "reperes": "Poulet chaud, légumes croquants, tzatziki froid.",
+      "pourquoi": "Chacun choisit ses légumes : les enfants qui n'aiment pas l'oignon cru le laissent de côté."
+    }
+  ],
+  "astuces": [
+    "Presser le concombre râpé jusqu'à ce qu'il ne coule presque plus : c'est ce qui fait un tzatziki épais.",
+    "Ne pas dépasser 8 heures de marinade et ne jamais réutiliser la marinade : elle a touché le poulet cru.",
+    "Sous le gril, rester devant le four : le poulet passe de doré à brûlé en moins d'une minute. Pas de papier parchemin sous le gril.",
+    "Lire l'étiquette des pitas : certains contiennent du lait."
+  ],
+  "mealPrep": [
+    "Le matin même : préparer la marinade et y mettre le poulet (étape 1), au frigo de 2 à 8 heures. Le soir, commencer à l'étape 2 ou 3.",
+    "Jusqu'à 3 jours avant : préparer le tzatziki (étape 2), au frigo dans un contenant fermé ; le brasser avant de servir.",
+    "La veille : trancher les tomates, le concombre, l'oignon rouge et la laitue, au frigo dans des contenants séparés."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C.",
-    "Tzatziki : 3 jours."
+    "Frigo : 3–4 jours pour le poulet cuit, dans un contenant peu profond, réfrigéré dans les 2 h. Tzatziki : 3 jours. Légumes tranchés : 2 jours, dans des contenants séparés.",
+    "Congélateur : 2 mois pour le poulet cuit, dans un sac à congélation bien aplati ; les pitas se congèlent aussi 2 mois. Décongeler au frigo.",
+    "Réchauffer : le poulet à la poêle à feu moyen avec 1 c. à soupe d'eau, à couvert, 3 à 4 minutes, ou au micro-ondes à couvert, jusqu'à 74 °C au centre (thermomètre à lecture instantanée).",
+    "Ne se congèlent pas : le tzatziki (le yogourt se sépare), les tomates, le concombre, l'oignon rouge et la laitue."
+  ],
+  "notes": [
+    "Les sources ne donnent pas les quantités ; version maison proposée, à ajuster. Cela concerne l'origan, le paprika, le cumin, le sel et le poivre de la marinade, ainsi que le citron, l'huile, l'aneth et le sel du tzatziki (la source les nomme sans quantités), et les quantités de tomates, de concombre, d'oignon rouge et de laitue. Le yogourt, l'huile, le jus de citron et l'ail viennent de la source.",
+    "La source dit « poulet en lanières » sans préciser la coupe : des poitrines ou des hauts de cuisse désossés conviennent."
   ],
   "photo": "images/gyros-poulet.jpg",
   "credit": {

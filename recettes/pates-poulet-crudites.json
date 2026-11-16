@@ -1,14 +1,14 @@
 {
   "slug": "pates-poulet-crudites",
   "titre": "Pâtés au poulet, crudités et trempette",
-  "resume": "Pâtés au poulet surgelés au four, servis avec des crudités et une trempette maison.",
+  "resume": "Pâtés au poulet surgelés du commerce cuits au four, servis avec des crudités et une trempette maison au persil.",
   "portions": 5,
   "portionsNote": "5 à table + lunchs (selon le nombre de pâtés)",
   "temps": {
-    "prep": "10 min",
-    "cuisson": "~50–60 min (selon la boîte)"
+    "prep": "10 min",
+    "cuisson": "~50–60 min (selon la boîte)"
   },
-  "tempsTotal": "1 h–1 h 10",
+  "tempsTotal": "1 h–1 h 10",
   "etiquettes": [
     "poulet",
     "four"
@@ -16,12 +16,12 @@
   "temperatures": [
     {
       "quoi": "Pâté au poulet",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "au centre"
     },
     {
       "quoi": "Restes réchauffés",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "jusqu'au centre"
     }
   ],
@@ -30,7 +30,49 @@
       "groupe": "Pâtés",
       "items": [
         {
-          "texte": "Pâtés au poulet surgelés : un par personne, plus les lunchs"
+          "q": 5,
+          "u": "",
+          "nom": "pâtés au poulet surgelés du commerce, format individuel d'environ 250 g (ou un grand pâté d'environ 800 g pour 3 à 4 portions ; prévoir plus de pâtés pour les lunchs)"
+        }
+      ]
+    },
+    {
+      "groupe": "Trempette au persil",
+      "items": [
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de mayonnaise"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de yogourt grec nature sans lactose"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de jus de citron"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de persil frais haché finement"
+        },
+        {
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de poudre d'ail"
+        },
+        {
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.125,
+          "u": "c. à thé",
+          "nom": "de poivre moulu"
         }
       ]
     },
@@ -53,54 +95,92 @@
           "nom": "chou-fleur"
         }
       ]
-    },
-    {
-      "groupe": "Trempette",
-      "items": [
-        {
-          "q": 0.5,
-          "u": "t",
-          "nom": "de mayonnaise"
-        },
-        {
-          "q": 0.5,
-          "u": "t",
-          "nom": "de yogourt grec nature sans lactose"
-        },
-        {
-          "q": 1,
-          "u": "c. à soupe",
-          "nom": "de jus de citron"
-        },
-        {
-          "texte": "Persil haché"
-        },
-        {
-          "texte": "Sel, poivre"
-        },
-        {
-          "q": 0.25,
-          "u": "c. à thé",
-          "nom": "de poudre d'ail"
-        }
-      ]
     }
   ],
+  "miseEnPlace": [
+    "Pâtés : les laisser au congélateur jusqu'au moment d'enfourner (ne pas décongeler). Lire sur la boîte la température et le temps de cuisson : ils ont priorité sur ceux de la fiche.",
+    "Persil (trempette) : laver, bien assécher, détacher les feuilles des tiges, les rassembler en boule serrée et hacher finement, en morceaux de 1 à 2 mm.",
+    "Citron (trempette) : le rouler sur le comptoir en appuyant, le couper en deux et le presser ; retirer les pépins.",
+    "Carottes : peler, couper les bouts, couper en tronçons de 8 cm, puis chaque tronçon en deux ou en quatre sur la longueur pour des bâtonnets d'environ 1 cm d'épaisseur.",
+    "Céleri : laver, couper la base et les feuilles, couper en tronçons de 8 cm ; fendre en deux sur la longueur les branches de plus de 2 cm de large.",
+    "Chou-fleur : retirer les feuilles et le cœur dur, puis détacher en bouquets de 3 à 4 cm (une bouchée) en coupant dans la tige plutôt que dans la tête, pour éviter les miettes.",
+    "Équipement : plaque à rebords de 33 × 46 cm (13 × 18 po) avec papier parchemin ; bol de 500 ml et fouet (ou fourchette) pour la trempette ; petit couteau ; papier d'aluminium ; thermomètre à lecture instantanée ; assiette de service pour les crudités."
+  ],
   "etapes": [
-    "Préchauffer le four selon la boîte (en général 400 °F / 200 °C). Ne pas décongeler les pâtés.",
-    "Retirer l'emballage, faire 2–3 petites fentes dans la croûte et déposer sur une plaque (pour les débordements).",
-    "Cuire selon la boîte, habituellement 50–60 min pour un grand pâté, jusqu'à ce que la croûte soit dorée et que la garniture bouillonne : 74 °C au centre. Si la croûte brunit trop vite, couvrir de papier d'aluminium.",
-    "Laisser reposer 5–10 min avant de couper.",
-    "Pendant la cuisson : couper les carottes et le céleri en bâtonnets, le chou-fleur en bouquets, et mélanger la trempette."
+    {
+      "titre": "Préparer la trempette au persil",
+      "texte": "Dans le bol de 500 ml, mettre la mayonnaise, le yogourt grec, le jus de citron, le persil haché, la poudre d'ail, le sel et le poivre du groupe « Trempette au persil ». Fouetter au fouet ou à la fourchette jusqu'à ce que le tout soit lisse. Goûter avec un bâtonnet de carotte et ajuster le sel. Couvrir et mettre au frigo jusqu'au service. Si la trempette a été faite d'avance, passer à l'étape 2.",
+      "duree": "5 min + au moins 30 min au frigo (jusqu'à 3 jours)",
+      "reperes": "Trempette lisse, crémeuse, piquée de vert, sans grumeau de yogourt ; elle tient sur un bâtonnet de carotte sans couler.",
+      "pourquoi": "Le repos au frigo laisse la poudre d'ail et le persil parfumer la trempette, qui épaissit un peu. La source ne donne pas la quantité de persil, de sel ni de poivre : quantités proposées, à ajuster."
+    },
+    {
+      "titre": "Préchauffer le four",
+      "texte": "Placer la grille au centre du four et allumer à la température indiquée sur la boîte (en général 400 °F / 200 °C). Tapisser la plaque de papier parchemin. Attendre que le four soit bien chaud avant d'enfourner.",
+      "four": "400 °F (200 °C) ou selon la boîte, grille au centre",
+      "duree": "10–15 min pour chauffer",
+      "reperes": "Le four indique qu'il a atteint sa température.",
+      "pourquoi": "Un four bien chaud saisit la pâte dès le départ : la croûte devient feuilletée au lieu de rester pâle et molle."
+    },
+    {
+      "titre": "Préparer les pâtés surgelés",
+      "texte": "Sortir les pâtés du congélateur sans les décongeler. Retirer la boîte et la pellicule de plastique, en gardant chaque pâté dans son moule d'aluminium. Avec la pointe d'un petit couteau, faire 2 ou 3 fentes de 2 cm dans la croûte du dessus. Déposer les pâtés sur la plaque, espacés d'au moins 3 cm.",
+      "duree": "3 min",
+      "reperes": "Chaque pâté a ses fentes bien ouvertes ; les pâtés ne se touchent pas.",
+      "pourquoi": "Les fentes laissent sortir la vapeur, sinon la croûte se soulève et se détrempe. La plaque attrape les débordements et facilite la sortie du four."
+    },
+    {
+      "titre": "Cuire les pâtés",
+      "texte": "Enfourner la plaque sur la grille du centre et cuire selon le temps de la boîte, en tournant la plaque d'un demi-tour à mi-cuisson. Si la croûte brunit trop vite avant la fin, déposer une feuille de papier d'aluminium sur les pâtés, sans la serrer.",
+      "four": "400 °F (200 °C) ou selon la boîte, grille au centre",
+      "duree": "50–60 min pour un grand pâté ; souvent 35–45 min pour des pâtés individuels (selon la boîte)",
+      "reperes": "Croûte bien dorée et feuilletée ; le jus bouillonne par les fentes et sur les bords.",
+      "pourquoi": "Le pâté cuit à partir de l'état surgelé : le centre est la dernière partie à devenir chaude, d'où la cuisson longue."
+    },
+    {
+      "titre": "Couper les crudités",
+      "texte": "Pendant que les pâtés cuisent, couper les carottes et le céleri en bâtonnets et le chou-fleur en bouquets, comme indiqué dans la mise en place. Les disposer sur l'assiette de service autour du bol de trempette. Garder au frigo jusqu'au repas.",
+      "duree": "10 min",
+      "reperes": "Bâtonnets de taille semblable, croquants ; bouquets d'une bouchée.",
+      "pourquoi": "Des morceaux réguliers, de la taille d'une bouchée, se trempent facilement et se mangent bien, même par les enfants."
+    },
+    {
+      "titre": "Vérifier la cuisson au thermomètre",
+      "texte": "Sortir la plaque. Insérer le thermomètre à lecture instantanée par une fente, jusqu'au centre du pâté le plus gros, sans toucher le fond du moule. Si la température n'est pas atteinte, remettre au four par tranches de 5 minutes, en couvrant d'aluminium si la croûte est déjà bien dorée.",
+      "duree": "1 min",
+      "reperes": "74 °C (165 °F) au centre ; de la vapeur sort par les fentes.",
+      "pourquoi": "La croûte peut être dorée alors que le centre est encore froid : seul le thermomètre le confirme."
+    },
+    {
+      "titre": "Laisser reposer et servir",
+      "texte": "Laisser reposer les pâtés sur la plaque, à la température de la pièce. Servir les pâtés individuels dans leur moule ou démoulés ; couper un grand pâté en pointes avec un couteau dentelé. Servir avec les crudités et la trempette.",
+      "duree": "5–10 min de repos",
+      "reperes": "L'intérieur a épaissi : il ne coule plus quand on coupe.",
+      "pourquoi": "À la sortie du four, l'intérieur est brûlant et très liquide ; le repos le laisse épaissir et évite les brûlures."
+    }
+  ],
+  "astuces": [
+    "Ne pas décongeler les pâtés avant de les cuire : la pâte devient molle et ne feuillette plus.",
+    "Ne pas se fier à la couleur de la croûte : vérifier 74 °C au centre avec le thermomètre.",
+    "Si la croûte est dorée mais que le centre n'est pas assez chaud, couvrir d'aluminium et prolonger par tranches de 5 minutes.",
+    "Préparer la trempette en premier : elle est meilleure après 30 minutes au frigo."
   ],
   "substitutions": [
-    "Trempette : vinaigrette ranch sans lactose du commerce."
+    "Trempette : à la place de la trempette maison, une vinaigrette ranch sans lactose du commerce (environ 1 tasse pour 5 portions)."
+  ],
+  "mealPrep": [
+    "La trempette au persil peut être préparée jusqu'à 3 jours d'avance (étape 1) et gardée au frigo dans un contenant fermé ; passer alors à l'étape 2.",
+    "Les crudités peuvent être coupées la veille : les garder au frigo dans un contenant fermé avec un papier absorbant humide."
   ],
   "conservation": [
-    "Portions refroidies en contenants dans l'heure : 3 jours au frigo. Réchauffer au micro-ondes à 74 °C. Crudités dans un contenant séparé."
+    "Frigo : 3 jours pour les portions de pâté, refroidies et mises en contenants dans l'heure. Crudités et trempette dans des contenants séparés : 3 jours.",
+    "Congélateur : garder les pâtés non cuits au congélateur et n'en cuire que le nombre voulu. Un pâté cuit peut se congeler 1 mois, bien emballé, mais la croûte ramollit.",
+    "Réchauffer : au micro-ondes à couvert, 2 à 3 minutes, jusqu'à 74 °C au centre (croûte plus molle) ; ou au four à 350 °F (175 °C), 15 à 20 minutes, jusqu'à 74 °C au centre, pour retrouver une croûte croustillante.",
+    "Ne se congèlent pas bien : la trempette (la mayonnaise et le yogourt se séparent) et les crudités (elles ramollissent)."
   ],
   "notes": [
-    "Les pâtés du commerce contiennent souvent du lait : vérifier l'étiquette pour la personne intolérante au lactose."
+    "Les pâtés du commerce contiennent souvent du lait : vérifier l'étiquette pour la personne intolérante au lactose.",
+    "La source dit seulement « assez de pâtés pour 5 à table + lunchs » : vérifier le format et le nombre de boîtes, et suivre le temps de cuisson de l'emballage."
   ],
   "photo": "images/pates-poulet-crudites.jpg",
   "credit": {
