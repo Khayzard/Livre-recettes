@@ -140,4 +140,9 @@ const lb=document.createElement('label');const cb=document.createElement('input'
 cb.onchange=()=>{st[i]=cb.checked;li.classList.toggle('done',cb.checked);localStorage.setItem(K,JSON.stringify(st));};
 lb.append(cb,sp);li.append(lb);});
 document.getElementById('reset').onclick=()=>{if(confirm('Tout décocher?')){localStorage.removeItem(K);location.reload();}};
+</script><div id="wl" style="position:fixed;left:12px;bottom:12px;font-size:10pt;background:#eee;padding:6px 10px;border-radius:6px">Écran : …</div>
+<script>
+let lock=null;const wl=document.getElementById('wl');
+async function keepOn(){try{lock=await navigator.wakeLock.request('screen');wl.textContent='🔆 Écran toujours allumé';lock.addEventListener('release',()=>{wl.textContent='Écran : touche la page pour le garder allumé';});}catch(e){wl.textContent='Écran : touche la page pour le garder allumé';}}
+if('wakeLock' in navigator){keepOn();document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')keepOn();});document.addEventListener('click',()=>{if(!lock||lock.released)keepOn();});}else{wl.textContent='Écran : non supporté par ce navigateur';}
 </script></body></html>
