@@ -1,0 +1,149 @@
+{
+  "slug": "saute-porc-asiatique",
+  "titre": "Sauté de porc à l'asiatique, nouilles et légumes",
+  "resume": "Lanières de longe de porc marinées soya-gingembre, sautées avec les légumes et servies sur des nouilles.",
+  "portions": 10,
+  "portionsNote": "5 à table + lunchs",
+  "temps": {
+    "total": "~30 min"
+  },
+  "tempsTotal": "30 min",
+  "etiquettes": [
+    "porc",
+    "meal prep",
+    "rapide"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Porc",
+      "temp": "71 °C (160 °F)",
+      "note": "à cœur"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Porc et marinade",
+      "items": [
+        {
+          "q": 1.5,
+          "u": "kg",
+          "nom": "de longe de porc, en lanières d'1 cm"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de sauce soya"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de sauce hoisin",
+          "qMax": 3
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de miel"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "d'huile de sésame",
+          "qMax": 2
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de vinaigre de riz",
+          "qMax": 2
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "texte": "Gingembre frais, pelé et râpé"
+        }
+      ]
+    },
+    {
+      "groupe": "Pour épaissir (le jour même)",
+      "items": [
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de fécule de maïs, délayée dans un peu d'eau froide",
+          "qMax": 3
+        }
+      ]
+    },
+    {
+      "groupe": "Légumes et nouilles",
+      "items": [
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon, émincé"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "poivrons (pas verts), en lanières"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "carottes environ, en tranches biaisées"
+        },
+        {
+          "texte": "Champignons tranchés (facultatif)"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "couronne de brocoli"
+        },
+        {
+          "q": 900,
+          "u": "g",
+          "nom": "de nouilles"
+        },
+        {
+          "texte": "Persil (pas de coriandre)"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Cuire les nouilles. Couper le brocoli le jour même.",
+    "Retirer les lanières de porc de la marinade (garder la marinade).",
+    "Saisir les lanières par petits lots dans une poêle ou un wok très chaud, jusqu'à 71 °C. Réserver.",
+    "Sauter les légumes (congelés, c'est correct) et le brocoli.",
+    "Ajouter la marinade et la fécule délayée. Laisser bouillir en brassant jusqu'à ce que la sauce épaississe.",
+    "Remettre le porc, mélanger, et servir sur les nouilles. Garnir de persil."
+  ],
+  "mealPrep": [
+    "Sac 1 (congélateur) : longe en lanières + marinade soya-gingembre (la fécule s'ajoute le jour même).",
+    "Sac 2 (congélateur) : oignon émincé, poivrons en lanières, carottes, champignons au goût.",
+    "Décongeler au frigo la veille au soir.",
+    "Si la longe est achetée la veille : la garder au frigo (1 jour) sans la congeler."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+  ],
+  "photo": "images/saute-porc-asiatique.jpg",
+  "credit": {
+    "texte": "Photo : jeffreyw — CC BY 2.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "jeffreyw",
+    "licence": "CC BY 2.0",
+    "licenceLien": "https://creativecommons.org/licenses/by/2.0",
+    "source": "Pork lo mein (6023224149).jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Pork_lo_mein_(6023224149).jpg"
+  }
+}

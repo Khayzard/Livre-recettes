@@ -1,0 +1,148 @@
+{
+  "slug": "lasagne-poulet-brocoli-bacon",
+  "titre": "Lasagne poulet, brocoli et bacon (sauce blanche sans lactose)",
+  "resume": "Lasagne gratinée au poulet, bacon et brocoli, avec une béchamel au lait sans lactose.",
+  "portions": 10,
+  "portionsNote": "10–12 portions : un grand plat 9 × 13 po bien plein, ou 1 plat + 1 petit",
+  "temps": {
+    "prep": "40 min",
+    "cuisson": "50 min + 15 min de repos"
+  },
+  "tempsTotal": "1 h 45",
+  "etiquettes": [
+    "poulet",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet",
+      "temp": "74 °C (165 °F)",
+      "note": "au centre de la pièce la plus épaisse"
+    },
+    {
+      "quoi": "Lasagne",
+      "temp": "74 °C (165 °F)",
+      "note": "au centre"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Garniture",
+      "items": [
+        {
+          "q": 3.5,
+          "u": "lb",
+          "nom": "de poitrines ou hauts de cuisse de poulet désossés"
+        },
+        {
+          "q": 1,
+          "u": "lb",
+          "nom": "de bacon"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "têtes de brocoli"
+        },
+        {
+          "q": 15,
+          "u": "",
+          "nom": "pâtes à lasagne (ou prêtes à cuire)",
+          "qMax": 18
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon"
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "gousses d'ail"
+        }
+      ]
+    },
+    {
+      "groupe": "Sauce blanche",
+      "items": [
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de beurre ou de margarine (sans lactose)"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de farine"
+        },
+        {
+          "q": 6,
+          "u": "t",
+          "nom": "de lait sans lactose"
+        },
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de bouillon de poulet"
+        },
+        {
+          "texte": "Sel, poivre, une pincée de muscade"
+        }
+      ]
+    },
+    {
+      "groupe": "Fromages et finition",
+      "items": [
+        {
+          "q": 3,
+          "u": "t",
+          "nom": "de mozzarella râpée sans lactose"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de parmesan (naturellement très faible en lactose) ou plus de mozzarella sans lactose"
+        },
+        {
+          "texte": "Persil haché"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Cuire le bacon jusqu'à ce qu'il soit croustillant, égoutter et émietter. Garder 1 c. à soupe de gras.",
+    "Couper le poulet en petits cubes et le faire dorer dans le gras de bacon, en 2 fois, avec l'oignon et l'ail, 8–10 min, jusqu'à 74 °C. Saler, poivrer.",
+    "Couper le brocoli en petits bouquets, le blanchir 2 min dans l'eau bouillante, le passer à l'eau froide et bien égoutter.",
+    "Si ce ne sont pas des pâtes prêtes à cuire : les cuire 2 min de moins que le temps indiqué sur la boîte.",
+    "Sauce blanche : faire fondre le beurre, ajouter la farine et cuire 1 min en fouettant. Ajouter graduellement le lait et le bouillon en fouettant. Mijoter 5–8 min jusqu'à ce que ça épaississe. Assaisonner (sel, poivre, muscade) et ajouter le parmesan.",
+    "Préchauffer le four à 375 °F (190 °C). Mélanger le poulet, le bacon, le brocoli et environ ⅓ de la sauce.",
+    "Monter : un peu de sauce au fond, pâtes, ⅓ du mélange de poulet, sauce, mozzarella. Répéter 3 fois et finir avec pâtes, sauce et mozzarella.",
+    "Couvrir de papier d'aluminium et cuire 35 min, puis découvrir et cuire 15 min jusqu'à ce que ce soit doré (74 °C au centre). Laisser reposer 15 min."
+  ],
+  "substitutions": [
+    "Brocoli surgelé.",
+    "Épinards.",
+    "Pas de ricotta (impossible sans lactose) : garder la sauce blanche.",
+    "Option chou-fleur rôti : bouquets de chou-fleur, 2 c. à soupe d'huile, sel, poivre, paprika, au four à 425 °F pendant 25 min."
+  ],
+  "mealPrep": [
+    "Faire d'avance : monter la lasagne la veille, la garder au frigo et ajouter 10–15 min de cuisson."
+  ],
+  "conservation": [
+    "Portionner une fois refroidie : 4 jours au frigo, ou congeler jusqu'à 3 mois. Réchauffer à 74 °C."
+  ],
+  "photo": "images/lasagne-poulet-brocoli-bacon.jpg",
+  "credit": {
+    "texte": "Photo : Peachyeung316 — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Peachyeung316",
+    "licence": "CC BY-SA 4.0",
+    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "Baked Chicken and Bacon Lasagna from The Spaghetti House.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Baked_Chicken_and_Bacon_Lasagna_from_The_Spaghetti_House.jpg"
+  }
+}

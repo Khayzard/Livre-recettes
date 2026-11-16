@@ -1,0 +1,114 @@
+{
+  "slug": "pates-crevettes-ail",
+  "titre": "Pâtes aux crevettes à l'ail",
+  "resume": "Le grand favori : crevettes, ail, citron et légumes, avec un peu de bouillon réduit. Parmesan à part.",
+  "portions": 5,
+  "temps": {
+    "total": "~20 min"
+  },
+  "tempsTotal": "20 min",
+  "etiquettes": [
+    "fruits de mer",
+    "rapide",
+    "favori",
+    "meal prep"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Crevettes crues",
+      "temp": "74 °C (165 °F)",
+      "note": "et chair opaque"
+    },
+    {
+      "quoi": "Crevettes déjà cuites",
+      "temp": "Réchauffer",
+      "note": "simplement réchauffer"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "",
+      "items": [
+        {
+          "q": 450,
+          "u": "g",
+          "nom": "de pâtes"
+        },
+        {
+          "q": 680,
+          "u": "g",
+          "nom": "de crevettes surgelées (vendues en sacs de 340 g), cuites ou crues"
+        },
+        {
+          "q": 6,
+          "u": "",
+          "nom": "gousses d'ail, hachées"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "citron (le jus)"
+        },
+        {
+          "texte": "Un filet d'huile d'olive"
+        },
+        {
+          "texte": "Margarine sans lactose"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "sac de légumes surgelés"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de bouillon de poulet, réduit de moitié"
+        },
+        {
+          "texte": "Paprika, sel, poivre"
+        },
+        {
+          "texte": "Parmesan, servi à part"
+        },
+        {
+          "texte": "Piment à table pour les adultes"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Cuire les pâtes.",
+    "Dans une grande poêle, faire fondre la margarine et ajouter le mélange ail-citron-huile.",
+    "Ajouter les crevettes. Crues : cuire jusqu'à ce qu'elles soient opaques (74 °C). Déjà cuites : seulement les réchauffer.",
+    "Ajouter le sac de légumes surgelés, le bouillon réduit et le paprika. Saler, poivrer.",
+    "Mélanger avec les pâtes égouttées.",
+    "Servir avec le parmesan à part ; les adultes ajoutent le piment."
+  ],
+  "mealPrep": [
+    "Sac ail-citron-huile (6 gousses hachées, jus d'1 citron, filet d'huile) : le congeler dès qu'il est fait, ou le préparer la veille et le garder au frigo. L'ail dans l'huile se garde 1 à 2 jours au frigo tout au plus.",
+    "Crevettes : les laisser dans leurs sacs d'origine au congélateur (noter si elles sont cuites ou crues).",
+    "Décongeler les crevettes au frigo la veille au soir. Oubli ? Eau froide, puis cuire tout de suite."
+  ],
+  "notes": [
+    "Version d'origine (méga succès) : environ 1 lb de crevettes, environ 900 g de pâtes, 1 sac de légumes surgelés, 10 gousses d'ail, huile d'olive et margarine sans lactose, ½ tasse de bouillon de poulet réduit de moitié, jus de citron, paprika, sel, poivre.",
+    "Pour avoir des lunchs : prévoir environ 2 lb de crevettes."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+  ],
+  "photo": "images/pates-crevettes-ail.jpg",
+  "credit": {
+    "texte": "Photo : naotakem — CC BY 2.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "naotakem",
+    "licence": "CC BY 2.0",
+    "licenceLien": "https://creativecommons.org/licenses/by/2.0",
+    "source": "Spaghetti with shrimp and broccoli in a lemon garlic sauce with lots of homegrown Italian parsley 自家栽培のイタリアンパセリをたっぷり散らしたエビとブロッコリーのスパゲティ.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Spaghetti_with_shrimp_and_broccoli_in_a_lemon_garlic_sauce_with_lots_of_homegrown_Italian_parsley_%E8%87%AA%E5%AE%B6%E6%A0%BD%E5%9F%B9%E3%81%AE%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%83%B3%E3%83%91%E3%82%BB%E3%83%AA%E3%82%92%E3%81%9F%E3%81%A3%E3%81%B7%E3%82%8A%E6%95%A3%E3%82%89%E3%81%97%E3%81%9F%E3%82%A8%E3%83%93%E3%81%A8%E3%83%96%E3%83%AD%E3%83%83%E3%82%B3%E3%83%AA%E3%83%BC%E3%81%AE%E3%82%B9%E3%83%91%E3%82%B2%E3%83%86%E3%82%A3.jpg"
+  }
+}

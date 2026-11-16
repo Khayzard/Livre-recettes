@@ -1,0 +1,188 @@
+{
+  "slug": "tacos-porc-hache",
+  "titre": "Tacos au porc haché et salade de chou",
+  "resume": "Porc haché aux épices maison douces, servi en buffet avec tortillas de maïs souples et salade de chou crémeuse.",
+  "portions": 10,
+  "temps": {
+    "prep": "20 min",
+    "cuisson": "20 min"
+  },
+  "tempsTotal": "40 min",
+  "etiquettes": [
+    "porc",
+    "tacos"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Porc haché",
+      "temp": "71 °C (160 °F)",
+      "note": "plus de rose"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Viande",
+      "items": [
+        {
+          "q": 3.5,
+          "u": "lb",
+          "nom": "de porc haché maigre"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "poivrons (pas verts)"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de sauce tomate (ou {{3|c. à soupe}} de ketchup)"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "d'eau"
+        }
+      ]
+    },
+    {
+      "groupe": "Épices maison (douces, sans coriandre)",
+      "items": [
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de chili en poudre (vérifier qu'il est sans coriandre)"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de cumin"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de paprika"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de poudre d'ail"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de poudre d'oignon"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "d'origan"
+        },
+        {
+          "q": 1.5,
+          "u": "c. à thé",
+          "nom": "de sel"
+        }
+      ]
+    },
+    {
+      "groupe": "Garnitures",
+      "items": [
+        {
+          "q": 20,
+          "u": "",
+          "nom": "tortillas de maïs souples",
+          "qMax": 24
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "carottes, râpées"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "tomates, en dés"
+        },
+        {
+          "q": 2,
+          "u": "t",
+          "nom": "de cheddar râpé sans lactose"
+        },
+        {
+          "texte": "Yogourt grec nature sans lactose (comme crème sure)"
+        },
+        {
+          "texte": "Salsa sans coriandre"
+        },
+        {
+          "texte": "Jus de lime"
+        }
+      ]
+    },
+    {
+      "groupe": "Salade de chou",
+      "items": [
+        {
+          "texte": "1 sac de mélange à salade de chou, ou ½ chou + 2 carottes râpées",
+          "pourBase": true
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de mayonnaise"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de vinaigre"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de sucre"
+        },
+        {
+          "texte": "Sel, poivre"
+        },
+        {
+          "texte": "Oignons verts"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Salade de chou : mélanger la vinaigrette, ajouter le chou et les oignons verts. Réfrigérer pendant la cuisson.",
+    "Faire dorer le porc avec l'oignon haché dans une grande poêle, 10 min, en défaisant la viande. Égoutter le gras.",
+    "Ajouter les poivrons en lanières et cuire 3 min. Ajouter les épices, la sauce tomate et l'eau. Mijoter 5 min (porc haché : 71 °C).",
+    "Réchauffer les tortillas (poêle sèche, ou micro-ondes 30 s sous un linge humide).",
+    "Servir en buffet : viande, carottes, tomates, fromage, yogourt, salsa, lime et salade de chou. Les adultes ajoutent le piquant."
+  ],
+  "substitutions": [
+    "Dinde ou poulet haché au lieu du porc.",
+    "2 sachets d'assaisonnement à tacos au lieu des épices maison (vérifier : souvent avec coriandre)."
+  ],
+  "conservation": [
+    "Bols tacos pour les lunchs (riz + viande + garnitures), ou viande en contenant séparé : 3–4 jours au frigo, se congèle.",
+    "Salade de chou : 2 jours."
+  ],
+  "photo": "images/tacos-porc-hache.jpg",
+  "credit": {
+    "texte": "Photo : Sarah Stierch (Missvain) — CC BY 4.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Sarah Stierch (Missvain)",
+    "licence": "CC BY 4.0",
+    "licenceLien": "https://creativecommons.org/licenses/by/4.0",
+    "source": "Chorizo and potato tacos - April 2023 - Sarah Stierch 01.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Chorizo_and_potato_tacos_-_April_2023_-_Sarah_Stierch_01.jpg"
+  }
+}

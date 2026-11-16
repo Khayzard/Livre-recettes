@@ -1,0 +1,114 @@
+{
+  "slug": "pates-poulet-crudites",
+  "titre": "Pâtés au poulet, crudités et trempette",
+  "resume": "Pâtés au poulet surgelés au four, servis avec des crudités et une trempette maison.",
+  "portions": 5,
+  "portionsNote": "5 à table + lunchs (selon le nombre de pâtés)",
+  "temps": {
+    "prep": "10 min",
+    "cuisson": "~50–60 min (selon la boîte)"
+  },
+  "tempsTotal": "1 h–1 h 10",
+  "etiquettes": [
+    "poulet",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Pâté au poulet",
+      "temp": "74 °C (165 °F)",
+      "note": "au centre"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Pâtés",
+      "items": [
+        {
+          "texte": "Pâtés au poulet surgelés : un par personne, plus les lunchs"
+        }
+      ]
+    },
+    {
+      "groupe": "Crudités",
+      "items": [
+        {
+          "q": 4,
+          "u": "",
+          "nom": "carottes"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "branches de céleri"
+        },
+        {
+          "q": 0.5,
+          "u": "",
+          "nom": "chou-fleur"
+        }
+      ]
+    },
+    {
+      "groupe": "Trempette",
+      "items": [
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de mayonnaise"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de yogourt grec nature sans lactose"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de jus de citron"
+        },
+        {
+          "texte": "Persil haché"
+        },
+        {
+          "texte": "Sel, poivre"
+        },
+        {
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de poudre d'ail"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Préchauffer le four selon la boîte (en général 400 °F / 200 °C). Ne pas décongeler les pâtés.",
+    "Retirer l'emballage, faire 2–3 petites fentes dans la croûte et déposer sur une plaque (pour les débordements).",
+    "Cuire selon la boîte, habituellement 50–60 min pour un grand pâté, jusqu'à ce que la croûte soit dorée et que la garniture bouillonne : 74 °C au centre. Si la croûte brunit trop vite, couvrir de papier d'aluminium.",
+    "Laisser reposer 5–10 min avant de couper.",
+    "Pendant la cuisson : couper les carottes et le céleri en bâtonnets, le chou-fleur en bouquets, et mélanger la trempette."
+  ],
+  "substitutions": [
+    "Trempette : vinaigrette ranch sans lactose du commerce."
+  ],
+  "conservation": [
+    "Portions refroidies en contenants dans l'heure : 3 jours au frigo. Réchauffer au micro-ondes à 74 °C. Crudités dans un contenant séparé."
+  ],
+  "notes": [
+    "Les pâtés du commerce contiennent souvent du lait : vérifier l'étiquette pour la personne intolérante au lactose."
+  ],
+  "photo": "images/pates-poulet-crudites.jpg",
+  "credit": {
+    "texte": "Photo : MonicaVereanaWilliams — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "MonicaVereanaWilliams",
+    "licence": "CC BY-SA 4.0",
+    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "Chicken Pot Pie, cut open.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Chicken_Pot_Pie,_cut_open.jpg"
+  }
+}

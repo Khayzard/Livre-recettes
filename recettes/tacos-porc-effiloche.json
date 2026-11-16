@@ -1,0 +1,159 @@
+{
+  "slug": "tacos-porc-effiloche",
+  "titre": "Tacos de porc effiloché (style birria) à la mijoteuse",
+  "resume": "Épaule de porc frottée aux épices douces, cuite tout doucement à la mijoteuse, servie dans des tortillas de maïs souples.",
+  "portions": 5,
+  "temps": {
+    "prep": "~20 min (la veille)",
+    "cuisson": "8–10 h à basse (ou 5–6 h à haute)"
+  },
+  "tempsTotal": "8–10 h (mijoteuse)",
+  "etiquettes": [
+    "porc",
+    "mijoteuse",
+    "tacos"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Porc",
+      "temp": "71 °C (160 °F)",
+      "note": "à cœur"
+    },
+    {
+      "quoi": "Pour effilocher",
+      "temp": "≈ 90–96 °C",
+      "note": "la viande se défait à la fourchette"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Porc",
+      "items": [
+        {
+          "q": 1.3,
+          "u": "kg",
+          "nom": "d'épaule de porc désossée"
+        },
+        {
+          "texte": "Frottage maison sans coriandre : paprika fumé, cumin, origan, ail en poudre, oignon en poudre, cassonade, sel, poivre"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon"
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de jus d'orange"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de jus de lime"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de bouillon"
+        }
+      ]
+    },
+    {
+      "groupe": "Pour servir",
+      "items": [
+        {
+          "q": 15,
+          "u": "",
+          "nom": "tortillas de maïs souples"
+        },
+        {
+          "q": 2,
+          "u": "t",
+          "nom": "de chou émincé"
+        },
+        {
+          "q": 0.5,
+          "u": "",
+          "nom": "oignon rouge"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "tomates"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "avocats"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "limes"
+        }
+      ]
+    },
+    {
+      "groupe": "Facultatif",
+      "items": [
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de fromage râpé sans lactose"
+        },
+        {
+          "q": 0.75,
+          "u": "t",
+          "nom": "de yogourt grec nature sans lactose"
+        },
+        {
+          "q": 0.75,
+          "u": "t",
+          "nom": "de salsa sans coriandre"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "La veille au soir : frotter l'épaule (complètement décongelée au frigo) avec le mélange d'épices, dans un contenant fermé, au frigo. Ne pas mettre la cuve froide de la mijoteuse dans la base chaude : risque de fêlure.",
+    "Le matin : déposer le porc dans la cuve à température ambiante avec l'oignon et l'ail.",
+    "Ajouter le jus d'orange, le jus de lime et le bouillon.",
+    "Cuire à basse température 8–10 h (ou à haute 5–6 h), jusqu'à ce que la viande s'effiloche facilement (≈ 90–96 °C).",
+    "Effilocher le porc à la fourchette et le remettre dans le jus.",
+    "Réchauffer les tortillas de maïs et servir avec le chou, l'oignon rouge, les tomates, l'avocat, la lime et les garnitures facultatives."
+  ],
+  "substitutions": [
+    "Le chili en poudre et l'assaisonnement à tacos du commerce contiennent souvent de la coriandre : faire le frottage maison.",
+    "Pas de coriandre dans la salsa : en choisir une sans coriandre ou ajouter du persil."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C.",
+    "Les restes deviennent le souper « restes de birria » : réchauffer à 74 °C."
+  ],
+  "liens": [
+    {
+      "slug": "restes-birria",
+      "texte": "Fiche : réchauffer les restes de birria"
+    }
+  ],
+  "photo": "images/tacos-porc-effiloche.jpg",
+  "credit": {
+    "texte": "Photo : Jj saezdeo — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Jj saezdeo",
+    "licence": "CC BY-SA 4.0",
+    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "Carnitas tacos.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Carnitas_tacos.jpg"
+  }
+}

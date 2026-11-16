@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Recette — Livre de recettes</title>
+  <meta name="theme-color" content="#b5482b">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="entete">
+    <div class="entete-int">
+      <a class="btn btn-clair" href="index.html" aria-label="Retour à toutes les recettes">← Recettes</a>
+      <nav><a class="btn btn-clair" href="semaine.html">Cette semaine</a></nav>
+    </div>
+  </header>
+
+  <main id="recette" class="contenu recette">
+    <p class="chargement">Chargement de la recette…</p>
+  </main>
+
+  <div id="cuisine" class="cuisine" hidden role="dialog" aria-modal="true" aria-labelledby="cuisine-titre">
+    <div class="cuisine-haut">
+      <p id="cuisine-titre" class="cuisine-titre"></p>
+      <button type="button" class="btn btn-clair" id="cuisine-fermer">Fermer ✕</button>
+    </div>
+    <p id="cuisine-num" class="cuisine-num"></p>
+    <div id="cuisine-etape" class="cuisine-etape" aria-live="polite"></div>
+    <p id="cuisine-eveil" class="cuisine-eveil"></p>
+    <div class="cuisine-bas">
+      <button type="button" class="btn btn-gros" id="cuisine-prec">← Précédente</button>
+      <button type="button" class="btn btn-gros btn-plein" id="cuisine-suiv">Suivante →</button>
+    </div>
+  </div>
+
+  <footer class="pied">
+    <p>Photos libres de droits — voir <a href="CREDITS.md">les crédits</a>.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+  <script>LR.pageRecette();</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Livre de recettes</title>
+  <meta name="description" content="Notre livre de recettes familial.">
+  <meta name="theme-color" content="#b5482b">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="entete">
+    <div class="entete-int">
+      <a class="logo" href="index.html" aria-label="Livre de recettes — accueil"><img src="assets/favicon.svg" alt="" width="36" height="36"><span class="logo-txt"><span class="logo-long">Livre de recettes</span><span class="logo-court" aria-hidden="true">Recettes</span></span></a>
+      <nav><a class="btn btn-clair" href="semaine.html">Cette semaine</a></nav>
+    </div>
+  </header>
+
+  <main class="contenu">
+    <section class="recherche" aria-label="Recherche et filtres">
+      <label for="q" class="visuellement-cache">Rechercher une recette</label>
+      <input id="q" type="search" placeholder="Rechercher une recette…" autocomplete="off">
+      <div id="filtres" class="filtres" role="group" aria-label="Filtrer par étiquette"></div>
+    </section>
+
+    <section id="sec-semaine" aria-labelledby="titre-semaine" hidden>
+      <div class="section-entete">
+        <h2 id="titre-semaine" class="section-titre">Au menu cette semaine</h2>
+        <a class="lien-section" href="semaine.html">Voir le menu →</a>
+      </div>
+      <div id="grille-semaine" class="grille"></div>
+    </section>
+
+    <section id="sec-toutes" aria-labelledby="titre-toutes">
+      <h2 id="titre-toutes" class="section-titre">Toutes les recettes</h2>
+      <p id="compte" class="compte" aria-live="polite"></p>
+      <div id="grille" class="grille"></div>
+    </section>
+    <p id="erreur" class="erreur" hidden></p>
+  </main>
+
+  <footer class="pied">
+    <p>Photos libres de droits — voir <a href="CREDITS.md">les crédits</a>.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+  <script>LR.pageAccueil();</script>
+</body>
+</html>

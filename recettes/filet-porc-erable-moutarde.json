@@ -1,0 +1,114 @@
+{
+  "slug": "filet-porc-erable-moutarde",
+  "titre": "Filet de porc érable et moutarde, légumes rôtis",
+  "resume": "Filets de porc marinés à l'érable et à la Dijon, saisis puis finis au four, avec une plaque de légumes rôtis.",
+  "portions": 5,
+  "temps": {
+    "total": "~40–45 min"
+  },
+  "tempsTotal": "40–45 min",
+  "etiquettes": [
+    "porc",
+    "meal prep",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Porc",
+      "temp": "71 °C (160 °F)",
+      "note": "à cœur"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Porc et marinade",
+      "items": [
+        {
+          "q": 2,
+          "u": "",
+          "nom": "filets de porc (400 à 500 g chacun environ)"
+        },
+        {
+          "q": 0.25,
+          "u": "t",
+          "nom": "de sirop d'érable"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de moutarde de Dijon"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile d'olive"
+        },
+        {
+          "texte": "Sel, poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Légumes rôtis",
+      "items": [
+        {
+          "q": 2,
+          "u": "",
+          "nom": "oignons, en quartiers"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "poivron (pas vert)"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "courgettes, en demi-rondelles"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "carottes environ"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Préchauffer le four à 400 °F (200 °C).",
+    "Étaler les légumes sur une plaque et les rôtir 25–35 min.",
+    "Pendant ce temps, saisir les filets marinés dans une poêle allant au four.",
+    "Enfourner les filets 20–25 min, jusqu'à 71 °C à cœur.",
+    "Laisser reposer 3–5 min, puis trancher. Servir avec les légumes."
+  ],
+  "mealPrep": [
+    "Sac 1 (congélateur) : 2 filets + marinade érable-Dijon.",
+    "Sac 2 (congélateur) : oignons, poivron, courgettes, carottes.",
+    "Décongeler au frigo la veille au soir."
+  ],
+  "notes": [
+    "Santé Canada accepte 63 °C suivi de 3 min de repos pour une pièce de porc entière ; on vise 71 °C pour rester simple."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+  ],
+  "photo": "images/filet-porc-erable-moutarde.jpg",
+  "credit": {
+    "texte": "Photo : Taylorderek — CC BY 4.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Taylorderek",
+    "licence": "CC BY 4.0",
+    "licenceLien": "https://creativecommons.org/licenses/by/4.0",
+    "source": "Seared and roasted Pork Tenderloin in Cast Iron Skillet.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Seared_and_roasted_Pork_Tenderloin_in_Cast_Iron_Skillet.jpg"
+  }
+}

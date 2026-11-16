@@ -1,0 +1,117 @@
+{
+  "slug": "gyros-poulet",
+  "titre": "Gyros au poulet et tzatziki sans lactose",
+  "resume": "Lanières de poulet marinées au yogourt et au citron, dans des pitas avec légumes et tzatziki maison.",
+  "portions": 10,
+  "temps": {
+    "prep": "marinade 2 à 8 h",
+    "cuisson": "18–22 min + 2–3 min sous le gril"
+  },
+  "tempsTotal": "25 min + marinade",
+  "etiquettes": [
+    "poulet",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet",
+      "temp": "74 °C (165 °F)",
+      "note": "au centre de la pièce la plus épaisse"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Poulet et marinade",
+      "items": [
+        {
+          "q": 1.6,
+          "u": "kg",
+          "nom": "de poulet, en lanières"
+        },
+        {
+          "q": 0.75,
+          "u": "t",
+          "nom": "de yogourt grec sans lactose"
+        },
+        {
+          "q": 0.25,
+          "u": "t",
+          "nom": "d'huile"
+        },
+        {
+          "q": 0.25,
+          "u": "t",
+          "nom": "de jus de citron"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "texte": "Origan, paprika, cumin, sel, poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Tzatziki",
+      "items": [
+        {
+          "q": 2,
+          "u": "t",
+          "nom": "de yogourt grec sans lactose"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "gros concombre, râpé et pressé"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "texte": "Citron, huile, aneth, sel"
+        }
+      ]
+    },
+    {
+      "groupe": "Pour servir",
+      "items": [
+        {
+          "q": 12,
+          "u": "",
+          "nom": "pitas (vérifier le lait)"
+        },
+        {
+          "texte": "Tomates, concombre, oignon rouge, laitue"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Mariner le poulet 2 à 8 h au frigo. Jeter la marinade ensuite.",
+    "Préparer le tzatziki : mélanger tous les ingrédients.",
+    "Cuire le poulet au four à 425 °F 18–22 min, puis 2–3 min sous le gril, jusqu'à 74 °C.",
+    "Réchauffer les pitas et garnir de poulet, de légumes et de tzatziki."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C.",
+    "Tzatziki : 3 jours."
+  ],
+  "photo": "images/gyros-poulet.jpg",
+  "credit": {
+    "texte": "Photo : Romainbehar — CC0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Romainbehar",
+    "licence": "CC0",
+    "licenceLien": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "Lyon 7e - Grande Rue de la Guillotière - Malting-Pot, poulet shawarma dans sa pita.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Lyon_7e_-_Grande_Rue_de_la_Guilloti%C3%A8re_-_Malting-Pot,_poulet_shawarma_dans_sa_pita.jpg"
+  }
+}

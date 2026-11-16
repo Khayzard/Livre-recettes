@@ -1,0 +1,166 @@
+{
+  "slug": "poulet-general-tao",
+  "titre": "Poulet Général Tao maison",
+  "resume": "Bouchées de poulet croustillantes dans une sauce sucrée-salée brillante, avec poivrons et riz.",
+  "portions": 10,
+  "temps": {
+    "prep": "25 min",
+    "cuisson": "30 min"
+  },
+  "tempsTotal": "55 min",
+  "etiquettes": [
+    "poulet"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet",
+      "temp": "74 °C (165 °F)",
+      "note": "au centre de la pièce la plus épaisse"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Poulet",
+      "items": [
+        {
+          "q": 3.5,
+          "u": "lb",
+          "nom": "de hauts de cuisse ou de poitrines de poulet désossés"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "œufs"
+        },
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de fécule de maïs"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de poivre"
+        },
+        {
+          "texte": "Huile végétale pour la friture (environ 1 po dans une grande poêle)"
+        }
+      ]
+    },
+    {
+      "groupe": "Sauce",
+      "items": [
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de sauce soya"
+        },
+        {
+          "q": 0.3333,
+          "u": "t",
+          "nom": "de sauce hoisin"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de cassonade"
+        },
+        {
+          "q": 0.3333,
+          "u": "t",
+          "nom": "de vinaigre de riz ou blanc"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "de ketchup"
+        },
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de bouillon de poulet"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "gousses d'ail, hachées"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de gingembre râpé (ou {{0.5|c. à thé}} moulu)"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "de fécule de maïs + {{0.25|t}} d'eau froide"
+        },
+        {
+          "texte": "Flocons de piment (facultatif, pour les adultes)"
+        }
+      ]
+    },
+    {
+      "groupe": "Légumes et service",
+      "items": [
+        {
+          "q": 3,
+          "u": "",
+          "nom": "poivrons (pas verts), en morceaux"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "botte d'oignons verts"
+        },
+        {
+          "texte": "Graines de sésame (facultatif)"
+        },
+        {
+          "q": 4,
+          "u": "t",
+          "nom": "de riz"
+        },
+        {
+          "q": 6,
+          "u": "t",
+          "nom": "d'eau"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Démarrer le riz : porter à ébullition avec l'eau, couvrir, cuire 18 min à feu doux et laisser reposer 5 min.",
+    "Couper le poulet en cubes de 1 po. Mélanger avec les œufs battus, puis enrober de fécule, de sel et de poivre.",
+    "Chauffer l'huile à 350 °F (175 °C). Frire le poulet en 3–4 fois, 4–5 min, jusqu'à ce qu'il soit doré et croustillant (74 °C). Égoutter sur une grille ou du papier essuie-tout. Version four : vaporiser d'huile et cuire à 425 °F 20–25 min en retournant à mi-cuisson.",
+    "Dans un wok ou une grande poêle, sauter les poivrons 3 min dans 1 c. à soupe d'huile. Retirer.",
+    "Sauce : chauffer l'ail et le gingembre 30 s, ajouter les autres ingrédients sauf la fécule délayée et porter à ébullition. Ajouter la fécule délayée et brasser 1 min, jusqu'à ce que la sauce soit épaisse et brillante.",
+    "Ajouter le poulet et les poivrons, enrober et garnir d'oignons verts et de sésame. Servir tout de suite sur le riz pour garder le croustillant."
+  ],
+  "substitutions": [
+    "Brocoli ou carottes au lieu des poivrons.",
+    "Miel au lieu de la cassonade."
+  ],
+  "conservation": [
+    "3–4 jours au frigo. Le poulet ramollit mais reste bon. Mettre la sauce à part si possible. Réchauffer au micro-ondes ou à la poêle, à 74 °C."
+  ],
+  "photo": "images/poulet-general-tao.jpg",
+  "credit": {
+    "texte": "Photo : Rick Audet — CC BY 2.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Rick Audet",
+    "licence": "CC BY 2.0",
+    "licenceLien": "https://creativecommons.org/licenses/by/2.0",
+    "source": "Flickr spine 472065553--General Tso's Chicken.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Flickr_spine_472065553--General_Tso%27s_Chicken.jpg"
+  }
+}

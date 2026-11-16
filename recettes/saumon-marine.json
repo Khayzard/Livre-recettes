@@ -1,0 +1,109 @@
+{
+  "slug": "saumon-marine",
+  "titre": "Saumon mariné, choux de Bruxelles rôtis et riz",
+  "resume": "Filets de saumon dans la marinade maison à la sauce soya, choux de Bruxelles rôtis et riz.",
+  "portions": 10,
+  "temps": {
+    "prep": "15 min + marinade (30 min à 4 h)",
+    "cuisson": "15–20 min (choux : 25–30 min)"
+  },
+  "tempsTotal": "45 min + marinade",
+  "etiquettes": [
+    "poisson",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Saumon",
+      "temp": "63 °C (145 °F)",
+      "note": "la chair se défait à la fourchette"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Saumon",
+      "items": [
+        {
+          "q": 3.5,
+          "u": "lb",
+          "nom": "de filets de saumon"
+        },
+        {
+          "texte": "Marinade maison (à base de sauce soya)"
+        }
+      ]
+    },
+    {
+      "groupe": "Choux de Bruxelles",
+      "items": [
+        {
+          "q": 3,
+          "u": "lb",
+          "nom": "de choux de Bruxelles"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "d'huile d'olive"
+        },
+        {
+          "texte": "Sel, poivre"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de poudre d'ail"
+        }
+      ]
+    },
+    {
+      "groupe": "Riz",
+      "items": [
+        {
+          "q": 4,
+          "u": "t",
+          "nom": "de riz à grains longs"
+        },
+        {
+          "q": 6,
+          "u": "t",
+          "nom": "d'eau ou de bouillon de poulet"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Mettre le saumon dans la marinade, au frigo, de 30 min à 4 h maximum (plus longtemps, l'acide ou le sel « cuit » le poisson).",
+    "Préchauffer le four à 400 °F (200 °C).",
+    "Choux de Bruxelles : couper les bouts, couper en deux, mélanger avec l'huile, le sel, le poivre et l'ail. Étaler face coupée en dessous et rôtir 25–30 min (enfourner avant le saumon).",
+    "Riz : rincer, porter à ébullition avec l'eau ou le bouillon et le sel. Couvrir, cuire 18 min à feu doux et laisser reposer 5 min.",
+    "Saumon : égoutter les filets (jeter la marinade crue, ou la faire bouillir 2 min pour en faire une sauce). Cuire sur une plaque avec papier parchemin 12–18 min selon l'épaisseur, jusqu'à 63 °C."
+  ],
+  "substitutions": [
+    "Truite au lieu du saumon.",
+    "Brocoli surgelé au lieu des choux de Bruxelles."
+  ],
+  "conservation": [
+    "Saumon et riz : 3 jours maximum au frigo. Bon froid sur du riz ou réchauffé doucement (couvert pour garder l'humidité).",
+    "Riz : réfrigérer dans l'heure."
+  ],
+  "photo": "images/saumon-marine.jpg",
+  "credit": {
+    "texte": "Photo : Prayitno — CC BY 2.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Prayitno",
+    "licence": "CC BY 2.0",
+    "licenceLien": "https://creativecommons.org/licenses/by/2.0",
+    "source": "Grilled Teriyaki Salmon (10900376705).jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Grilled_Teriyaki_Salmon_(10900376705).jpg"
+  }
+}

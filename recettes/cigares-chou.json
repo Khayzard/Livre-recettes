@@ -1,0 +1,115 @@
+{
+  "slug": "cigares-chou",
+  "titre": "Cigares au chou au porc haché",
+  "resume": "Feuilles de chou roulées autour d'une farce porc haché et riz, cuites au four dans une sauce tomate.",
+  "portions": 5,
+  "portionsNote": "environ 12 à 14 cigares",
+  "temps": {
+    "cuisson": "1 h 30 au four"
+  },
+  "tempsTotal": "Four 1 h 30",
+  "etiquettes": [
+    "porc",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Centre des cigares",
+      "temp": "71 °C (160 °F)",
+      "note": "porc haché"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Farce",
+      "items": [
+        {
+          "q": 1,
+          "u": "",
+          "nom": "gros chou"
+        },
+        {
+          "q": 700,
+          "u": "g",
+          "nom": "de porc haché"
+        },
+        {
+          "q": 0.75,
+          "u": "t",
+          "nom": "de riz sec (≈ {{2.25|t}} cuit, précuit 15 min)"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "œuf"
+        },
+        {
+          "texte": "Paprika, sel, poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Sauce",
+      "items": [
+        {
+          "q": 796,
+          "u": "ml",
+          "nom": "de tomates broyées"
+        },
+        {
+          "q": 680,
+          "u": "ml",
+          "nom": "de sauce tomate"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de cassonade"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de vinaigre de cidre"
+        },
+        {
+          "texte": "Paprika, sel"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Précuire le riz 15 min.",
+    "Blanchir le chou entier dans une très grande casserole d'eau bouillante et détacher 12 à 14 feuilles. (Si ça ne marche pas : chou haché au fond du plat, en « cigares paresseux ».)",
+    "Mélanger le porc, le riz, l'oignon, l'ail, l'œuf, le paprika, le sel et le poivre.",
+    "Rouler environ ⅓ tasse de farce dans chaque feuille.",
+    "Mélanger les ingrédients de la sauce et en napper les cigares dans un plat.",
+    "Cuire à 350 °F (175 °C), couvert, 1 h 15, puis 15 min à découvert. Le centre doit atteindre 71 °C."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+  ],
+  "photo": "images/cigares-chou.jpg",
+  "credit": {
+    "texte": "Photo : HaJunkiyada — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "HaJunkiyada",
+    "licence": "CC BY-SA 4.0",
+    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "Liat Portal for Foodie Disorder - Stuffed cabbage (homemade).jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Stuffed_cabbage_(homemade).jpg"
+  }
+}

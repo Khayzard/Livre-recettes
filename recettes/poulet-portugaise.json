@@ -1,0 +1,121 @@
+{
+  "slug": "poulet-portugaise",
+  "titre": "Poulet à la portugaise, riz et patates rôties",
+  "resume": "Cuisses de poulet marinées au citron, à l'ail et au paprika doux, rôties avec les patates. Servi avec du riz.",
+  "portions": 10,
+  "portionsNote": "5 à table + lunchs",
+  "temps": {
+    "total": "~60 min"
+  },
+  "tempsTotal": "60 min",
+  "etiquettes": [
+    "poulet",
+    "meal prep",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet (avec os)",
+      "temp": "74 °C (165 °F)",
+      "note": "thermomètre sans toucher l'os"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Poulet et marinade",
+      "items": [
+        {
+          "q": 2.7,
+          "u": "kg",
+          "nom": "de cuisses de poulet avec dos"
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "citrons (le jus)"
+        },
+        {
+          "q": 8,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "d'huile d'olive"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "de paprika doux (le fumé est permis)"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'origan"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "feuilles de laurier"
+        },
+        {
+          "texte": "Sel, poivre"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon, en quartiers"
+        }
+      ]
+    },
+    {
+      "groupe": "Accompagnements",
+      "items": [
+        {
+          "texte": "Pommes de terre"
+        },
+        {
+          "q": 3,
+          "u": "t",
+          "nom": "de riz sec"
+        },
+        {
+          "texte": "Persil"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Couper les pommes de terre le jour même.",
+    "Préchauffer le four à 400–425 °F (200–220 °C).",
+    "Étaler les cuisses marinées (avec l'oignon) et les patates sur les plaques. Cuire 45–55 min, jusqu'à 74 °C sans toucher l'os.",
+    "Pendant la cuisson, cuire le riz selon l'emballage.",
+    "Garnir de persil et servir."
+  ],
+  "mealPrep": [
+    "Sac (congélateur) : cuisses + marinade paprika-citron + oignon en quartiers.",
+    "Décongeler au frigo environ 48 h avant. La veille, vérifier que c'est décongelé jusqu'au centre ; sinon, sac étanche dans l'eau froide changée toutes les 30 min."
+  ],
+  "substitutions": [
+    "Pas de piri-piri dans la marinade (épices douces). Une sauce piri-piri douce peut être servie à table pour les adultes."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C.",
+    "Riz : réfrigérer dans l'heure."
+  ],
+  "photo": "images/poulet-portugaise.jpg",
+  "credit": {
+    "texte": "Photo : Kolforn — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Kolforn",
+    "licence": "CC BY-SA 4.0",
+    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "2018-02-03 Chicken Piri-Piri, Albufeira (1).JPG",
+    "lien": "https://commons.wikimedia.org/wiki/File:2018-02-03_Chicken_Piri-Piri,_Albufeira_(1).JPG"
+  }
+}

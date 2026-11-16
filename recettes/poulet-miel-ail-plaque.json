@@ -1,0 +1,119 @@
+{
+  "slug": "poulet-miel-ail-plaque",
+  "titre": "Poulet miel-ail sur plaque, riz et légumes",
+  "resume": "Cuisses de poulet marinées miel, ail et soya, rôties sur la plaque avec les légumes. Servi avec du riz.",
+  "portions": 10,
+  "portionsNote": "5 à table + lunchs",
+  "temps": {
+    "total": "~55–65 min"
+  },
+  "tempsTotal": "55–65 min",
+  "etiquettes": [
+    "poulet",
+    "meal prep",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet (avec os)",
+      "temp": "74 °C (165 °F)",
+      "note": "thermomètre sans toucher l'os"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Poulet et marinade",
+      "items": [
+        {
+          "q": 2.7,
+          "u": "kg",
+          "nom": "de cuisses de poulet avec dos"
+        },
+        {
+          "q": 0.75,
+          "u": "t",
+          "nom": "de miel"
+        },
+        {
+          "q": 0.3333,
+          "u": "t",
+          "nom": "de sauce soya"
+        },
+        {
+          "q": 8,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de ketchup"
+        },
+        {
+          "texte": "Sel, poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Légumes",
+      "items": [
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon, en quartiers"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "poivrons rouges, jaunes ou orange (pas verts), en morceaux"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "carottes environ, en morceaux"
+        }
+      ]
+    },
+    {
+      "groupe": "Accompagnement",
+      "items": [
+        {
+          "q": 3,
+          "u": "t",
+          "nom": "de riz sec"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Préchauffer le four à 400–425 °F (200–220 °C).",
+    "Étaler les cuisses marinées et les légumes sur la plaque. Les légumes peuvent aller au four encore congelés (compter 5 à 10 min de plus).",
+    "Cuire 45–55 min, jusqu'à 74 °C (thermomètre sans toucher l'os).",
+    "Environ 20 min avant la fin, cuire le riz selon l'emballage.",
+    "Servir le poulet et les légumes sur le riz."
+  ],
+  "mealPrep": [
+    "Sac 1 (congélateur) : cuisses + marinade miel-ail-soya.",
+    "Sac 2 (congélateur) : oignon en quartiers, poivrons, carottes.",
+    "Décongeler les cuisses au frigo 24 à 48 h avant (cuisses avec os). Jamais sur le comptoir.",
+    "Si le poulet est acheté le jour même : ne pas congeler, mariner le matin et cuire le soir."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C.",
+    "Riz : réfrigérer dans l'heure."
+  ],
+  "photo": "images/poulet-miel-ail-plaque.jpg",
+  "credit": {
+    "texte": "Photo : jeffreyw — CC BY 2.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "jeffreyw",
+    "licence": "CC BY 2.0",
+    "licenceLien": "https://creativecommons.org/licenses/by/2.0",
+    "source": "Lemon garlic sticky chicken (15197532677).jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Lemon_garlic_sticky_chicken_(15197532677).jpg"
+  }
+}

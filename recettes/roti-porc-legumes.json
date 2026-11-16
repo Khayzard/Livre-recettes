@@ -1,0 +1,131 @@
+{
+  "slug": "roti-porc-legumes",
+  "titre": "Rôti de porc, patates et carottes rôties",
+  "resume": "Rôti frotté à la moutarde, à l'ail et aux herbes, avec patates et carottes rôties et une petite sauce.",
+  "portions": 10,
+  "temps": {
+    "prep": "20 min",
+    "cuisson": "~1 h 30–2 h (selon le poids) + 15 min de repos"
+  },
+  "tempsTotal": "2 h–2 h 35",
+  "etiquettes": [
+    "porc",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Porc",
+      "temp": "71 °C (160 °F)",
+      "note": "à cœur"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Rôti",
+      "items": [
+        {
+          "q": 3,
+          "u": "lb",
+          "nom": "de rôti de porc environ",
+          "qMax": 4
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de moutarde de Dijon"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de thym ou d'herbes de Provence"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile"
+        },
+        {
+          "texte": "Sel, poivre"
+        },
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de bouillon de poulet"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de fécule de maïs délayée (pour la sauce)"
+        }
+      ]
+    },
+    {
+      "groupe": "Légumes",
+      "items": [
+        {
+          "q": 5,
+          "u": "lb",
+          "nom": "de pommes de terre"
+        },
+        {
+          "q": 6,
+          "u": "",
+          "nom": "carottes",
+          "qMax": 8
+        },
+        {
+          "texte": "Chou-fleur (si disponible)"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "d'huile"
+        },
+        {
+          "texte": "Sel, poivre, paprika"
+        },
+        {
+          "texte": "Persil"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Si le rôti est congelé : le décongeler au frigo (environ 24 h par 4–5 lb).",
+    "Sortir le rôti 30 min avant. Préchauffer le four à 450 °F (230 °C).",
+    "Assécher le rôti, le frotter avec l'huile, la moutarde, l'ail, les herbes, le sel et le poivre. Le mettre dans une rôtissoire avec le bouillon au fond.",
+    "Saisir 15 min à 450 °F, puis baisser à 325 °F (165 °C). Compter environ 25 min par livre au total.",
+    "Pommes de terre en quartiers et carottes en tronçons, mélangées avec l'huile, le sel, le poivre et le paprika : autour du rôti ou sur une plaque à part, 50–60 min avant la fin. Monter à 400 °F pour les 20 dernières minutes au besoin (rôti couvert).",
+    "Cuire le porc jusqu'à 71 °C à cœur. Repos de 15 min sous papier d'aluminium, puis trancher.",
+    "Sauce : déglacer la rôtissoire avec un peu de bouillon et épaissir avec la fécule délayée."
+  ],
+  "substitutions": [
+    "Patates douces.",
+    "Mijoteuse 8 h à basse température si on est pressé le matin."
+  ],
+  "notes": [
+    "La source indique 63 °C (145 °F) pour un rôti juteux légèrement rosé ; Santé Canada accepte 63 °C + 3 min de repos pour une pièce entière. On garde 71 °C pour rester simple."
+  ],
+  "conservation": [
+    "Tranches de porc + légumes : 3–4 jours au frigo. Le reste du porc fait de bons sandwichs ou un riz frit."
+  ],
+  "photo": "images/roti-porc-legumes.jpg",
+  "credit": {
+    "texte": "Photo : Kham Tran — CC BY-SA 3.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Kham Tran",
+    "licence": "CC BY-SA 3.0",
+    "licenceLien": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "Sunday-Pork-Roast-2008.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Sunday-Pork-Roast-2008.jpg"
+  }
+}

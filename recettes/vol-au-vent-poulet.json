@@ -1,0 +1,116 @@
+{
+  "slug": "vol-au-vent-poulet",
+  "titre": "Vol-au-vent au poulet et légumes",
+  "resume": "Poulet et légumes dans une sauce crémeuse sans lactose, servis dans des croûtes feuilletées.",
+  "portions": 10,
+  "etiquettes": [
+    "poulet"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet",
+      "temp": "74 °C (165 °F)",
+      "note": "au centre de la pièce la plus épaisse"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Garniture",
+      "items": [
+        {
+          "q": 1.4,
+          "u": "kg",
+          "nom": "de poulet, en cubes"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon"
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "carottes"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "branches de céleri"
+        },
+        {
+          "q": 227,
+          "u": "g",
+          "nom": "de champignons"
+        },
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de maïs"
+        }
+      ]
+    },
+    {
+      "groupe": "Sauce sans lactose",
+      "items": [
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de margarine sans produits laitiers"
+        },
+        {
+          "q": 0.6667,
+          "u": "t",
+          "nom": "de farine"
+        },
+        {
+          "q": 4,
+          "u": "t",
+          "nom": "de bouillon"
+        },
+        {
+          "q": 2,
+          "u": "t",
+          "nom": "de lait sans lactose"
+        },
+        {
+          "texte": "Thym"
+        }
+      ]
+    },
+    {
+      "groupe": "Pour servir",
+      "items": [
+        {
+          "q": 10,
+          "u": "",
+          "nom": "croûtes de vol-au-vent (vérifier le beurre)"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Saisir les cubes de poulet.",
+    "Ajouter les légumes et les faire revenir.",
+    "Faire un roux avec la margarine et la farine, puis ajouter le bouillon et le lait pour faire la sauce. Ajouter le thym.",
+    "Mijoter 10–12 min, jusqu'à ce que le poulet atteigne 74 °C.",
+    "Servir dans les croûtes chaudes."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C.",
+    "Lunchs : garniture et 5 croûtes séparées ; réchauffer la garniture à 74 °C."
+  ],
+  "photo": "images/vol-au-vent-poulet.jpg",
+  "credit": {
+    "texte": "Photo : Heipedia — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Heipedia",
+    "licence": "CC BY-SA 4.0",
+    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "Koninginnehapje.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Koninginnehapje.jpg"
+  }
+}

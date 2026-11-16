@@ -1,0 +1,160 @@
+{
+  "slug": "wraps-cesar-poulet",
+  "titre": "Wraps César au poulet",
+  "resume": "Poulet mariné au citron, romaine, croûtons et sauce César sans lactose maison, roulés dans une tortilla.",
+  "portions": 10,
+  "temps": {
+    "prep": "20 min",
+    "cuisson": "20 min"
+  },
+  "tempsTotal": "40 min",
+  "etiquettes": [
+    "poulet"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet",
+      "temp": "74 °C (165 °F)",
+      "note": "au centre de la pièce la plus épaisse"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Poulet",
+      "items": [
+        {
+          "q": 3.5,
+          "u": "lb",
+          "nom": "de poitrines de poulet"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "d'huile"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de jus de citron"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de poudre d'ail"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de paprika"
+        },
+        {
+          "texte": "Sel, poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Wraps",
+      "items": [
+        {
+          "q": 2,
+          "u": "",
+          "nom": "cœurs de laitue romaine",
+          "qMax": 3
+        },
+        {
+          "q": 1,
+          "u": "lb",
+          "nom": "de bacon (facultatif)"
+        },
+        {
+          "q": 10,
+          "u": "",
+          "nom": "grandes tortillas",
+          "qMax": 12
+        },
+        {
+          "texte": "Croûtons ou pain grillé en cubes"
+        },
+        {
+          "texte": "Parmesan (faible en lactose) ou fromage râpé sans lactose"
+        }
+      ]
+    },
+    {
+      "groupe": "Sauce César sans lactose",
+      "items": [
+        {
+          "q": 0.75,
+          "u": "t",
+          "nom": "de mayonnaise"
+        },
+        {
+          "q": 0.25,
+          "u": "t",
+          "nom": "de yogourt grec nature sans lactose"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de jus de citron"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de moutarde de Dijon"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sauce Worcestershire"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "gousses d'ail, râpées"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "de parmesan"
+        },
+        {
+          "texte": "Poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "À côté",
+      "items": [
+        {
+          "texte": "Crudités : céleri, chou-fleur"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Mariner le poulet 15 min (ou le matin même).",
+    "Cuire à la poêle ou au BBQ, 6–7 min par côté, ou au four à 425 °F pendant 20 min, jusqu'à 74 °C. Reposer 5 min, puis trancher.",
+    "Mélanger la sauce César.",
+    "Hacher la romaine et la mélanger avec la sauce, les croûtons, le parmesan et le bacon émietté.",
+    "Réchauffer les tortillas 15 s. Garnir de salade et de poulet, rouler serré et couper en deux.",
+    "Servir avec les crudités."
+  ],
+  "substitutions": [
+    "Sauce César du commerce (vérifier le lactose).",
+    "Pain pita au lieu des tortillas."
+  ],
+  "conservation": [
+    "Ne pas monter les wraps d'avance. Poulet tranché : 3–4 jours au frigo ; salade et sauce en contenants séparés, à assembler le matin même.",
+    "Sauce César : 3 jours."
+  ],
+  "photo": "images/wraps-cesar-poulet.jpg",
+  "credit": {
+    "texte": "Photo : Dough4872 — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Dough4872",
+    "licence": "CC BY-SA 4.0",
+    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "Wegmans Chicken Caesar Wheat Wrap.jpeg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Wegmans_Chicken_Caesar_Wheat_Wrap.jpeg"
+  }
+}

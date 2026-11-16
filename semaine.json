@@ -1,0 +1,17 @@
+{
+  "titre": "Menu de la semaine",
+  "periode": "Du lundi 16 au dimanche 22 novembre 2026",
+  "notes": [
+    "Pas de coriandre (persil à la place), pas de poivron vert, produits laitiers sans lactose, épices douces.",
+    "Réfrigérer les restes dans les 2 h ; réchauffer à 74 °C."
+  ],
+  "jours": [
+    { "date": "2026-11-16", "jour": "Lundi 16", "slug": "restes-birria", "titre": "Restes de birria", "portions": "Selon les restes", "note": "Réchauffer à 74 °C. Souper rapide." },
+    { "date": "2026-11-17", "jour": "Mardi 17", "slug": "cotelettes-porc-pommes", "titre": "Côtelettes de porc aux pommes, patates et brocoli", "portions": "10", "note": "Porc à 71 °C." },
+    { "date": "2026-11-18", "jour": "Mercredi 18", "slug": "poulet-miel-ail-plaque", "titre": "Poulet miel-ail sur plaque avec riz", "portions": "10", "note": "Poulet à 74 °C." },
+    { "date": "2026-11-19", "jour": "Jeudi 19", "slug": "saute-porc-asiatique", "titre": "Sauté de porc à l'asiatique", "portions": "10", "note": "Porc à 71 °C." },
+    { "date": "2026-11-20", "jour": "Vendredi 20", "slug": "pates-crevettes-ail", "titre": "Pâtes aux crevettes à l'ail", "portions": "5", "note": "Parmesan à part." },
+    { "date": "2026-11-21", "jour": "Samedi 21", "slug": "filet-porc-erable-moutarde", "titre": "Filet de porc érable-moutarde", "portions": "5", "note": "Porc à 71 °C." },
+    { "date": "2026-11-22", "jour": "Dimanche 22", "slug": "poulet-portugaise", "titre": "Poulet à la portugaise", "portions": "10", "note": "Poulet à 74 °C." }
+  ]
+}

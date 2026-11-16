@@ -1,0 +1,13 @@
+{
+  "name": "Livre de recettes",
+  "short_name": "Recettes",
+  "lang": "fr-CA",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf7f0",
+  "theme_color": "#b5482b",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

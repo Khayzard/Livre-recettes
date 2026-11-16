@@ -1,0 +1,121 @@
+{
+  "slug": "cotelettes-porc-pommes",
+  "titre": "Côtelettes de porc aux pommes, patates et brocoli",
+  "resume": "Côtelettes marinées Dijon-thym-ail, poêlées avec oignons, pommes et jus de pomme. Patates et brocoli en accompagnement.",
+  "portions": 10,
+  "portionsNote": "5 à table + lunchs",
+  "temps": {
+    "total": "~45–50 min"
+  },
+  "tempsTotal": "45–50 min",
+  "etiquettes": [
+    "porc",
+    "meal prep"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Porc",
+      "temp": "71 °C (160 °F)",
+      "note": "à cœur"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Côtelettes et marinade",
+      "items": [
+        {
+          "q": 1.5,
+          "u": "kg",
+          "nom": "de côtelettes de porc désossées",
+          "qMax": 1.6
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de moutarde de Dijon"
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de thym"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile"
+        },
+        {
+          "texte": "Sel, poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Poêlée",
+      "items": [
+        {
+          "q": 2,
+          "u": "",
+          "nom": "oignons jaunes, tranchés"
+        },
+        {
+          "q": 8,
+          "u": "",
+          "nom": "pommes à cuire, tranchées"
+        },
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de jus de pomme"
+        }
+      ]
+    },
+    {
+      "groupe": "Accompagnements",
+      "items": [
+        {
+          "texte": "Petites pommes de terre"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "couronnes de brocoli"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Couper les pommes de terre le jour même. Les cuire au four à 400–425 °F (200–220 °C) 35–45 min, ou à l'eau 20–25 min.",
+    "Saisir les côtelettes marinées dans une grande poêle chaude.",
+    "Ajouter les oignons tranchés, les 8 pommes tranchées et 1 tasse de jus de pomme. Cuire jusqu'à 71 °C à cœur.",
+    "Couper le brocoli le jour même et le cuire 15–20 min.",
+    "Servir les côtelettes avec les oignons et les pommes, les patates et le brocoli."
+  ],
+  "mealPrep": [
+    "Sac 1 (frigo) : 2 oignons jaunes tranchés.",
+    "Sac 2 (frigo) : côtelettes + marinade (Dijon, ail, thym, huile, sel, poivre). Le jus de pomme s'ajoute seulement à la cuisson.",
+    "Porc cru : 1 à 2 jours au frigo seulement, sinon congeler.",
+    "Ne pas couper d'avance : pommes de terre, brocoli, pommes."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+  ],
+  "photo": "images/cotelettes-porc-pommes.jpg",
+  "credit": {
+    "texte": "Photo : Alex Munsell — CC0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Alex Munsell",
+    "licence": "CC0",
+    "licenceLien": "https://creativecommons.org/publicdomain/zero/1.0/deed.fr",
+    "source": "Alex Munsell 2015-05-20 (Unsplash Yr4n8O 3UPc).jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Alex_Munsell_2015-05-20_(Unsplash_Yr4n8O_3UPc).jpg"
+  }
+}

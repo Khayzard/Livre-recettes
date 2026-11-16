@@ -1,0 +1,119 @@
+{
+  "slug": "salade-cesar-poulet",
+  "titre": "Salade César au poulet",
+  "resume": "Grosse salade César au poulet, bacon et croûtons maison, avec une sauce sans lactose.",
+  "portions": 10,
+  "temps": {
+    "cuisson": "~50 min de four (ou poulet déjà cuit)"
+  },
+  "tempsTotal": "~50 min",
+  "etiquettes": [
+    "poulet",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet",
+      "temp": "74 °C (165 °F)",
+      "note": "au centre de la pièce la plus épaisse"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Salade",
+      "items": [
+        {
+          "q": 1.2,
+          "u": "kg",
+          "nom": "de poulet"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "cœurs de romaine",
+          "qMax": 5
+        },
+        {
+          "q": 450,
+          "u": "g",
+          "nom": "de bacon"
+        },
+        {
+          "q": 4,
+          "u": "t",
+          "nom": "de croûtons (vérifier le lait) ou maison"
+        }
+      ]
+    },
+    {
+      "groupe": "Sauce sans lactose",
+      "items": [
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de mayonnaise"
+        },
+        {
+          "q": 0.25,
+          "u": "t",
+          "nom": "de yogourt grec sans lactose"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "de jus de citron"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de moutarde de Dijon"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de sauce Worcestershire"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "texte": "Poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Facultatif",
+      "items": [
+        {
+          "texte": "Parmesan, servi à part"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Bacon au four à 400 °F, 15–18 min.",
+    "Croûtons dans le même four, 8–10 min.",
+    "Monter le four à 425 °F et cuire le poulet 20–25 min, jusqu'à 74 °C (environ 50 min de four en tout). Ou utiliser du poulet cuit la veille.",
+    "Mélanger la sauce.",
+    "Hacher la romaine, ajouter le poulet tranché, le bacon émietté, les croûtons et la sauce."
+  ],
+  "substitutions": [
+    "La sauce Worcestershire contient habituellement des anchois : vérifier, ou remplacer par sauce soya + vinaigre.",
+    "Parmesan seulement à part, pour la personne qui ne tolère pas le lactose."
+  ],
+  "conservation": [
+    "Lunchs : composants séparés.",
+    "Sauce César : 3 jours."
+  ],
+  "photo": "images/salade-cesar-poulet.jpg",
+  "credit": {
+    "texte": "Photo : Daderot — CC0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Daderot",
+    "licence": "CC0",
+    "licenceLien": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "Chicken Caesar salad - Auckland, New Zealand.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Chicken_Caesar_salad_-_Auckland,_New_Zealand.jpg"
+  }
+}

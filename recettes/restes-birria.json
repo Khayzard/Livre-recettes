@@ -1,0 +1,75 @@
+{
+  "slug": "restes-birria",
+  "titre": "Restes de birria réchauffés",
+  "resume": "Souper express : on réchauffe la birria (porc effiloché) déjà cuite et on sert en tacos.",
+  "portions": null,
+  "portionsNote": "Selon ce qui reste",
+  "temps": {
+    "total": "~15 min"
+  },
+  "tempsTotal": "15 min",
+  "etiquettes": [
+    "porc",
+    "restes",
+    "rapide",
+    "tacos"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Restes de birria",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre, en brassant"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "",
+      "items": [
+        {
+          "texte": "Restes de birria (porc effiloché) déjà cuits"
+        },
+        {
+          "texte": "Tortillas de maïs souples (vérifier ce qu'il reste)"
+        },
+        {
+          "texte": "Garnitures : oignon, lime ou citron, persil (pas de coriandre)"
+        },
+        {
+          "texte": "Facultatif, selon ce qui reste : chou émincé, tomates, fromage râpé sans lactose, yogourt grec nature sans lactose, salsa sans coriandre"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Réchauffer les restes de birria dans une casserole ou une poêle (ou au micro-ondes), en brassant, jusqu'à 74 °C au centre.",
+    "Pendant ce temps, réchauffer les tortillas de maïs : poêle sèche, ou micro-ondes 30 s sous un linge humide.",
+    "Préparer les garnitures : oignon haché, quartiers de lime ou de citron, persil haché.",
+    "Servir en tacos. Les adultes ajoutent le piquant à table.",
+    "Remettre les restes au frigo en moins de 2 h."
+  ],
+  "substitutions": [
+    "Persil au lieu de la coriandre.",
+    "Lime ou citron, selon ce qu'il y a."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+  ],
+  "notes": [
+    "Recette d'origine : « Tacos de porc effiloché (style birria) à la mijoteuse »."
+  ],
+  "liens": [
+    {
+      "slug": "tacos-porc-effiloche",
+      "texte": "Voir la recette de birria à la mijoteuse"
+    }
+  ],
+  "photo": "images/restes-birria.jpg",
+  "credit": {
+    "texte": "Photo : Sarah Stierch (Missvain) — CC BY 4.0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Sarah Stierch (Missvain)",
+    "licence": "CC BY 4.0",
+    "licenceLien": "https://creativecommons.org/licenses/by/4.0",
+    "source": "Quesabirria at Taqueria La Hacienda, Sonoma, California - Sarah Stierch.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Quesabirria_at_Taqueria_La_Hacienda,_Sonoma,_California_-_Sarah_Stierch.jpg"
+  }
+}

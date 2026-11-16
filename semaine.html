@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Cette semaine — Livre de recettes</title>
+  <meta name="theme-color" content="#b5482b">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="entete">
+    <div class="entete-int">
+      <a class="btn btn-clair" href="index.html">← Recettes</a>
+    </div>
+  </header>
+
+  <main class="contenu">
+    <h1 id="semaine-titre">Cette semaine</h1>
+    <p id="semaine-periode" class="sous-titre"></p>
+    <ol id="semaine" class="semaine"></ol>
+    <ul id="semaine-notes" class="notes-semaine"></ul>
+    <p id="erreur" class="erreur" hidden></p>
+  </main>
+
+  <footer class="pied">
+    <p>Photos libres de droits — voir <a href="CREDITS.md">les crédits</a>.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+  <script>LR.pageSemaine();</script>
+</body>
+</html>

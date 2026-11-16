@@ -1,0 +1,116 @@
+{
+  "slug": "macaroni-porc-hache",
+  "titre": "Macaroni au porc haché",
+  "resume": "Le macaroni à la viande, version porc haché : sauce tomate pleine de légumes, avec une salade.",
+  "portions": 10,
+  "etiquettes": [
+    "porc"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Porc haché",
+      "temp": "71 °C (160 °F)",
+      "note": "plus de rose"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Sauce",
+      "items": [
+        {
+          "q": 1.4,
+          "u": "kg",
+          "nom": "de porc haché"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "oignons"
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "branches de céleri"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "carottes, râpées"
+        },
+        {
+          "q": 227,
+          "u": "g",
+          "nom": "de champignons"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "boîtes de 796 ml de tomates en dés"
+        },
+        {
+          "q": 680,
+          "u": "ml",
+          "nom": "de sauce tomate"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de pâte de tomate"
+        },
+        {
+          "texte": "Origan, basilic, paprika, sucre, sel, poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Pâtes",
+      "items": [
+        {
+          "q": 900,
+          "u": "g",
+          "nom": "de macaroni"
+        }
+      ]
+    },
+    {
+      "groupe": "Salade",
+      "items": [
+        {
+          "texte": "Romaine, concombre, tomates"
+        },
+        {
+          "texte": "Vinaigrette Dijon-miel"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Matériel : une casserole de 8 L ou plus pour la sauce et une grande marmite séparée pour les pâtes.",
+    "Faire dorer le porc avec les oignons, l'ail, le céleri, les carottes et les champignons, jusqu'à 71 °C.",
+    "Ajouter les tomates, la sauce tomate, la pâte de tomate et les assaisonnements. Mijoter 20 min.",
+    "Cuire le macaroni al dente et l'égoutter.",
+    "Mélanger les pâtes et la sauce. Servir avec la salade."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+  ],
+  "photo": "images/macaroni-porc-hache.jpg",
+  "credit": {
+    "texte": "Photo : Roundhere44 — CC0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Roundhere44",
+    "licence": "CC0",
+    "licenceLien": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "American Chop Suey on White Plate.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:American_Chop_Suey_on_White_Plate.jpg"
+  }
+}

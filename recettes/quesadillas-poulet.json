@@ -1,0 +1,129 @@
+{
+  "slug": "quesadillas-poulet",
+  "titre": "Quesadillas au poulet et crudités",
+  "resume": "Quesadillas au poulet épicé (doux), poivrons, maïs et fromage sans lactose, avec crudités et trempette à l'aneth.",
+  "portions": 10,
+  "etiquettes": [
+    "poulet"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet",
+      "temp": "74 °C (165 °F)",
+      "note": "au centre de la pièce la plus épaisse"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Garniture",
+      "items": [
+        {
+          "q": 1.4,
+          "u": "kg",
+          "nom": "de poulet"
+        },
+        {
+          "texte": "Épices maison sans coriandre : paprika, cumin, ail, oignon, origan, sel, poivre"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "poivrons rouges ou jaunes"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon"
+        },
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de maïs"
+        },
+        {
+          "q": 10,
+          "u": "",
+          "nom": "grandes tortillas de blé (vérifier le lait)"
+        },
+        {
+          "q": 4,
+          "u": "t",
+          "nom": "de fromage râpé sans lactose"
+        }
+      ]
+    },
+    {
+      "groupe": "Pour servir",
+      "items": [
+        {
+          "q": 1.5,
+          "u": "t",
+          "nom": "de salsa sans coriandre"
+        },
+        {
+          "q": 1.5,
+          "u": "t",
+          "nom": "de yogourt grec sans lactose"
+        },
+        {
+          "texte": "Crudités : 4 carottes, 2 concombres, tomates cerises",
+          "pourBase": true
+        }
+      ]
+    },
+    {
+      "groupe": "Trempette",
+      "items": [
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de mayonnaise"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de yogourt sans lactose"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "d'aneth"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "gousse d'ail"
+        },
+        {
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de sel"
+        }
+      ]
+    }
+  ],
+  "etapes": [
+    "Poulet pré-cuit (la veille) : au four à 425 °F 20–25 min, jusqu'à 74 °C. Sans pré-cuisson : couper en lanières, mélanger avec un peu d'huile et toutes les épices, et saisir jusqu'à 74 °C.",
+    "Sauter les poivrons, l'oignon et le maïs. Ajouter le poulet (s'il est pré-cuit, le réchauffer jusqu'à 74 °C).",
+    "Garnir les tortillas : environ ⅓ tasse de fromage (¼ tasse + 2 c. à soupe) par tortilla, plus la garniture.",
+    "Cuire à la poêle 2–3 min par côté, ou au four à 425 °F 10–12 min.",
+    "Couper en pointes et servir avec salsa, yogourt, crudités et trempette."
+  ],
+  "conservation": [
+    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+  ],
+  "photo": "images/quesadillas-poulet.jpg",
+  "credit": {
+    "texte": "Photo : Daderot — CC0, via Wikimedia Commons (redimensionnée)",
+    "auteur": "Daderot",
+    "licence": "CC0",
+    "licenceLien": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "Chicken quesadilla - Massachusetts.jpg",
+    "lien": "https://commons.wikimedia.org/wiki/File:Chicken_quesadilla_-_Massachusetts.jpg"
+  }
+}
