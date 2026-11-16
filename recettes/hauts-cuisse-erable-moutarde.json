@@ -1,0 +1,173 @@
+{
+  "slug": "hauts-cuisse-erable-moutarde",
+  "titre": "Hauts de cuisse de poulet érable-moutarde, légumes rôtis",
+  "resume": "Hauts de cuisse désossés marinés à l'érable et à la Dijon (sac du meal prep), rôtis au four avec le sac de légumes. Avec du riz ou des patates grelots.",
+  "portions": 5,
+  "portionsNote": "5 à table",
+  "temps": {
+    "prep": "10 min (le jour même)",
+    "cuisson": "30–40 min"
+  },
+  "tempsTotal": "45 min",
+  "etiquettes": [
+    "poulet",
+    "meal prep",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet (hauts de cuisse désossés)",
+      "temp": "74 °C (165 °F)",
+      "note": "au plus épais ; jusqu'à 80 °C, ils restent juteux"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Du congélateur de la véranda (meal prep fait)",
+      "items": [
+        {
+          "q": 2.5,
+          "u": "lb",
+          "nom": "de hauts de cuisse de poulet désossés (environ 1,1 kg) dans la marinade érable-moutarde : ¼ t sirop d'érable, 2 c. à soupe Dijon, 2 gousses d'ail, 2 c. à soupe huile d'olive, ¾ c. à thé sel, ½ c. à thé poivre"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "sac de légumes rôtis : 2 oignons en quartiers, 1 poivron (rouge, jaune ou orange), 2 courgettes en demi-rondelles, carottes en morceaux"
+        }
+      ]
+    },
+    {
+      "groupe": "Le jour même",
+      "items": [
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile (légumes)"
+        },
+        {
+          "texte": "Sel et poivre (légumes)"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de sirop d'érable (facultatif, pour lustrer à la fin)"
+        }
+      ]
+    },
+    {
+      "groupe": "Accompagnement : riz OU patates grelots",
+      "items": [
+        {
+          "texte": "Riz : 1 ½ t de riz blanc à grains longs, 2 ¼ t d'eau, ½ c. à thé de sel"
+        },
+        {
+          "texte": "Grelots : 2 lb de patates grelots, 1 ½ c. à soupe d'huile, ½ c. à thé de sel, poivre"
+        }
+      ]
+    }
+  ],
+  "miseEnPlace": [
+    "Vendredi soir : transférer le sac de poulet et le sac de légumes du congélateur de la véranda au frigo, dans une assiette (environ 24 h).",
+    "Samedi : sortir le sac de poulet 15 min avant. Si le centre est encore glacé, sac fermé dans l'eau froide 20 à 30 min.",
+    "Grelots : brosser, laisser entiers s'ils font moins de 1 ¼ po, sinon couper en deux.",
+    "Riz : rincer dans une passoire fine jusqu'à ce que l'eau soit presque claire.",
+    "Équipement : 2 plaques 13 × 18 po avec papier parchemin (l'érable colle et brûle) ; pince ; casserole de 3 L avec couvercle (riz) ; thermomètre."
+  ],
+  "etapes": [
+    {
+      "titre": "Préchauffer le four",
+      "texte": "Grilles au tiers supérieur et au tiers inférieur. Tapisser les 2 plaques de parchemin.",
+      "four": "425 °F (220 °C)",
+      "duree": "10–15 min"
+    },
+    {
+      "titre": "Enfourner les légumes (et les grelots)",
+      "texte": "Mélanger les légumes avec l'huile, sel et poivre sur une plaque, en une seule couche. Version grelots : les mettre sur la même plaque si elle n'est pas trop pleine, sinon sur une 3e plaque. Enfourner sur la grille du bas.",
+      "four": "425 °F (220 °C), grille du bas",
+      "duree": "35–40 min en tout (brasser à mi-cuisson)",
+      "reperes": "Bords dorés, carottes et grelots tendres à la pointe du couteau.",
+      "pourquoi": "Les légumes (surtout s'ils ont été congelés) et les grelots prennent plus de temps que le poulet : ils partent en premier."
+    },
+    {
+      "titre": "Placer le poulet",
+      "texte": "Sortir les hauts de cuisse du sac et les déployer à plat sur la 2e plaque, côté lisse (anciennement la peau) vers le haut, avec ½ po d'espace entre eux. Verser la marinade du sac dans un petit chaudron. Jeter le sac, se laver les mains.",
+      "duree": "3 min",
+      "pourquoi": "À plat et espacés, ils dorent au lieu de bouillir."
+    },
+    {
+      "titre": "Enfourner le poulet",
+      "texte": "Mettre la plaque de poulet sur la grille du haut environ 10 min après les légumes.",
+      "four": "425 °F (220 °C), grille du haut",
+      "duree": "25–30 min"
+    },
+    {
+      "titre": "Faire bouillir la marinade",
+      "texte": "Porter la marinade réservée à ébullition (ajouter 1 c. à soupe de sirop d'érable si désiré) et laisser bouillir en brassant.",
+      "feu": "moyen-vif",
+      "duree": "au moins 2 min",
+      "reperes": "Elle épaissit et devient sirupeuse.",
+      "pourquoi": "Elle a touché le poulet cru : il faut la bouillir avant de l'utiliser comme glaçage."
+    },
+    {
+      "titre": "Lancer le riz (version riz)",
+      "texte": "Riz, eau et sel dans la casserole ; porter à ébullition, brasser une fois, couvrir, feu au minimum 18 min, puis 5 min de repos hors du feu sans ouvrir.",
+      "feu": "vif, puis doux",
+      "duree": "5 min + 18 min + 5 min de repos",
+      "reperes": "Plus d'eau au fond, grains tendres."
+    },
+    {
+      "titre": "Glacer",
+      "texte": "Après 15 min de cuisson, badigeonner le poulet de marinade bouillie et poursuivre.",
+      "four": "425 °F (220 °C)",
+      "duree": "10–15 min de plus",
+      "reperes": "Surface brillante, caramélisée par endroits. Si les bords noircissent, descendre la plaque d'un cran."
+    },
+    {
+      "titre": "Vérifier la cuisson",
+      "texte": "Thermomètre dans le morceau le plus épais.",
+      "reperes": "74 °C minimum ; jus clair, chair blanche et opaque. Les hauts de cuisse restent juteux même à 80 °C."
+    },
+    {
+      "titre": "Reposer et servir",
+      "texte": "Laisser reposer 5 min. Servir avec les légumes rôtis et le riz ou les grelots ; napper du jus de la plaque.",
+      "duree": "5 min"
+    }
+  ],
+  "astuces": [
+    "Toujours du papier parchemin : l'érable caramélisé colle à la plaque nue.",
+    "Ne pas badigeonner avec la marinade crue : la faire bouillir d'abord.",
+    "Les légumes congelés rendent de l'eau : bien les étaler en une couche et ne pas couvrir.",
+    "Les hauts de cuisse pardonnent beaucoup plus que la poitrine : pas de stress s'ils dépassent un peu 74 °C."
+  ],
+  "substitutions": [
+    "Filet de porc à la place du poulet : voir « Filet de porc érable et moutarde » (71 °C)."
+  ],
+  "mealPrep": [
+    "Marinade érable-moutarde faite le 16 nov. Hauts de cuisse achetés chez Metro le mardi 17 nov., mis dans le sac avec la marinade et congelés au congélateur de la véranda.",
+    "Décongeler au frigo le vendredi soir.",
+    "À faire le jour même : riz ou grelots."
+  ],
+  "conservation": [
+    "Frigo : 3–4 jours, réfrigéré dans les 2 h dans des contenants peu profonds.",
+    "Congélateur : 2–3 mois pour le poulet cuit.",
+    "Réchauffer : micro-ondes à couvert ou au four à 350 °F 10–15 min, jusqu'à 74 °C au centre. Excellent froid en lunch, tranché dans un wrap."
+  ],
+  "liens": [
+    {
+      "slug": "filet-porc-erable-moutarde",
+      "texte": "Voir la version au filet de porc"
+    }
+  ],
+  "photo": "images/poulet-miel-ail-plaque.jpg",
+  "credit": {
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
+  },
+  "notes": []
+}

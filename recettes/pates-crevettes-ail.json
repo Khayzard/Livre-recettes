@@ -1,12 +1,14 @@
 {
   "slug": "pates-crevettes-ail",
   "titre": "Pâtes aux crevettes à l'ail",
-  "resume": "Le grand favori : crevettes, ail, citron et légumes, avec un peu de bouillon réduit. Parmesan à part.",
+  "resume": "Le grand favori : le sac ail-citron-huile et les crevettes du meal prep, sautés avec des légumes et une sauce au bouillon réduit. Avec une salade verte ou du pain à l'ail. Parmesan à part.",
   "portions": 5,
+  "portionsNote": "5 à table",
   "temps": {
-    "total": "~20 min"
+    "prep": "5 min (le jour même)",
+    "cuisson": "20 min"
   },
-  "tempsTotal": "20 min",
+  "tempsTotal": "25 min",
   "etiquettes": [
     "fruits de mer",
     "rapide",
@@ -16,62 +18,44 @@
   "temperatures": [
     {
       "quoi": "Crevettes crues",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "roses et opaques jusqu'au centre"
     },
     {
       "quoi": "Crevettes déjà cuites",
       "temp": "Réchauffer",
-      "note": "1 à 2 min, sans les recuire"
+      "note": "1 à 2 min, sans les recuire"
     },
     {
       "quoi": "Restes réchauffés",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "jusqu'au centre"
     }
   ],
   "ingredients": [
     {
-      "groupe": "Pâtes et crevettes",
+      "groupe": "Du congélateur de la véranda (meal prep fait)",
+      "items": [
+        {
+          "q": 1,
+          "u": "",
+          "nom": "sac ail-citron-huile (6 gousses d'ail, jus d'1 citron, 2 c. à soupe d'huile d'olive)"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "sacs de 340 g de crevettes surgelées décortiquées"
+        }
+      ]
+    },
+    {
+      "groupe": "Pâtes et sauce",
       "items": [
         {
           "q": 450,
           "u": "g",
           "nom": "de pâtes (spaghettis, linguines ou pennes)"
         },
-        {
-          "q": 680,
-          "u": "g",
-          "nom": "de crevettes surgelées, cuites ou crues, décortiquées"
-        },
-        {
-          "texte": "Sel (pour l'eau des pâtes)"
-        }
-      ]
-    },
-    {
-      "groupe": "Mélange ail-citron-huile",
-      "items": [
-        {
-          "q": 6,
-          "u": "",
-          "nom": "gousses d'ail, hachées finement"
-        },
-        {
-          "q": 1,
-          "u": "",
-          "nom": "citron (le jus)"
-        },
-        {
-          "q": 2,
-          "u": "c. à soupe",
-          "nom": "d'huile d'olive"
-        }
-      ]
-    },
-    {
-      "groupe": "Sauce au bouillon (version maison proposée)",
-      "items": [
         {
           "q": 2,
           "u": "c. à soupe",
@@ -95,12 +79,15 @@
         {
           "q": 0.25,
           "u": "c. à thé",
-          "nom": "de poivre moulu"
+          "nom": "de poivre"
         },
         {
           "q": 0.5,
           "u": "t",
           "nom": "d'eau de cuisson des pâtes, réservée"
+        },
+        {
+          "texte": "Sel pour l'eau des pâtes"
         }
       ]
     },
@@ -110,7 +97,18 @@
         {
           "q": 1,
           "u": "",
-          "nom": "sac de 750 g de légumes surgelés mélangés"
+          "nom": "sac de 750 g de légumes surgelés mélangés"
+        }
+      ]
+    },
+    {
+      "groupe": "À côté : salade verte OU pain à l'ail",
+      "items": [
+        {
+          "texte": "Salade : 1 grosse laitue romaine ou 1 boîte de 5 oz (142 g) de mesclun, 1 concombre, 2 tomates ; vinaigrette : 3 c. à soupe d'huile d'olive, 1 c. à soupe de vinaigre de vin ou de jus de citron, 1 c. à thé de Dijon, 1 c. à thé de miel, sel, poivre"
+        },
+        {
+          "texte": "Pain à l'ail : 1 baguette, 3 c. à soupe de margarine sans lactose ramollie, 2 gousses d'ail hachées, 1 c. à soupe de persil haché"
         }
       ]
     },
@@ -120,118 +118,105 @@
         {
           "q": 50,
           "u": "g",
-          "nom": "de parmesan râpé, servi à part (à éviter si Cindy ne le tolère pas)"
+          "nom": "de parmesan râpé, à part"
         },
         {
           "q": 0.5,
           "u": "c. à thé",
-          "nom": "de flocons de piment, à table pour les adultes seulement"
+          "nom": "de flocons de piment, pour les adultes seulement"
         }
       ]
     }
   ],
   "miseEnPlace": [
-    "Crevettes : décongelées au frigo depuis la veille. Oubli ? Sac bien fermé dans un bol d'eau froide 20 à 30 minutes, puis cuire tout de suite. Lire sur le sac si elles sont cuites ou crues.",
-    "Égoutter les crevettes et les éponger avec du papier absorbant. Retirer les queues si on préfère (pincer la base de la queue et tirer doucement).",
-    "Ail (mélange ail-citron-huile), s'il n'est pas déjà dans le sac du meal prep : écraser chaque gousse avec le plat du couteau, retirer la pelure, puis hacher très finement en morceaux de 1 à 2 mm.",
-    "Citron : le rouler sous la paume sur le comptoir, le couper en deux et le presser au-dessus d'une passoire pour retenir les pépins.",
-    "Légumes surgelés : les laisser au congélateur jusqu'au moment de les verser. Les morceaux de plus de 2 cm (brocoli, chou-fleur) peuvent être coupés en deux, encore congelés, pour cuire en même temps que le reste.",
-    "Bouillon de poulet : mesuré dans la petite casserole.",
-    "Parmesan râpé dans un petit bol, à part ; flocons de piment à table pour les adultes.",
-    "Équipement : marmite de 5 à 6 L, passoire, tasse à mesurer pour l'eau de cuisson, petite casserole de 1 L pour le bouillon, petit bol, grande poêle de 30 cm, pince, papier absorbant, assiette, thermomètre à lecture instantanée."
+    "Jeudi soir : transférer le sac ail-citron-huile et les 2 sacs de crevettes du congélateur de la véranda au frigo, dans un plat.",
+    "Crevettes encore glacées vendredi : dans une passoire, sous l'eau froide du robinet, 5 à 8 min, puis bien éponger.",
+    "Salade : laitue lavée, essorée et déchirée en morceaux de 1 ½ à 2 po ; concombre en demi-rondelles de ¼ po ; tomates en quartiers puis en morceaux de ¾ po. Vinaigrette fouettée dans un pot.",
+    "Pain à l'ail : baguette coupée en deux sur la longueur, puis en tronçons de 3 po ; mélanger margarine, ail et persil.",
+    "Équipement : grande casserole de 6 L ; grande poêle de 12 po ; petite casserole (bouillon) ; tasse pour l'eau des pâtes ; passoire ; pince."
   ],
   "etapes": [
     {
-      "titre": "Préparer le mélange ail-citron-huile",
-      "texte": "Si le sac ail-citron-huile du meal prep est décongelé (au frigo depuis la veille), passer à l'étape 2. Sinon : dans un petit bol, mettre l'ail haché, le jus de citron et l'huile d'olive du groupe « Mélange ail-citron-huile » et mélanger à la fourchette. Garder à portée de main près de la poêle.",
-      "duree": "3 min",
-      "reperes": "L'ail est bien imbibé de citron et d'huile ; aucun morceau d'ail plus gros que 2 mm.",
-      "pourquoi": "Tout est prêt d'avance : l'ail cuit en moins d'une minute et brûle si on doit encore presser le citron. L'ail dans l'huile ne se garde que 1 à 2 jours au frigo (sinon congeler le sac)."
-    },
-    {
       "titre": "Faire bouillir l'eau des pâtes",
-      "texte": "Remplir la marmite d'eau aux trois quarts, couvrir et porter à ébullition. Saler généreusement quand ça bout.",
+      "texte": "Grande casserole d'eau bien salée.",
       "feu": "vif",
-      "duree": "10–12 min",
-      "reperes": "Gros bouillons sur toute la surface. L'eau doit goûter légèrement salé.",
-      "pourquoi": "Les pâtes absorbent le sel de l'eau : c'est le seul moment pour les assaisonner à cœur."
+      "duree": "10–12 min"
     },
     {
-      "titre": "Réduire le bouillon pour la sauce",
-      "texte": "Verser le bouillon dans la petite casserole et le laisser bouillir doucement à découvert jusqu'à ce qu'il ait réduit de moitié. Retirer du feu.",
+      "titre": "Préparer le côté",
+      "texte": "Pain à l'ail : tartiner la baguette, sur une plaque, au four à 400 °F jusqu'à ce que les bords soient dorés (8–10 min). Salade : assembler, mais garder la vinaigrette à part jusqu'au service.",
+      "four": "400 °F (200 °C) pour le pain à l'ail",
+      "duree": "8–10 min",
+      "reperes": "Pain doré et croustillant sur les bords, fondant au centre."
+    },
+    {
+      "titre": "Réduire le bouillon",
+      "texte": "Dans la petite casserole, faire bouillir le bouillon jusqu'à ce qu'il en reste la moitié.",
       "feu": "moyen-vif",
-      "duree": "4–6 min",
-      "reperes": "Le niveau a baissé de moitié ; le bouillon sent plus fort et plus concentré.",
-      "pourquoi": "Réduit, le bouillon donne beaucoup de goût sans noyer les pâtes."
+      "duree": "4–6 min",
+      "reperes": "Il reste environ ¼ t."
     },
     {
       "titre": "Cuire les pâtes",
-      "texte": "Plonger les pâtes dans l'eau bouillante et brasser la première minute. Cuire al dente selon l'emballage. Juste avant d'égoutter, prélever l'eau de cuisson prévue dans le groupe « Sauce au bouillon » avec la tasse à mesurer. Égoutter sans rincer. Commencer la cuisson de l'ail dès que les pâtes sont dans l'eau.",
+      "texte": "Cuire selon l'emballage. Avant d'égoutter, réserver ½ t d'eau de cuisson.",
       "feu": "vif",
       "duree": "selon l'emballage",
-      "reperes": "Tendres, avec un petit cœur encore ferme sous la dent.",
-      "pourquoi": "L'eau de cuisson, chargée d'amidon, lie la sauce et la rend soyeuse. Rincer enlèverait cet amidon."
+      "reperes": "Al dente : tendres avec un petit cœur ferme."
     },
     {
-      "titre": "Faire revenir le mélange ail-citron-huile",
-      "texte": "Dans la grande poêle, faire fondre la margarine. Quand elle mousse, ajouter le mélange ail-citron-huile et brasser sans arrêt.",
+      "titre": "Faire revenir l'ail-citron-huile",
+      "texte": "Dans la grande poêle, faire fondre la margarine, ajouter le contenu du sac ail-citron-huile.",
       "feu": "moyen",
-      "duree": "30–60 s",
-      "reperes": "L'ail grésille doucement et sent bon ; il reste blond, jamais brun.",
-      "pourquoi": "L'ail brûlé devient amer en quelques secondes et gâche tout le plat."
+      "duree": "30–60 s",
+      "reperes": "L'ail grésille et sent bon, sans brunir.",
+      "pourquoi": "L'ail brûlé devient amer : feu moyen et pas plus d'une minute."
     },
     {
       "titre": "Cuire les crevettes",
-      "texte": "Ajouter les crevettes en une seule couche. Crues : les cuire en les retournant une fois à la pince. Déjà cuites : seulement les réchauffer. Les retirer ensuite dans une assiette propre.",
+      "texte": "Ajouter les crevettes en une couche, assaisonner de paprika, sel et poivre. Les retourner une fois.",
       "feu": "moyen-vif",
-      "duree": "crues : 1–2 min par côté ; cuites : 1–2 min en tout",
-      "reperes": "Crues : roses et opaques jusqu'au centre (74 °C), en forme de C. Une forme de O serré veut dire trop cuites.",
-      "pourquoi": "Les retirer pendant qu'on cuit les légumes évite qu'elles deviennent caoutchouteuses."
+      "duree": "crues : 1–2 min par côté · cuites : 1–2 min en tout",
+      "reperes": "Crues : roses, opaques et en forme de « C ». En forme de « O » = trop cuites.",
+      "pourquoi": "Les crevettes deviennent caoutchouteuses en quelques secondes de trop."
     },
     {
-      "titre": "Ajouter les légumes et finir la sauce au bouillon",
-      "texte": "Verser les légumes encore surgelés dans la poêle et les sauter en brassant souvent. Quand ils sont chauds et que leur eau s'est presque évaporée, ajouter le bouillon réduit, le paprika, le sel et le poivre du groupe « Sauce au bouillon ». Laisser frémir 1 minute en grattant le fond avec la pince.",
+      "titre": "Légumes et sauce",
+      "texte": "Ajouter les légumes surgelés et le bouillon réduit ; cuire en brassant.",
       "feu": "moyen-vif",
-      "duree": "4–5 min",
-      "reperes": "Légumes chauds partout ; l'eau rendue par les légumes s'est presque toute évaporée."
+      "duree": "4–5 min",
+      "reperes": "Légumes chauds et tendres, sauce frémissante."
     },
     {
       "titre": "Tout mélanger",
-      "texte": "Remettre les crevettes et leur jus, puis ajouter les pâtes égouttées. Si la poêle est trop petite, tout verser dans la marmite des pâtes. Mélanger à la pince en ajoutant l'eau de cuisson réservée, quelques cuillerées à la fois, jusqu'à ce que les pâtes soient enrobées.",
+      "texte": "Ajouter les pâtes et un peu d'eau de cuisson, en mélangeant avec la pince, jusqu'à ce que la sauce enrobe les pâtes.",
       "feu": "doux",
-      "duree": "1 min",
-      "reperes": "Les pâtes sont luisantes et bien enrobées, sans liquide au fond."
+      "duree": "1 min",
+      "reperes": "Les pâtes sont luisantes, sans flaque au fond."
     },
     {
       "titre": "Servir",
-      "texte": "Servir tout de suite, avec le parmesan à part. Les adultes qui le veulent ajoutent les flocons de piment à table.",
-      "pourquoi": "Parmesan à part : chacun choisit selon sa tolérance au lactose."
+      "texte": "Servir aussitôt avec la salade (vinaigrette au dernier moment) ou le pain à l'ail. Parmesan et piment à table, à part."
     }
   ],
   "astuces": [
-    "Ne pas trop cuire les crevettes : roses, opaques et en forme de C, c'est prêt. En O serré, elles sont trop cuites et caoutchouteuses.",
-    "Déjà cuites ? Seulement les réchauffer 1 à 2 minutes : les recuire les rend dures.",
-    "L'ail brûle en quelques secondes : feu moyen, et ajouter les crevettes dès qu'il sent bon.",
-    "Toujours garder un peu d'eau de cuisson : c'est elle qui rend la sauce soyeuse au lieu de sèche."
+    "Ne pas laisser brunir l'ail.",
+    "Retirer les crevettes du feu dès qu'elles sont opaques.",
+    "Garder l'eau de cuisson : elle lie la sauce.",
+    "Vinaigrette au dernier moment, sinon la salade ramollit."
   ],
   "mealPrep": [
-    "Sac ail-citron-huile (quantités et méthode à l'étape 1) : le congeler dès qu'il est fait, ou le préparer la veille et le garder au frigo. L'ail dans l'huile se garde 1 à 2 jours au frigo tout au plus.",
-    "Crevettes : les laisser dans leurs sacs d'origine au congélateur (noter si elles sont cuites ou crues).",
-    "Décongeler les crevettes et le sac ail-citron-huile au frigo la veille au soir. Oubli pour les crevettes ? Eau froide, puis cuire tout de suite."
-  ],
-  "notes": [
-    "Version d'origine (méga succès) : environ 1 lb de crevettes, environ 900 g de pâtes, 1 sac de légumes surgelés, 10 gousses d'ail, huile d'olive et margarine sans lactose, ½ tasse de bouillon de poulet réduit de moitié, jus de citron, paprika, sel, poivre.",
-    "Pour avoir des lunchs : prévoir environ 2 lb de crevettes.",
-    "Les sources ne donnent pas les quantités ; version maison proposée, à ajuster. Cela concerne l'huile d'olive (« un filet »), la margarine, le paprika, le sel, le poivre, l'eau de cuisson, le parmesan et le piment ; tout le reste vient de la source."
+    "Fait le 16 nov. : sac ail-citron-huile + crevettes, au congélateur de la véranda. Décongeler au frigo le jeudi soir."
   ],
   "conservation": [
-    "Frigo : 3–4 jours (meilleures le lendemain), dans des contenants peu profonds ; réfrigérer dans les 2 h. Pour les lunchs, mettre le parmesan dans un petit contenant à part.",
-    "Réchauffer : micro-ondes à couvert avec une cuillerée d'eau, à puissance moyenne, en brassant aux 30 à 60 secondes, ou poêle à feu moyen-doux avec un peu d'eau, jusqu'à 74 °C au centre.",
-    "Congélateur : déconseillé. Les crevettes deviennent caoutchouteuses et les pâtes molles une fois décongelées et réchauffées."
+    "Frigo : 2–3 jours (fruits de mer), réfrigéré dans les 2 h.",
+    "Ne pas congeler les pâtes aux crevettes cuites (texture caoutchouteuse).",
+    "Réchauffer : micro-ondes à couvert avec un peu d'eau, en brassant, jusqu'à 74 °C."
   ],
   "photo": "images/pates-crevettes-ail.jpg",
   "credit": {
     "texte": "Photo : illustration générée par IA",
     "ia": true
-  }
+  },
+  "substitutions": [],
+  "notes": []
 }

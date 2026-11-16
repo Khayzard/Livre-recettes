@@ -1,0 +1,218 @@
+{
+  "slug": "porc-portugaise-cubes",
+  "titre": "Porc à la portugaise en cubes, riz, patates grelots et haricots verts",
+  "resume": "Le rôti de bout de côtes mariné citron-ail-paprika (sac du meal prep), coupé en cubes et rôti à feu vif avec l'oignon. Patates grelots rôties au paprika dans le même four, haricots verts vapeur et riz.",
+  "portions": 10,
+  "portionsNote": "5 à table + lunchs",
+  "temps": {
+    "prep": "20 min (le jour même)",
+    "cuisson": "40 min"
+  },
+  "tempsTotal": "environ 1 h",
+  "etiquettes": [
+    "porc",
+    "meal prep",
+    "four"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Porc (cubes)",
+      "temp": "71 °C (160 °F)",
+      "note": "au centre du plus gros cube"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Du congélateur de la véranda (meal prep fait)",
+      "items": [
+        {
+          "q": 1,
+          "u": "",
+          "nom": "sac : rôti de bout de côtes de porc + 1 oignon en quartiers, dans la marinade (jus de 3 citrons, 8 gousses d'ail, 3 c. à soupe d'huile d'olive, 3 c. à soupe de paprika doux, 2 c. à soupe d'origan, 2 feuilles de laurier, 2 c. à thé de sel, 1 c. à thé de poivre)"
+        }
+      ]
+    },
+    {
+      "groupe": "Patates grelots rôties (achetées mardi)",
+      "items": [
+        {
+          "q": 3,
+          "u": "lb",
+          "nom": "de patates grelots"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de paprika doux"
+        },
+        {
+          "q": 0.75,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "texte": "Poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Haricots verts vapeur (achetés mardi)",
+      "items": [
+        {
+          "q": 1.5,
+          "u": "lb",
+          "nom": "de haricots verts frais"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de beurre sans lactose ou d'huile d'olive"
+        },
+        {
+          "texte": "Sel, un filet de jus de citron (facultatif)"
+        }
+      ]
+    },
+    {
+      "groupe": "Riz blanc",
+      "items": [
+        {
+          "q": 3,
+          "u": "t",
+          "nom": "de riz blanc à grains longs, sec"
+        },
+        {
+          "q": 4.5,
+          "u": "t",
+          "nom": "d'eau (ou selon l'emballage)"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel"
+        }
+      ]
+    },
+    {
+      "groupe": "Pour servir",
+      "items": [
+        {
+          "q": 0.25,
+          "u": "t",
+          "nom": "de persil frais haché (pas de coriandre)"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "citron, en quartiers"
+        }
+      ]
+    }
+  ],
+  "miseEnPlace": [
+    "Vendredi soir : transférer le sac du rôti du congélateur de la véranda au frigo, dans un plat (un rôti prend environ 24 à 48 h à décongeler).",
+    "Samedi soir (idéal) : sur la planche à viande crue, sortir le rôti du sac, enlever les gros morceaux de gras de plus de ¼ po et l'os s'il y en a, puis couper en cubes de 1 ½ à 2 po. Remettre les cubes dans le sac avec la marinade et l'oignon, chasser l'air, masser, frigo. Si le centre est encore glacé samedi soir : sac fermé dans l'eau froide, eau changée toutes les 30 min, puis frigo.",
+    "Dimanche (si pas fait samedi) : couper les cubes de la même façon, les remettre 30 min dans la marinade pendant que le four chauffe.",
+    "Grelots : brosser sous l'eau, laisser entiers s'ils font moins de 1 ¼ po, couper en deux les plus gros (côté coupé à plat sur la plaque).",
+    "Haricots verts : rincer, couper les deux bouts (aligner une poignée sur la planche et trancher les bouts d'un coup), laisser entiers ou couper en tronçons de 2 po.",
+    "Riz : rincer dans une passoire fine jusqu'à ce que l'eau soit presque claire.",
+    "Équipement : 2 plaques 13 × 18 po avec papier parchemin ; pince ; casserole de 4 L avec couvercle (riz) ; casserole avec panier vapeur (haricots) ; thermomètre."
+  ],
+  "etapes": [
+    {
+      "titre": "Préchauffer le four",
+      "texte": "Grilles au tiers supérieur et au tiers inférieur. Tapisser les 2 plaques de parchemin.",
+      "four": "425 °F (220 °C)",
+      "duree": "10–15 min"
+    },
+    {
+      "titre": "Enfourner les grelots",
+      "texte": "Sur une plaque, mélanger les grelots avec l'huile, le paprika, le sel et le poivre ; côté coupé vers le bas, en une seule couche. Grille du bas.",
+      "four": "425 °F (220 °C), grille du bas",
+      "duree": "35–40 min en tout (retourner à mi-cuisson)",
+      "reperes": "Dessous doré et croustillant ; la pointe d'un couteau entre sans résistance.",
+      "pourquoi": "Les grelots prennent un peu plus de temps que le porc : ils partent 5 min avant."
+    },
+    {
+      "titre": "Étaler le porc",
+      "texte": "Sortir les cubes et l'oignon du sac avec la pince, laisser égoutter, jeter le laurier et le sac. Étaler sur la 2e plaque, 1 po d'espace entre les cubes. Se laver les mains.",
+      "duree": "3 min",
+      "reperes": "Aucun cube ne se touche ; pas de flaque de marinade sur la plaque.",
+      "pourquoi": "Serrés et mouillés, les cubes cuisent à la vapeur et restent gris au lieu de griller."
+    },
+    {
+      "titre": "Rôtir le porc",
+      "texte": "Enfourner sur la grille du haut. À mi-cuisson, retourner les cubes et l'oignon avec la pince, retourner les grelots et intervertir les plaques.",
+      "four": "425 °F (220 °C), grille du haut",
+      "duree": "30–40 min (retourner une fois à 15–20 min)",
+      "reperes": "Cubes bien rouge-doré, bords grillés ; oignon tendre et caramélisé."
+    },
+    {
+      "titre": "Lancer le riz",
+      "texte": "Après avoir enfourné le porc : riz, eau et sel dans la casserole, porter à ébullition, brasser une fois, couvrir, feu au minimum. Ne pas soulever le couvercle. Retirer du feu et laisser reposer 5 min couvert.",
+      "feu": "vif, puis doux",
+      "duree": "5 min + 18 min (ou selon l'emballage) + 5 min de repos",
+      "reperes": "Plus d'eau au fond, grains tendres."
+    },
+    {
+      "titre": "Vérifier le porc",
+      "texte": "Thermomètre au centre du plus gros cube.",
+      "reperes": "71 °C ; jus clair, chair opaque avec à peine un soupçon de rose. Le bout de côtes est plus persillé que la longe : il reste juteux même à 75 °C.",
+      "pourquoi": "On vérifie le plus gros : si lui est cuit, tous les autres le sont."
+    },
+    {
+      "titre": "Cuire les haricots verts à la vapeur",
+      "texte": "Pendant les 10 dernières minutes du porc : 1 po d'eau dans la casserole, porter à ébullition, haricots dans le panier, couvrir. Égoutter, ajouter le beurre sans lactose ou l'huile, saler, un filet de citron.",
+      "feu": "vif",
+      "duree": "5–7 min",
+      "reperes": "Vert vif et tendres-croquants : ils plient un peu sans être mous. Vert olive = trop cuits.",
+      "pourquoi": "L'eau ne doit pas toucher les haricots ; trop cuits, ils perdent leur couleur et deviennent mous."
+    },
+    {
+      "titre": "Reposer et servir",
+      "texte": "Laisser reposer le porc 5 min sur la plaque. Racler les sucs et l'oignon caramélisé de la plaque sur le porc. Servir avec le riz, les grelots et les haricots ; persil et quartiers de citron sur la table.",
+      "duree": "5 min"
+    }
+  ],
+  "astuces": [
+    "Couper les cubes la veille et les remettre dans la marinade : le goût pénètre beaucoup mieux que dans un rôti entier.",
+    "Cubes de taille égale (1 ½ à 2 po) : sinon les petits sèchent avant que les gros soient cuits.",
+    "Bien égoutter la marinade : le citron et le paprika brûlent en flaque sur la plaque.",
+    "Haricots verts : les cuire en dernier pour qu'ils restent vert vif."
+  ],
+  "substitutions": [
+    "Poulet : voir « Poulet à la portugaise » (cuisses avec dos, 74 °C)."
+  ],
+  "mealPrep": [
+    "Fait le 16 nov. : rôti de bout de côtes + marinade citron-ail-paprika + oignon, au congélateur de la véranda.",
+    "Décongeler au frigo le vendredi soir ; couper en cubes le samedi soir.",
+    "À acheter mardi : patates grelots et haricots verts. À faire le jour même : riz, grelots, haricots."
+  ],
+  "conservation": [
+    "Frigo : 3–4 jours (porc, riz, grelots, haricots), réfrigéré dans les 2 h dans des contenants peu profonds.",
+    "Congélateur : 2–3 mois pour le porc cuit. Les grelots et les haricots se congèlent mal : les garder pour les lunchs de la semaine.",
+    "Réchauffer : micro-ondes à couvert avec 1 c. à soupe d'eau sur le riz, ou au four à 350 °F 15 min, jusqu'à 74 °C au centre."
+  ],
+  "liens": [
+    {
+      "slug": "poulet-portugaise",
+      "texte": "Voir la version au poulet"
+    }
+  ],
+  "photo": "images/roti-porc-legumes.jpg",
+  "credit": {
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
+  },
+  "notes": []
+}

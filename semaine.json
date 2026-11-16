@@ -2,16 +2,68 @@
   "titre": "Menu de la semaine",
   "periode": "Du lundi 16 au dimanche 22 novembre 2026",
   "notes": [
+    "Meal prep fait le 16 nov. : chaque recette commence par « sors le sac ». Frigo de la véranda : mar. et mer. Congélateur de la véranda : jeu., ven., sam. et dim.",
+    "Décongeler au frigo seulement : mer. soir → jeudi ; jeu. soir → vendredi ; ven. soir → samedi et rôti de dimanche.",
+    "À acheter mardi : hauts de cuisse désossés (~2 ½ lb, Metro), patates grelots, haricots verts.",
     "Pas de coriandre (persil à la place), pas de poivron vert, produits laitiers sans lactose, épices douces.",
     "Réfrigérer les restes dans les 2 h ; réchauffer à 74 °C."
   ],
   "jours": [
-    { "date": "2026-11-16", "jour": "Lundi 16", "slug": "restes-birria", "titre": "Restes de birria", "portions": "Selon les restes", "note": "Réchauffer à 74 °C. Souper rapide." },
-    { "date": "2026-11-17", "jour": "Mardi 17", "slug": "cotelettes-porc-pommes", "titre": "Côtelettes de porc aux pommes, patates et brocoli", "portions": "10", "note": "Porc à 71 °C." },
-    { "date": "2026-11-18", "jour": "Mercredi 18", "slug": "poulet-miel-ail-plaque", "titre": "Poulet miel-ail sur plaque avec riz", "portions": "10", "note": "Poulet à 74 °C." },
-    { "date": "2026-11-19", "jour": "Jeudi 19", "slug": "saute-porc-asiatique", "titre": "Sauté de porc à l'asiatique", "portions": "10", "note": "Porc à 71 °C." },
-    { "date": "2026-11-20", "jour": "Vendredi 20", "slug": "pates-crevettes-ail", "titre": "Pâtes aux crevettes à l'ail", "portions": "5", "note": "Parmesan à part." },
-    { "date": "2026-11-21", "jour": "Samedi 21", "slug": "filet-porc-erable-moutarde", "titre": "Filet de porc érable-moutarde", "portions": "5", "note": "Porc à 71 °C." },
-    { "date": "2026-11-22", "jour": "Dimanche 22", "slug": "poulet-portugaise", "titre": "Poulet à la portugaise", "portions": "10", "note": "Poulet à 74 °C." }
+    {
+      "date": "2026-11-16",
+      "jour": "Lundi 16",
+      "slug": "birria-instant-pot",
+      "titre": "Birria aux piments (Instant Pot), tacos et consommé",
+      "portions": "5 + restes",
+      "note": "Fait aujourd'hui. Porc à 71 °C minimum."
+    },
+    {
+      "date": "2026-11-17",
+      "jour": "Mardi 17",
+      "slug": "cotelettes-porc-pommes",
+      "titre": "Côtelettes de porc aux pommes, patates et brocoli vapeur",
+      "portions": "10",
+      "note": "Sacs au frigo de la véranda. Porc à 71 °C."
+    },
+    {
+      "date": "2026-11-18",
+      "jour": "Mercredi 18",
+      "slug": "poulet-miel-ail-plaque",
+      "titre": "Poulet miel-ail sur plaque, riz et légumes",
+      "portions": "10",
+      "note": "Sacs au frigo de la véranda. Poulet à 74 °C. Ce soir : décongeler jeudi au frigo."
+    },
+    {
+      "date": "2026-11-19",
+      "jour": "Jeudi 19",
+      "slug": "saute-porc-asiatique",
+      "titre": "Sauté de filet de porc à l'asiatique, nouilles",
+      "portions": "10",
+      "note": "Filets en lanières. Porc à 71 °C. Ce soir : décongeler vendredi."
+    },
+    {
+      "date": "2026-11-20",
+      "jour": "Vendredi 20",
+      "slug": "pates-crevettes-ail",
+      "titre": "Pâtes aux crevettes à l'ail, salade ou pain à l'ail",
+      "portions": "5",
+      "note": "Parmesan à part. Ce soir : décongeler samedi et dimanche."
+    },
+    {
+      "date": "2026-11-21",
+      "jour": "Samedi 21",
+      "slug": "hauts-cuisse-erable-moutarde",
+      "titre": "Hauts de cuisse érable-moutarde, légumes rôtis",
+      "portions": "5",
+      "note": "Poulet à 74 °C. Ce soir : couper le rôti de dimanche en cubes."
+    },
+    {
+      "date": "2026-11-22",
+      "jour": "Dimanche 22",
+      "slug": "porc-portugaise-cubes",
+      "titre": "Porc à la portugaise, riz, grelots et haricots verts",
+      "portions": "10",
+      "note": "Rôti de bout de côtes en cubes. Porc à 71 °C."
+    }
   ]
 }

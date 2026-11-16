@@ -1,0 +1,313 @@
+{
+  "slug": "birria-instant-pot",
+  "titre": "Birria aux piments à l'Instant Pot (tacos et consommé)",
+  "resume": "Épaule de porc frottée aux épices douces, cuite sous pression dans une sauce de piments guajillo, ancho et California, effilochée et servie en tacos dorés dans des tortillas de maïs souples, avec un bol de consommé.",
+  "portions": 14,
+  "portionsNote": "5 à table ce soir + environ 9 portions de restes",
+  "temps": {
+    "prep": "1 h (frottage, sauce et saisie)",
+    "cuisson": "70 min sous pression + montée 20–25 min + 15 min de détente"
+  },
+  "tempsTotal": "environ 3 h (dont 2 h sans surveillance)",
+  "etiquettes": [
+    "porc",
+    "tacos",
+    "restes"
+  ],
+  "temperatures": [
+    {
+      "quoi": "Porc",
+      "temp": "71 °C (160 °F) minimum",
+      "note": "au centre ; il doit se défaire à la fourchette"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Porc et frottage (fait le matin)",
+      "items": [
+        {
+          "q": 3.535,
+          "u": "kg",
+          "nom": "d'épaule de porc désossée, en 8 à 10 morceaux de 3 à 4 po"
+        },
+        {
+          "q": 2.75,
+          "u": "c. à soupe",
+          "nom": "de paprika fumé doux"
+        },
+        {
+          "q": 1.75,
+          "u": "c. à soupe",
+          "nom": "de cumin moulu"
+        },
+        {
+          "q": 2.75,
+          "u": "c. à thé",
+          "nom": "d'origan séché"
+        },
+        {
+          "q": 2.75,
+          "u": "c. à thé",
+          "nom": "de poudre d'ail"
+        },
+        {
+          "q": 2.75,
+          "u": "c. à thé",
+          "nom": "de poudre d'oignon"
+        },
+        {
+          "q": 2.75,
+          "u": "c. à soupe",
+          "nom": "de cassonade"
+        },
+        {
+          "q": 4,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 1.25,
+          "u": "c. à thé",
+          "nom": "de poivre moulu"
+        }
+      ]
+    },
+    {
+      "groupe": "Sauce aux piments",
+      "items": [
+        {
+          "q": 6,
+          "u": "",
+          "nom": "piments guajillo séchés"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "piments ancho séchés"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "piments California séchés"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon moyen, en 4"
+        },
+        {
+          "q": 8,
+          "u": "",
+          "nom": "gousses d'ail pelées"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "boîte de 398 ml de tomates en dés"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "de vinaigre de cidre"
+        },
+        {
+          "q": 1.5,
+          "u": "t",
+          "nom": "de bouillon de poulet chaud"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "d'origan séché"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de cannelle moulue"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "clous de girofle entiers"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de poivre moulu"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel"
+        }
+      ]
+    },
+    {
+      "groupe": "Instant Pot",
+      "items": [
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile"
+        },
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de bouillon de poulet (pour déglacer)"
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "feuilles de laurier"
+        }
+      ]
+    },
+    {
+      "groupe": "Pour servir (5 personnes ce soir)",
+      "items": [
+        {
+          "q": 15,
+          "u": "",
+          "nom": "tortillas de maïs souples"
+        },
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de fromage râpé sans lactose"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon blanc, haché fin"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de persil frais haché (pas de coriandre)"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "limes, en quartiers"
+        }
+      ]
+    }
+  ],
+  "miseEnPlace": [
+    "Porc : déjà frotté ce matin et au frigo dans un contenant fermé. Le sortir au moment de saisir.",
+    "Piments : couper la queue aux ciseaux, ouvrir sur la longueur, secouer les graines et retirer les membranes pâles (gants, ou bien se laver les mains ; ne pas se toucher les yeux).",
+    "Oignon de la sauce : peler et couper en 4. Ail : peler les 8 gousses (pas besoin de hacher, le mélangeur s'en occupe).",
+    "Oignon blanc (service) : peler, couper en deux, puis en dés d'environ ⅛ à ¼ po.",
+    "Persil : rincer, essorer dans un linge, hacher grossièrement. Limes : couper chacune en 6 quartiers.",
+    "Équipement : poêle sèche de 10 à 12 po ; bol résistant à la chaleur + une assiette ; mélangeur ; passoire fine ; Instant Pot de 6 à 8 L ; cuillère de bois ; pince ; 2 fourchettes ; louche ; bol pour le gras rouge ; thermomètre."
+  ],
+  "etapes": [
+    {
+      "titre": "Griller les piments",
+      "texte": "Déposer les piments ouverts à plat dans la poêle sèche et les presser avec la spatule. Les retourner dès qu'ils sentent bon.",
+      "feu": "moyen",
+      "duree": "15–20 s par côté",
+      "reperes": "Ils deviennent souples, brillants et parfumés. Noircis ou fumants = amers : les jeter.",
+      "pourquoi": "Griller réveille l'arôme fruité des piments ; trop griller les rend amers."
+    },
+    {
+      "titre": "Faire tremper",
+      "texte": "Mettre les piments dans le bol, couvrir d'eau bouillante et poser une assiette dessus pour les garder sous l'eau. Ensuite, jeter l'eau de trempage.",
+      "duree": "20 min",
+      "reperes": "Les piments sont mous comme du cuir mouillé.",
+      "pourquoi": "L'eau de trempage est amère : on ne l'utilise pas."
+    },
+    {
+      "titre": "Mélanger et tamiser la sauce",
+      "texte": "Au mélangeur : piments égouttés, oignon, ail, tomates, vinaigre, 1 ½ t de bouillon chaud, origan, cannelle, clous de girofle, poivre et sel. Mélanger à haute vitesse, puis passer dans la passoire fine en pressant avec une cuillère. Goûter et ajuster le sel.",
+      "duree": "1–2 min au mélangeur + 3 min pour tamiser",
+      "reperes": "Sauce rouge foncé, lisse et veloutée, sans pelures.",
+      "pourquoi": "Tamiser donne un consommé soyeux, sans petits morceaux de peau."
+    },
+    {
+      "titre": "Saisir le porc en 4 lots",
+      "texte": "Instant Pot en mode Sauté (élevé), ½ c. à soupe d'huile par lot. Quand l'huile ondule, déposer 2 ou 3 morceaux sans les tasser. Ne pas y toucher avant qu'ils se décollent seuls, puis retourner. Réserver dans un plat.",
+      "feu": "vif (mode Sauté élevé)",
+      "duree": "3–4 min par côté, environ 20 min en tout",
+      "reperes": "Croûte brun foncé sur au moins deux faces.",
+      "pourquoi": "Les morceaux tassés bouillent au lieu de dorer ; la croûte donne le goût profond du consommé."
+    },
+    {
+      "titre": "Déglacer à fond",
+      "texte": "Arrêter le mode Sauté. Verser 1 t de bouillon et gratter tout le fond avec la cuillère de bois.",
+      "duree": "1–2 min",
+      "reperes": "Plus rien ne colle au fond de la cuve.",
+      "pourquoi": "Un fond collé déclenche l'alerte « Burn » et arrête la cuisson."
+    },
+    {
+      "titre": "Remplir la cuve",
+      "texte": "Remettre le porc et son jus, ajouter le laurier, puis verser la sauce par-dessus, sans brasser. Ne jamais dépasser la ligne des 2/3. Le surplus de sauce va dans un chaudron au frigo pour le consommé.",
+      "duree": "2 min",
+      "pourquoi": "La sauce épaisse au fond brûle ; posée sur la viande, elle reste en haut."
+    },
+    {
+      "titre": "Cuire sous pression",
+      "texte": "Fermer, valve sur « Sealing ». Pression haute, puis détente naturelle. Ouvrir la valve doucement en gardant les mains loin de la vapeur.",
+      "duree": "70 min (+ 20–25 min de montée) + 15 min de détente naturelle",
+      "pourquoi": "La détente naturelle garde la viande juteuse ; une détente rapide la resserre."
+    },
+    {
+      "titre": "Vérifier et effilocher",
+      "texte": "Piquer un morceau à la fourchette et prendre la température au centre du plus gros. Effilocher à 2 fourchettes dans un grand plat ; jeter le gras dur et le laurier.",
+      "reperes": "La viande se défait toute seule ; au moins 71 °C. Si elle résiste, refermer et ajouter 10 min à haute pression.",
+      "pourquoi": "L'épaule devient tendre seulement quand le collagène fond, bien après 71 °C."
+    },
+    {
+      "titre": "Faire le consommé",
+      "texte": "Récupérer à la louche le gras rouge du dessus dans un bol (pour les tortillas). Ajouter le surplus de sauce dans la cuve, mode Sauté, laisser mijoter et saler au goût. Remettre quelques louches de consommé sur la viande effilochée.",
+      "feu": "moyen (mode Sauté, petit frémissement)",
+      "duree": "10 min",
+      "reperes": "Le consommé est rouge, brillant et nappe légèrement la cuillère."
+    },
+    {
+      "titre": "Dorer les tacos",
+      "texte": "Chauffer une poêle. Tremper une tortilla dans le gras rouge, la déposer dans la poêle, mettre un peu de fromage et de porc égoutté sur une moitié, plier, puis dorer des deux côtés. Garder au four à 200 °F pendant qu'on fait les autres.",
+      "feu": "moyen-vif",
+      "duree": "1–2 min par côté",
+      "reperes": "Tortilla rouge, croustillante et dorée ; le fromage a fondu.",
+      "pourquoi": "Le gras rouge donne la couleur et le goût, et empêche la tortilla de casser."
+    },
+    {
+      "titre": "Servir",
+      "texte": "Servir chaque assiette de tacos avec un petit bol de consommé chaud pour tremper, de l'oignon blanc, du persil et un quartier de lime. Piment fort seulement à table, pour les adultes."
+    }
+  ],
+  "astuces": [
+    "Piments noircis = sauce amère : mieux vaut en refaire griller un que de garder un piment brûlé.",
+    "Ne jamais brasser la sauce dans la cuve avant la pression : c'est la cause n° 1 de l'alerte « Burn ».",
+    "Pas plus de 2/3 de la cuve : le surplus de sauce sert au consommé.",
+    "Égoutter la viande avant de garnir les tacos, sinon ils deviennent détrempés."
+  ],
+  "conservation": [
+    "Frigo : dans les 2 h, en contenants peu profonds, viande avec un peu de consommé ; 3 à 4 jours.",
+    "Congélateur : 2 à 3 mois, en portions pour les lunchs, avec du jus. Le consommé en trop se congèle en pots (base de soupe).",
+    "Réchauffer : casserole couverte à feu moyen-doux avec un peu de consommé, en brassant, ou au micro-ondes à couvert, jusqu'à 74 °C au centre.",
+    "Le gras rouge se garde au frigo 1 semaine, pour redorer les tacos des restes."
+  ],
+  "notes": [
+    "Fait le lundi 16 novembre 2026 pour la semaine. Pour les soupers de restes, voir « Restes de birria réchauffés »."
+  ],
+  "liens": [
+    {
+      "slug": "restes-birria",
+      "texte": "Voir les restes de birria réchauffés"
+    }
+  ],
+  "photo": "images/restes-birria.jpg",
+  "credit": {
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
+  },
+  "substitutions": [],
+  "mealPrep": []
+}
