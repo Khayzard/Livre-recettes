@@ -105,11 +105,7 @@
   ],
   "photo": "images/cigares-chou.jpg",
   "credit": {
-    "texte": "Photo : HaJunkiyada — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "HaJunkiyada",
-    "licence": "CC BY-SA 4.0",
-    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "Liat Portal for Foodie Disorder - Stuffed cabbage (homemade).jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Stuffed_cabbage_(homemade).jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

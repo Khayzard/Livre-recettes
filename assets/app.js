@@ -301,8 +301,33 @@
   function section(titre, classe, enfants) {
     return el("section", { class: "bloc " + (classe || "") }, [el("h2", { text: titre })].concat(enfants));
   }
-  function listeSimple(items, classe) {
-    return el("ul", { class: classe || "liste" }, items.map(function (t) { return el("li", { text: t }); }));
+  function listeSimple(items, classe, facteur) {
+    return el("ul", { class: classe || "liste" }, items.map(function (t) { return el("li", { text: remplacerMesures(t, facteur || 1) }); }));
+  }
+
+  // Une étape peut être une simple chaîne (ancien format) ou un objet
+  // { titre, texte, feu, four, duree, reperes, pourquoi } (seuls titre et texte sont obligatoires).
+  function normaliserEtape(e) {
+    if (e && typeof e === "object") return e;
+    return { texte: String(e === null || e === undefined ? "" : e) };
+  }
+  function etapeEnrichie(e) { return !!(e && typeof e === "object"); }
+
+  // Contenu d'une étape (page recette et mode cuisine).
+  function contenuEtape(e, facteur) {
+    e = normaliserEtape(e);
+    var m = function (s) { return remplacerMesures(s, facteur); };
+    var pastilles = [];
+    if (e.feu) pastilles.push(el("span", { class: "pastille pastille-feu" }, ["🔥 Feu " + m(e.feu)]));
+    if (e.four) pastilles.push(el("span", { class: "pastille pastille-four" }, ["♨️ Four " + m(e.four)]));
+    if (e.duree) pastilles.push(el("span", { class: "pastille pastille-duree" }, ["⏱ " + m(e.duree)]));
+    return [
+      e.titre ? el("strong", { class: "etape-titre", text: m(e.titre) }) : null,
+      e.texte ? el("p", { class: "etape-texte", text: m(e.texte) }) : null,
+      pastilles.length ? el("p", { class: "pastilles" }, pastilles) : null,
+      e.reperes ? el("p", { class: "etape-reperes", text: "👀 " + m(e.reperes) }) : null,
+      e.pourquoi ? el("p", { class: "etape-pourquoi", text: "💡 Pourquoi : " + m(e.pourquoi) }) : null
+    ];
   }
 
   function pageRecette() {
@@ -332,15 +357,22 @@
       if (r.temps.cuisson) tempsTxt.push("Cuisson : " + r.temps.cuisson);
       if (r.temps.total) tempsTxt.push("Total : " + r.temps.total);
     }
-    var credit = r.credit ? el("p", { class: "credit" }, [
-      el("a", { href: r.credit.lien, rel: "noopener", target: "_blank", text: "Photo : " + r.credit.auteur }),
-      " — ",
-      el("a", { href: r.credit.licenceLien, rel: "noopener license", target: "_blank", text: r.credit.licence }),
-      ", Wikimedia Commons"
-    ]) : null;
+    var credit = null;
+    if (r.credit) {
+      if (r.credit.lien && r.credit.licenceLien) {
+        credit = el("p", { class: "credit" }, [
+          el("a", { href: r.credit.lien, rel: "noopener", target: "_blank", text: "Photo : " + r.credit.auteur }),
+          " — ",
+          el("a", { href: r.credit.licenceLien, rel: "noopener license", target: "_blank", text: r.credit.licence }),
+          ", Wikimedia Commons"
+        ]);
+      } else if (r.credit.texte) {
+        credit = el("p", { class: "credit", text: r.credit.texte });
+      }
+    }
 
     var figure = el("figure", { class: "photo" }, [
-      el("img", { src: r.photo, alt: r.titre, width: "1200", height: "800" }),
+      el("img", { src: r.photo, alt: r.titre, width: "1200", height: "900" }),
       credit ? el("figcaption", null, [credit]) : null
     ]);
 
@@ -351,7 +383,7 @@
         return el("a", { class: "etiquette", href: "index.html?q=" + encodeURIComponent(t), text: t });
       })),
       tempsTxt.length ? el("p", { class: "temps", text: "⏱ " + tempsTxt.join(" · ") }) : null,
-      el("button", { type: "button", class: "btn btn-gros btn-plein btn-cuisine", onclick: function () { ouvrirCuisine(r); } }, ["👩‍🍳 Mode cuisine"])
+      el("button", { type: "button", class: "btn btn-gros btn-plein btn-cuisine", onclick: function () { ouvrirCuisine(r, facteurActuel()); } }, ["👩‍🍳 Mode cuisine"])
     ]);
 
     // Températures
@@ -365,8 +397,10 @@
     // Ingrédients
     var listeIng = el("div", { class: "ingredients" });
     var infoPortions = el("p", { class: "info-portions" });
+    var enrichie = (r.etapes || []).some(etapeEnrichie);
+    function facteurActuel() { return r.portions && portions ? portions / r.portions : 1; }
     function rendreIngredients() {
-      var f = r.portions && portions ? portions / r.portions : 1;
+      var f = facteurActuel();
       var blocs = [];
       (r.ingredients || []).forEach(function (g, gi) {
         if (g.groupe) blocs.push(el("h3", { text: g.groupe }));
@@ -381,7 +415,9 @@
         })));
       });
       listeIng.replaceChildren.apply(listeIng, blocs);
-      infoPortions.textContent = f !== 1 ? "Quantités ajustées pour " + portions + " portions (recette de base : " + r.portions + "). Les quantités dans les étapes restent celles de la recette de base." : "";
+      infoPortions.textContent = f !== 1 ? "Quantités ajustées pour " + portions + " portions (recette de base : " + r.portions + ")." +
+        (enrichie ? " Les quantités dans les étapes sont ajustées aussi ; prévoir au besoin un plus grand récipient ou une plaque de plus." : " Les quantités dans les étapes restent celles de la recette de base.") : "";
+      rendreEtapes(f);
     }
 
     var selecteur = null;
@@ -394,7 +430,7 @@
         el("button", { type: "button", class: "btn btn-rond", "aria-label": "Plus de portions", onclick: function () { if (portions < 60) { portions++; maj(); } } }, ["+"]),
         el("button", { type: "button", class: "btn btn-lien", onclick: function () { portions = r.portions; maj(); } }, ["Base (" + r.portions + ")"])
       ]);
-      valeur.textContent = portions + " portions";
+      valeur.textContent = portions + " portion" + (portions > 1 ? "s" : "");
     }
 
     var blocIng = section("Ingrédients", "bloc-ing", [
@@ -406,14 +442,28 @@
       } }, ["Tout décocher"])
     ].filter(Boolean));
 
-    var blocEtapes = section("Étapes", "bloc-etapes", [
-      el("ol", { class: "etapes" }, (r.etapes || []).map(function (e) { return el("li", { text: e }); }))
-    ]);
+    // Mise en place, étapes et astuces : réaffichées quand les portions changent ({{valeur|unité}}).
+    var olEtapes = el("ol", { class: "etapes" + (enrichie ? " etapes-riches" : "") });
+    var ulMep = el("ul", { class: "liste liste-mep" }), ulAstuces = el("ul", { class: "liste liste-astuces" });
+    function rendreEtapes(f) {
+      olEtapes.replaceChildren.apply(olEtapes, (r.etapes || []).map(function (e) {
+        return etapeEnrichie(e) ? el("li", { class: "etape" }, contenuEtape(e, f)) : el("li", { text: remplacerMesures(e, f) });
+      }));
+      ulMep.replaceChildren.apply(ulMep, (r.miseEnPlace || []).map(function (t) { return el("li", { text: remplacerMesures(t, f) }); }));
+      ulAstuces.replaceChildren.apply(ulAstuces, (r.astuces || []).map(function (t) { return el("li", { text: remplacerMesures(t, f) }); }));
+    }
 
+    var blocMep = (r.miseEnPlace || []).length ? section("🧺 Mise en place", "bloc-mep", [
+      el("p", { class: "intro-bloc", text: "À sortir, couper et préparer avant d'allumer le feu." }), ulMep
+    ]) : null;
+    var blocEtapes = section("Étapes", "bloc-etapes", [olEtapes]);
+
+    // Ordre : Mise en place, Étapes, Astuces, Meal prep, Conservation, puis le reste.
     var extras = [];
+    if ((r.astuces || []).length) extras.push(section("⚠️ Astuces et erreurs à éviter", "bloc-astuces", [ulAstuces]));
     if ((r.mealPrep || []).length) extras.push(section("🥡 Meal prep", "bloc-prep", [listeSimple(r.mealPrep)]));
-    if ((r.substitutions || []).length) extras.push(section("🔁 Substitutions", "", [listeSimple(r.substitutions)]));
     if ((r.conservation || []).length) extras.push(section("❄️ Conservation et lunchs", "", [listeSimple(r.conservation)]));
+    if ((r.substitutions || []).length) extras.push(section("🔁 Substitutions", "", [listeSimple(r.substitutions)]));
     if ((r.notes || []).length) extras.push(section("📝 Notes", "", [listeSimple(r.notes)]));
     if (r.proteines) extras.push(section("Protéines", "", [el("p", { text: r.proteines + " par portion" })]));
     if ((r.liens || []).length) extras.push(el("p", { class: "liens" }, r.liens.map(function (l) {
@@ -421,23 +471,46 @@
     })));
 
     zone.replaceChildren(figure, entete, temps,
-      el("div", { class: "colonnes" }, [blocIng, el("div", null, [blocEtapes].concat(extras))]));
+      el("div", { class: "colonnes" }, [blocIng, el("div", null, [blocMep, blocEtapes].concat(extras))]));
     rendreIngredients();
   }
 
   // ---------- Mode cuisine ----------
-  function ouvrirCuisine(r) {
+  function ouvrirCuisine(r, facteur) {
+    facteur = facteur || 1;
     var boite = document.getElementById("cuisine"), etapes = r.etapes || [], n = 0;
     var txt = document.getElementById("cuisine-etape"), num = document.getElementById("cuisine-num"),
         prec = document.getElementById("cuisine-prec"), suiv = document.getElementById("cuisine-suiv"),
         info = document.getElementById("cuisine-eveil");
     if (!etapes.length) return;
     document.getElementById("cuisine-titre").textContent = r.titre;
+    // Cartes : « Mise en place » d'abord (si présente), puis une carte par étape.
+    var mep = r.miseEnPlace || [];
+    var cartes = (mep.length ? [{ mep: true }] : []).concat(etapes.map(function (e) { return { etape: e }; }));
+    var decalage = mep.length ? 1 : 0;
+    // Fondu en bas tant qu'il reste du texte à faire défiler.
+    function indiquerSuite() {
+      txt.classList.toggle("a-suivre", txt.scrollHeight - txt.clientHeight - txt.scrollTop > 8);
+    }
+    txt.onscroll = indiquerSuite;
     function montrer() {
-      num.textContent = "Étape " + (n + 1) + " sur " + etapes.length;
-      txt.textContent = etapes[n];
+      var c = cartes[n];
+      num.textContent = c.mep ? "Avant de commencer" : "Étape " + (n - decalage + 1) + " sur " + etapes.length;
+      if (c.mep) {
+        txt.replaceChildren(
+          el("strong", { class: "etape-titre", text: "🧺 Mise en place" }),
+          el("p", { class: "etape-pourquoi", text: "À sortir, couper et préparer avant d'allumer le feu." }),
+          el("ul", { class: "cuisine-mep" }, mep.map(function (t) { return el("li", { text: remplacerMesures(t, facteur) }); }))
+        );
+      } else if (etapeEnrichie(c.etape)) {
+        txt.replaceChildren.apply(txt, contenuEtape(c.etape, facteur).filter(Boolean));
+      } else {
+        txt.replaceChildren(el("p", { class: "etape-simple", text: remplacerMesures(c.etape, facteur) }));
+      }
+      txt.scrollTop = 0;
+      indiquerSuite();
       prec.disabled = n === 0;
-      suiv.textContent = n === etapes.length - 1 ? "Terminé ✓" : "Suivante →";
+      suiv.textContent = n === cartes.length - 1 ? "Terminé ✓" : "Suivante →";
     }
     function fermer() {
       boite.hidden = true; document.body.classList.remove("sans-defilement");
@@ -452,7 +525,7 @@
     }
     function visibilite() { if (document.visibilityState === "visible" && !boite.hidden && !verrouEcran) demanderEveil(info); }
     prec.onclick = function () { if (n > 0) { n--; montrer(); } };
-    suiv.onclick = function () { if (n < etapes.length - 1) { n++; montrer(); } else fermer(); };
+    suiv.onclick = function () { if (n < cartes.length - 1) { n++; montrer(); } else fermer(); };
     document.getElementById("cuisine-fermer").onclick = fermer;
     document.addEventListener("keydown", clavier);
     document.addEventListener("visibilitychange", visibilite);

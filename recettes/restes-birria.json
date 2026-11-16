@@ -3,7 +3,7 @@
   "titre": "Restes de birria réchauffés",
   "resume": "Souper express : on réchauffe la birria (porc effiloché) déjà cuite et on sert en tacos.",
   "portions": null,
-  "portionsNote": "Selon ce qui reste",
+  "portionsNote": "Selon ce qui reste (quantités indicatives pour 5 personnes à table)",
   "temps": {
     "total": "~15 min"
   },
@@ -23,39 +23,157 @@
   ],
   "ingredients": [
     {
-      "groupe": "",
+      "groupe": "Restes",
       "items": [
         {
-          "texte": "Restes de birria (porc effiloché) déjà cuits"
+          "q": 750,
+          "u": "g",
+          "nom": "de restes de birria (porc effiloché) déjà cuits, avec leur jus (environ 150 g par personne)"
         },
         {
-          "texte": "Tortillas de maïs souples (vérifier ce qu'il reste)"
+          "texte": "Eau, au besoin, si la viande est sèche"
+        }
+      ]
+    },
+    {
+      "groupe": "Tortillas",
+      "items": [
+        {
+          "q": 15,
+          "u": "",
+          "nom": "tortillas de maïs souples (environ 3 par personne ; vérifier ce qu'il reste)"
+        }
+      ]
+    },
+    {
+      "groupe": "Garnitures",
+      "items": [
+        {
+          "q": 1,
+          "u": "",
+          "nom": "petit oignon (blanc ou jaune), haché fin"
         },
         {
-          "texte": "Garnitures : oignon, lime ou citron, persil (pas de coriandre)"
+          "q": 2,
+          "u": "",
+          "nom": "limes ou citrons, en quartiers"
         },
         {
-          "texte": "Facultatif, selon ce qui reste : chou émincé, tomates, fromage râpé sans lactose, yogourt grec nature sans lactose, salsa sans coriandre"
+          "q": 0.5,
+          "u": "t",
+          "nom": "de persil frais haché (pas de coriandre)"
+        }
+      ]
+    },
+    {
+      "groupe": "Garnitures facultatives (selon ce qui reste)",
+      "items": [
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de chou émincé fin"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "tomates, en petits dés"
+        },
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de fromage râpé sans lactose"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de yogourt grec nature sans lactose"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de salsa douce sans coriandre"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Restes de birria : les sortir du frigo. S'ils sont congelés, les décongeler au frigo la veille (environ 24 h), jamais sur le comptoir.",
+    "Tortillas de maïs souples : vérifier qu'il en reste assez pour tout le monde.",
+    "Oignon : couper les bouts, peler, couper en deux de la racine à la tige, poser à plat, faire des entailles de 3 à 5 mm sur la longueur puis trancher en travers pour obtenir des dés de 3 à 5 mm.",
+    "Lime ou citron : couper en deux sur la longueur, puis chaque moitié en 3 quartiers.",
+    "Persil : rincé, bien essoré dans un linge, haché grossièrement (jamais de coriandre).",
+    "Garnitures facultatives : chou émincé très fin (lanières de 2 mm), tomates épépinées en dés de 1 cm, fromage râpé sans lactose, yogourt grec sans lactose, salsa sans coriandre ; chacune dans un petit bol.",
+    "Équipement : casserole moyenne (2 à 3 L) avec couvercle, ou plat allant au micro-ondes avec couvercle ; poêle de 25 à 30 cm sans huile pour les tortillas ; linge propre ; cuillère trouée ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Réchauffer les restes de birria dans une casserole ou une poêle (ou au micro-ondes), en brassant, jusqu'à 74 °C au centre.",
-    "Pendant ce temps, réchauffer les tortillas de maïs : poêle sèche, ou micro-ondes 30 s sous un linge humide.",
-    "Préparer les garnitures : oignon haché, quartiers de lime ou de citron, persil haché.",
-    "Servir en tacos. Les adultes ajoutent le piquant à table.",
-    "Remettre les restes au frigo en moins de 2 h."
+    {
+      "titre": "Préparer les garnitures",
+      "texte": "Hacher l'oignon en petits dés, couper la lime ou le citron en quartiers et hacher le persil, comme indiqué dans la mise en place. Déposer chaque garniture du groupe « Garnitures » dans un petit bol sur la table, avec les garnitures facultatives qui restent.",
+      "duree": "5 min",
+      "pourquoi": "Une fois la viande chaude, tout va très vite : mieux vaut avoir les garnitures prêtes avant d'allumer le feu."
+    },
+    {
+      "titre": "Mettre la birria dans la casserole",
+      "texte": "Déposer les restes de birria dans une casserole moyenne avec leur jus de cuisson. Si la viande semble sèche ou qu'il ne reste plus de jus, ajouter un peu d'eau, juste assez pour mouiller le fond. Défaire les gros morceaux à la fourchette.",
+      "duree": "2 min",
+      "reperes": "Le fond de la casserole est mouillé partout ; aucun gros bloc de viande compacte.",
+      "pourquoi": "Le liquide fait de la vapeur qui réchauffe la viande jusqu'au centre sans la dessécher ni la faire coller."
+    },
+    {
+      "titre": "Réchauffer à couvert",
+      "texte": "Couvrir et chauffer en brassant toutes les 2 à 3 minutes, en ramenant la viande du fond vers le dessus. Au micro-ondes : plat couvert, 2 minutes, brasser, puis continuer par tranches d'une minute en brassant chaque fois.",
+      "feu": "moyen-doux",
+      "duree": "8–12 min",
+      "reperes": "Le jus frémit sur toute la surface et de la vapeur s'échappe de partout quand on brasse, pas seulement sur les bords.",
+      "pourquoi": "À feu vif, le fond attache et brûle avant que le centre soit chaud."
+    },
+    {
+      "titre": "Vérifier la température",
+      "texte": "Piquer le thermomètre au centre de la casserole, là où il y a le plus de viande, puis à un deuxième endroit. Si ce n'est pas encore 74 °C partout, continuer à chauffer en brassant. Une fois la température atteinte, baisser à feu doux et garder couvert.",
+      "feu": "doux pour garder au chaud",
+      "reperes": "74 °C (165 °F) au centre, à au moins deux endroits.",
+      "pourquoi": "Des restes tièdes au centre ne sont pas sécuritaires : c'est là que les bactéries survivent."
+    },
+    {
+      "titre": "Réchauffer les tortillas",
+      "texte": "Chauffer une poêle sèche, sans huile. Y déposer une tortilla à la fois et la retourner avec les doigts ou une pince. Empiler les tortillas chaudes dans un linge propre plié en deux pour qu'elles restent souples. Au micro-ondes : la pile enveloppée dans un linge humide, 30 secondes, puis 15 secondes de plus au besoin.",
+      "feu": "moyen-vif",
+      "duree": "20–30 s par côté",
+      "reperes": "La tortilla gonfle un peu, devient souple et prend quelques taches dorées. Si elle craque quand on la plie, elle n'est pas encore assez chaude.",
+      "pourquoi": "Froide, la tortilla de maïs casse ; bien chaude, elle plie sans se déchirer."
+    },
+    {
+      "titre": "Monter les tacos",
+      "texte": "Prendre la viande avec une cuillère trouée pour laisser égoutter le surplus de jus. En déposer environ 2 à 3 c. à soupe au centre d'une tortilla, puis ajouter l'oignon, le persil et un filet de lime ou de citron. Chacun ajoute ses garnitures facultatives. Le jus qui reste peut se servir dans de petits bols pour y tremper les tacos.",
+      "reperes": "La tortilla tient dans la main sans se détremper.",
+      "pourquoi": "Trop de jus dans la tortilla la fait se défaire avant la première bouchée."
+    },
+    {
+      "titre": "Ranger les restes",
+      "texte": "Mettre ce qui reste au frigo dans des contenants peu profonds, couvercle entrouvert jusqu'à ce que ce soit froid, puis bien fermer.",
+      "duree": "moins de 2 h après le service",
+      "pourquoi": "Une couche mince refroidit vite, ce qui laisse moins de temps aux bactéries pour se multiplier."
+    }
+  ],
+  "astuces": [
+    "Réchauffer seulement ce qu'on va manger ce soir : réchauffer deux fois les mêmes restes leur fait perdre goût et texture, et c'est moins sécuritaire.",
+    "Pas de feu vif : le fond colle et brûle avant que le centre soit chaud. Feu moyen-doux, couvercle et patience.",
+    "Une tortilla qui casse n'est pas assez chaude : la remettre quelques secondes dans la poêle.",
+    "Égoutter la viande avant de garnir, sinon le taco se défait dans les mains."
   ],
   "substitutions": [
-    "Persil au lieu de la coriandre.",
+    "Persil frais (pas de coriandre).",
     "Lime ou citron, selon ce qu'il y a."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+    "Frigo : 3–4 jours au total, à compter du jour où la birria a été cuite, dans des contenants peu profonds bien fermés.",
+    "Congélateur : 2–3 mois, à plat dans des sacs à congélation, avec un peu de jus pour que la viande ne sèche pas. Décongeler au frigo (environ 24 h).",
+    "Réchauffer : casserole couverte à feu moyen-doux avec un peu de jus ou d'eau, en brassant, ou micro-ondes à couvert en brassant chaque minute, jusqu'à 74 °C au centre.",
+    "Ne se congèle pas bien : les garnitures fraîches (oignon, persil, lime) et les tortillas déjà réchauffées. Ne pas remettre au congélateur des restes déjà réchauffés."
   ],
   "notes": [
-    "Recette d'origine : « Tacos de porc effiloché (style birria) à la mijoteuse »."
+    "Recette d'origine : « Tacos de porc effiloché (style birria) à la mijoteuse » (bouton ci-dessous). Rappel : une épaule de porc désossée frottée d'un mélange d'épices douces sans coriandre, cuite à la mijoteuse avec oignon, ail, jus d'orange, jus de lime et bouillon, 8 à 10 h à basse température, puis effilochée dans son jus. Ici, la viande est déjà assaisonnée et cuite : on la réchauffe seulement.",
+    "Quantités indicatives pour 5 personnes ; ajuster selon ce qui reste au frigo."
   ],
   "liens": [
     {
@@ -65,11 +183,7 @@
   ],
   "photo": "images/restes-birria.jpg",
   "credit": {
-    "texte": "Photo : Sarah Stierch (Missvain) — CC BY 4.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Sarah Stierch (Missvain)",
-    "licence": "CC BY 4.0",
-    "licenceLien": "https://creativecommons.org/licenses/by/4.0",
-    "source": "Quesabirria at Taqueria La Hacienda, Sonoma, California - Sarah Stierch.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Quesabirria_at_Taqueria_La_Hacienda,_Sonoma,_California_-_Sarah_Stierch.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

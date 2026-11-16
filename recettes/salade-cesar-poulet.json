@@ -109,11 +109,7 @@
   ],
   "photo": "images/salade-cesar-poulet.jpg",
   "credit": {
-    "texte": "Photo : Daderot — CC0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Daderot",
-    "licence": "CC0",
-    "licenceLien": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "source": "Chicken Caesar salad - Auckland, New Zealand.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Chicken_Caesar_salad_-_Auckland,_New_Zealand.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

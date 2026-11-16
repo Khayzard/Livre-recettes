@@ -1,34 +1,76 @@
 {
   "slug": "quesadillas-poulet",
   "titre": "Quesadillas au poulet et crudités",
-  "resume": "Quesadillas au poulet épicé (doux), poivrons, maïs et fromage sans lactose, avec crudités et trempette à l'aneth.",
+  "resume": "Quesadillas au poulet aux épices douces, poivrons, maïs et fromage sans lactose, avec crudités et trempette à l'aneth.",
   "portions": 10,
+  "temps": {
+    "prep": "25 min",
+    "cuisson": "20–25 min de four pour le poulet (peut se faire la veille) + 20 min"
+  },
+  "tempsTotal": "~1 h 10 (45 min si le poulet est déjà cuit)",
   "etiquettes": [
     "poulet"
   ],
   "temperatures": [
     {
       "quoi": "Poulet",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "au centre de la pièce la plus épaisse"
     },
     {
       "quoi": "Restes réchauffés",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "jusqu'au centre"
     }
   ],
   "ingredients": [
+    {
+      "groupe": "Mélange d'épices maison sans coriandre (version maison proposée)",
+      "items": [
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de paprika doux"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de cumin moulu"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de poudre d'ail"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de poudre d'oignon"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "d'origan séché"
+        },
+        {
+          "q": 1.5,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de poivre"
+        }
+      ]
+    },
     {
       "groupe": "Garniture",
       "items": [
         {
           "q": 1.4,
           "u": "kg",
-          "nom": "de poulet"
-        },
-        {
-          "texte": "Épices maison sans coriandre : paprika, cumin, ail, oignon, origan, sel, poivre"
+          "nom": "de poulet désossé, sans peau (poitrines ou hauts de cuisse)"
         },
         {
           "q": 2,
@@ -43,12 +85,20 @@
         {
           "q": 1,
           "u": "t",
-          "nom": "de maïs"
+          "nom": "de maïs en grains (surgelé, ou en conserve égoutté)"
         },
+        {
+          "texte": "Huile de cuisson (pour le poulet et les légumes)"
+        }
+      ]
+    },
+    {
+      "groupe": "Montage",
+      "items": [
         {
           "q": 10,
           "u": "",
-          "nom": "grandes tortillas de blé (vérifier le lait)"
+          "nom": "tortillas de blé de 25 cm (grandes ; vérifier le lait)"
         },
         {
           "q": 4,
@@ -58,26 +108,7 @@
       ]
     },
     {
-      "groupe": "Pour servir",
-      "items": [
-        {
-          "q": 1.5,
-          "u": "t",
-          "nom": "de salsa sans coriandre"
-        },
-        {
-          "q": 1.5,
-          "u": "t",
-          "nom": "de yogourt grec sans lactose"
-        },
-        {
-          "texte": "Crudités : 4 carottes, 2 concombres, tomates cerises",
-          "pourBase": true
-        }
-      ]
-    },
-    {
-      "groupe": "Trempette",
+      "groupe": "Trempette à l'aneth",
       "items": [
         {
           "q": 0.5,
@@ -92,7 +123,7 @@
         {
           "q": 1,
           "u": "c. à thé",
-          "nom": "d'aneth"
+          "nom": "d'aneth séché"
         },
         {
           "q": 1,
@@ -105,25 +136,139 @@
           "nom": "de sel"
         }
       ]
+    },
+    {
+      "groupe": "Crudités",
+      "items": [
+        {
+          "q": 4,
+          "u": "",
+          "nom": "carottes"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "concombres"
+        },
+        {
+          "q": 2,
+          "u": "t",
+          "nom": "de tomates cerises"
+        }
+      ]
+    },
+    {
+      "groupe": "Pour servir",
+      "items": [
+        {
+          "q": 1.5,
+          "u": "t",
+          "nom": "de salsa douce du commerce, sans coriandre (lire l'étiquette)"
+        },
+        {
+          "q": 1.5,
+          "u": "t",
+          "nom": "de yogourt grec sans lactose"
+        }
+      ]
     }
   ],
+  "miseEnPlace": [
+    "Poulet cuit la veille : le sortir du frigo au moment de commencer. Poulet cru : l'assécher avec du papier absorbant ; si une poitrine fait plus de 3 cm d'épaisseur, la couper en deux à l'horizontale pour obtenir deux morceaux d'égale épaisseur.",
+    "Poivrons : couper en deux, retirer le pédoncule, les graines et les membranes blanches, puis trancher en lanières de 5 mm de large ; recouper les lanières en deux pour des bouts d'environ 4 cm.",
+    "Oignon : couper en deux de la racine à la tige, peler, poser à plat et trancher en demi-lunes de 5 mm.",
+    "Maïs : surgelé, pas besoin de le décongeler ; en conserve, bien l'égoutter.",
+    "Ail (trempette) : peler et râper finement, ou hacher en morceaux de 1 mm.",
+    "Carottes (crudités) : peler, couper en tronçons de 8 cm, puis en bâtonnets de 1 cm d'épaisseur.",
+    "Concombres (crudités) : laver, couper en tronçons de 8 cm, puis en bâtonnets de 1,5 cm d'épaisseur (ou en rondelles de 5 mm). Tomates cerises : laver et laisser entières.",
+    "Équipement : 2 plaques de 33 × 46 cm (13 × 18 po) avec papier parchemin ; grande poêle de 30 cm ; petit bol pour les épices ; bol de 500 ml et fouet pour la trempette ; pince ; spatule large ; planche et couteau du chef ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Poulet pré-cuit (la veille) : au four à 425 °F 20–25 min, jusqu'à 74 °C. Sans pré-cuisson : couper en lanières, mélanger avec un peu d'huile et toutes les épices, et saisir jusqu'à 74 °C.",
-    "Sauter les poivrons, l'oignon et le maïs. Ajouter le poulet (s'il est pré-cuit, le réchauffer jusqu'à 74 °C).",
-    "Garnir les tortillas : environ ⅓ tasse de fromage (¼ tasse + 2 c. à soupe) par tortilla, plus la garniture.",
-    "Cuire à la poêle 2–3 min par côté, ou au four à 425 °F 10–12 min.",
-    "Couper en pointes et servir avec salsa, yogourt, crudités et trempette."
+    {
+      "titre": "Préparer le mélange d'épices maison",
+      "texte": "Dans un petit bol, mesurer tous les ingrédients du groupe « Mélange d'épices maison » et mélanger à la fourchette jusqu'à ce que la couleur soit uniforme. Si le mélange a été fait d'avance (meal prep), passer à l'étape suivante.",
+      "duree": "2 min",
+      "reperes": "Poudre brun orangé, sans mottes de poudre d'ail ou d'oignon.",
+      "pourquoi": "Les sources ne donnent pas les quantités ; version maison proposée, à ajuster. Le mélange est fait maison parce que les assaisonnements du commerce contiennent souvent des ingrédients que la famille évite ; celui-ci est doux, sans piquant."
+    },
+    {
+      "titre": "Préparer la trempette à l'aneth",
+      "texte": "Dans un bol de 500 ml, fouetter la mayonnaise et le yogourt jusqu'à consistance lisse. Ajouter l'aneth, l'ail râpé et le sel, puis fouetter encore. Couvrir et réfrigérer au moins 30 minutes ; elle se garde 3 jours au frigo. Si elle a été faite au meal prep, passer à l'étape suivante.",
+      "duree": "3 min + 30 min au frigo",
+      "reperes": "Trempette lisse et crémeuse, piquée de vert.",
+      "pourquoi": "Le repos au froid laisse l'aneth séché se réhydrater et parfumer la trempette."
+    },
+    {
+      "titre": "Cuire le poulet avec les épices",
+      "texte": "Si le poulet a été cuit la veille (meal prep), passer à l'étape 5. Sinon : déposer le poulet sur une plaque tapissée de papier parchemin, l'arroser d'un filet d'huile, le saupoudrer de tout le mélange d'épices et le retourner avec les mains pour bien l'enrober. Espacer les morceaux et enfourner. Vérifier avec le thermomètre à lecture instantanée, au centre du morceau le plus épais. Version à la poêle, sans four : couper le poulet cru en lanières de 1 cm d'épaisseur sur 5 cm, contre le grain, les mélanger dans un bol avec un filet d'huile et toutes les épices, puis les saisir en 2 ou 3 lots dans la grande poêle à feu moyen-vif, 5 à 6 minutes par lot, jusqu'à 74 °C.",
+      "four": "425 °F (220 °C), grille au centre",
+      "duree": "20–25 min",
+      "reperes": "74 °C (165 °F) au centre du morceau le plus épais ; le jus est clair et la chair n'est plus rosée.",
+      "pourquoi": "Cuit en gros morceaux, le poulet reste juteux ; les épices grillent à la surface et prennent du goût."
+    },
+    {
+      "titre": "Laisser reposer et trancher le poulet",
+      "texte": "Laisser reposer le poulet sur la plaque, puis le trancher contre le grain (en travers des fibres) en lanières de 5 mm d'épaisseur ; recouper les plus longues pour des bouts de 4 à 5 cm. Si c'est fait la veille : laisser tiédir, mettre dans un contenant peu profond et réfrigérer dans les 2 h.",
+      "duree": "5 min de repos + 5 min",
+      "reperes": "Les lanières sont juteuses et se tiennent.",
+      "pourquoi": "Des lanières minces se répartissent bien dans la tortilla, qui se plie sans se déchirer."
+    },
+    {
+      "titre": "Cuire la garniture de légumes et de poulet",
+      "texte": "Chauffer la grande poêle avec un filet d'huile. Quand l'huile miroite, ajouter l'oignon et les poivrons avec une pincée de sel et cuire en brassant de temps en temps. Ajouter le maïs et cuire encore 2 minutes. Ajouter les lanières de poulet et mélanger. Si le poulet vient du frigo, le réchauffer en brassant jusqu'à 74 °C (vérifier au thermomètre dans quelques morceaux). Retirer du feu et verser la garniture dans un bol.",
+      "feu": "moyen-vif",
+      "duree": "5–6 min pour les légumes, 2 min pour le maïs, 3–4 min pour le poulet",
+      "reperes": "Poivrons tendres mais encore un peu croquants, oignon translucide avec quelques bords dorés ; il n'y a plus de liquide au fond de la poêle.",
+      "pourquoi": "Une garniture mouillée détrempe la tortilla : il faut laisser l'eau des légumes s'évaporer."
+    },
+    {
+      "titre": "Garnir les tortillas",
+      "texte": "Poser les tortillas à plat sur le plan de travail. Partager le fromage et la garniture également entre toutes les tortillas : sur une moitié de chaque tortilla, étaler la moitié de sa part de fromage (la part complète fait environ ⅓ tasse comble par tortilla), ajouter la garniture en couche mince en laissant 1 cm libre au bord, puis couvrir du reste du fromage. Replier l'autre moitié par-dessus et presser légèrement avec la main.",
+      "duree": "5 min",
+      "reperes": "Des demi-lunes d'environ 1,5 cm d'épaisseur, pas plus, qui se ferment sans déborder.",
+      "pourquoi": "Du fromage dessous et dessus : en fondant, il colle la garniture aux deux côtés de la tortilla."
+    },
+    {
+      "titre": "Dorer les quesadillas",
+      "texte": "À la poêle : essuyer la grande poêle, la chauffer à sec et y déposer 2 quesadillas à la fois ; cuire 2 à 3 minutes par côté en retournant avec la spatule large, côté plié vers soi. Au four (plus simple pour toute la famille) : placer les grilles au tiers supérieur et au tiers inférieur, répartir les quesadillas sur les deux plaques tapissées de papier parchemin, cuire 10 à 12 minutes en les retournant et en permutant les plaques à mi-cuisson.",
+      "feu": "moyen (version à la poêle)",
+      "four": "425 °F (220 °C), grilles au tiers supérieur et au tiers inférieur (version au four)",
+      "duree": "2–3 min par côté à la poêle, ou 10–12 min au four",
+      "reperes": "Tortillas dorées et croustillantes, avec des taches brun doré ; le fromage est fondu et commence à couler sur les bords.",
+      "pourquoi": "À feu trop fort, la tortilla brûle avant que le fromage ait fondu : rester à feu moyen."
+    },
+    {
+      "titre": "Couper et servir",
+      "texte": "Laisser reposer les quesadillas sur la planche, puis couper chacune en 3 pointes avec le couteau du chef ou une roulette à pizza. Servir avec la salsa, le yogourt grec, les crudités et la trempette à l'aneth.",
+      "duree": "2 min de repos",
+      "reperes": "Le fromage est figé juste assez pour ne pas couler à la coupe.",
+      "pourquoi": "Coupé trop vite, le fromage brûlant s'échappe et la garniture sort de la tortilla."
+    }
+  ],
+  "astuces": [
+    "Ne pas trop remplir : au-delà de 1,5 cm d'épaisseur, la quesadilla s'ouvre quand on la retourne et le centre reste froid.",
+    "Feu moyen, pas plus : la tortilla doit dorer en 2 à 3 minutes, le temps que le fromage fonde.",
+    "Lire les étiquettes : tortillas (certaines contiennent du lait), salsa (sans coriandre, douce) et fromage (sans lactose).",
+    "Égoutter la garniture si du liquide s'accumule dans le bol : une garniture mouillée donne une tortilla molle."
+  ],
+  "mealPrep": [
+    "La veille : préparer le mélange d'épices (étape 1), cuire et trancher le poulet (étapes 3 et 4), le réfrigérer dans les 2 h dans un contenant peu profond. Le jour même, commencer à l'étape 5.",
+    "La veille ou jusqu'à 3 jours avant : préparer la trempette à l'aneth (étape 2), au frigo dans un contenant fermé.",
+    "Jusqu'à 2 jours avant : couper les poivrons, l'oignon et les bâtonnets de carottes (les carottes dans un contenant avec un fond d'eau froide). Couper les concombres le jour même."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+    "Frigo : 3–4 jours pour les quesadillas et la garniture, dans des contenants peu profonds ; réfrigérer dans les 2 h. Trempette à l'aneth : 3 jours.",
+    "Congélateur : 2 mois pour les quesadillas cuites et refroidies, emballées une à une, ou pour la garniture seule.",
+    "Réchauffer : à la poêle à sec à feu moyen-doux, 3 à 4 minutes par côté, ou au four à 375 °F (190 °C) 10 à 12 minutes (15 à 20 minutes si elles sont congelées), jusqu'à 74 °C au centre. Au micro-ondes, la tortilla ramollit.",
+    "Ne se congèlent pas : les crudités, la trempette et le yogourt (ils se séparent ou deviennent mous)."
+  ],
+  "notes": [
+    "Les sources ne donnent pas les quantités ; version maison proposée, à ajuster. Cela concerne le mélange d'épices (la source nomme les épices sans quantités) et la quantité de tomates cerises.",
+    "La source dit « poulet » sans préciser la coupe : des poitrines ou des hauts de cuisse désossés conviennent. Elle ne précise pas non plus à quel moment mettre les épices quand le poulet est précuit au four : elles sont mises ici avant la cuisson."
   ],
   "photo": "images/quesadillas-poulet.jpg",
   "credit": {
-    "texte": "Photo : Daderot — CC0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Daderot",
-    "licence": "CC0",
-    "licenceLien": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "source": "Chicken quesadilla - Massachusetts.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Chicken_quesadilla_-_Massachusetts.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

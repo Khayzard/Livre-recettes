@@ -99,11 +99,7 @@
   ],
   "photo": "images/saumon-marine.jpg",
   "credit": {
-    "texte": "Photo : Prayitno — CC BY 2.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Prayitno",
-    "licence": "CC BY 2.0",
-    "licenceLien": "https://creativecommons.org/licenses/by/2.0",
-    "source": "Grilled Teriyaki Salmon (10900376705).jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Grilled_Teriyaki_Salmon_(10900376705).jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

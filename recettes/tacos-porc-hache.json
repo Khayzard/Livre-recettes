@@ -178,11 +178,7 @@
   ],
   "photo": "images/tacos-porc-hache.jpg",
   "credit": {
-    "texte": "Photo : Sarah Stierch (Missvain) — CC BY 4.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Sarah Stierch (Missvain)",
-    "licence": "CC BY 4.0",
-    "licenceLien": "https://creativecommons.org/licenses/by/4.0",
-    "source": "Chorizo and potato tacos - April 2023 - Sarah Stierch 01.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Chorizo_and_potato_tacos_-_April_2023_-_Sarah_Stierch_01.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

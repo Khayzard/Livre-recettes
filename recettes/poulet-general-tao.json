@@ -156,11 +156,7 @@
   ],
   "photo": "images/poulet-general-tao.jpg",
   "credit": {
-    "texte": "Photo : Rick Audet — CC BY 2.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Rick Audet",
-    "licence": "CC BY 2.0",
-    "licenceLien": "https://creativecommons.org/licenses/by/2.0",
-    "source": "Flickr spine 472065553--General Tso's Chicken.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Flickr_spine_472065553--General_Tso%27s_Chicken.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

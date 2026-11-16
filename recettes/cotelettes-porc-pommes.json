@@ -26,14 +26,19 @@
   ],
   "ingredients": [
     {
-      "groupe": "Côtelettes et marinade",
+      "groupe": "Côtelettes",
       "items": [
         {
           "q": 1.5,
           "u": "kg",
-          "nom": "de côtelettes de porc désossées",
+          "nom": "de côtelettes de porc désossées (environ 2 cm d'épaisseur)",
           "qMax": 1.6
-        },
+        }
+      ]
+    },
+    {
+      "groupe": "Marinade Dijon-thym-ail",
+      "items": [
         {
           "q": 1,
           "u": "c. à soupe",
@@ -42,12 +47,12 @@
         {
           "q": 3,
           "u": "",
-          "nom": "gousses d'ail"
+          "nom": "gousses d'ail, hachées finement"
         },
         {
           "q": 1,
           "u": "c. à thé",
-          "nom": "de thym"
+          "nom": "de thym séché"
         },
         {
           "q": 2,
@@ -55,27 +60,37 @@
           "nom": "d'huile"
         },
         {
-          "texte": "Sel, poivre"
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de poivre moulu"
         }
       ]
     },
     {
-      "groupe": "Poêlée",
+      "groupe": "Poêlée et sauce aux pommes",
       "items": [
         {
           "q": 2,
           "u": "",
-          "nom": "oignons jaunes, tranchés"
+          "nom": "oignons jaunes, en demi-lunes de 5 mm"
         },
         {
           "q": 8,
           "u": "",
-          "nom": "pommes à cuire, tranchées"
+          "nom": "pommes à cuire, en tranches de 1 cm"
         },
         {
           "q": 1,
           "u": "t",
           "nom": "de jus de pomme"
+        },
+        {
+          "texte": "Huile de cuisson, sel et poivre (pour la poêle)"
         }
       ]
     },
@@ -83,39 +98,146 @@
       "groupe": "Accompagnements",
       "items": [
         {
-          "texte": "Petites pommes de terre"
+          "q": 6,
+          "u": "lb",
+          "nom": "de petites pommes de terre"
         },
         {
           "q": 4,
           "u": "",
           "nom": "couronnes de brocoli"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile (patates)"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "d'huile (brocoli)"
+        },
+        {
+          "texte": "Sel et poivre (patates et brocoli)"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Ail (marinade) : écraser chaque gousse avec le plat du couteau, retirer la pelure, puis hacher très finement en morceaux de 1 à 2 mm (ou passer au presse-ail).",
+    "Côtelettes : si elles ont mariné au meal prep, sortir le sac du frigo 15 à 20 minutes avant de cuire. Si une côtelette dépasse 2,5 cm d'épaisseur, la couper en deux à l'horizontale (en portefeuille) pour obtenir deux tranches égales d'environ 1,5 cm.",
+    "Oignons : déjà tranchés dans le sac du meal prep ; sinon, en demi-lunes de 5 mm.",
+    "Petites pommes de terre (le jour même) : brossées, coupées en deux, ou en quatre si elles dépassent 4 cm, pour des morceaux de 3 à 4 cm.",
+    "Brocoli (le jour même) : en fleurettes de 3 à 4 cm ; peler la tige et la couper en rondelles de 5 mm.",
+    "Pommes à cuire (en dernier, elles brunissent) : pelées ou non, évidées, en quartiers puis en tranches d'environ 1 cm.",
+    "Jus de pomme : mesuré, à portée de main.",
+    "Équipement : grande poêle de 30 cm avec couvercle (fonte ou inox si possible), ou deux poêles ; 2 plaques 13 × 18 po avec papier parchemin ; pince ; cuillère de bois ; grande assiette propre ; papier absorbant ; thermomètre à lecture instantanée. Patates à l'eau : grande casserole de 5 à 6 L."
+  ],
   "etapes": [
-    "Couper les pommes de terre le jour même. Les cuire au four à 400–425 °F (200–220 °C) 35–45 min, ou à l'eau 20–25 min.",
-    "Saisir les côtelettes marinées dans une grande poêle chaude.",
-    "Ajouter les oignons tranchés, les 8 pommes tranchées et 1 tasse de jus de pomme. Cuire jusqu'à 71 °C à cœur.",
-    "Couper le brocoli le jour même et le cuire 15–20 min.",
-    "Servir les côtelettes avec les oignons et les pommes, les patates et le brocoli."
+    {
+      "titre": "Préparer la marinade et faire mariner les côtelettes",
+      "texte": "Si les côtelettes ont mariné au meal prep, passer à l'étape 2. Sinon : dans un bol moyen, mettre la moutarde, l'ail haché, le thym, l'huile, le sel et le poivre du groupe « Marinade Dijon-thym-ail » et fouetter à la fourchette jusqu'à ce que la marinade soit lisse et épaisse, sans filets d'huile séparés. Mettre les côtelettes dans un grand sac de congélation de 4 L (ou un plat en verre avec couvercle), verser la marinade, chasser l'air et fermer. Masser le sac de l'extérieur pour que chaque côtelette soit enrobée sur les deux faces. Déposer le sac à plat dans une assiette, sur la tablette du bas du frigo.",
+      "duree": "5 min + au moins 2 h au frigo (idéalement la veille ; 48 h au maximum)",
+      "reperes": "Chaque côtelette est couverte d'une mince couche jaune moutarde piquée d'ail et de thym ; il ne reste pas de marinade en flaque au fond du sac.",
+      "pourquoi": "La moutarde sert de liant : elle colle l'ail et le thym à la viande et forme une croûte dorée à la poêle. Porc cru mariné : 1 à 2 jours au frigo tout au plus, sinon congeler. Le sel et le poivre ne sont pas quantifiés dans la source ; quantités proposées, à ajuster."
+    },
+    {
+      "titre": "Préchauffer le four",
+      "texte": "Placer les grilles au tiers supérieur et au tiers inférieur, puis allumer le four. Tapisser deux plaques de papier parchemin.",
+      "four": "425 °F (220 °C), grilles au tiers supérieur et inférieur",
+      "duree": "10–15 min pour chauffer",
+      "pourquoi": "Les patates et le brocoli vont partager le four ; deux grilles évitent d'entasser les plaques."
+    },
+    {
+      "titre": "Enfourner les patates",
+      "texte": "Sur une plaque, mélanger les morceaux de patates avec l'huile prévue pour les patates, du sel et du poivre. Les étaler en une seule couche, côté coupé vers le bas. Enfourner sur la grille du haut. Les retourner à la spatule à mi-cuisson. Version à l'eau : les couvrir d'eau froide salée dans la grande casserole, porter à ébullition, puis laisser frémir 20–25 min.",
+      "four": "425 °F (220 °C), grille du haut",
+      "duree": "35–45 min (à l'eau : 20–25 min)",
+      "reperes": "Dorées et croustillantes sur le côté coupé ; la pointe d'un couteau entre sans résistance.",
+      "pourquoi": "Le côté coupé posé sur la plaque chaude, c'est ce qui donne une belle croûte dorée."
+    },
+    {
+      "titre": "Préparer les côtelettes",
+      "texte": "Retirer les côtelettes du sac et laisser égoutter l'excès de marinade au-dessus du sac. Les tapoter légèrement avec du papier absorbant, sans essuyer toute la marinade. Jeter le sac et la marinade qui reste (elle a touché le porc cru). Se laver les mains.",
+      "duree": "2 min",
+      "reperes": "La surface est luisante, mais ne dégoutte plus.",
+      "pourquoi": "Une viande mouillée fait de la vapeur et reste grise ; une surface presque sèche dore."
+    },
+    {
+      "titre": "Saisir les côtelettes, par lots",
+      "texte": "Chauffer la grande poêle à feu moyen-vif avec un filet d'huile. Quand l'huile miroite et ondule, déposer quelques côtelettes en les éloignant de soi, avec 2 à 3 cm d'espace entre elles : jamais tassées. Ne plus y toucher jusqu'à ce qu'elles se détachent toutes seules, puis les retourner à la pince. Elles n'ont pas besoin d'être cuites au centre. Réserver sur une assiette propre et recommencer, en ajoutant un peu d'huile entre les lots.",
+      "feu": "moyen-vif",
+      "duree": "3–4 min, puis 2–3 min de l'autre côté, par lot (2 ou 3 lots)",
+      "reperes": "Croûte brun doré ; la côtelette se décolle sans résistance. Si le fond de la poêle devient noir plutôt que brun, baisser à moyen.",
+      "pourquoi": "Si on les tasse, elles bouillent dans leur jus. La croûte et les sucs bruns au fond de la poêle font le goût de la sauce."
+    },
+    {
+      "titre": "Enfourner le brocoli",
+      "texte": "Quand il reste environ 20 minutes aux patates, mélanger le brocoli avec l'huile prévue pour le brocoli, du sel et du poivre sur la deuxième plaque, en une seule couche, et l'enfourner sur la grille du bas. En profiter pour retourner les patates.",
+      "four": "425 °F (220 °C), grille du bas",
+      "duree": "15–20 min",
+      "reperes": "Tendre sous la fourchette, bouquets d'un vert vif avec des bords bien dorés, un peu croustillants."
+    },
+    {
+      "titre": "Faire dorer les oignons",
+      "texte": "Dans la même poêle, sans la laver, baisser le feu, ajouter un filet d'huile au besoin, puis les oignons et une pincée de sel. Brasser souvent en grattant le fond avec la cuillère de bois.",
+      "feu": "moyen",
+      "duree": "5–6 min",
+      "reperes": "Oignons tendres, translucides et légèrement dorés ; ça sent bon et sucré.",
+      "pourquoi": "Le sel fait sortir l'eau des oignons, qui aide à décoller les sucs du fond."
+    },
+    {
+      "titre": "Ajouter les pommes",
+      "texte": "Ajouter les pommes tranchées et les mélanger aux oignons. Cuire en brassant de temps en temps.",
+      "feu": "moyen",
+      "duree": "3–4 min",
+      "reperes": "Les bords des pommes commencent à ramollir et à dorer, mais elles se tiennent encore."
+    },
+    {
+      "titre": "Déglacer au jus de pomme pour faire la sauce",
+      "texte": "Verser le jus de pomme et gratter le fond avec la cuillère de bois pour décoller tous les sucs bruns. Porter à ébullition.",
+      "feu": "moyen-vif",
+      "duree": "1–2 min",
+      "reperes": "Le fond de la poêle est propre et le liquide a pris une couleur ambrée.",
+      "pourquoi": "Déglacer, c'est dissoudre les sucs caramélisés dans le liquide : c'est la base de la sauce."
+    },
+    {
+      "titre": "Finir la cuisson des côtelettes à couvert",
+      "texte": "Remettre les côtelettes et leur jus dans la poêle en les enfonçant dans les pommes, puis les arroser de sauce. Couvrir et laisser mijoter doucement. Vérifier au thermomètre, inséré de côté au centre de la côtelette la plus épaisse. Si tout n'entre pas dans la poêle, utiliser deux poêles en partageant les pommes et la sauce.",
+      "feu": "moyen-doux (petits frémissements)",
+      "duree": "5–8 min",
+      "reperes": "71 °C (160 °F) au centre de la plus épaisse ; jus clair, chair opaque, à peine rosée.",
+      "pourquoi": "Les côtelettes désossées sont minces et maigres : au-delà de 71 °C, elles sèchent vite."
+    },
+    {
+      "titre": "Laisser reposer et servir",
+      "texte": "Retirer la poêle du feu et laisser reposer, couvert. Si la sauce est trop liquide, retirer les côtelettes et la faire bouillir à découvert 2 à 3 minutes. Servir les côtelettes avec les oignons, les pommes et la sauce, les patates et le brocoli.",
+      "duree": "3–5 min de repos",
+      "reperes": "La sauce nappe le dos d'une cuillère.",
+      "pourquoi": "Le repos laisse le jus se redistribuer dans la viande au lieu de couler dans l'assiette."
+    }
+  ],
+  "astuces": [
+    "Ne pas tasser les côtelettes : trop serrées, elles bouillent et restent grises. Deux ou trois lots valent mieux qu'un.",
+    "Ne pas les retourner trop tôt : si elles collent, elles ne sont pas prêtes. Bien dorées, elles se détachent toutes seules.",
+    "La moutarde et l'ail de la marinade brûlent à feu vif : rester à moyen-vif et baisser si le fond noircit. Il doit être brun doré, pas noir.",
+    "Les côtelettes désossées cuisent vite : sortir le thermomètre dès les premières minutes à couvert pour ne pas dépasser 71 °C."
   ],
   "mealPrep": [
-    "Sac 1 (frigo) : 2 oignons jaunes tranchés.",
-    "Sac 2 (frigo) : côtelettes + marinade (Dijon, ail, thym, huile, sel, poivre). Le jus de pomme s'ajoute seulement à la cuisson.",
-    "Porc cru : 1 à 2 jours au frigo seulement, sinon congeler.",
+    "Sac 1 (frigo) : 2 oignons jaunes en demi-lunes de 5 mm.",
+    "Sac 2 (frigo) : côtelettes + marinade Dijon-thym-ail (voir l'étape 1 pour les quantités et la méthode). Le jus de pomme s'ajoute seulement à la cuisson.",
+    "Porc cru : 1 à 2 jours au frigo seulement, sinon congeler.",
     "Ne pas couper d'avance : pommes de terre, brocoli, pommes."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+    "Frigo : 3–4 jours, côtelettes avec les pommes et la sauce, dans des contenants peu profonds ; réfrigérer dans les 2 h.",
+    "Congélateur : 2–3 mois pour les côtelettes avec les pommes et la sauce (les pommes ramollissent un peu, c'est normal).",
+    "Réchauffer : micro-ondes à couvert à puissance moyenne en retournant à mi-chemin, ou poêle couverte à feu moyen-doux avec un peu de sauce ou d'eau, jusqu'à 74 °C au centre. Une côtelette tranchée se réchauffe plus vite et plus également.",
+    "Ne se congèlent pas bien : les patates (elles deviennent farineuses) et le brocoli rôti (il devient mou). Les garder au frigo pour les lunchs de la semaine."
   ],
   "photo": "images/cotelettes-porc-pommes.jpg",
   "credit": {
-    "texte": "Photo : Alex Munsell — CC0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Alex Munsell",
-    "licence": "CC0",
-    "licenceLien": "https://creativecommons.org/publicdomain/zero/1.0/deed.fr",
-    "source": "Alex Munsell 2015-05-20 (Unsplash Yr4n8O 3UPc).jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Alex_Munsell_2015-05-20_(Unsplash_Yr4n8O_3UPc).jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

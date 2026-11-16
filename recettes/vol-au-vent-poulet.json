@@ -106,11 +106,7 @@
   ],
   "photo": "images/vol-au-vent-poulet.jpg",
   "credit": {
-    "texte": "Photo : Heipedia — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Heipedia",
-    "licence": "CC BY-SA 4.0",
-    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "Koninginnehapje.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Koninginnehapje.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

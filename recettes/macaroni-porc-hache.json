@@ -106,11 +106,7 @@
   ],
   "photo": "images/macaroni-porc-hache.jpg",
   "credit": {
-    "texte": "Photo : Roundhere44 — CC0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Roundhere44",
-    "licence": "CC0",
-    "licenceLien": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "source": "American Chop Suey on White Plate.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:American_Chop_Suey_on_White_Plate.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

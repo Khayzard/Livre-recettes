@@ -138,11 +138,7 @@
   ],
   "photo": "images/lasagne-poulet-brocoli-bacon.jpg",
   "credit": {
-    "texte": "Photo : Peachyeung316 — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Peachyeung316",
-    "licence": "CC BY-SA 4.0",
-    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "Baked Chicken and Bacon Lasagna from The Spaghetti House.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Baked_Chicken_and_Bacon_Lasagna_from_The_Spaghetti_House.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

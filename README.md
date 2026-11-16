@@ -14,7 +14,7 @@ recettes/index.json   Liste des recettes (les slugs)
 recettes/<slug>.json  Une recette par fichier
 images/<slug>.jpg     Une photo par recette
 assets/               style.css, app.js, favicon.svg
-CREDITS.md            Auteur et licence de chaque photo
+CREDITS.md            Note sur les photos (illustrations générées par IA)
 ```
 
 Important : tous les chemins sont **relatifs** (jamais de `/` au début), sinon le site brise sur GitHub Pages.
@@ -45,16 +45,28 @@ Important : tous les chemins sont **relatifs** (jamais de `/` au début), sinon 
   "etapes": ["Première étape.", "Deuxième étape."],
   "substitutions": [], "mealPrep": [], "conservation": [], "notes": [],
   "photo": "images/chili-porc-hache.jpg",
-  "credit": { "texte": "Photo : Auteur — CC BY 4.0", "auteur": "Auteur", "licence": "CC BY 4.0",
-              "licenceLien": "https://creativecommons.org/licenses/by/4.0/", "source": "Nom du fichier",
-              "lien": "https://commons.wikimedia.org/wiki/File:..." }
+  "credit": { "texte": "Photo : illustration générée par IA", "ia": true }
 }
 ```
 
 - `q` est un nombre (utiliser `0.5`, `0.25`, `0.3333` pour ½, ¼, ⅓) ; `qMax` sert pour un intervalle (« 2–3 c. à soupe »).
 - Unités : `t` (tasse), `c. à soupe`, `c. à thé`, `lb`, `kg`, `g`, `ml`, ou `""` pour un nombre d'unités (« 2 oignons »).
 - Une quantité qui n'est pas un nombre (« sel, poivre », « persil ») va dans `texte` : elle n'est pas recalculée.
-- Champs facultatifs : `temps`, `tempsTotal`, `portionsNote`, `substitutions`, `mealPrep`, `conservation`, `notes`, `liens`, `proteines` (seulement si l'information est connue).
+- Champs facultatifs : `temps`, `tempsTotal`, `portionsNote`, `miseEnPlace`, `astuces`, `substitutions`, `mealPrep`, `conservation`, `notes`, `liens`, `proteines` (seulement si l'information est connue).
+
+### Étapes détaillées
+
+Une étape peut être une simple chaîne (ancien format, toujours accepté) ou un objet :
+
+```json
+{ "titre": "Saisir les côtelettes", "texte": "Chauffer la poêle…",
+  "feu": "moyen-vif", "four": "425 °F (220 °C), grille au centre", "duree": "3–4 min par côté",
+  "reperes": "Croûte brun doré ; se détache toute seule.", "pourquoi": "Tassées, elles bouillent." }
+```
+
+- Seuls `titre` et `texte` sont obligatoires. `feu`, `four` et `duree` s'affichent en pastilles, `reperes` après « 👀 », `pourquoi` en plus petit.
+- `miseEnPlace` (ce qu'on sort, coupe et prépare, et l'équipement) et `astuces` (2 à 4 « astuces et erreurs à éviter ») sont des listes de chaînes. Le mode cuisine commence par une carte « Mise en place ».
+- Pas de quantités en dur dans les étapes (« ajouter les pommes tranchées »). Si une quantité est nécessaire : `{{4.5|t}}` ; elle suit le nombre de portions, comme dans `ingredients`, `miseEnPlace` et `astuces`.
 - Étiquettes utilisées : poulet, porc, fruits de mer, poisson, rapide, meal prep, four, mijoteuse, tacos, restes, favori.
 
 3. Ajouter le slug dans `recettes/index.json` :
@@ -65,7 +77,7 @@ Important : tous les chemins sont **relatifs** (jamais de `/` au début), sinon 
 
 ## Ajouter une photo
 
-1. Trouver une photo libre de droits du plat, par exemple sur [Wikimedia Commons](https://commons.wikimedia.org) (licences CC0, CC BY, CC BY-SA ou domaine public).
+1. Générer (ou choisir) une illustration du plat. Les photos actuelles sont des illustrations générées par IA ; une photo libre de droits avec `lien`, `auteur`, `licence` et `licenceLien` dans `credit` s'affiche aussi correctement.
 2. La redimensionner à environ 1200 px de large et l'enregistrer en JPEG sous `images/<slug>.jpg`. Avec Python :
 
 ```bash
@@ -73,18 +85,19 @@ python3 -c "from PIL import Image; im=Image.open('photo.jpg').convert('RGB'); im
 ```
 
 3. Remplir `photo` et `credit` dans le JSON de la recette.
-4. Ajouter une section dans `CREDITS.md` (recette, source, auteur, licence, modifications).
+4. Mettre à jour `CREDITS.md` si la photo n'est pas une illustration générée par IA (source, auteur, licence).
 
 ## Changer le menu de la semaine
 
 Modifier `semaine.json` : le titre, la période, et un élément par jour dans `jours` :
 
 ```json
-{ "date": "2026-11-23", "jour": "Lundi 23", "slug": "tacos-porc-hache", "titre": "Tacos au porc haché", "portions": "10", "note": "Porc haché à 71 °C." }
+{ "date": "2026-11-23", "jour": "Lundi 23", "slug": "tacos-porc-hache", "titre": "Tacos au porc haché", "portions": "9", "note": "Porc haché à 71 °C." }
 ```
 
 - `slug` doit correspondre à un fichier de `recettes/` pour faire un lien (sinon, laisser `""` : le jour s'affiche sans lien, utile pour un soir flexible).
 - `date` (AAAA-MM-JJ) sert à mettre en évidence le jour même.
+- Portions à partir de la semaine du 23 nov. 2026 : 9 du dimanche au jeudi, 5 le vendredi et le samedi.
 
 ## Tester localement
 

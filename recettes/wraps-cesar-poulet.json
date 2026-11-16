@@ -150,11 +150,7 @@
   ],
   "photo": "images/wraps-cesar-poulet.jpg",
   "credit": {
-    "texte": "Photo : Dough4872 — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Dough4872",
-    "licence": "CC BY-SA 4.0",
-    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "Wegmans Chicken Caesar Wheat Wrap.jpeg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Wegmans_Chicken_Caesar_Wheat_Wrap.jpeg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

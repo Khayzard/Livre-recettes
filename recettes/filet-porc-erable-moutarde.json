@@ -26,13 +26,18 @@
   ],
   "ingredients": [
     {
-      "groupe": "Porc et marinade",
+      "groupe": "Filets",
       "items": [
         {
           "q": 2,
           "u": "",
-          "nom": "filets de porc (400 à 500 g chacun environ)"
-        },
+          "nom": "filets de porc (400 à 500 g chacun environ)"
+        }
+      ]
+    },
+    {
+      "groupe": "Marinade érable-moutarde (sert aussi de glaçage)",
+      "items": [
         {
           "q": 0.25,
           "u": "t",
@@ -46,7 +51,7 @@
         {
           "q": 2,
           "u": "",
-          "nom": "gousses d'ail"
+          "nom": "gousses d'ail, hachées finement"
         },
         {
           "q": 2,
@@ -54,7 +59,14 @@
           "nom": "d'huile d'olive"
         },
         {
-          "texte": "Sel, poivre"
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de poivre moulu"
         }
       ]
     },
@@ -69,46 +81,120 @@
         {
           "q": 1,
           "u": "",
-          "nom": "poivron (pas vert)"
+          "nom": "poivron rouge, jaune ou orange (pas vert), en morceaux de 3 cm"
         },
         {
           "q": 2,
           "u": "",
-          "nom": "courgettes, en demi-rondelles"
+          "nom": "courgettes, en demi-rondelles de 2 cm"
         },
         {
           "q": 4,
           "u": "",
-          "nom": "carottes environ"
+          "nom": "carottes environ, en rondelles de 1 cm"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile (légumes)"
+        },
+        {
+          "texte": "Huile de cuisson (poêle), sel et poivre (légumes)"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Ail (marinade) : écraser chaque gousse avec le plat du couteau, retirer la pelure, puis hacher très finement en morceaux de 1 à 2 mm (ou passer au presse-ail).",
+    "Filets : retirer la membrane argentée (glisser la pointe d'un couteau mince dessous et la tirer en gardant la lame inclinée vers elle) avant de les faire mariner ; laisser les filets entiers.",
+    "Filets et légumes : décongelés au frigo depuis la veille. Sortir les filets 15 à 20 minutes avant de les saisir.",
+    "Légumes, s'ils ne sont pas déjà coupés : oignons en quartiers en gardant un peu du cœur pour qu'ils se tiennent ; poivron en morceaux de 3 cm ; courgettes en demi-rondelles de 2 cm ; carottes en rondelles ou bâtonnets d'1 cm (plus petites que le reste, car elles cuisent plus lentement).",
+    "Équipement : plaque 13 × 18 po avec papier parchemin ; poêle allant au four de 25 à 30 cm (fonte idéale, pas de poignée en plastique) ; pince ; pinceau ou cuillère ; planche et bon couteau ; papier d'aluminium ; gants de four ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Préchauffer le four à 400 °F (200 °C).",
-    "Étaler les légumes sur une plaque et les rôtir 25–35 min.",
-    "Pendant ce temps, saisir les filets marinés dans une poêle allant au four.",
-    "Enfourner les filets 20–25 min, jusqu'à 71 °C à cœur.",
-    "Laisser reposer 3–5 min, puis trancher. Servir avec les légumes."
+    {
+      "titre": "Préparer la marinade érable-moutarde et faire mariner",
+      "texte": "Si les filets ont mariné au meal prep (sac décongelé au frigo depuis la veille), passer à l'étape 2. Sinon : dans un bol moyen, fouetter à la fourchette le sirop d'érable, la moutarde, l'ail haché, l'huile d'olive, le sel et le poivre du groupe « Marinade érable-moutarde » jusqu'à ce que le mélange soit lisse et un peu épaissi. Mettre les filets dans un sac de congélation de 4 L, verser la marinade, chasser l'air, fermer et masser pour bien enrober les filets. Réfrigérer à plat dans une assiette, sur la tablette du bas.",
+      "duree": "5 min + au moins 30 min au frigo (jusqu'à 24 h ; ou congelé dans la marinade et décongelé au frigo la veille)",
+      "reperes": "Marinade ambrée, lisse, qui nappe le dos d'une cuillère ; les filets en sont couverts sur toutes les faces.",
+      "pourquoi": "La moutarde lie le sirop et l'huile : le mélange colle à la viande, puis caramélise au four en un glaçage brillant. Le reste de la marinade dans le sac sert à badigeonner : il cuit au four avec le porc, donc il devient sécuritaire. Le sel et le poivre ne sont pas quantifiés dans la source ; quantités proposées, à ajuster."
+    },
+    {
+      "titre": "Préchauffer le four",
+      "texte": "Placer une grille au tiers inférieur et une au centre, puis allumer le four.",
+      "four": "400 °F (200 °C), grilles au tiers inférieur et au centre",
+      "duree": "10–15 min pour chauffer"
+    },
+    {
+      "titre": "Enfourner les légumes",
+      "texte": "Sur la plaque, mélanger les légumes avec l'huile prévue pour les légumes, du sel et du poivre. Les étaler en une seule couche, avec un peu d'espace. Enfourner sur la grille du bas. Légumes encore congelés : compter 5 à 10 minutes de plus.",
+      "four": "400 °F (200 °C), grille du bas",
+      "duree": "25–35 min en tout",
+      "reperes": "À la fin : tendres sous la fourchette, bords dorés et légèrement caramélisés.",
+      "pourquoi": "Entassés, les légumes cuisent à la vapeur et restent pâles ; en une couche, ils rôtissent."
+    },
+    {
+      "titre": "Préparer les filets",
+      "texte": "Sortir les filets du sac en gardant le reste de la marinade dans le sac pour plus tard (il servira de glaçage). S'il reste une membrane argentée sur un filet, glisser la pointe d'un couteau dessous et la retirer. Tapoter les filets avec du papier absorbant, sans enlever toute la marinade.",
+      "duree": "3 min",
+      "pourquoi": "La membrane argentée ne fond pas à la cuisson et fait gondoler le filet. Une surface presque sèche dore mieux."
+    },
+    {
+      "titre": "Saisir les filets",
+      "texte": "Chauffer la poêle allant au four à feu moyen avec un filet d'huile. Quand l'huile miroite, y déposer les filets sans qu'ils se touchent. Les laisser dorer sans y toucher, puis les tourner à la pince pour colorer toutes les faces.",
+      "feu": "moyen",
+      "duree": "environ 2 min par face, 8–10 min en tout",
+      "reperes": "Croûte brun doré, bien caramélisée sur toutes les faces. Si le fond noircit, baisser le feu.",
+      "pourquoi": "Le sirop d'érable et la moutarde brûlent à feu vif ; à feu moyen, ils caramélisent sans devenir amers."
+    },
+    {
+      "titre": "Badigeonner du reste de marinade (le glaçage) et enfourner",
+      "texte": "Hors du feu, badigeonner les filets avec le reste de la marinade. Mettre la poêle au four sur la grille du centre. En ouvrant le four, en profiter pour brasser les légumes ; s'ils sont prêts avant le porc, les sortir et les couvrir de papier d'aluminium. Commencer à vérifier la température dès 15 minutes.",
+      "four": "400 °F (200 °C), grille du centre",
+      "duree": "20–25 min (vérifier dès 15 min)",
+      "pourquoi": "La marinade crue cuit au four avec le filet ; elle devient sécuritaire et forme un glaçage."
+    },
+    {
+      "titre": "Vérifier la cuisson",
+      "texte": "Piquer le thermomètre au centre de la partie la plus épaisse de chaque filet. Les filets n'ont pas tous la même grosseur : vérifier chacun. Remettre au four et revérifier aux 3 à 4 minutes s'il en manque.",
+      "reperes": "71 °C (160 °F) au centre ; jus clair ; chair encore très légèrement rosée au centre, c'est normal à cette température.",
+      "pourquoi": "Le filet est très maigre : quelques degrés de trop et il devient sec."
+    },
+    {
+      "titre": "Laisser reposer",
+      "texte": "Attention, la poignée de la poêle est brûlante : y laisser un gant ou un linge dessus. Déposer les filets sur la planche et les couvrir lâchement de papier d'aluminium. Vérifier les légumes pendant ce temps : s'ils ne sont pas assez dorés, les laisser 5 minutes de plus.",
+      "duree": "3–5 min",
+      "pourquoi": "Le jus se redistribue dans la viande au lieu de couler sur la planche."
+    },
+    {
+      "titre": "Trancher et servir",
+      "texte": "Trancher les filets en médaillons de 1 à 2 cm. Les arroser du jus de la poêle et servir avec les légumes rôtis.",
+      "reperes": "Tranches juteuses, croûte bien collée à la viande."
+    }
+  ],
+  "astuces": [
+    "Feu moyen, pas vif : l'érable et la moutarde brûlent vite. Brun foncé, oui ; noir et amer, non.",
+    "Le filet est maigre : il sèche au-delà de 71 °C. Vérifier dès 15 minutes de four, puis aux 3 à 4 minutes.",
+    "La poignée de la poêle sort du four à 400 °F et reste brûlante longtemps : y laisser un gant ou un linge pour ne pas l'oublier.",
+    "Ne pas entasser les légumes : en une seule couche, ils rôtissent ; empilés, ils restent pâles et mous."
   ],
   "mealPrep": [
-    "Sac 1 (congélateur) : 2 filets + marinade érable-Dijon.",
-    "Sac 2 (congélateur) : oignons, poivron, courgettes, carottes.",
-    "Décongeler au frigo la veille au soir."
+    "Sac 1 (congélateur) : 2 filets + marinade érable-moutarde (quantités et méthode à l'étape 1).",
+    "Sac 2 (congélateur) : oignons en quartiers, poivron en morceaux de 3 cm, courgettes en demi-rondelles de 2 cm, carottes en rondelles de 1 cm.",
+    "Décongeler les deux sacs au frigo la veille au soir, dans une assiette."
   ],
   "notes": [
     "Santé Canada accepte 63 °C suivi de 3 min de repos pour une pièce de porc entière ; on vise 71 °C pour rester simple."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+    "Frigo : 3–4 jours ; réfrigérer dans les 2 h. Garder le filet en gros morceaux plutôt qu'en tranches minces : il sèche moins.",
+    "Congélateur : filet cuit avec un peu de jus de cuisson, 2–3 mois.",
+    "Réchauffer : micro-ondes à couvert à puissance moyenne, ou four à 350 °F (175 °C) dans un plat couvert d'aluminium avec un peu d'eau, 10–15 min, jusqu'à 74 °C au centre.",
+    "Ne se congèlent pas bien : les courgettes et les poivrons rôtis (mous et pleins d'eau) ; les manger dans la semaine."
   ],
   "photo": "images/filet-porc-erable-moutarde.jpg",
   "credit": {
-    "texte": "Photo : Taylorderek — CC BY 4.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Taylorderek",
-    "licence": "CC BY 4.0",
-    "licenceLien": "https://creativecommons.org/licenses/by/4.0",
-    "source": "Seared and roasted Pork Tenderloin in Cast Iron Skillet.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Seared_and_roasted_Pork_Tenderloin_in_Cast_Iron_Skillet.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

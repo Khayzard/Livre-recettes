@@ -27,13 +27,18 @@
   ],
   "ingredients": [
     {
-      "groupe": "Porc et marinade",
+      "groupe": "Porc",
       "items": [
         {
           "q": 1.5,
           "u": "kg",
-          "nom": "de longe de porc, en lanières d'1 cm"
-        },
+          "nom": "de longe de porc désossée, en lanières de 1 cm"
+        }
+      ]
+    },
+    {
+      "groupe": "Marinade soya-gingembre (devient la sauce)",
+      "items": [
         {
           "q": 0.5,
           "u": "t",
@@ -65,21 +70,28 @@
         {
           "q": 4,
           "u": "",
-          "nom": "gousses d'ail"
+          "nom": "gousses d'ail, hachées finement"
         },
         {
-          "texte": "Gingembre frais, pelé et râpé"
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de gingembre frais râpé"
         }
       ]
     },
     {
-      "groupe": "Pour épaissir (le jour même)",
+      "groupe": "Pour épaissir la sauce (le jour même)",
       "items": [
         {
           "q": 2,
           "u": "c. à soupe",
-          "nom": "de fécule de maïs, délayée dans un peu d'eau froide",
+          "nom": "de fécule de maïs",
           "qMax": 3
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "d'eau froide"
         }
       ]
     },
@@ -94,7 +106,7 @@
         {
           "q": 2,
           "u": "",
-          "nom": "poivrons (pas verts), en lanières"
+          "nom": "poivrons rouges, jaunes ou orange (pas verts), en lanières"
         },
         {
           "q": 4,
@@ -102,7 +114,9 @@
           "nom": "carottes environ, en tranches biaisées"
         },
         {
-          "texte": "Champignons tranchés (facultatif)"
+          "q": 227,
+          "u": "g",
+          "nom": "de champignons blancs (1 casseau), tranchés (facultatif)"
         },
         {
           "q": 1,
@@ -112,38 +126,127 @@
         {
           "q": 900,
           "u": "g",
-          "nom": "de nouilles"
+          "nom": "de nouilles (aux œufs ou de riz)"
         },
         {
-          "texte": "Persil (pas de coriandre)"
+          "q": 0.25,
+          "u": "t",
+          "nom": "de persil frais haché (pas de coriandre)"
+        },
+        {
+          "texte": "Huile de cuisson (pour saisir et sauter) ; sel (pour l'eau des nouilles)"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Porc : sac décongelé au frigo depuis la veille ; vérifier qu'il ne reste plus de glace. Si la longe n'est pas encore coupée : retirer le gras épais en surface, la mettre 20 minutes au congélateur pour la raffermir, puis la trancher contre le grain (en travers des fibres) en tranches de 1 cm d'épaisseur, et recouper chaque tranche en lanières de 1 cm de large sur 5 à 6 cm de long.",
+    "Ail (marinade) : écraser chaque gousse avec le plat du couteau, retirer la pelure, puis hacher très finement en morceaux de 1 à 2 mm.",
+    "Gingembre (marinade) : peler le morceau en grattant la pelure avec le bord d'une cuillère, puis le râper finement sur une râpe fine (on obtient une purée).",
+    "Oignon : couper en deux de la racine à la tige, peler, poser à plat et émincer en demi-lunes de 5 mm.",
+    "Poivrons : couper en deux, retirer le pédoncule, les graines et les membranes blanches, puis trancher en lanières de 1 cm de large.",
+    "Carottes : peler, puis trancher en biais (couteau incliné à 45°) en tranches de 5 mm.",
+    "Champignons (facultatif) : essuyer avec un papier humide, retirer le bout sec du pied et trancher en lamelles de 5 mm.",
+    "Les légumes du sac du meal prep peuvent rester congelés.",
+    "Brocoli (le jour même) : en petites fleurettes de 2 à 3 cm ; tige pelée, tranchée mince (5 mm).",
+    "Fécule de maïs : la délayer dans un petit bol avec l'eau froide, à la fourchette, jusqu'à ce qu'il n'y ait plus de grumeaux.",
+    "Persil : rincé, bien essoré, haché grossièrement (5 mm).",
+    "Équipement : marmite de 6 à 8 L pour les nouilles, passoire, wok ou grande poêle de 30 cm, pince ou spatule de bois, grand bol propre pour le porc cuit, bol pour la marinade, petit bol pour la fécule, sac de congélation de 4 L, thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Cuire les nouilles. Couper le brocoli le jour même.",
-    "Retirer les lanières de porc de la marinade (garder la marinade).",
-    "Saisir les lanières par petits lots dans une poêle ou un wok très chaud, jusqu'à 71 °C. Réserver.",
-    "Sauter les légumes (congelés, c'est correct) et le brocoli.",
-    "Ajouter la marinade et la fécule délayée. Laisser bouillir en brassant jusqu'à ce que la sauce épaississe.",
-    "Remettre le porc, mélanger, et servir sur les nouilles. Garnir de persil."
+    {
+      "titre": "Préparer la marinade soya-gingembre et faire mariner le porc",
+      "texte": "Si le porc a mariné au meal prep (sac décongelé au frigo), passer à l'étape 2. Sinon : dans un bol moyen, fouetter la sauce soya, la sauce hoisin, le miel, l'huile de sésame, le vinaigre de riz, l'ail haché et le gingembre râpé du groupe « Marinade soya-gingembre » jusqu'à ce que le miel et la hoisin soient complètement dissous. Mettre les lanières de porc dans un sac de congélation de 4 L, verser la marinade, chasser l'air, fermer et masser pour séparer les lanières et bien les enrober. Réfrigérer à plat dans une assiette, sur la tablette du bas. La fécule ne va pas dans la marinade : elle s'ajoute à la cuisson.",
+      "duree": "5 min + au moins 30 min au frigo (24 h au maximum ; ou congelé dans la marinade, puis décongelé au frigo la veille)",
+      "reperes": "Marinade brun foncé, lisse et luisante, sans filets de miel au fond du bol ; chaque lanière est enrobée.",
+      "pourquoi": "La marinade parfume le porc, puis devient la sauce du sauté : on la fait bouillir à la fin pour la rendre sécuritaire. Lanières minces : 30 minutes suffisent pour donner du goût. La quantité de gingembre n'est pas précisée dans la source ; quantité proposée, à ajuster."
+    },
+    {
+      "titre": "Faire bouillir l'eau des nouilles",
+      "texte": "Remplir la marmite d'eau aux trois quarts, couvrir et porter à ébullition. Saler quand ça bout.",
+      "feu": "vif",
+      "duree": "10–12 min",
+      "pourquoi": "Lancer l'eau en premier : elle chauffe pendant qu'on prépare le reste."
+    },
+    {
+      "titre": "Égoutter le porc",
+      "texte": "Verser le contenu du sac dans une passoire posée sur un bol. Garder la marinade dans le bol, au frigo en attendant. Laisser le porc s'égoutter quelques minutes.",
+      "duree": "3–5 min",
+      "pourquoi": "La marinade servira de sauce. Bien égoutté, le porc dore au lieu de bouillir."
+    },
+    {
+      "titre": "Cuire les nouilles",
+      "texte": "Plonger les nouilles dans l'eau bouillante et brasser tout de suite pour qu'elles ne collent pas. Cuire selon l'emballage, égoutter, puis les mélanger avec un petit filet d'huile. Réserver dans la marmite, couvercle dessus.",
+      "feu": "vif",
+      "duree": "selon l'emballage",
+      "reperes": "Tendres, mais encore un peu fermes sous la dent.",
+      "pourquoi": "L'huile empêche les nouilles de coller en un bloc pendant qu'on fait le sauté."
+    },
+    {
+      "titre": "Saisir le porc, par petits lots",
+      "texte": "Chauffer le wok à feu vif avec un filet d'huile. Quand l'huile miroite et commence à fumer légèrement, ajouter une poignée de lanières en une seule couche. Laisser dorer sans toucher environ 1 minute, puis sauter en brassant. Transférer dans le grand bol propre et recommencer, en laissant le wok reprendre sa chaleur entre les lots.",
+      "feu": "vif",
+      "duree": "2–3 min par lot (3 ou 4 lots)",
+      "reperes": "Bords dorés, plus de rose au centre d'une lanière coupée ; 71 °C (160 °F) dans la lanière la plus épaisse.",
+      "pourquoi": "Trop de viande à la fois refroidit le wok : le porc rend son eau, bout et devient gris et caoutchouteux."
+    },
+    {
+      "titre": "Sauter les légumes",
+      "texte": "Dans le même wok, ajouter un filet d'huile, puis les légumes du sac, congelés ou non. Sauter en brassant souvent.",
+      "feu": "vif",
+      "duree": "4–6 min",
+      "reperes": "Légumes chauds, tendres-croquants ; l'eau des légumes congelés s'est évaporée.",
+      "pourquoi": "À feu vif, l'eau s'évapore vite et les légumes restent croquants au lieu de ramollir."
+    },
+    {
+      "titre": "Ajouter le brocoli",
+      "texte": "Ajouter le brocoli et sauter. S'il reste trop ferme, ajouter un petit trait d'eau et couvrir 1 minute pour le cuire à la vapeur.",
+      "feu": "vif",
+      "duree": "3–4 min",
+      "reperes": "Brocoli vert vif et tendre-croquant."
+    },
+    {
+      "titre": "Ajouter la marinade et épaissir la sauce",
+      "texte": "Verser la marinade et porter à pleine ébullition. Bien brasser la fécule délayée (elle se dépose au fond), puis la verser en filet en brassant sans arrêt. Laisser bouillir en brassant.",
+      "feu": "vif",
+      "duree": "1–2 min d'ébullition",
+      "reperes": "La sauce devient brillante, épaissit et nappe le dos d'une cuillère.",
+      "pourquoi": "La marinade a touché le porc cru : une vraie ébullition d'au moins 1 minute la rend sécuritaire. La fécule n'épaissit qu'une fois à ébullition."
+    },
+    {
+      "titre": "Remettre le porc",
+      "texte": "Remettre le porc et son jus dans le wok et mélanger pour bien l'enrober de sauce. Si le wok déborde, tout transférer dans la marmite vide des nouilles et mélanger là.",
+      "feu": "moyen",
+      "duree": "1–2 min",
+      "reperes": "Le porc est chaud et luisant de sauce."
+    },
+    {
+      "titre": "Servir",
+      "texte": "Servir le sauté sur les nouilles et parsemer de persil haché.",
+      "pourquoi": "Le persil ajoute de la fraîcheur et de la couleur (pas de coriandre)."
+    }
+  ],
+  "astuces": [
+    "Petits lots, feu vif : si les lanières se chevauchent, elles rendent leur eau et bouillent au lieu de dorer.",
+    "Porc cru et porc cuit ne se touchent jamais : mettre le porc saisi dans un bol propre, jamais dans celui de la marinade.",
+    "Bien brasser la fécule juste avant de la verser : elle se dépose au fond du bol en quelques secondes.",
+    "Nouilles collées en attendant ? Les passer 10 secondes sous l'eau chaude du robinet, puis bien égoutter."
   ],
   "mealPrep": [
-    "Sac 1 (congélateur) : longe en lanières + marinade soya-gingembre (la fécule s'ajoute le jour même).",
-    "Sac 2 (congélateur) : oignon émincé, poivrons en lanières, carottes, champignons au goût.",
-    "Décongeler au frigo la veille au soir.",
-    "Si la longe est achetée la veille : la garder au frigo (1 jour) sans la congeler."
+    "Sac 1 (congélateur) : longe en lanières de 1 cm + marinade soya-gingembre (quantités et méthode à l'étape 1 ; la fécule s'ajoute le jour même).",
+    "Sac 2 (congélateur) : oignon émincé, poivrons en lanières, carottes en tranches biaisées, champignons tranchés au goût.",
+    "Décongeler au frigo la veille au soir, dans une assiette.",
+    "Si la longe est achetée la veille : la garder au frigo (1 jour) sans la congeler."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C."
+    "Frigo : 3–4 jours ; réfrigérer dans les 2 h. Pour les lunchs, séparer les nouilles du sauté si possible : elles détrempent moins.",
+    "Congélateur : le sauté sans les nouilles, 2–3 mois, à plat dans un sac ou un contenant.",
+    "Réchauffer : micro-ondes à couvert avec une cuillerée d'eau, en brassant à mi-chemin, ou poêle à feu moyen avec un peu d'eau, jusqu'à 74 °C au centre.",
+    "Ne se congèlent pas bien : les nouilles cuites (molles et cassantes) ; en cuire des fraîches. Le brocoli et les poivrons ramollissent au réchauffage, c'est normal."
   ],
   "photo": "images/saute-porc-asiatique.jpg",
   "credit": {
-    "texte": "Photo : jeffreyw — CC BY 2.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "jeffreyw",
-    "licence": "CC BY 2.0",
-    "licenceLien": "https://creativecommons.org/licenses/by/2.0",
-    "source": "Pork lo mein (6023224149).jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Pork_lo_mein_(6023224149).jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

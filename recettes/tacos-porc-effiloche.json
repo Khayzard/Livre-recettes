@@ -149,11 +149,7 @@
   ],
   "photo": "images/tacos-porc-effiloche.jpg",
   "credit": {
-    "texte": "Photo : Jj saezdeo — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Jj saezdeo",
-    "licence": "CC BY-SA 4.0",
-    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "Carnitas tacos.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Carnitas_tacos.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

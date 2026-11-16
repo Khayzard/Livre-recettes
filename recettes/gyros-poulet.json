@@ -107,11 +107,7 @@
   ],
   "photo": "images/gyros-poulet.jpg",
   "credit": {
-    "texte": "Photo : Romainbehar — CC0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Romainbehar",
-    "licence": "CC0",
-    "licenceLien": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "source": "Lyon 7e - Grande Rue de la Guillotière - Malting-Pot, poulet shawarma dans sa pita.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Lyon_7e_-_Grande_Rue_de_la_Guilloti%C3%A8re_-_Malting-Pot,_poulet_shawarma_dans_sa_pita.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

@@ -27,13 +27,18 @@
   ],
   "ingredients": [
     {
-      "groupe": "Poulet et marinade",
+      "groupe": "Poulet",
       "items": [
         {
           "q": 2.7,
           "u": "kg",
           "nom": "de cuisses de poulet avec dos"
-        },
+        }
+      ]
+    },
+    {
+      "groupe": "Marinade miel-ail-soya",
+      "items": [
         {
           "q": 0.75,
           "u": "t",
@@ -47,7 +52,7 @@
         {
           "q": 8,
           "u": "",
-          "nom": "gousses d'ail"
+          "nom": "gousses d'ail, hachées finement"
         },
         {
           "q": 1,
@@ -55,7 +60,14 @@
           "nom": "de ketchup"
         },
         {
-          "texte": "Sel, poivre"
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de poivre moulu"
         }
       ]
     },
@@ -70,12 +82,20 @@
         {
           "q": 2,
           "u": "",
-          "nom": "poivrons rouges, jaunes ou orange (pas verts), en morceaux"
+          "nom": "poivrons rouges, jaunes ou orange (pas verts), en morceaux de 3 cm"
         },
         {
           "q": 4,
           "u": "",
-          "nom": "carottes environ, en morceaux"
+          "nom": "carottes environ, en tronçons de 2 cm"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile (légumes)"
+        },
+        {
+          "texte": "Sel et poivre (pour les légumes)"
         }
       ]
     },
@@ -85,35 +105,122 @@
         {
           "q": 3,
           "u": "t",
-          "nom": "de riz sec"
+          "nom": "de riz blanc à grains longs, sec"
+        },
+        {
+          "q": 4.5,
+          "u": "t",
+          "nom": "d'eau (ou selon l'emballage)"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel (pour le riz)"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Ail (marinade) : écraser chaque gousse avec le plat du couteau, retirer la pelure, puis hacher très finement en morceaux de 1 à 2 mm (ou passer au presse-ail).",
+    "Cuisses : les laisser entières, avec la peau. Couper le surplus de gras ou de peau qui pend aux ciseaux de cuisine. Avec un couteau, faire 2 entailles de 1 cm de profondeur dans la partie charnue de chaque cuisse, jusqu'à l'os, pour que la marinade pénètre et que la cuisson soit égale.",
+    "Cuisses : vérifier qu'elles sont bien décongelées (plus de glace au centre, la cuisse plie à l'articulation). Sortir le sac du frigo 15 minutes avant.",
+    "Légumes (déjà prêts dans le sac du meal prep ; ils peuvent rester congelés) : oignon en quartiers, poivrons en morceaux d'environ 3 cm, carottes en tronçons de 2 cm.",
+    "Riz : mesurer le riz sec ; le rincer au moment de le cuire.",
+    "Équipement : 2 plaques à rebord 13 × 18 po (3 si ça déborde), papier parchemin, pince, grande cuillère pour arroser, casserole de 4 L avec couvercle, passoire fine, gants de four, thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Préchauffer le four à 400–425 °F (200–220 °C).",
-    "Étaler les cuisses marinées et les légumes sur la plaque. Les légumes peuvent aller au four encore congelés (compter 5 à 10 min de plus).",
-    "Cuire 45–55 min, jusqu'à 74 °C (thermomètre sans toucher l'os).",
-    "Environ 20 min avant la fin, cuire le riz selon l'emballage.",
-    "Servir le poulet et les légumes sur le riz."
+    {
+      "titre": "Préparer la marinade miel-ail-soya et faire mariner",
+      "texte": "Si les cuisses ont mariné au meal prep (sac décongelé au frigo), passer à l'étape 2. Sinon : dans un bol moyen, fouetter le miel, la sauce soya, l'ail haché, le ketchup, le sel et le poivre du groupe « Marinade miel-ail-soya » jusqu'à ce que le miel soit complètement dissous (s'il est figé, le tiédir 15 secondes au micro-ondes avant). Répartir les cuisses dans deux grands sacs de congélation de 4 L, partager la marinade entre les sacs, chasser l'air, fermer et masser pour bien enrober chaque cuisse, aussi dans les entailles. Réfrigérer à plat dans un plat, sur la tablette du bas.",
+      "duree": "5 min + au moins 2 h au frigo (24 h au maximum ; ou congelé dans la marinade, puis décongelé au frigo 24 à 48 h)",
+      "reperes": "Marinade lisse, brun ambré, sans dépôt de miel au fond du bol ; chaque cuisse est luisante de marinade.",
+      "pourquoi": "La sauce soya sale et assaisonne la chair, le miel caramélise au four en glaçage collant, et le ketchup donne un peu d'acidité et de couleur. La source ne quantifie pas le sel et le poivre ; quantités proposées, à ajuster (peu de sel : la sauce soya en contient déjà beaucoup)."
+    },
+    {
+      "titre": "Préchauffer le four et préparer les plaques",
+      "texte": "Placer les grilles au tiers supérieur et au tiers inférieur. Allumer le four et tapisser les plaques de papier parchemin. 425 °F donne une peau plus dorée ; 400 °F si le four a tendance à chauffer fort.",
+      "four": "400–425 °F (200–220 °C), grilles au tiers supérieur et inférieur",
+      "duree": "10–15 min pour chauffer",
+      "pourquoi": "Le miel caramélise et colle : sans papier parchemin, la plaque devient très difficile à laver et le fond brûle."
+    },
+    {
+      "titre": "Étaler les légumes",
+      "texte": "Répartir les légumes sur les deux plaques, congelés ou non. Les arroser de l'huile prévue pour les légumes, saler, poivrer et mélanger avec les mains. Les pousser vers les bords pour laisser de la place au poulet au centre.",
+      "duree": "3 min",
+      "pourquoi": "Les légumes autour, le poulet au centre : chacun a assez de place pour rôtir au lieu de cuire à la vapeur."
+    },
+    {
+      "titre": "Placer les cuisses et verser le reste de la marinade",
+      "texte": "Déposer les cuisses au centre des plaques, peau vers le haut, en laissant un peu d'espace entre elles. Verser le reste de la marinade du sac sur le poulet. Se laver les mains après avoir touché le poulet cru.",
+      "duree": "3 min",
+      "reperes": "Une seule couche, aucun morceau empilé.",
+      "pourquoi": "La marinade versée ici va cuire 45 minutes au four : elle devient sécuritaire et forme le glaçage."
+    },
+    {
+      "titre": "Rôtir une première fois",
+      "texte": "Enfourner les deux plaques.",
+      "four": "400–425 °F (200–220 °C)",
+      "duree": "25 min",
+      "reperes": "La peau commence à dorer et la marinade fait des bulles autour du poulet."
+    },
+    {
+      "titre": "Arroser et intervertir les plaques",
+      "texte": "Sortir les plaques une à la fois. Arroser les cuisses avec le jus de la plaque à la cuillère et brasser les légumes. Remettre la plaque du haut en bas et celle du bas en haut, en les tournant d'un demi-tour. Légumes encore congelés au départ : compter 5 à 10 minutes de plus au total.",
+      "four": "400–425 °F (200–220 °C)",
+      "duree": "20–30 min de plus",
+      "pourquoi": "Le haut et le fond du four ne chauffent pas pareil : intervertir donne une cuisson égale sur les deux plaques."
+    },
+    {
+      "titre": "Lancer le riz",
+      "texte": "Juste après avoir interverti les plaques, soit environ 20 à 25 minutes avant la fin du poulet, rincer le riz dans une passoire fine sous l'eau froide en le remuant avec la main. Dans la casserole, porter à ébullition l'eau du groupe « Accompagnement » (ou la quantité indiquée sur l'emballage) avec le sel. Verser le riz, brasser une fois et laisser revenir à ébullition.",
+      "feu": "vif",
+      "duree": "5 min",
+      "reperes": "L'eau de rinçage devient presque claire.",
+      "pourquoi": "Rincer enlève l'amidon en surface : le riz cuit en grains séparés plutôt qu'en bloc collant."
+    },
+    {
+      "titre": "Cuire le riz à couvert",
+      "texte": "Dès que ça bout de nouveau, baisser à feu doux, couvrir et ne plus soulever le couvercle. À la fin, retirer du feu et laisser reposer, toujours couvert, puis égrainer à la fourchette. Couvert, il reste chaud facilement 15 minutes de plus.",
+      "feu": "doux",
+      "duree": "18 min (ou selon l'emballage), puis 5 min de repos hors du feu",
+      "reperes": "Toute l'eau est absorbée et de petits trous se forment à la surface ; les grains sont tendres.",
+      "pourquoi": "La vapeur emprisonnée finit la cuisson : soulever le couvercle la laisse s'échapper."
+    },
+    {
+      "titre": "Vérifier la cuisson du poulet",
+      "texte": "Piquer le thermomètre dans la partie la plus épaisse de la cuisse, sans toucher l'os. Vérifier plusieurs morceaux, surtout les plus gros. S'il manque des degrés, remettre au four et revérifier aux 5 minutes.",
+      "reperes": "74 °C (165 °F) au minimum ; le jus qui coule est clair, sans trace rosée ; la peau est laquée et brun doré.",
+      "pourquoi": "L'os conduit la chaleur autrement que la chair et fausse la lecture."
+    },
+    {
+      "titre": "Laisser reposer et servir",
+      "texte": "Laisser reposer le poulet sur les plaques. Servir les cuisses et les légumes sur le riz et napper avec le jus caramélisé des plaques.",
+      "duree": "5 min de repos",
+      "pourquoi": "Le jus se redistribue dans la viande : elle reste juteuse à la coupe."
+    }
+  ],
+  "astuces": [
+    "Toujours du papier parchemin : le miel caramélise et colle sur une plaque nue.",
+    "Ne pas entasser : laisser de l'espace entre les morceaux, sinon le poulet cuit à la vapeur et la peau reste molle. Au besoin, prendre une 3e plaque.",
+    "Peau pâle à la fin ? 2 à 3 minutes sous le gril (broil), sans quitter le four des yeux : le miel passe de doré à brûlé en quelques secondes.",
+    "Riz : ne pas soulever le couvercle pendant la cuisson ; c'est la vapeur qui fait le travail."
   ],
   "mealPrep": [
-    "Sac 1 (congélateur) : cuisses + marinade miel-ail-soya.",
-    "Sac 2 (congélateur) : oignon en quartiers, poivrons, carottes.",
-    "Décongeler les cuisses au frigo 24 à 48 h avant (cuisses avec os). Jamais sur le comptoir.",
+    "Sac 1 (congélateur) : cuisses entaillées + marinade miel-ail-soya (quantités et méthode à l'étape 1).",
+    "Sac 2 (congélateur) : oignon en quartiers, poivrons en morceaux de 3 cm, carottes en tronçons de 2 cm.",
+    "Décongeler les cuisses au frigo 24 à 48 h avant (cuisses avec os), dans un plat qui ne coule pas. Jamais sur le comptoir.",
     "Si le poulet est acheté le jour même : ne pas congeler, mariner le matin et cuire le soir."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C.",
-    "Riz : réfrigérer dans l'heure."
+    "Frigo : poulet et légumes 3–4 jours, dans des contenants peu profonds ; réfrigérer dans les 2 h.",
+    "Riz : le refroidir étalé en couche mince et le réfrigérer dans l'heure ; 3–4 jours au frigo.",
+    "Congélateur : poulet (désossé de préférence) avec son jus, 2–3 mois ; le riz se congèle bien en portions à plat, 1–2 mois.",
+    "Réchauffer : micro-ondes à couvert avec une cuillerée d'eau sur le riz, en brassant à mi-chemin, ou four à 350 °F (175 °C) couvert d'aluminium 15–20 min, jusqu'à 74 °C au centre.",
+    "Ne se congèlent pas bien : les légumes rôtis, surtout les poivrons, qui deviennent mous. Les manger dans la semaine."
   ],
   "photo": "images/poulet-miel-ail-plaque.jpg",
   "credit": {
-    "texte": "Photo : jeffreyw — CC BY 2.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "jeffreyw",
-    "licence": "CC BY 2.0",
-    "licenceLien": "https://creativecommons.org/licenses/by/2.0",
-    "source": "Lemon garlic sticky chicken (15197532677).jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Lemon_garlic_sticky_chicken_(15197532677).jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

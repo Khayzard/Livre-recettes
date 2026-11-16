@@ -1,13 +1,13 @@
 {
   "slug": "roti-porc-legumes",
   "titre": "Rôti de porc, patates et carottes rôties",
-  "resume": "Rôti frotté à la moutarde, à l'ail et aux herbes, avec patates et carottes rôties et une petite sauce.",
+  "resume": "Rôti enrobé d'un frottage moutarde, ail et herbes, avec patates et carottes rôties et une petite sauce faite avec le jus de cuisson.",
   "portions": 10,
   "temps": {
-    "prep": "20 min",
-    "cuisson": "~1 h 30–2 h (selon le poids) + 15 min de repos"
+    "prep": "20 min",
+    "cuisson": "~1 h 30–2 h (selon le poids) + 15 min de repos"
   },
-  "tempsTotal": "2 h–2 h 35",
+  "tempsTotal": "2 h–2 h 35",
   "etiquettes": [
     "porc",
     "four"
@@ -15,12 +15,12 @@
   "temperatures": [
     {
       "quoi": "Porc",
-      "temp": "71 °C (160 °F)",
+      "temp": "71 °C (160 °F)",
       "note": "à cœur"
     },
     {
       "quoi": "Restes réchauffés",
-      "temp": "74 °C (165 °F)",
+      "temp": "74 °C (165 °F)",
       "note": "jusqu'au centre"
     }
   ],
@@ -35,42 +35,58 @@
           "qMax": 4
         },
         {
-          "q": 4,
-          "u": "",
-          "nom": "gousses d'ail"
-        },
+          "texte": "Sel, poivre (pour saler le rôti avant le frottage)"
+        }
+      ]
+    },
+    {
+      "groupe": "Frottage moutarde, ail et herbes",
+      "items": [
         {
           "q": 2,
           "u": "c. à soupe",
           "nom": "de moutarde de Dijon"
         },
         {
+          "q": 4,
+          "u": "",
+          "nom": "gousses d'ail"
+        },
+        {
           "q": 1,
           "u": "c. à soupe",
-          "nom": "de thym ou d'herbes de Provence"
+          "nom": "de thym séché ou d'herbes de Provence"
         },
         {
           "q": 2,
           "u": "c. à soupe",
           "nom": "d'huile"
-        },
-        {
-          "texte": "Sel, poivre"
-        },
-        {
-          "q": 1,
-          "u": "t",
-          "nom": "de bouillon de poulet"
-        },
-        {
-          "q": 1,
-          "u": "c. à soupe",
-          "nom": "de fécule de maïs délayée (pour la sauce)"
         }
       ]
     },
     {
-      "groupe": "Légumes",
+      "groupe": "Sauce au jus de cuisson",
+      "items": [
+        {
+          "q": 1,
+          "u": "t",
+          "nom": "de bouillon de poulet (versé au fond de la rôtissoire)"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de fécule de maïs"
+        },
+        {
+          "texte": "Eau froide pour délayer la fécule : {{2|c. à soupe}}"
+        },
+        {
+          "texte": "Sel, poivre, au goût"
+        }
+      ]
+    },
+    {
+      "groupe": "Légumes rôtis",
       "items": [
         {
           "q": 5,
@@ -84,7 +100,9 @@
           "qMax": 8
         },
         {
-          "texte": "Chou-fleur (si disponible)"
+          "q": 0.5,
+          "u": "",
+          "nom": "chou-fleur (facultatif, s'il en reste)"
         },
         {
           "q": 3,
@@ -92,40 +110,151 @@
           "nom": "d'huile"
         },
         {
-          "texte": "Sel, poivre, paprika"
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de paprika doux"
         },
         {
-          "texte": "Persil"
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 0.25,
+          "u": "c. à thé",
+          "nom": "de poivre"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de persil frais haché (pour servir)"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Rôti congelé : le mettre au frigo 2 jours avant, dans une assiette creuse (environ 24 h par 4–5 lb). Jamais sur le comptoir.",
+    "Rôti : le sortir du frigo 30 minutes avant de l'enfourner. Laisser la ficelle s'il y en a une ; elle se coupe au moment de trancher.",
+    "Ail (frottage) : écraser chaque gousse avec le plat du couteau, retirer la pelure, puis hacher très finement en morceaux de 1 à 2 mm, ou passer au presse-ail.",
+    "Pommes de terre : brossées, non pelées. Couper en deux sur la longueur, puis chaque moitié en 2 ou 3 quartiers de 3 à 4 cm d'épaisseur, tous de la même grosseur.",
+    "Carottes : pelées, coupées en tronçons de 4 cm ; fendre en deux sur la longueur les bouts de plus de 2 cm de diamètre.",
+    "Chou-fleur (facultatif) : retirer les feuilles et le cœur, séparer en fleurettes de 4 cm.",
+    "Persil : laver, assécher, retirer les grosses tiges, hacher finement (1 à 2 mm).",
+    "Fécule : la délayer dans l'eau froide, dans une tasse, à la fourchette, jusqu'à ce qu'il n'y ait plus de grumeaux. Elle retombe au fond : brasser de nouveau juste avant de s'en servir.",
+    "Équipement : rôtissoire ou plat de 23 × 33 cm (9 × 13 po) allant au four ; 2 plaques de 33 × 46 cm (13 × 18 po) avec papier parchemin ; petit bol ; très grand bol ; petite casserole de 1,5 L ; fouet ; papier d'aluminium ; planche à découper avec rigole ; couteau à trancher ; thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Si le rôti est congelé : le décongeler au frigo (environ 24 h par 4–5 lb).",
-    "Sortir le rôti 30 min avant. Préchauffer le four à 450 °F (230 °C).",
-    "Assécher le rôti, le frotter avec l'huile, la moutarde, l'ail, les herbes, le sel et le poivre. Le mettre dans une rôtissoire avec le bouillon au fond.",
-    "Saisir 15 min à 450 °F, puis baisser à 325 °F (165 °C). Compter environ 25 min par livre au total.",
-    "Pommes de terre en quartiers et carottes en tronçons, mélangées avec l'huile, le sel, le poivre et le paprika : autour du rôti ou sur une plaque à part, 50–60 min avant la fin. Monter à 400 °F pour les 20 dernières minutes au besoin (rôti couvert).",
-    "Cuire le porc jusqu'à 71 °C à cœur. Repos de 15 min sous papier d'aluminium, puis trancher.",
-    "Sauce : déglacer la rôtissoire avec un peu de bouillon et épaissir avec la fécule délayée."
+    {
+      "titre": "Préparer le frottage moutarde, ail et herbes",
+      "texte": "Dans un petit bol, mélanger à la fourchette tous les ingrédients du groupe « Frottage » : la moutarde, l'ail haché très finement, les herbes et l'huile, jusqu'à obtenir une pâte lisse et épaisse. Si le frottage a été préparé la veille (meal prep), le sortir du frigo, le brasser et passer à l'étape suivante.",
+      "duree": "3 min",
+      "reperes": "Pâte homogène, couleur moutarde, parsemée d'herbes ; l'huile ne se sépare plus.",
+      "pourquoi": "La moutarde colle les herbes et l'ail à la viande et forme une croûte ; l'huile aide à dorer."
+    },
+    {
+      "titre": "Préchauffer le four",
+      "texte": "Placer une grille au tiers inférieur (pour le rôti) et une autre au tiers supérieur (pour les légumes). Allumer le four. Tapisser les deux plaques de papier parchemin.",
+      "four": "450 °F (230 °C), grilles au tiers inférieur et au tiers supérieur",
+      "duree": "15 min pour chauffer"
+    },
+    {
+      "titre": "Assécher le rôti et appliquer le frottage",
+      "texte": "Assécher toute la surface du rôti avec du papier absorbant. Saler et poivrer tous les côtés. Étaler le frottage partout avec les mains ou le dos d'une cuillère, en couche mince et égale. Déposer le rôti au centre de la rôtissoire, le côté gras vers le haut. Verser le bouillon du groupe « Sauce » au fond de la rôtissoire, autour du rôti, jamais dessus. Se laver les mains.",
+      "duree": "5 min",
+      "reperes": "Le rôti est couvert d'une couche mince de frottage ; le bouillon couvre le fond de la rôtissoire sans toucher le dessus de la viande.",
+      "pourquoi": "Une surface sèche retient le frottage et dore mieux. Le bouillon empêche les sucs de brûler au fond et deviendra la sauce."
+    },
+    {
+      "titre": "Saisir le rôti à four très chaud",
+      "texte": "Enfourner la rôtissoire sur la grille du bas, à découvert. Ne pas ouvrir la porte du four pendant ce temps.",
+      "four": "450 °F (230 °C), grille au tiers inférieur",
+      "duree": "15 min",
+      "reperes": "Le dessus commence à dorer et ça sent l'ail et la moutarde.",
+      "pourquoi": "La chaleur forte du début forme la croûte ; la cuisson douce qui suit garde l'intérieur juteux."
+    },
+    {
+      "titre": "Baisser le four et rôtir doucement",
+      "texte": "Sans sortir le rôti, baisser le four. Compter environ 25 minutes par livre au total, saisie comprise : à peu près 1 h 15 pour un rôti de 3 lb, 1 h 40 pour un rôti de 4 lb, parfois plus. S'il n'y a presque plus de liquide au fond de la rôtissoire, ajouter un peu d'eau. Commencer à vérifier la température après 1 h de cuisson en tout.",
+      "four": "325 °F (165 °C), grille au tiers inférieur",
+      "duree": "1 h à 1 h 30 de plus, selon le poids",
+      "reperes": "Il reste toujours un fond de liquide brun dans la rôtissoire ; il ne doit jamais sécher ni noircir.",
+      "pourquoi": "À 325 °F, la chaleur a le temps de se rendre au centre sans assécher l'extérieur."
+    },
+    {
+      "titre": "Enfourner les patates et les carottes",
+      "texte": "Environ 50 à 60 minutes avant la fin prévue de la cuisson du rôti (donc 15 à 30 minutes après avoir baissé le four), mettre les patates et les carottes dans le très grand bol avec l'huile, le paprika, le sel et le poivre du groupe « Légumes rôtis ». Mélanger avec les mains pour bien les enrober. Les répartir sur les deux plaques, en une seule couche, le côté coupé des patates vers le bas, sans les tasser. Enfourner : une plaque sur la grille du haut, l'autre à côté ou au-dessus du rôti. Garder le bol pour le chou-fleur.",
+      "four": "325 °F (165 °C), grille au tiers supérieur",
+      "duree": "50–60 min au total",
+      "reperes": "Les légumes sont luisants et légèrement orangés par le paprika ; aucun morceau n'en chevauche un autre.",
+      "pourquoi": "Entassés, les légumes cuisent à la vapeur et restent pâles. En une seule couche, ils rôtissent."
+    },
+    {
+      "titre": "Retourner les légumes et ajouter le chou-fleur",
+      "texte": "Après 25 à 30 minutes, retourner les patates et les carottes à la spatule et permuter les deux plaques. Si on a du chou-fleur, l'enrober dans le bol avec l'huile restée au fond (ajouter un filet d'huile et une pincée de sel au besoin) et le répartir sur les plaques.",
+      "four": "325 °F (165 °C)",
+      "duree": "2–3 min, puis 25–30 min de cuisson",
+      "reperes": "Le dessous des patates commence à dorer et se décolle facilement du papier.",
+      "pourquoi": "Le chou-fleur cuit plus vite que les patates : ajouté à mi-cuisson, il sera prêt en même temps."
+    },
+    {
+      "titre": "Vérifier la cuisson et laisser reposer le rôti",
+      "texte": "Piquer le thermomètre à lecture instantanée au centre de la partie la plus épaisse du rôti, sans toucher le fond de la rôtissoire. À 71 °C (160 °F), sortir la rôtissoire, transférer le rôti sur la planche à découper et le couvrir d'une feuille de papier d'aluminium posée sans serrer. Laisser reposer sans y toucher. Garder la rôtissoire et son jus pour la sauce.",
+      "duree": "15 min de repos",
+      "reperes": "71 °C (160 °F) au centre ; le jus qui s'écoule est clair.",
+      "pourquoi": "Pendant le repos, le jus se redistribue dans la viande. Tranché trop tôt, le rôti perd son jus sur la planche et devient sec."
+    },
+    {
+      "titre": "Finir de dorer les légumes",
+      "texte": "Dès que le rôti est sorti, monter le four et replacer les deux plaques de légumes, une sur chaque grille. Les laisser dorer pendant que le rôti repose. (Si les légumes sont encore très pâles 20 minutes avant la fin de la cuisson du rôti, on peut monter le four tout de suite à 400 °F, en couvrant le rôti de papier d'aluminium.)",
+      "four": "400 °F (200 °C), grilles au tiers inférieur et au tiers supérieur",
+      "duree": "15–20 min",
+      "reperes": "Patates bien dorées et croustillantes sur le côté coupé ; la pointe d'un couteau entre sans résistance dans les patates et les carottes ; chou-fleur doré sur les bords."
+    },
+    {
+      "titre": "Faire la sauce avec le jus de cuisson",
+      "texte": "Gratter le fond de la rôtissoire avec une cuillère de bois pour décoller les sucs bruns, puis verser tout le jus dans la petite casserole. Retirer à la cuillère le gras qui flotte sur le dessus. S'il y a moins de jus que la quantité de bouillon mise au départ, compléter avec de l'eau. Porter à ébullition. Brasser de nouveau la fécule délayée dans l'eau froide, puis la verser en filet en fouettant sans arrêt. Laisser frémir en fouettant. Goûter, saler et poivrer.",
+      "feu": "moyen-vif, puis moyen dès que ça bout",
+      "duree": "1–2 min après l'ajout de la fécule",
+      "reperes": "La sauce devient luisante, légèrement épaisse et nappe le dos d'une cuillère.",
+      "pourquoi": "La fécule doit bouillir pour épaissir. Délayée dans l'eau froide et versée en fouettant, elle ne fait pas de grumeaux."
+    },
+    {
+      "titre": "Trancher et servir",
+      "texte": "Couper la ficelle s'il y en a une. Trancher le rôti contre le grain (en travers des fibres de la viande) en tranches d'environ 1 cm. Verser dans la sauce le jus resté sur la planche. Servir les tranches avec les patates, les carottes et le chou-fleur, parsemer les légumes de persil haché et napper la viande de sauce.",
+      "duree": "5 min",
+      "reperes": "Tranches juteuses, chair opaque, blanche à très légèrement rosée.",
+      "pourquoi": "Couper contre le grain raccourcit les fibres : la viande est plus tendre sous la dent."
+    }
+  ],
+  "astuces": [
+    "Se fier au thermomètre, pas à l'horloge : le temps varie beaucoup selon la forme et le poids du rôti. Commencer à vérifier après 1 h de cuisson.",
+    "Ne jamais laisser sécher le fond de la rôtissoire : les sucs brûlés donnent une sauce amère. Ajouter un peu d'eau dès que le fond commence à sécher.",
+    "Ne pas tasser les légumes : deux plaques en une seule couche valent mieux qu'une plaque pleine.",
+    "Ne pas sauter le repos de 15 minutes : c'est ce qui garde le rôti juteux, et ça laisse juste le temps de dorer les légumes et de faire la sauce."
+  ],
+  "mealPrep": [
+    "2 jours avant : si le rôti est congelé, le mettre au frigo dans une assiette creuse.",
+    "La veille (facultatif) : préparer le frottage moutarde, ail et herbes dans un petit contenant fermé, au frigo, 24 h au maximum. On peut aussi en enrober le rôti la veille et le garder au frigo, couvert.",
+    "Ne pas couper d'avance : les pommes de terre (elles noircissent). Les carottes peuvent être coupées la veille, au frigo dans un contenant fermé."
+  ],
+  "conservation": [
+    "Frigo : 3–4 jours, tranches de porc avec un peu de sauce et légumes, dans des contenants peu profonds ; réfrigérer dans les 2 h.",
+    "Congélateur : 2–3 mois pour les tranches de porc nappées de sauce, dans un contenant hermétique ou un sac à congélation bien aplati.",
+    "Réchauffer : à la poêle couverte à feu moyen-doux avec quelques cuillerées de sauce ou d'eau, ou au micro-ondes à couvert à puissance moyenne, jusqu'à 74 °C au centre (vérifier au thermomètre).",
+    "Ne se congèlent pas bien : les patates rôties (elles deviennent farineuses) et le chou-fleur (il devient mou). Les garder au frigo pour les lunchs.",
+    "Lunchs : tranches de porc et légumes, 3–4 jours au frigo. Le reste du porc fait de bons sandwichs ou un riz frit."
   ],
   "substitutions": [
     "Patates douces.",
-    "Mijoteuse 8 h à basse température si on est pressé le matin."
+    "Mijoteuse 8 h à basse température si on est pressé le matin."
   ],
   "notes": [
-    "La source indique 63 °C (145 °F) pour un rôti juteux légèrement rosé ; Santé Canada accepte 63 °C + 3 min de repos pour une pièce entière. On garde 71 °C pour rester simple."
-  ],
-  "conservation": [
-    "Tranches de porc + légumes : 3–4 jours au frigo. Le reste du porc fait de bons sandwichs ou un riz frit."
+    "La source indique 63 °C (145 °F) pour un rôti juteux légèrement rosé ; Santé Canada accepte 63 °C + 3 min de repos pour une pièce entière. On garde 71 °C pour rester simple.",
+    "Les sources ne donnent pas les quantités ; version maison proposée, à ajuster. Cela concerne seulement le paprika, le sel et le poivre des légumes, le chou-fleur, le persil et l'eau pour délayer la fécule ; tout le reste vient de la source."
   ],
   "photo": "images/roti-porc-legumes.jpg",
   "credit": {
-    "texte": "Photo : Kham Tran — CC BY-SA 3.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Kham Tran",
-    "licence": "CC BY-SA 3.0",
-    "licenceLien": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "Sunday-Pork-Roast-2008.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Sunday-Pork-Roast-2008.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

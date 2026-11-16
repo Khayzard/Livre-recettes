@@ -27,13 +27,23 @@
   ],
   "ingredients": [
     {
-      "groupe": "Poulet et marinade",
+      "groupe": "Poulet",
       "items": [
         {
           "q": 2.7,
           "u": "kg",
           "nom": "de cuisses de poulet avec dos"
         },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "oignon, en quartiers"
+        }
+      ]
+    },
+    {
+      "groupe": "Marinade paprika-citron-ail",
+      "items": [
         {
           "q": 3,
           "u": "",
@@ -42,7 +52,7 @@
         {
           "q": 8,
           "u": "",
-          "nom": "gousses d'ail"
+          "nom": "gousses d'ail, hachées finement"
         },
         {
           "q": 3,
@@ -57,7 +67,7 @@
         {
           "q": 2,
           "u": "c. à soupe",
-          "nom": "d'origan"
+          "nom": "d'origan séché"
         },
         {
           "q": 2,
@@ -65,12 +75,14 @@
           "nom": "feuilles de laurier"
         },
         {
-          "texte": "Sel, poivre"
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de sel"
         },
         {
           "q": 1,
-          "u": "",
-          "nom": "oignon, en quartiers"
+          "u": "c. à thé",
+          "nom": "de poivre moulu"
         }
       ]
     },
@@ -78,44 +90,144 @@
       "groupe": "Accompagnements",
       "items": [
         {
-          "texte": "Pommes de terre"
+          "q": 6,
+          "u": "lb",
+          "nom": "de pommes de terre"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "d'huile (patates)"
         },
         {
           "q": 3,
           "u": "t",
-          "nom": "de riz sec"
+          "nom": "de riz blanc à grains longs, sec"
         },
         {
-          "texte": "Persil"
+          "q": 4.5,
+          "u": "t",
+          "nom": "d'eau (ou selon l'emballage du riz)"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel (pour le riz)"
+        },
+        {
+          "q": 0.25,
+          "u": "t",
+          "nom": "de persil frais haché"
+        },
+        {
+          "texte": "Sel et poivre (pour les patates)"
         }
       ]
     }
   ],
+  "miseEnPlace": [
+    "Ail (marinade) : écraser chaque gousse avec le plat du couteau, retirer la pelure, puis hacher très finement en morceaux de 1 à 2 mm (ou passer au presse-ail).",
+    "Citrons : les rouler sous la paume sur le comptoir, les couper en deux et les presser au-dessus d'une passoire pour retenir les pépins.",
+    "Oignon : couper les deux bouts, peler, couper en deux de la racine à la tige, puis chaque moitié en 4 quartiers en gardant un peu de la racine pour qu'ils se tiennent.",
+    "Cuisses : les laisser entières, avec la peau ; couper aux ciseaux le surplus de peau ou de gras qui pend. Faire 2 entailles de 1 cm de profondeur dans la partie charnue de chaque cuisse.",
+    "Cuisses : décongelées au frigo (environ 48 h). Vérifier qu'il n'y a plus de glace au centre ; sortir le sac 15 minutes avant.",
+    "Pommes de terre (le jour même) : brossées ou pelées, coupées en deux sur la longueur, puis chaque moitié en quartiers d'environ 4 cm, tous de la même grosseur. Bien les éponger dans un linge.",
+    "Riz : mesurer le riz sec ; le rincer au moment de le cuire.",
+    "Persil : rincé, bien essoré dans un linge, grosses tiges retirées, haché finement (2 mm).",
+    "Équipement : 2 plaques à rebord 13 × 18 po (3 si ça déborde) avec papier parchemin, grand bol pour enrober les patates, pince, grande cuillère, casserole de 4 L avec couvercle, passoire fine, gants de four, thermomètre à lecture instantanée."
+  ],
   "etapes": [
-    "Couper les pommes de terre le jour même.",
-    "Préchauffer le four à 400–425 °F (200–220 °C).",
-    "Étaler les cuisses marinées (avec l'oignon) et les patates sur les plaques. Cuire 45–55 min, jusqu'à 74 °C sans toucher l'os.",
-    "Pendant la cuisson, cuire le riz selon l'emballage.",
-    "Garnir de persil et servir."
+    {
+      "titre": "Préparer la marinade paprika-citron et faire mariner",
+      "texte": "Si les cuisses ont mariné au meal prep (sac décongelé au frigo), passer à l'étape 2. Sinon : dans un bol moyen, fouetter le jus de citron, l'ail haché, l'huile d'olive, le paprika, l'origan, le sel et le poivre du groupe « Marinade paprika-citron-ail » jusqu'à ce que le paprika soit bien dispersé, sans grumeaux ; ajouter les feuilles de laurier entières. Répartir les cuisses et les quartiers d'oignon dans deux grands sacs de congélation de 4 L, partager la marinade entre les sacs, chasser l'air, fermer et masser pour enrober chaque cuisse, jusque dans les entailles. Réfrigérer à plat dans un plat, sur la tablette du bas.",
+      "duree": "5 min + au moins 2 h au frigo (24 h au maximum : le citron finit par rendre la chair farineuse ; ou congelé dans la marinade, puis décongelé au frigo environ 48 h)",
+      "reperes": "Marinade rouge orangé, lisse ; chaque cuisse est bien enrobée de rouge, sans morceaux de peau à nu.",
+      "pourquoi": "Le citron et l'ail parfument la chair, le paprika donne la couleur et le goût du poulet portugais sans piquant. La source ne quantifie pas le sel et le poivre ; quantités proposées, à ajuster."
+    },
+    {
+      "titre": "Préchauffer le four",
+      "texte": "Placer les grilles au tiers supérieur et au tiers inférieur, puis allumer le four. Tapisser les plaques de papier parchemin.",
+      "four": "400–425 °F (200–220 °C), grilles au tiers supérieur et inférieur",
+      "duree": "10–15 min pour chauffer"
+    },
+    {
+      "titre": "Préparer les patates",
+      "texte": "Dans le grand bol, mélanger les patates bien épongées avec l'huile prévue pour les patates, du sel et du poivre. Les répartir sur les bords des deux plaques, côté coupé vers le bas.",
+      "duree": "3 min",
+      "pourquoi": "Sèches et enrobées d'huile, les patates dorent ; mouillées, elles cuisent à la vapeur."
+    },
+    {
+      "titre": "Placer le poulet et verser le reste de la marinade",
+      "texte": "Déposer les cuisses au centre des plaques, peau vers le haut, avec l'oignon et les feuilles de laurier du sac entre les morceaux. Verser le reste de la marinade sur le poulet plutôt que sur les patates. Laisser un peu d'espace partout. Se laver les mains après avoir touché le poulet cru.",
+      "duree": "3 min",
+      "reperes": "Une seule couche, rien d'empilé.",
+      "pourquoi": "Le jus de citron mouillerait les patates et les empêcherait de dorer : mieux vaut le garder sur le poulet."
+    },
+    {
+      "titre": "Rôtir une première fois",
+      "texte": "Enfourner les deux plaques.",
+      "four": "400–425 °F (200–220 °C)",
+      "duree": "25 min",
+      "reperes": "La peau commence à dorer ; le paprika donne une belle couleur rouge orangé."
+    },
+    {
+      "titre": "Arroser, retourner et intervertir",
+      "texte": "Sortir les plaques une à la fois. Arroser les cuisses avec le jus de la plaque et retourner les patates à la spatule. Remettre la plaque du haut en bas et celle du bas en haut, en les tournant d'un demi-tour.",
+      "four": "400–425 °F (200–220 °C)",
+      "duree": "20–30 min de plus",
+      "pourquoi": "Le haut et le bas du four ne chauffent pas pareil : intervertir donne une cuisson égale."
+    },
+    {
+      "titre": "Lancer le riz",
+      "texte": "Juste après avoir interverti les plaques, soit environ 20 à 25 minutes avant la fin du poulet, rincer le riz dans une passoire fine sous l'eau froide en le remuant avec la main. Dans la casserole, porter à ébullition l'eau du groupe « Accompagnements » (ou la quantité indiquée sur l'emballage) avec le sel prévu pour le riz. Verser le riz, brasser une fois et laisser revenir à ébullition.",
+      "feu": "vif",
+      "duree": "5 min",
+      "reperes": "L'eau de rinçage devient presque claire.",
+      "pourquoi": "Rincer enlève l'amidon en surface : le riz cuit en grains séparés plutôt qu'en bloc collant."
+    },
+    {
+      "titre": "Cuire le riz à couvert",
+      "texte": "Dès que ça bout de nouveau, baisser à feu doux, couvrir et ne plus soulever le couvercle. À la fin, retirer du feu et laisser reposer, toujours couvert, puis égrainer à la fourchette. Couvert, il reste chaud facilement 15 minutes de plus.",
+      "feu": "doux",
+      "duree": "18 min (ou selon l'emballage), puis 5 min de repos hors du feu",
+      "reperes": "Toute l'eau est absorbée et de petits trous se forment à la surface ; les grains sont tendres.",
+      "pourquoi": "La vapeur emprisonnée finit la cuisson : soulever le couvercle la laisse s'échapper."
+    },
+    {
+      "titre": "Vérifier le poulet et les patates",
+      "texte": "Piquer le thermomètre dans la partie la plus épaisse de la cuisse, sans toucher l'os, sur plusieurs morceaux. Vérifier une patate avec la pointe d'un couteau. S'il manque des degrés, remettre au four et revérifier aux 5 minutes.",
+      "reperes": "Poulet : 74 °C (165 °F) au minimum, jus clair, peau dorée. Patates : dorées, tendres au centre.",
+      "pourquoi": "L'os conduit la chaleur autrement que la chair et fausse la lecture."
+    },
+    {
+      "titre": "Laisser reposer et servir",
+      "texte": "Laisser reposer le poulet. Retirer les feuilles de laurier. Parsemer de persil haché et servir avec le riz et les patates, en arrosant du jus des plaques.",
+      "duree": "5 min de repos",
+      "pourquoi": "Les feuilles de laurier restent dures et ne se mangent pas."
+    }
+  ],
+  "astuces": [
+    "Patates bien sèches et en une seule couche : c'est ce qui les rend dorées. Mouillées ou entassées, elles restent pâles et molles.",
+    "Le thermomètre ne ment pas : 74 °C dans la partie la plus épaisse de la cuisse, sans toucher l'os.",
+    "Retirer les feuilles de laurier avant de servir : elles ne se mangent pas.",
+    "Épices douces : pas de piri-piri dans la marinade. Les adultes ajoutent une sauce piri-piri douce à table s'ils en veulent."
   ],
   "mealPrep": [
-    "Sac (congélateur) : cuisses + marinade paprika-citron + oignon en quartiers.",
-    "Décongeler au frigo environ 48 h avant. La veille, vérifier que c'est décongelé jusqu'au centre ; sinon, sac étanche dans l'eau froide changée toutes les 30 min."
+    "Sac (congélateur) : cuisses entaillées + marinade paprika-citron-ail + oignon en quartiers (quantités et méthode à l'étape 1).",
+    "Décongeler au frigo environ 48 h avant, dans un plat qui ne coule pas. La veille, vérifier que c'est décongelé jusqu'au centre ; sinon, sac étanche dans l'eau froide changée toutes les 30 min."
   ],
   "substitutions": [
     "Pas de piri-piri dans la marinade (épices douces). Une sauce piri-piri douce peut être servie à table pour les adultes."
   ],
   "conservation": [
-    "Réfrigérer les restes dans les 2 h, en contenants peu profonds ; 3–4 jours au frigo, sinon congeler. Réchauffer à 74 °C.",
-    "Riz : réfrigérer dans l'heure."
+    "Frigo : poulet et patates 3–4 jours, dans des contenants peu profonds ; réfrigérer dans les 2 h. Riz : étalé pour refroidir vite, au frigo dans l'heure.",
+    "Congélateur : poulet avec son jus, 2–3 mois ; le riz se congèle bien en portions à plat, 1–2 mois.",
+    "Réchauffer : micro-ondes à couvert (une cuillerée d'eau sur le riz), en brassant ou en retournant à mi-chemin, ou four à 350 °F (175 °C) couvert d'aluminium 15–20 min, jusqu'à 74 °C au centre. Pour des patates plus croustillantes, finir quelques minutes à découvert.",
+    "Ne se congèlent pas bien : les patates rôties (molles et granuleuses). Les garder au frigo pour les lunchs. Ajouter le persil frais au moment de manger."
   ],
   "photo": "images/poulet-portugaise.jpg",
   "credit": {
-    "texte": "Photo : Kolforn — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "Kolforn",
-    "licence": "CC BY-SA 4.0",
-    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "2018-02-03 Chicken Piri-Piri, Albufeira (1).JPG",
-    "lien": "https://commons.wikimedia.org/wiki/File:2018-02-03_Chicken_Piri-Piri,_Albufeira_(1).JPG"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }

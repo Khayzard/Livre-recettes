@@ -104,11 +104,7 @@
   ],
   "photo": "images/pates-poulet-crudites.jpg",
   "credit": {
-    "texte": "Photo : MonicaVereanaWilliams — CC BY-SA 4.0, via Wikimedia Commons (redimensionnée)",
-    "auteur": "MonicaVereanaWilliams",
-    "licence": "CC BY-SA 4.0",
-    "licenceLien": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "Chicken Pot Pie, cut open.jpg",
-    "lien": "https://commons.wikimedia.org/wiki/File:Chicken_Pot_Pie,_cut_open.jpg"
+    "texte": "Photo : illustration générée par IA",
+    "ia": true
   }
 }
