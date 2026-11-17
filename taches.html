@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Tâches — Livre de recettes</title>
-  <meta name="description" content="Liste des tâches familiales, en lecture seule.">
+  <meta name="description" content="Liste des tâches familiales. Cochez une tâche pour la marquer comme faite.">
   <meta name="theme-color" content="#b5482b">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.webmanifest">
@@ -24,31 +24,50 @@
   <main class="contenu">
     <h1>Tâches</h1>
     <p id="taches-maj" class="taches-maj">Chargement…</p>
+    <p class="taches-outils">
+      <button type="button" class="btn btn-lien" id="oublier-code" hidden>Oublier le code</button>
+    </p>
+    <div id="jeton-panneau" class="bloc jeton-panneau" hidden>
+      <h2>Code GitHub</h2>
+      <p>Pour cocher une tâche, il faut un jeton d’accès précisé (fine-grained) limité au dépôt <strong>Khayzard/Livre-recettes</strong>, avec la permission <strong>Contents : lecture et écriture</strong>. Les étapes sont dans <a href="TACHES_API.md">TACHES_API.md</a>. Le code reste dans ce navigateur seulement, jamais dans le dépôt.</p>
+      <label for="jeton-champ">Jeton GitHub</label>
+      <input id="jeton-champ" type="password" autocomplete="off" spellcheck="false" autocapitalize="off">
+      <div class="jeton-actions">
+        <button type="button" class="btn btn-plein" id="jeton-sauver">Enregistrer</button>
+        <button type="button" class="btn btn-contour" id="jeton-annuler">Annuler</button>
+      </div>
+    </div>
+    <p id="erreur" class="erreur" hidden></p>
     <section class="recherche" aria-label="Filtres">
       <div id="filtre-responsable" class="filtres" role="group" aria-label="Filtrer par responsable"></div>
     </section>
     <div id="groupes"></div>
-    <p id="erreur" class="erreur" hidden></p>
+    <div id="sec-faites"></div>
   </main>
 
   <footer class="pied">
-    <p>Page en lecture seule. Les bots mettent à jour la liste dans le dépôt GitHub.</p>
+    <p>Cochez une tâche pour la marquer comme faite. Elle disparaît de la liste active et se range sous « Afficher les tâches faites ».</p>
     <p>Photos : illustrations générées par IA — voir <a href="CREDITS.md">les crédits</a>.</p>
   </footer>
 
   <script>
   (function () {
     "use strict";
-    var STATUTS = [
+    var STATUTS_ACTIFS = [
       { id: "a_faire", label: "À faire" },
       { id: "en_cours", label: "En cours" },
-      { id: "bloque", label: "Bloqué" },
-      { id: "fait", label: "Fait" }
+      { id: "bloque", label: "Bloqué" }
     ];
-    var LABELS = {};
-    STATUTS.forEach(function (s) { LABELS[s.id] = s.label; });
+    var LABELS = { a_faire: "À faire", en_cours: "En cours", bloque: "Bloqué", fait: "Fait" };
     var TZ = "America/Toronto";
+    var CLE_JETON = "taches-github-token";
+    var API = "https://api.github.com/repos/Khayzard/Livre-recettes/contents/taches.json";
+    var MAJ_PAR = "Joel (page)";
     var filtreActif = "";
+    var faitOuvertes = false;
+    var enCours = false;
+    var taches = [];
+    var actionEnAttente = null;
 
     function el(tag, attrs, enfants) {
       var n = document.createElement(tag);
@@ -91,6 +110,19 @@
       return d.toLocaleString("fr-CA", { dateStyle: "medium", timeStyle: "short", timeZone: TZ }) + " (America/Toronto)";
     }
 
+    function maintenant() {
+      var parts = {};
+      new Intl.DateTimeFormat("en-CA", {
+        timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit",
+        hour: "2-digit", minute: "2-digit", second: "2-digit",
+        hourCycle: "h23", timeZoneName: "shortOffset"
+      }).formatToParts(new Date()).forEach(function (p) { parts[p.type] = p.value; });
+      var m = String(parts.timeZoneName || "").match(/([+-])(\d{1,2})(?::?(\d{2}))?/);
+      var off = "-05:00";
+      if (m) off = m[1] + String(m[2]).padStart(2, "0") + ":" + String(m[3] || "00").padStart(2, "0");
+      return parts.year + "-" + parts.month + "-" + parts.day + "T" + parts.hour + ":" + parts.minute + ":" + parts.second + off;
+    }
+
     function derniereMaj(liste) {
       var meilleur = null;
       liste.forEach(function (t) {
@@ -101,8 +133,7 @@
     }
 
     function responsables(liste) {
-      var vus = {};
-      var noms = [];
+      var vus = {}, noms = [];
       liste.forEach(function (t) {
         var n = (t.responsable || "").trim();
         if (n && !vus[n]) { vus[n] = true; noms.push(n); }
@@ -111,19 +142,194 @@
       return noms;
     }
 
+    function copier(liste) {
+      return JSON.parse(JSON.stringify(liste));
+    }
+
     function afficherErreur(msg) {
       var e = document.getElementById("erreur");
-      if (e) { e.textContent = msg; e.hidden = false; }
+      if (e) {
+        e.textContent = msg;
+        e.hidden = false;
+        e.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }
+    }
+
+    function cacherErreur() {
+      var e = document.getElementById("erreur");
+      if (e) { e.textContent = ""; e.hidden = true; }
+    }
+
+    function lireJeton() {
+      try { return (localStorage.getItem(CLE_JETON) || "").trim(); }
+      catch (e) { return ""; }
+    }
+
+    function ecrireJeton(valeur) {
+      localStorage.setItem(CLE_JETON, valeur);
+    }
+
+    function oublierJeton() {
+      try { localStorage.removeItem(CLE_JETON); } catch (e) {}
+    }
+
+    function majLienOublier() {
+      var b = document.getElementById("oublier-code");
+      if (b) b.hidden = !lireJeton();
+    }
+
+    function afficherPanneauJeton() {
+      var p = document.getElementById("jeton-panneau");
+      p.hidden = false;
+      var champ = document.getElementById("jeton-champ");
+      champ.value = "";
+      champ.focus();
+      p.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+
+    function cacherPanneauJeton() {
+      document.getElementById("jeton-panneau").hidden = true;
+      document.getElementById("jeton-champ").value = "";
+    }
+
+    function encoderBase64(texte) {
+      var octets = new TextEncoder().encode(texte);
+      var binaire = "";
+      for (var i = 0; i < octets.length; i++) binaire += String.fromCharCode(octets[i]);
+      return btoa(binaire);
+    }
+
+    function decoderBase64(b64) {
+      var propre = String(b64 || "").replace(/\s/g, "");
+      var binaire = atob(propre);
+      var octets = new Uint8Array(binaire.length);
+      for (var i = 0; i < binaire.length; i++) octets[i] = binaire.charCodeAt(i);
+      return new TextDecoder().decode(octets);
+    }
+
+    function entetes(jeton) {
+      var h = { "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" };
+      if (jeton) h.Authorization = "Bearer " + jeton;
+      return h;
+    }
+
+    function erreurApi(r) {
+      var msg = "Erreur GitHub " + r.status + ".";
+      if (r.status === 401) msg = "Le code GitHub a été refusé. Appuyez sur « Oublier le code » puis entrez un nouveau jeton.";
+      else if (r.status === 403) msg = "Ce code n’a pas le droit de modifier taches.json. Vérifiez que le jeton a l’accès au dépôt Khayzard/Livre-recettes et la permission Contents (lecture et écriture).";
+      else if (r.status === 404) msg = "Le fichier taches.json est introuvable sur GitHub.";
+      else if (r.status === 409) msg = "Quelqu’un d’autre a modifié la liste en même temps. Réessayez.";
+      else if (r.status === 422) msg = "GitHub a refusé la mise à jour (conflit). Rechargez la page et réessayez.";
+      var e = new Error(msg);
+      e.statut = r.status;
+      return e;
+    }
+
+    function getFichier(jeton) {
+      return fetch(API + "?ref=main&t=" + Date.now(), { headers: entetes(jeton), cache: "no-store" }).then(function (r) {
+        if (!r.ok) throw erreurApi(r);
+        return r.json();
+      });
+    }
+
+    function putFichier(jeton, sha, texte, message) {
+      return fetch(API, {
+        method: "PUT",
+        headers: Object.assign({ "Content-Type": "application/json" }, entetes(jeton)),
+        body: JSON.stringify({ message: message, content: encoderBase64(texte), sha: sha, branch: "main" })
+      }).then(function (r) {
+        if (!r.ok) throw erreurApi(r);
+        return r.json();
+      });
+    }
+
+    function appliquer(liste, id, fait) {
+      for (var i = 0; i < liste.length; i++) {
+        if (liste[i].id === id) {
+          liste[i].statut = fait ? "fait" : "a_faire";
+          liste[i].maj = maintenant();
+          liste[i].maj_par = MAJ_PAR;
+          return liste[i];
+        }
+      }
+      return null;
+    }
+
+    function ecrireSur(fichier, id, fait, jeton) {
+      var liste = JSON.parse(decoderBase64(fichier.content));
+      if (!Array.isArray(liste)) throw new Error("taches.json n’est pas une liste.");
+      var t = appliquer(liste, id, fait);
+      if (!t) throw new Error("La tâche " + id + " est introuvable sur GitHub.");
+      var texte = JSON.stringify(liste, null, 2) + "\n";
+      var message = "taches: " + id + " -> " + t.statut + " (par " + MAJ_PAR + ")";
+      return putFichier(jeton, fichier.sha, texte, message).then(function () { return liste; });
+    }
+
+    function enregistrer(id, fait, jeton) {
+      return getFichier(jeton).then(function (fichier) {
+        return ecrireSur(fichier, id, fait, jeton);
+      }).catch(function (e) {
+        if (e.statut !== 409 && e.statut !== 422) throw e;
+        return getFichier(jeton).then(function (fichier) {
+          return ecrireSur(fichier, id, fait, jeton);
+        });
+      });
+    }
+
+    function surCoche(id, fait) {
+      if (enCours) return;
+      var jeton = lireJeton();
+      if (!jeton) {
+        actionEnAttente = { id: id, fait: fait };
+        afficherPanneauJeton();
+        rendre(taches);
+        return;
+      }
+      executerChangement(id, fait, jeton);
+    }
+
+    function executerChangement(id, fait, jeton) {
+      var avant = copier(taches);
+      if (!appliquer(taches, id, fait)) {
+        afficherErreur("La tâche " + id + " est introuvable.");
+        return;
+      }
+      enCours = true;
+      cacherErreur();
+      rendre(taches);
+      enregistrer(id, fait, jeton).then(function (listeServeur) {
+        taches = listeServeur;
+      }).catch(function (e) {
+        taches = avant;
+        afficherErreur((e && e.message) || "Impossible d’enregistrer la tâche. Vérifiez la connexion et réessayez.");
+      }).then(function () {
+        enCours = false;
+        rendre(taches);
+      });
     }
 
     function carte(t) {
       var retard = enRetard(t);
-      var classes = "tache" + (retard ? " tache-retard" : "") + (t.statut === "fait" ? " tache-faite" : "");
+      var faite = t.statut === "fait";
+      var classes = "tache tache-rangee" + (retard ? " tache-retard" : "") + (faite ? " tache-faite" : "") + (enCours ? " tache-enr" : "");
       var echeanceClasse = "tache-echeance" + (retard ? " tache-echeance-retard" : "");
       var echeanceTexte = t.echeance
         ? (retard ? "En retard · " : "Échéance : ") + formaterJour(t.echeance)
         : "Sans échéance";
-      var enfants = [
+      var libelle = faite ? "Remettre " + (t.id || "") + " dans les tâches à faire" : "Marquer " + (t.id || "") + " comme faite";
+      var coche = el("label", { class: "tache-coche" }, [
+        el("input", {
+          type: "checkbox",
+          checked: faite,
+          disabled: enCours,
+          "aria-label": libelle,
+          onchange: function (ev) {
+            ev.preventDefault();
+            surCoche(t.id, ev.target.checked);
+          }
+        })
+      ]);
+      var corps = [
         el("div", { class: "tache-haut" }, [
           el("span", { class: "tache-id", text: t.id || "" }),
           el("span", { class: "badge-statut badge-" + (t.statut || "a_faire"), text: LABELS[t.statut] || t.statut || "" })
@@ -134,12 +340,15 @@
           el("span", { class: echeanceClasse, text: echeanceTexte })
         ])
       ];
-      if (t.notes) enfants.push(el("p", { class: "tache-notes", text: t.notes }));
+      if (t.notes) corps.push(el("p", { class: "tache-notes", text: t.notes }));
       if (t.maj) {
         var par = t.maj_par ? " par " + t.maj_par : "";
-        enfants.push(el("p", { class: "tache-maj", text: "Mis à jour le " + formaterMaj(t.maj) + par }));
+        corps.push(el("p", { class: "tache-maj", text: "Mis à jour le " + formaterMaj(t.maj) + par }));
       }
-      return el("li", { class: classes }, enfants);
+      return el("li", { class: classes }, [
+        coche,
+        el("div", { class: "tache-corps" }, corps)
+      ]);
     }
 
     function rendre(liste) {
@@ -149,13 +358,15 @@
       });
       var last = derniereMaj(liste);
       var majEl = document.getElementById("taches-maj");
+      var suffixe = enCours ? " · Enregistrement…" : "";
       if (last && last.maj) {
         majEl.textContent = "Dernière mise à jour : " + formaterMaj(last.maj) +
           (last.maj_par ? " par " + last.maj_par : "") +
-          " · " + liste.length + " tâche" + (liste.length > 1 ? "s" : "");
+          " · " + liste.length + " tâche" + (liste.length > 1 ? "s" : "") + suffixe;
       } else {
-        majEl.textContent = liste.length + " tâche" + (liste.length > 1 ? "s" : "");
+        majEl.textContent = liste.length + " tâche" + (liste.length > 1 ? "s" : "") + suffixe;
       }
+      majLienOublier();
 
       var barre = document.getElementById("filtre-responsable");
       var boutons = [el("button", {
@@ -177,7 +388,7 @@
       barre.replaceChildren.apply(barre, boutons);
 
       var groupes = document.getElementById("groupes");
-      var blocs = STATUTS.map(function (s) {
+      var blocs = STATUTS_ACTIFS.map(function (s) {
         var items = visibles.filter(function (t) { return t.statut === s.id; });
         var titre = s.label + " (" + items.length + ")";
         var listeEl = items.length
@@ -189,7 +400,68 @@
         ]);
       });
       groupes.replaceChildren.apply(groupes, blocs);
+
+      var faites = visibles.filter(function (t) { return t.statut === "fait"; });
+      var nFaites = faites.length;
+      var zoneFaites = document.getElementById("sec-faites");
+      var btnFaites = el("button", {
+        type: "button",
+        class: "btn btn-contour taches-faites-btn",
+        "aria-expanded": faitOuvertes,
+        "aria-controls": "liste-faites",
+        text: (faitOuvertes ? "Masquer" : "Afficher") + " les tâches faites (" + nFaites + ")",
+        onclick: function () { faitOuvertes = !faitOuvertes; rendre(taches); }
+      });
+      var listeFaites = el("div", { id: "liste-faites" });
+      if (!faitOuvertes) listeFaites.hidden = true;
+      if (nFaites) listeFaites.appendChild(el("ul", { class: "liste-taches" }, faites.map(carte)));
+      else listeFaites.appendChild(el("p", { class: "vide", text: "Aucune tâche faite." }));
+      zoneFaites.replaceChildren(el("section", { "aria-label": "Tâches faites" }, [btnFaites, listeFaites]));
     }
+
+    document.getElementById("oublier-code").addEventListener("click", function () {
+      oublierJeton();
+      actionEnAttente = null;
+      majLienOublier();
+      cacherErreur();
+      afficherErreur("Code oublié sur cet appareil. La prochaine fois que vous cocherez une tâche, il faudra le saisir de nouveau.");
+    });
+
+    document.getElementById("jeton-sauver").addEventListener("click", function () {
+      var v = document.getElementById("jeton-champ").value.trim();
+      if (!v) {
+        afficherErreur("Collez le jeton GitHub pour pouvoir cocher une tâche.");
+        return;
+      }
+      try {
+        ecrireJeton(v);
+      } catch (e) {
+        afficherErreur("Impossible d’enregistrer le code dans ce navigateur. Vérifiez que le stockage local n’est pas bloqué.");
+        return;
+      }
+      document.getElementById("jeton-champ").value = "";
+      cacherPanneauJeton();
+      cacherErreur();
+      majLienOublier();
+      if (actionEnAttente) {
+        var a = actionEnAttente;
+        actionEnAttente = null;
+        executerChangement(a.id, a.fait, v);
+      }
+    });
+
+    document.getElementById("jeton-annuler").addEventListener("click", function () {
+      actionEnAttente = null;
+      cacherPanneauJeton();
+      rendre(taches);
+    });
+
+    document.getElementById("jeton-champ").addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter") {
+        ev.preventDefault();
+        document.getElementById("jeton-sauver").click();
+      }
+    });
 
     var url = "taches.json?t=" + Date.now();
     fetch(url, { cache: "no-store" }).then(function (r) {
@@ -197,7 +469,8 @@
       return r.json();
     }).then(function (data) {
       if (!Array.isArray(data)) throw new Error("taches.json n'est pas une liste.");
-      rendre(data);
+      taches = data;
+      rendre(taches);
     }).catch(function () {
       document.getElementById("taches-maj").textContent = "";
       afficherErreur("Impossible de charger les tâches. Si vous ouvrez le fichier directement, lancez plutôt un petit serveur (voir le README).");

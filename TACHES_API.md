@@ -1,7 +1,23 @@
 # Tâches — comment les bots lisent et mettent à jour la liste
 
 Le fichier `taches.json` à la racine du dépôt est la seule source partagée.
-La page [taches.html](https://khayzard.github.io/Livre-recettes/taches.html) l’affiche en lecture seule : le navigateur ne peut pas l’écrire (GitHub Pages n’accepte pas d’écriture sans jeton ni serveur).
+La page [taches.html](https://khayzard.github.io/Livre-recettes/taches.html) affiche les tâches actives. Cocher une case la marque comme faite (`statut: fait`, `maj_par: Joel (page)`) et l’enregistre via l’API GitHub Contents. Les tâches faites sont masquées derrière « Afficher les tâches faites (N) » ; on peut les décocher pour les rouvrir (`a_faire`).
+
+
+## Cocher une tâche depuis la page (jeton GitHub)
+
+À la première coche, si aucun jeton n’est déjà enregistré, la page affiche un petit formulaire (pas une fenêtre `prompt`) pour coller un **jeton d’accès précisé** (fine-grained). Il est stocké seulement dans le `localStorage` du navigateur, sous la clé `taches-github-token`. Le lien « Oublier le code » l’efface. **Ne jamais commettre ce jeton** dans le dépôt, un fichier ou un message de commit.
+
+### Créer le jeton
+
+1. Ouvrir https://github.com/settings/personal-access-tokens/new (être connecté au compte qui a accès au dépôt, en pratique **Khayzard**).
+2. Donner un nom clair, par exemple `Tâches Livre-recettes`, et une date d’expiration (90 jours suffit).
+3. **Resource owner** : le compte **Khayzard**.
+4. **Repository access** : *Only select repositories*, puis seulement **Khayzard/Livre-recettes**.
+5. **Permissions** du dépôt : **Contents** → **Read and write**. (Metadata en lecture seule est ajouté automatiquement. Aucune autre permission n’est nécessaire.)
+6. Générer le jeton, le copier, puis le coller dans le formulaire de la page à la première coche.
+
+La page envoie ensuite un `GET` `https://api.github.com/repos/Khayzard/Livre-recettes/contents/taches.json` pour lire le `sha`, puis un `PUT` avec le JSON encodé en Base64 (UTF-8). En cas de conflit `409`, elle relit le fichier et réessaie une fois.
 
 ## Sur la box (recommandé)
 

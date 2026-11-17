@@ -269,3 +269,37 @@ a.etiquette { min-height: 32px; display: inline-flex; align-items: center; }
 .badge-fait { background: var(--ligne); color: var(--doux); }
 .tache-faite .tache-titre { color: var(--doux); text-decoration: line-through; }
 #filtre-responsable { margin-bottom: .5rem; }
+.tache-rangee { flex-direction: row; align-items: flex-start; gap: .75rem; }
+.tache-corps { display: flex; flex-direction: column; gap: .4rem; min-width: 0; flex: 1; }
+.tache-coche {
+  flex: 0 0 auto; width: var(--tactile); height: var(--tactile);
+  display: flex; align-items: center; justify-content: center;
+  position: relative; cursor: pointer; margin: -.15rem 0 0 -.25rem;
+}
+.tache-coche input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.tache-coche::before {
+  content: ""; width: 28px; height: 28px; border: 2px solid var(--vert);
+  border-radius: 8px; background: #fff;
+}
+.tache-coche:has(input:checked)::before { background: var(--vert); }
+.tache-coche:has(input:checked)::after {
+  content: "✓"; position: absolute; color: #fff; font-weight: 700; font-size: 1.05rem;
+  left: 50%; top: 50%; transform: translate(-50%, -52%);
+}
+.tache-coche:has(input:focus-visible)::before { outline: 3px solid #f2b134; outline-offset: 2px; }
+.tache-coche:has(input:disabled) { opacity: .45; cursor: default; }
+.tache-enr { opacity: .72; }
+.taches-outils { margin: -.5rem 0 1rem; font-size: .9rem; }
+.taches-outils .btn-lien { min-height: auto; padding: 0; color: var(--doux); }
+.taches-faites-btn { margin: .25rem 0 1rem; }
+.taches-faites[hidden] { display: none; }
+.jeton-panneau { border-left: 5px solid var(--accent); }
+.jeton-panneau h2 { margin-top: 0; text-transform: none; letter-spacing: normal; font-family: Georgia, "Iowan Old Style", "Times New Roman", serif; font-size: 1.2rem; color: inherit; }
+.jeton-panneau p { margin: 0 0 .75rem; }
+.jeton-panneau label { display: block; font-weight: 600; margin-bottom: .35rem; }
+.jeton-panneau input[type="password"], .jeton-panneau input[type="text"] {
+  width: 100%; min-height: 54px; padding: .7rem 1rem; font: inherit; margin-bottom: .75rem;
+  border: 2px solid var(--ligne); border-radius: var(--rayon); background: var(--papier);
+}
+.jeton-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+#erreur:not([hidden]) { margin-bottom: 1rem; }
