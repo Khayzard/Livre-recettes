@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tâches — Livre de recettes</title>
+  <meta name="description" content="Liste des tâches familiales, en lecture seule.">
+  <meta name="theme-color" content="#b5482b">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="entete">
+    <div class="entete-int">
+      <a class="logo" href="index.html" aria-label="Livre de recettes — accueil"><img src="assets/favicon.svg" alt="" width="36" height="36"><span class="logo-txt"><span class="logo-long">Livre de recettes</span><span class="logo-court" aria-hidden="true">Recettes</span></span></a>
+      <nav>
+        <a class="btn btn-clair" href="semaine.html">Cette semaine</a>
+        <a class="btn btn-clair" href="taches.html" aria-current="page">Tâches</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenu">
+    <h1>Tâches</h1>
+    <p id="taches-maj" class="taches-maj">Chargement…</p>
+    <section class="recherche" aria-label="Filtres">
+      <div id="filtre-responsable" class="filtres" role="group" aria-label="Filtrer par responsable"></div>
+    </section>
+    <div id="groupes"></div>
+    <p id="erreur" class="erreur" hidden></p>
+  </main>
+
+  <footer class="pied">
+    <p>Page en lecture seule. Les bots mettent à jour la liste dans le dépôt GitHub.</p>
+    <p>Photos : illustrations générées par IA — voir <a href="CREDITS.md">les crédits</a>.</p>
+  </footer>
+
+  <script>
+  (function () {
+    "use strict";
+    var STATUTS = [
+      { id: "a_faire", label: "À faire" },
+      { id: "en_cours", label: "En cours" },
+      { id: "bloque", label: "Bloqué" },
+      { id: "fait", label: "Fait" }
+    ];
+    var LABELS = {};
+    STATUTS.forEach(function (s) { LABELS[s.id] = s.label; });
+    var TZ = "America/Toronto";
+    var filtreActif = "";
+
+    function el(tag, attrs, enfants) {
+      var n = document.createElement(tag);
+      if (attrs) {
+        Object.keys(attrs).forEach(function (k) {
+          var v = attrs[k];
+          if (v === null || v === undefined || v === false) return;
+          if (k === "class") n.className = v;
+          else if (k === "text") n.textContent = v;
+          else if (k.slice(0, 2) === "on") n.addEventListener(k.slice(2), v);
+          else n.setAttribute(k, v === true ? "" : v);
+        });
+      }
+      (enfants || []).forEach(function (c) {
+        if (c === null || c === undefined) return;
+        n.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+      });
+      return n;
+    }
+
+    function aujourdhui() {
+      return new Date().toLocaleDateString("en-CA", { timeZone: TZ });
+    }
+
+    function enRetard(t) {
+      return !!(t.echeance && t.statut !== "fait" && t.echeance < aujourdhui());
+    }
+
+    function formaterJour(isoJour) {
+      if (!isoJour) return "Sans échéance";
+      var parts = isoJour.split("-");
+      if (parts.length !== 3) return isoJour;
+      var d = new Date(Date.UTC(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]), 12));
+      return d.toLocaleDateString("fr-CA", { weekday: "short", year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+    }
+
+    function formaterMaj(iso) {
+      var d = new Date(iso);
+      if (isNaN(d.getTime())) return iso || "";
+      return d.toLocaleString("fr-CA", { dateStyle: "medium", timeStyle: "short", timeZone: TZ }) + " (America/Toronto)";
+    }
+
+    function derniereMaj(liste) {
+      var meilleur = null;
+      liste.forEach(function (t) {
+        if (!t.maj) return;
+        if (!meilleur || t.maj > meilleur.maj) meilleur = t;
+      });
+      return meilleur;
+    }
+
+    function responsables(liste) {
+      var vus = {};
+      var noms = [];
+      liste.forEach(function (t) {
+        var n = (t.responsable || "").trim();
+        if (n && !vus[n]) { vus[n] = true; noms.push(n); }
+      });
+      noms.sort(function (a, b) { return a.localeCompare(b, "fr"); });
+      return noms;
+    }
+
+    function afficherErreur(msg) {
+      var e = document.getElementById("erreur");
+      if (e) { e.textContent = msg; e.hidden = false; }
+    }
+
+    function carte(t) {
+      var retard = enRetard(t);
+      var classes = "tache" + (retard ? " tache-retard" : "") + (t.statut === "fait" ? " tache-faite" : "");
+      var echeanceClasse = "tache-echeance" + (retard ? " tache-echeance-retard" : "");
+      var echeanceTexte = t.echeance
+        ? (retard ? "En retard · " : "Échéance : ") + formaterJour(t.echeance)
+        : "Sans échéance";
+      var enfants = [
+        el("div", { class: "tache-haut" }, [
+          el("span", { class: "tache-id", text: t.id || "" }),
+          el("span", { class: "badge-statut badge-" + (t.statut || "a_faire"), text: LABELS[t.statut] || t.statut || "" })
+        ]),
+        el("h3", { class: "tache-titre", text: t.titre || "(sans titre)" }),
+        el("p", { class: "tache-meta" }, [
+          el("span", { text: "Responsable : " + (t.responsable || "—") }),
+          el("span", { class: echeanceClasse, text: echeanceTexte })
+        ])
+      ];
+      if (t.notes) enfants.push(el("p", { class: "tache-notes", text: t.notes }));
+      if (t.maj) {
+        var par = t.maj_par ? " par " + t.maj_par : "";
+        enfants.push(el("p", { class: "tache-maj", text: "Mis à jour le " + formaterMaj(t.maj) + par }));
+      }
+      return el("li", { class: classes }, enfants);
+    }
+
+    function rendre(liste) {
+      var filtre = filtreActif;
+      var visibles = liste.filter(function (t) {
+        return !filtre || t.responsable === filtre;
+      });
+      var last = derniereMaj(liste);
+      var majEl = document.getElementById("taches-maj");
+      if (last && last.maj) {
+        majEl.textContent = "Dernière mise à jour : " + formaterMaj(last.maj) +
+          (last.maj_par ? " par " + last.maj_par : "") +
+          " · " + liste.length + " tâche" + (liste.length > 1 ? "s" : "");
+      } else {
+        majEl.textContent = liste.length + " tâche" + (liste.length > 1 ? "s" : "");
+      }
+
+      var barre = document.getElementById("filtre-responsable");
+      var boutons = [el("button", {
+        type: "button",
+        class: "puce",
+        "aria-pressed": filtre === "",
+        text: "Tous",
+        onclick: function () { filtreActif = ""; rendre(liste); }
+      })];
+      responsables(liste).forEach(function (nom) {
+        boutons.push(el("button", {
+          type: "button",
+          class: "puce",
+          "aria-pressed": filtre === nom,
+          text: nom,
+          onclick: function () { filtreActif = nom; rendre(liste); }
+        }));
+      });
+      barre.replaceChildren.apply(barre, boutons);
+
+      var groupes = document.getElementById("groupes");
+      var blocs = STATUTS.map(function (s) {
+        var items = visibles.filter(function (t) { return t.statut === s.id; });
+        var titre = s.label + " (" + items.length + ")";
+        var listeEl = items.length
+          ? el("ul", { class: "liste-taches" }, items.map(carte))
+          : el("p", { class: "vide", text: "Aucune tâche dans cette catégorie." });
+        return el("section", { "aria-label": s.label }, [
+          el("h2", { class: "section-titre", text: titre }),
+          listeEl
+        ]);
+      });
+      groupes.replaceChildren.apply(groupes, blocs);
+    }
+
+    var url = "taches.json?t=" + Date.now();
+    fetch(url, { cache: "no-store" }).then(function (r) {
+      if (!r.ok) throw new Error("taches.json : " + r.status);
+      return r.json();
+    }).then(function (data) {
+      if (!Array.isArray(data)) throw new Error("taches.json n'est pas une liste.");
+      rendre(data);
+    }).catch(function () {
+      document.getElementById("taches-maj").textContent = "";
+      afficherErreur("Impossible de charger les tâches. Si vous ouvrez le fichier directement, lancez plutôt un petit serveur (voir le README).");
+    });
+  })();
+  </script>
+</body>
+</html>

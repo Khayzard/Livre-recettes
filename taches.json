@@ -1,0 +1,342 @@
+[
+  {
+    "id": "T-001",
+    "titre": "Mettre en place le plus petit Chief OS fiable",
+    "statut": "en_cours",
+    "responsable": "Chief",
+    "echeance": "2026-10-30",
+    "notes": "Prochaine action : mettre en place le calendrier et le premier flux de travail. Registres créés le 2026-10-26. Priorité haute.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-004",
+    "titre": "Payer l'état de compte de surveillance du dîner (montant dans la pièce jointe)",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": null,
+    "notes": "Prochaine action : ouvrir l'état de compte. Gmail 22 oct.; nouvel état renvoyé le 26 oct. 11:40 (004-sdg); toujours ouvert au 2026-11-01; nouvel état de compte reçu le 2 nov. 16:12 (004-sdg). Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-005",
+    "titre": "Costume disco vend. 30 oct. : inscrire/payer avant 11 h ou à la porte; costumes",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-10-30",
+    "notes": "Date passée, résultat non vérifié (revue 2026-11-01). Joel vérifie avec Cindy; Alec y va peut-être (18 h 30–20 h, 3 $). Ne rien faire tant qu'on n'a pas d'instruction. Gmail 7 oct. + affiche. Priorité haute.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-006",
+    "titre": "Flûte à bec : l'étiqueter; confirmer si elle a été commandée (commande en ligne fermée le 22 oct.)",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": null,
+    "notes": "Prochaine action : confirmer l'état. Échéance indiquée « dès que possible ». Gmail 9-20 oct. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-007",
+    "titre": "Déjeuner de la direction dim. 8 nov. (facultatif), École Providence : si on y va, écrire à 004-secretariat@csscv.gouv.qc.ca avec le nom de l'enfant et le nombre de personnes d'ici le 2 nov.",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-02",
+    "notes": "Date passée, résultat non vérifié (revue 2026-11-08). Joel envoie le RSVP lui-même. Aucun RSVP trouvé dans Envoyés au 2026-11-01 18 h ni au 2026-11-02 5 h. Gmail 7-23 oct.; demande de RSVP 27 oct. 14:13 et 14:45. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-008",
+    "titre": "Rappel : regroupement des comptes vers Desjardins avec sa conjointe (plan : alfred/plan-consolidation.md; à valider aussi : alfred/taches.md : La Personnelle, Telus Comm, taxes municipales)",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-10-26",
+    "notes": "Prochaine action : rappeler à la revue du dimanche 1er nov. Demande de Joel via Alfred; rappelé à la revue du 2026-11-01. Priorité haute.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-009",
+    "titre": "Tableau de bord familial central (page en français, une section par spécialiste, sources : <agent>/DASHBOARD.md)",
+    "statut": "en_cours",
+    "responsable": "Chief",
+    "echeance": "2026-10-26",
+    "notes": "Prochaine action : attendre alfred/DASHBOARD.md puis bâtir la page. Demande de Joel via Alfred. Priorité haute.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-011",
+    "titre": "Dictée (Mme Joanie Bouchard, probablement Alec 3e année) : finir la correction à la maison et signer la dictée",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-10-29",
+    "notes": "Date passée, résultat non vérifié (revue 2026-11-01). Vérifier le sac et signer d'ici jeudi. Gmail 26 oct. 15:39; signalé 2026-10-27, rappelé 2026-10-29. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-012",
+    "titre": "Activité Halloween au CHSLD Petite-Nation ven. 30 oct., 3e période : parade de costumes (enfant doit avoir son costume ce jour-là; école/enfant à confirmer)",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-10-30",
+    "notes": "Date passée, résultat non vérifié (revue 2026-11-01). Prévoir le costume pour vendredi. Gmail 26 oct. 14:38 (Martine Poirier); signalé 2026-10-27, rappelé 2026-10-29. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-013",
+    "titre": "Dentiste Joel : rappel rdv lun. 23 nov. 9 h 30, Lapointe Gatineau",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-23",
+    "notes": "Aucun pour l'instant. Gmail 26 oct. (CareCru). Voir aussi T-041. Priorité basse.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-014",
+    "titre": "Calendrier Joel : déclaration de chômage ven. 30 oct. 15 h",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-10-30",
+    "notes": "Date passée, résultat non vérifié (revue 2026-11-01). iCloud Calendrier; rappelé 2026-10-29 et 2026-10-30. Voir T-033 (série terminée; Joel ne fait plus de déclarations). Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-015",
+    "titre": "Calendrier Family : rdv Emilie Levesque mar. 3 nov. 20 h 30",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-03",
+    "notes": "Aucun pour l'instant. iCloud Family, vu 2026-10-28. Priorité basse.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-016",
+    "titre": "Ramonage Royal propose le ven. 20 nov. (journée pédagogique) pour le ramonage; quelqu'un doit être présent toute la journée. À comparer avec Erik Périard (179,99 $ / 149,99 $)",
+    "statut": "bloque",
+    "responsable": "Joel",
+    "echeance": null,
+    "notes": "Reporté à l'automne 2027. Joel et Cindy ont décidé le 29 oct. de reporter le ramonage à l'automne 2027. Gmail 27 oct. 10:04 (Camille Faubert); alfred/taches.md; signalé 2026-10-28. Priorité basse.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-017",
+    "titre": "Ecophylle (étude de caractérisation du 21 oct., puits tubulaire) : champ d'épuration saturé (nappe phréatique à 0,60 m), colmaté, fin de vie utile, mal conçu; à remplacer à court ou moyen terme. Probablement déjà présent à l'achat (seule la fosse vérifiée, en hiver)",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": null,
+    "notes": "L'adresse civique de l'étude a été omise (donnée sensible). Prochaine action : Joel et Cindy décident des suites (soumissions remplacement, recours possible vendeur/inspection); possiblement confier à Alfred. Gmail 28 oct. 15:45 (Cindy a transféré Ecophylle, Anabelle Drew); vu 2026-10-29. Lié à T-040. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-018",
+    "titre": "Réunion Teams « Planification retour Joel » ven. 30 oct. 11 h–12 h (Sara Lemire, Bravad; avec Stéphane Pelland, Marc-Antoine Mendes). Pas dans le calendrier iCloud",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-10-30",
+    "notes": "Date passée, résultat non vérifié (revue 2026-11-01). Y assister (lien Teams dans le courriel). Gmail 29 oct. 10:38 (invite.ics); signalé 2026-10-30. Priorité haute.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-019",
+    "titre": "Halloween LJP (Miguel) ven. 30 oct. : costume permis toute la journée; pas de masque couvrant le visage ni d'accessoire d'arme; activités en après-midi",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-10-30",
+    "notes": "Date passée, résultat non vérifié (revue 2026-11-01). Vérifier le costume de Miguel. Gmail 29 oct. 08:34 (Direction LJP); signalé 2026-10-30. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-020",
+    "titre": "Tirelire d'Halloween (Fondation Ressources pour les Enfants Diabétiques, Providence/Alec) : facultatif; apporter la tirelire le soir de l'Halloween et la rapporter à l'école le lendemain (lun. 2 nov.)",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-02",
+    "notes": "Mettre la tirelire avec le costume d'Alec. Gmail 29 oct. 08:53 (Secrétariat Providence) + PDF; signalé 2026-10-30, rappelé 2026-11-01 et 2026-11-02. Priorité basse.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-022",
+    "titre": "Conseil d'établissement (Providence + JM Robert) jeu. 5 nov. : ordre du jour en PDF; pour assister et parler au point 5 (Parole au public), aviser la secrétaire par courriel",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-05",
+    "notes": "Info seulement; facultatif. Gmail 30 oct. 15:16 (Secrétariat Providence) + 15:31 (Linda Roch, JMR); vu 2026-10-31. Priorité basse.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-023",
+    "titre": "Classe de Mme Joanie Bouchard (Alec, 3e) : aucun devoir ni étude la semaine du 2 nov.; lun. éduc, mar. anglais, mer. horaire du vendredi, jeu. éduc, ven. 6 nov. journée pédagogique",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-06",
+    "notes": "Info seulement (vêtements d'éduc lun. et jeu.). Gmail 30 oct. 18:19 (Joanie Bouchard); vu 2026-10-31; journée pédagogique du 6 nov. signalée 2026-11-02 (garde à prévoir). Priorité basse.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-024",
+    "titre": "Demande ILD Empire Vie : questionnaire Empire encore non rempli (Action requise 6 nov. 9 h ET); Samantha assignée; routine rappel a tourné le 6 nov. 9 h",
+    "statut": "bloque",
+    "responsable": "Joel",
+    "echeance": "2026-11-06",
+    "notes": "Le numéro de police a été omis (donnée sensible). Joel complète le questionnaire Empire Vie (courriel claimquestionnaire@empire.ca). Gmail 4 nov. questionnaire + 6 nov. Action requise; 4 nov. transfert gestionnaire; rappel routine réussi 9:01. Priorité haute.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-025",
+    "titre": "ARC : « Avis de nouvelle cotisation » déposé dans Mon dossier le 30 oct. (probablement lié à la vérification des frais de déménagement 2025; non vérifié) + lettre demandée à Sara Lemire",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": null,
+    "notes": "Joel lit l'avis dans Mon dossier ARC. Gmail 30 oct. 12:00 (ARC) + Envoyés 30 oct. 15:27. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-026",
+    "titre": "Solde vendeur Etsy InspiredInkwell (1,25 $ CA) encore dû le 15 nov. 2026 (carte refusée; entrer l'autre carte manuellement); boutique à garder ouverte",
+    "statut": "bloque",
+    "responsable": "Joel",
+    "echeance": "2026-11-15",
+    "notes": "Les numéros de carte ont été omis. Payer sur la page de paiement manuel Etsy. Rappel routine 2026-11-12 : aucun paiement confirmé. Revue 2026-11-15 : échéance le jour même, paiement non confirmé. Priorité basse.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-027",
+    "titre": "Psychologue Y2 (Mme Kenza Alba) lun. 9 nov. 10 h en vidéo, confirmé",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-09",
+    "notes": "Routine « Rappel rebooker Y2 » le 9 nov. midi. Gmail 2 nov. (info@y2cp.com) + iCloud Calendrier; vu 2026-11-03; rappel Y2 reçu le 6 nov. 07:00 ET; invitation InstaPsy reçue le 7 nov. 09:20 ET (appel vidéo lun. 9 nov. 10 h–11 h avec Kenza Alba; arriver 5 min tôt et paiement en ligne). Revue 2026-11-15 : nouvelle séance mar. 17 nov. 14 h (vidéo), au calendrier. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-029",
+    "titre": "Providence (Alec / Mme Joanie) : situation cour d'école 4-5 nov. (bousculade, jambettes, menaces le 4; bousculade/tirage chandail le 5); atelier avec TES Kamille Berardino; parents invités à en discuter avec l'enfant",
+    "statut": "fait",
+    "responsable": "Joel",
+    "echeance": "2026-11-06",
+    "notes": "Discuter avec Alec (fait, confirmé par Joel le 2026-11-15). Gmail 5 nov. 14:01 ET (kamille.berardino@csscv; parents notifiés). Priorité haute.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-032",
+    "titre": "Rencontre Emilie Lévesque / Sentinel (Joël investissement) 6 nov. 14 h : compte Agora créé, chèque annulé téléversé, tableau de bord client inscrit; Fireflies digéré côté équipe; alerte de signature électronique reçue 18:26 et 18:29 ET",
+    "statut": "fait",
+    "responsable": "Joel",
+    "echeance": "2026-11-06",
+    "notes": "Joel a confirmé avoir signé le 6 nov.; iA EVO Contribution signés le 7 nov. (revue 2026-11-08). Tableau de bord : https://sentinel.agoracorp.net. Priorité haute.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-033",
+    "titre": "Calendrier Joel : déclaration de chômage ven. 13 nov. 15 h (nouvelle occurrence; voir T-014)",
+    "statut": "fait",
+    "responsable": "Joel",
+    "echeance": "2026-11-13",
+    "notes": "Revue 2026-11-15 : Joel ne fait plus de déclarations de chômage; série récurrente iCloud terminée après le 13 nov. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-034",
+    "titre": "Campagne de financement paniers bio (Providence/JMR) : dernier rappel, commander avant le 10 nov.",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-10",
+    "notes": "Date passée, résultat non vérifié (revue 2026-11-15). Commander le panier si désiré. Gmail 9 nov. 17:33 + 17:58 (Secrétariat Providence, Linda Roch); daily check 2026-11-10. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-035",
+    "titre": "Rencontres de bulletin : Martine Poirier (5e année, Théo) jeu. 19 nov., réserver une plage (enfant présent, nom de l'enfant dans « note »); Joanie Bouchard (Alec, 3e) réserver 10 min via Calendly",
+    "statut": "bloque",
+    "responsable": "Joel",
+    "echeance": "2026-11-19",
+    "notes": "Réserver les plages. Demandé le 12 nov. avec rappel Joanie le 11 nov.; ne pas redemander avant le 16 nov. Liens : bookings.cloud.microsoft (Martine), calendly.com/joanie-bouchard/rencontre-1er-bulletin. Gmail 9 nov. (13:00Z Joanie, 17:48Z Martine); daily check 2026-11-10. Priorité haute.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-036",
+    "titre": "Sondage « La cantine pour tous » (École JMRobert, Linda Roch) : https://lcpt.ca/sondagelcde26",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": null,
+    "notes": "Répondre si désiré. Gmail 10 nov.; daily check 2026-11-11. Priorité basse.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-037",
+    "titre": "Jean-René Robillard (CSSCV) : disponible pour rencontre au sujet du 1er bulletin en anglais; état de compte surveillance dîner reçu (9 nov.); message sécurisé Y2 (10 nov.) à lire",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": null,
+    "notes": "Info seulement. Gmail 9-10 nov.; daily check 2026-11-11. Priorité basse.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-038",
+    "titre": "CSSCV : flûte à bec (Martin Otis, partition/audio/doigté à pratiquer) + retard circuit 102 PM (11 nov., passé)",
+    "statut": "fait",
+    "responsable": "Joel",
+    "echeance": null,
+    "notes": "Info seulement. Gmail 11 nov.; daily check 2026-11-12. Priorité basse.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-039",
+    "titre": "Providence/Joanie Bouchard (13 nov.) : rencontre de parents la semaine prochaine inscrite dans l'agenda d'Alec (vérifier date/heure; enfant optionnel); doc sortie hors piste « La croisée des chemins » en PJ; Secrétariat : normes et modalités d'évaluation, 1er bulletin le 19 nov.",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-19",
+    "notes": "Vérifier l'agenda d'Alec / réserver la plage Martine (T-035). Ne pas redemander avant le 16 nov. Gmail 13 nov. 18:21-18:25Z; daily check 2026-11-14. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-040",
+    "titre": "Puits (soumissions Puits Brunette (Alain Trottier, RBQ 5809-5548-01; copie de licence reçue le 16 nov.) + Ecophylle plans/devis, transférés par Cindy le 13 nov.); lié à T-017",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": null,
+    "notes": "Joel et Cindy décident. Gmail 13 nov. 16:30Z + 20:31Z; revue 2026-11-15. Priorité moyenne.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  },
+  {
+    "id": "T-041",
+    "titre": "Rdv psy (calendrier Famille) lun. 23 nov. 16:00; dentiste Lapointe lun. 23 nov. 9 h 30 (courriel de confirmation reçu le 16 nov., cf. T-013)",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-23",
+    "notes": "Confirmer le rdv dentiste via le lien CareCru. Daily check 2026-11-17. Priorité basse.",
+    "maj": "2026-11-17T09:13:02-05:00",
+    "maj_par": "Chief"
+  }
+]

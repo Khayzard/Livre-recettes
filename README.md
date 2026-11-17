@@ -9,6 +9,9 @@ Il est publié automatiquement sur GitHub Pages : https://khayzard.github.io/Liv
 index.html            Accueil : cartes, recherche, filtres
 recette.html          Une recette : recette.html?r=<slug>
 semaine.html          Menu de la semaine
+taches.html           Annexe Tâches (lecture seule)
+taches.json           Liste partagée des tâches (bots)
+TACHES_API.md         Comment les bots lisent et mettent à jour les tâches
 semaine.json          Le menu de la semaine (à changer chaque semaine)
 recettes/index.json   Liste des recettes (les slugs)
 recettes/<slug>.json  Une recette par fichier

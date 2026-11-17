@@ -230,3 +230,42 @@ a.etiquette { min-height: 32px; display: inline-flex; align-items: center; }
   .bloc { box-shadow: none; border: 1px solid #ccc; }
   .colonnes { display: block; }
 }
+
+/* Annexe Tâches */
+.taches-intro { margin: 0 0 1rem; }
+.taches-maj { color: var(--doux); margin: -.25rem 0 1rem; }
+.liste-taches { list-style: none; padding: 0; margin: 0 0 1.75rem; display: grid; gap: .75rem; }
+.tache {
+  background: var(--papier);
+  border-radius: var(--rayon);
+  padding: 1rem 1.1rem;
+  box-shadow: var(--ombre);
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  border: 2px solid transparent;
+}
+.tache-retard {
+  background: var(--alerte);
+  border-color: var(--alerte-bord);
+}
+.tache-haut { display: flex; flex-wrap: wrap; align-items: baseline; gap: .25rem .7rem; }
+.tache-id { font-weight: 700; color: var(--accent); font-size: .85rem; letter-spacing: .04em; }
+.tache-retard .tache-id { color: var(--alerte-bord); }
+.tache-titre { font-family: Georgia, "Iowan Old Style", "Times New Roman", serif; font-size: 1.1rem; margin: 0; font-weight: bold; line-height: 1.3; }
+.tache-meta { display: flex; flex-wrap: wrap; gap: .3rem 1rem; color: var(--doux); font-size: .9rem; }
+.tache-echeance-retard { color: var(--alerte-bord); font-weight: 700; }
+.tache-notes { margin: 0; font-size: .95rem; overflow-wrap: anywhere; }
+.tache-maj { margin: 0; font-size: .8rem; color: var(--doux); }
+.badge-statut {
+  display: inline-flex; align-items: center;
+  font-size: .75rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase;
+  padding: .15rem .55rem; border-radius: 999px;
+  background: var(--fond); border: 1px solid var(--ligne);
+}
+.badge-a_faire { background: #fff3dc; border-color: #f0d9a8; color: #7a4f00; }
+.badge-en_cours { background: var(--vert-pale); border-color: #c6dccb; color: var(--vert); }
+.badge-bloque { background: var(--alerte); border-color: #f0c7b4; color: var(--alerte-bord); }
+.badge-fait { background: var(--ligne); color: var(--doux); }
+.tache-faite .tache-titre { color: var(--doux); text-decoration: line-through; }
+#filtre-responsable { margin-bottom: .5rem; }
