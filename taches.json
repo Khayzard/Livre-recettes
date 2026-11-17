@@ -12,12 +12,12 @@
   {
     "id": "T-004",
     "titre": "Payer l'état de compte de surveillance du dîner (montant dans la pièce jointe)",
-    "statut": "a_faire",
+    "statut": "fait",
     "responsable": "Joel",
     "echeance": null,
     "notes": "Prochaine action : ouvrir l'état de compte. Gmail 22 oct.; nouvel état renvoyé le 26 oct. 11:40 (004-sdg); toujours ouvert au 2026-11-01; nouvel état de compte reçu le 2 nov. 16:12 (004-sdg). Priorité moyenne.",
-    "maj": "2026-11-17T09:13:02-05:00",
-    "maj_par": "Chief"
+    "maj": "2026-11-17T09:49:46-05:00",
+    "maj_par": "Joel (page)"
   },
   {
     "id": "T-005",
