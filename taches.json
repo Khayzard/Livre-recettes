@@ -342,11 +342,11 @@
   {
     "id": "T-TEST",
     "titre": "Tâche de vérification du script (à retirer)",
-    "statut": "a_faire",
+    "statut": "fait",
     "responsable": "Chief",
     "echeance": null,
     "notes": "Test interne du CLI, à supprimer.",
-    "maj": "2026-11-17T09:15:11-05:00",
+    "maj": "2026-11-17T09:15:13-05:00",
     "maj_par": "Chief"
   }
 ]
