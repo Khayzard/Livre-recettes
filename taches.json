@@ -348,5 +348,15 @@
     "notes": "14 rue Saint-André, Saint-André-Avellin. Confirmé par téléphone le 17 nov.",
     "maj": "2026-11-17T09:57:22-05:00",
     "maj_par": "Chief"
+  },
+  {
+    "id": "T-043",
+    "titre": "Plier et ranger mon linge",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-17",
+    "notes": null,
+    "maj": "2026-11-17T09:58:51-05:00",
+    "maj_par": "Chief"
   }
 ]
