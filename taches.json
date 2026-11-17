@@ -358,5 +358,15 @@
     "notes": null,
     "maj": "2026-11-17T09:58:51-05:00",
     "maj_par": "Chief"
+  },
+  {
+    "id": "T-044",
+    "titre": "Aller à l'épicerie et finir le meal prep de la semaine",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-11-17",
+    "notes": null,
+    "maj": "2026-11-17T09:58:53-05:00",
+    "maj_par": "Chief"
   }
 ]
