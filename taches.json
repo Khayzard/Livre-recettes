@@ -338,15 +338,5 @@
     "notes": "Confirmer le rdv dentiste via le lien CareCru. Daily check 2026-11-17. Priorité basse.",
     "maj": "2026-11-17T09:13:02-05:00",
     "maj_par": "Chief"
-  },
-  {
-    "id": "T-TEST",
-    "titre": "Tâche de vérification de l'API Contents (à retirer)",
-    "statut": "fait",
-    "responsable": "Chief",
-    "echeance": null,
-    "notes": "Test interne GET/PUT, à supprimer.",
-    "maj": "2026-11-17T09:35:58-05:00",
-    "maj_par": "Joel (page)"
   }
 ]
