@@ -62,12 +62,12 @@
   {
     "id": "T-009",
     "titre": "Tableau de bord familial central (page en français, une section par spécialiste, sources : <agent>/DASHBOARD.md)",
-    "statut": "en_cours",
+    "statut": "fait",
     "responsable": "Chief",
     "echeance": "2026-10-26",
     "notes": "Prochaine action : attendre alfred/DASHBOARD.md puis bâtir la page. Demande de Joel via Alfred. Priorité haute.",
-    "maj": "2026-11-17T09:13:02-05:00",
-    "maj_par": "Chief"
+    "maj": "2026-11-17T09:51:56-05:00",
+    "maj_par": "Joel (page)"
   },
   {
     "id": "T-011",
