@@ -338,5 +338,15 @@
     "notes": "Confirmer le rdv dentiste via le lien CareCru. Daily check 2026-11-17. Priorité basse.",
     "maj": "2026-11-17T09:13:02-05:00",
     "maj_par": "Chief"
+  },
+  {
+    "id": "T-042",
+    "titre": "Rendez-vous Dr Jean-François Simard (GMF Petite Nation) mercredi 2 décembre 11h20",
+    "statut": "a_faire",
+    "responsable": "Joel",
+    "echeance": "2026-12-02",
+    "notes": "14 rue Saint-André, Saint-André-Avellin. Confirmé par téléphone le 17 nov.",
+    "maj": "2026-11-17T09:57:22-05:00",
+    "maj_par": "Chief"
   }
 ]
