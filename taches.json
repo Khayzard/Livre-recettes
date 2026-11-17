@@ -32,12 +32,12 @@
   {
     "id": "T-006",
     "titre": "Flûte à bec : l'étiqueter; confirmer si elle a été commandée (commande en ligne fermée le 22 oct.)",
-    "statut": "a_faire",
+    "statut": "fait",
     "responsable": "Joel",
     "echeance": null,
     "notes": "Prochaine action : confirmer l'état. Échéance indiquée « dès que possible ». Gmail 9-20 oct. Priorité moyenne.",
-    "maj": "2026-11-17T09:13:02-05:00",
-    "maj_par": "Chief"
+    "maj": "2026-11-17T09:49:56-05:00",
+    "maj_par": "Joel (page)"
   },
   {
     "id": "T-007",
