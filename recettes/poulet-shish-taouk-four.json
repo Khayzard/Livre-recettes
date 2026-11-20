@@ -1,0 +1,316 @@
+{
+  "slug": "poulet-shish-taouk-four",
+  "titre": "Poulet shish taouk au four, riz, sauce à l'ail et salade concombres-tomates",
+  "resume": "Poitrines marinées à l'ail, au citron et à la crème, rôties au four, servies avec la fameuse sauce à l'ail de Ricardo (sans lactose), du riz blanc et une salade fraîche.",
+  "portions": 9,
+  "portionsNote": "5 à table + 4 lunchs",
+  "temps": {
+    "prep": "50 min (sauce lundi soir, marinade le matin)",
+    "cuisson": "20–25 min"
+  },
+  "tempsTotal": "≈ 1 h le jour même + marinade de 8 à 12 h",
+  "etiquettes": [
+    "poulet",
+    "four",
+    "meal prep"
+  ],
+  "sources": [
+    {
+      "role": "Poulet et sauce à l'ail",
+      "titre": "Poulet shish taouk (le meilleur) — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/9460-poulet-shish-taouk-le-meilleur",
+      "rendement": "4 portions (675 g de poitrines)",
+      "facteur": "× 2,25 (1,5 kg de poitrines)",
+      "adaptations": [
+        "Cuisson au four à 450 °F (la source est au barbecue, 7 à 8 min par côté) : temps non testés, se fier au thermomètre.",
+        "Crème 35 % remplacée par de la crème sans lactose.",
+        "Marinade doublée (× 4,5) : sauce à l'ail réservée, crème, huile, citron, épices et sel. La sauce à l'ail de table reste à × 2,25.",
+        "Sauce faite avec le mélangeur à main (plongeur), en 2 lots."
+      ]
+    },
+    {
+      "role": "Riz blanc",
+      "titre": "Comment cuire le riz — Ricardo",
+      "url": "https://www.ricardocuisine.com/chroniques/techniques/2286-comment-cuire-le-riz",
+      "rendement": "1 t de riz + 1½ t d'eau = 4 portions",
+      "facteur": "× 2,25",
+      "adaptations": [
+        "Sel ajouté (la source n'en met pas)."
+      ]
+    },
+    {
+      "role": "Salade",
+      "titre": "Salade de concombre et de tomates — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/870-salade-de-concombre-et-de-tomates",
+      "rendement": "4 portions",
+      "facteur": "× 2,25",
+      "adaptations": [
+        "Épinards retirés (non choisis par les enfants), mandoline remplacée par un couteau."
+      ]
+    }
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet",
+      "temp": "74 °C (165 °F)",
+      "note": "thermomètre au plus épais du morceau"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Sauce à l'ail — lot 1 (à faire lundi soir, plongeur)",
+      "items": [
+        {
+          "q": 4,
+          "u": "",
+          "nom": "gousses d'ail, coupées en quartiers"
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "blancs d'œufs (nos poules)"
+        },
+        {
+          "q": 2.5,
+          "u": "c. à soupe",
+          "nom": "de jus de citron"
+        },
+        {
+          "q": 0.6666,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 2,
+          "u": "t",
+          "nom": "d'huile de canola (500 ml)"
+        },
+        {
+          "q": 4,
+          "u": "c. à soupe",
+          "nom": "d'eau"
+        }
+      ]
+    },
+    {
+      "groupe": "Sauce à l'ail — lot 2",
+      "items": [
+        {
+          "q": 3,
+          "u": "",
+          "nom": "gousses d'ail, coupées en quartiers"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "blancs d'œufs (nos poules)"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de jus de citron"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 1.3333,
+          "u": "t",
+          "nom": "d'huile de canola (333 ml)"
+        },
+        {
+          "q": 2.5,
+          "u": "c. à soupe",
+          "nom": "d'eau"
+        },
+        {
+          "texte": "Total de la sauce ≈ 1 L (estimé) : 337 ml vont dans la marinade, le reste se sert à table (≈ 6 c. à soupe par portion)."
+        }
+      ]
+    },
+    {
+      "groupe": "Marinade (doublée)",
+      "items": [
+        {
+          "q": 1.3333,
+          "u": "t",
+          "nom": "de la sauce à l'ail préparée (337 ml)"
+        },
+        {
+          "q": 0.75,
+          "u": "t",
+          "nom": "de crème sans lactose, + 1 c. à soupe (202 ml)"
+        },
+        {
+          "q": 135,
+          "u": "ml",
+          "nom": "d'huile de canola (≈ ½ t + 1 c. à soupe)"
+        },
+        {
+          "q": 4.5,
+          "u": "c. à soupe",
+          "nom": "de jus de citron"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de mélange de 7 épices libanais (ou la même quantité de piment de la Jamaïque moulu)"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de thym séché"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "texte": "Poivre, généreusement"
+        },
+        {
+          "q": 1.5,
+          "u": "kg",
+          "nom": "de demi-poitrines de poulet désossées et sans peau (7 demi-poitrines)"
+        }
+      ]
+    },
+    {
+      "groupe": "Riz blanc",
+      "items": [
+        {
+          "q": 2.25,
+          "u": "t",
+          "nom": "de riz blanc à grains longs, sec"
+        },
+        {
+          "q": 3.375,
+          "u": "t",
+          "nom": "d'eau"
+        },
+        {
+          "q": 0.75,
+          "u": "c. à thé",
+          "nom": "de sel"
+        }
+      ]
+    },
+    {
+      "groupe": "Salade concombres-tomates",
+      "items": [
+        {
+          "q": 1,
+          "u": "",
+          "nom": "concombre anglais (≈ 360 g), en fines tranches"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "de vinaigre de vin blanc"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "tomates, en fines lamelles",
+          "qMax": 5
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "d'huile d'olive"
+        },
+        {
+          "texte": "Sel et poivre"
+        }
+      ]
+    }
+  ],
+  "miseEnPlace": [
+    "Lundi soir : fais la sauce à l'ail (2 lots) et mets-la au frigo dans un contenant hermétique. Elle contient du blanc d'œuf cru : la garder au froid et la manger dans les 3 jours.",
+    "Mardi matin vers 7 h : prépare la marinade, enrobe le poulet et mets au frigo (8 à 12 h).",
+    "Coupe chaque demi-poitrine en 2 sur l'épaisseur pour avoir des morceaux d'environ ¾ po d'épaisseur : ils cuisent vite et également.",
+    "Équipement : mélangeur à main (plongeur) et contenant haut et étroit, grand bol ou 2 gros sacs refermables, 2 plaques 13 × 18 po avec parchemin, thermomètre, casserole de 4 L avec couvercle."
+  ],
+  "etapes": [
+    {
+      "titre": "Faire la sauce à l'ail (lundi soir)",
+      "texte": "Pour chaque lot : mettre l'ail, les blancs d'œufs, le citron et le sel dans le récipient haut et réduire en purée avec le plongeur. Plongeur en marche, verser environ les ⅔ de l'huile en un mince filet continu : la sauce prend comme une mayonnaise en moins d'1 min. Toujours en marche, ajouter l'eau en alternant avec le reste de l'huile. Réunir les 2 lots.",
+      "duree": "15 min",
+      "reperes": "Sauce blanche, épaisse, lisse, comme une mayonnaise.",
+      "pourquoi": "Verser l'huile lentement : trop vite, la sauce ne prend pas."
+    },
+    {
+      "titre": "Mettre de côté la sauce de la marinade",
+      "texte": "Prélever {{337|ml}} de sauce pour la marinade. Réfrigérer le reste dans un contenant hermétique.",
+      "duree": "2 min"
+    },
+    {
+      "titre": "Mariner (mardi matin)",
+      "texte": "Dans un très grand bol, fouetter la sauce réservée, la crème, l'huile, le citron, les épices, le sel et le poivre. Ajouter le poulet, bien l'enrober, couvrir et réfrigérer de 8 à 12 h.",
+      "duree": "10 min + 8 à 12 h au frigo",
+      "pourquoi": "Marinade doublée, parce que la famille trouve les marinades trop justes."
+    },
+    {
+      "titre": "Préchauffer et préparer",
+      "texte": "20 min avant : sortir le poulet du frigo. Préchauffer le four, grilles au tiers du haut et du bas. Tapisser 2 plaques de parchemin.",
+      "four": "450 °F (230 °C)",
+      "duree": "20 min"
+    },
+    {
+      "titre": "Égoutter et étaler",
+      "texte": "Secouer chaque morceau pour retirer l'excédent de marinade (la crème brûle). Déposer en une seule couche, sans se toucher.",
+      "pourquoi": "Plaques bondées : le poulet vapote au lieu de dorer."
+    },
+    {
+      "titre": "Rôtir le poulet",
+      "texte": "Cuire en retournant à mi-cuisson et en changeant les plaques de grille. Terminer 2 à 3 min sous le gril (broil) en surveillant.",
+      "four": "450 °F (230 °C)",
+      "duree": "12–15 min + 2–3 min au gril",
+      "reperes": "Bords bien dorés et caramélisés. 74 °C minimum au plus épais, jus clair.",
+      "pourquoi": "La source cuit au barbecue ; ces temps sont adaptés au four : fie-toi au thermomètre."
+    },
+    {
+      "titre": "Cuire le riz",
+      "texte": "Rincer le riz jusqu'à ce que l'eau soit presque claire. Porter l'eau à ébullition, ajouter le riz et le sel, couvrir et baisser au minimum sans soulever le couvercle. Laisser reposer 5 min hors du feu, puis aérer à la fourchette.",
+      "feu": "doux",
+      "duree": "15–20 min + 5 min de repos",
+      "reperes": "Plus d'eau au fond, petits trous à la surface, grains tendres."
+    },
+    {
+      "titre": "Préparer la salade",
+      "texte": "Mélanger le concombre et le vinaigre, laisser reposer 5 min. Ajouter les tomates et l'huile, saler, poivrer et mélanger juste avant de servir.",
+      "duree": "10 min"
+    },
+    {
+      "titre": "Reposer, trancher et servir",
+      "texte": "Laisser reposer le poulet 5 min, puis trancher en lanières d'environ ½ po. Servir sur le riz avec la sauce à l'ail (≈ 6 c. à soupe par portion) et la salade.",
+      "duree": "5 min"
+    }
+  ],
+  "astuces": [
+    "La sauce à l'ail est une émulsion : tout froid, huile en filet très mince, plongeur en marche.",
+    "Bien secouer la marinade avant d'enfourner : la crème qui reste brûle sur la plaque.",
+    "Mariner plus de 12 h : le citron attendrit trop et la chair devient pâteuse.",
+    "Astuce facultative : une version sans blanc d'œuf cru existe chez Ricardo (« Shish taouk (marinade) », yogourt nature sans lactose, ail, citron). Non testée."
+  ],
+  "mealPrep": [
+    "Lundi soir : sauce à l'ail (2 lots).",
+    "Mardi matin : marinade, poulet au frigo.",
+    "Dimanche soir : sortir les poitrines du congélateur vers le frigo."
+  ],
+  "conservation": [
+    "Poulet et riz : 3–4 jours au frigo, réchauffés à 74 °C.",
+    "Sauce à l'ail : 3 jours au frigo (blanc d'œuf cru).",
+    "Salade : à manger dans les 24 h."
+  ],
+  "substitutions": [],
+  "notes": []
+}

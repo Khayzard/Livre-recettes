@@ -1,0 +1,169 @@
+{
+  "slug": "batonnets-poisson-frites-salade-chou",
+  "titre": "Bâtonnets de poisson au four, frites et salade de chou",
+  "resume": "Un souper simple du vendredi : bâtonnets de poisson du commerce et frites surgelées au four, avec la salade de chou crémeuse de Ricardo.",
+  "portions": 5,
+  "portionsNote": "5 à table, pas de lunchs",
+  "temps": {
+    "prep": "15 min",
+    "cuisson": "20–25 min"
+  },
+  "tempsTotal": "≈ 45 min (+ 1 h de repos pour la salade)",
+  "etiquettes": [
+    "poisson",
+    "rapide",
+    "four"
+  ],
+  "sources": [
+    {
+      "role": "Bâtonnets et frites",
+      "titre": "Instructions d'emballage (produits du commerce)",
+      "url": "",
+      "rendement": "",
+      "facteur": "",
+      "adaptations": [
+        "Les temps et températures ci-dessous sont typiques : suivre l'emballage s'il est différent."
+      ]
+    },
+    {
+      "role": "Salade de chou",
+      "titre": "Salade de chou crémeuse — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/3426-salade-de-chou-cremeuse",
+      "rendement": "2 L (8 tasses)",
+      "facteur": "× 0,625 (5 tasses : 5 portions)",
+      "adaptations": [
+        "Lait sans lactose.",
+        "Chou, céleri et oignon hachés à la main (la source utilise le robot).",
+        "Vinaigrette non doublée.",
+        "Se garde 2 à 3 jours (Ricardo) : on peut aussi faire un lot double vendredi pour samedi."
+      ]
+    }
+  ],
+  "temperatures": [
+    {
+      "quoi": "Bâtonnets de poisson",
+      "temp": "74 °C (165 °F)",
+      "note": "chauds au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Au four",
+      "items": [
+        {
+          "q": 30,
+          "u": "",
+          "nom": "bâtonnets de poisson du commerce (≈ 2 boîtes de 400–500 g) (6 par personne)"
+        },
+        {
+          "q": 1,
+          "u": "kg",
+          "nom": "de frites surgelées (selon l'emballage)"
+        }
+      ]
+    },
+    {
+      "groupe": "Salade de chou crémeuse",
+      "items": [
+        {
+          "q": 0.6,
+          "u": "kg",
+          "nom": "de chou vert, haché finement (≈ ½ petit chou)"
+        },
+        {
+          "q": 0.625,
+          "u": "t",
+          "nom": "de céleri, haché finement"
+        },
+        {
+          "q": 2.5,
+          "u": "c. à soupe",
+          "nom": "d'oignon, haché finement"
+        },
+        {
+          "q": 5,
+          "u": "c. à soupe",
+          "nom": "de relish"
+        },
+        {
+          "q": 7.5,
+          "u": "c. à soupe",
+          "nom": "de mayonnaise"
+        },
+        {
+          "q": 2.5,
+          "u": "c. à soupe",
+          "nom": "de lait sans lactose"
+        },
+        {
+          "q": 1.25,
+          "u": "c. à soupe",
+          "nom": "de vinaigre blanc"
+        },
+        {
+          "q": 1.25,
+          "u": "c. à soupe",
+          "nom": "de sucre"
+        },
+        {
+          "texte": "Sel et poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Au service",
+      "items": [
+        {
+          "texte": "Quartiers de citron, ketchup, sauce tartare du commerce (facultatif)"
+        }
+      ]
+    }
+  ],
+  "miseEnPlace": [
+    "Sortir la salade de chou du frigo 1 h avant de manger si elle a été préparée avant.",
+    "Équipement : 2 plaques avec parchemin."
+  ],
+  "etapes": [
+    {
+      "titre": "Faire la salade de chou",
+      "texte": "Mélanger tous les ingrédients dans un grand bol, saler, poivrer. Réfrigérer au moins 1 h. Remuer avant de servir : elle rend de l'eau.",
+      "duree": "15 min + 1 h au frigo",
+      "reperes": "Chou enrobé d'une sauce crémeuse, pas liquide.",
+      "pourquoi": "Le repos au frigo laisse les saveurs se marier."
+    },
+    {
+      "titre": "Préchauffer le four",
+      "texte": "Grilles au tiers du haut et du bas.",
+      "four": "425 °F (220 °C) (ou selon l'emballage)",
+      "duree": "15 min"
+    },
+    {
+      "titre": "Cuire les frites",
+      "texte": "Étaler les frites en une couche sur une plaque tapissée de parchemin. Retourner à mi-cuisson.",
+      "four": "425 °F (220 °C)",
+      "duree": "20–25 min",
+      "reperes": "Dorées et croustillantes."
+    },
+    {
+      "titre": "Cuire les bâtonnets de poisson",
+      "texte": "Sur l'autre plaque, un seul rang. Retourner à mi-cuisson.",
+      "four": "425 °F (220 °C)",
+      "duree": "15–20 min",
+      "reperes": "Dorés, chauds au centre (74 °C)."
+    },
+    {
+      "titre": "Servir",
+      "texte": "Servir avec des quartiers de citron, du ketchup et la salade de chou."
+    }
+  ],
+  "astuces": [
+    "Une seule couche sur la plaque : sinon les frites ramollissent.",
+    "Suivre les temps de l'emballage si le produit en indique d'autres."
+  ],
+  "conservation": [
+    "Salade de chou : se garde 2 à 3 jours au frigo (Ricardo).",
+    "Frites : à manger sur le coup."
+  ],
+  "substitutions": [],
+  "notes": []
+}

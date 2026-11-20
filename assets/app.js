@@ -189,7 +189,7 @@
     if (r.tempsTotal) meta.push(el("span", { class: "carte-temps", text: "⏱ " + r.tempsTotal }));
     meta.push(el("span", { class: "carte-portions", text: r.portions ? "🍽 " + r.portions + " portions" : "🍽 " + (r.portionsNote || "") }));
     return el("a", { class: "carte", href: "recette.html?r=" + encodeURIComponent(r.slug) }, [
-      el("div", { class: "carte-img" }, [el("img", { src: r.photo, alt: r.titre, loading: "lazy", width: "600", height: "400" })]),
+      el("div", { class: "carte-img" }, [r.photo ? el("img", { src: r.photo, alt: r.titre, loading: "lazy", width: "600", height: "400" }) : el("span", { class: "carte-sans-photo", text: "🍽" })]),
       el("div", { class: "carte-corps" }, [
         jour ? el("span", { class: "carte-jour", text: jour }) : null,
         el("h3", { class: "carte-titre", text: r.titre }),
@@ -371,10 +371,20 @@
       }
     }
 
-    var figure = el("figure", { class: "photo" }, [
+    var figure = r.photo ? el("figure", { class: "photo" }, [
       el("img", { src: r.photo, alt: r.titre, width: "1200", height: "900" }),
       credit ? el("figcaption", null, [credit]) : null
-    ]);
+    ]) : null;
+
+    function sourceLigne(rec) {
+      var src = (rec.sources || [])[0];
+      if (!src) return null;
+      return el("p", { class: "source-ligne" }, [
+        "📖 Recette adaptée de : ",
+        src.url ? el("a", { href: src.url, rel: "noopener", target: "_blank", text: src.titre }) : src.titre,
+        src.facteur ? " · échelle " + src.facteur : ""
+      ]);
+    }
 
     var entete = el("div", { class: "recette-entete" }, [
       el("h1", { text: r.titre }),
@@ -383,6 +393,7 @@
         return el("a", { class: "etiquette", href: "index.html?q=" + encodeURIComponent(t), text: t });
       })),
       tempsTxt.length ? el("p", { class: "temps", text: "⏱ " + tempsTxt.join(" · ") }) : null,
+      sourceLigne(r),
       el("button", { type: "button", class: "btn btn-gros btn-plein btn-cuisine", onclick: function () { ouvrirCuisine(r, facteurActuel()); } }, ["👩‍🍳 Mode cuisine"])
     ]);
 
@@ -463,6 +474,16 @@
     if ((r.astuces || []).length) extras.push(section("⚠️ Astuces et erreurs à éviter", "bloc-astuces", [ulAstuces]));
     if ((r.mealPrep || []).length) extras.push(section("🥡 Meal prep", "bloc-prep", [listeSimple(r.mealPrep)]));
     if ((r.conservation || []).length) extras.push(section("❄️ Conservation et lunchs", "", [listeSimple(r.conservation)]));
+    if ((r.sources || []).length) extras.push(section("📚 Sources et adaptations", "bloc-sources", r.sources.map(function (src) {
+      return el("div", { class: "source" }, [
+        el("p", { class: "source-titre" }, [
+          src.role ? el("strong", { text: src.role + " : " }) : null,
+          src.url ? el("a", { href: src.url, rel: "noopener", target: "_blank", text: src.titre }) : src.titre
+        ]),
+        (src.rendement || src.facteur) ? el("p", { class: "source-meta", text: [src.rendement ? "Rendement d'origine : " + src.rendement : "", src.facteur ? "Facteur d'échelle : " + src.facteur : ""].filter(Boolean).join(" · ") }) : null,
+        (src.adaptations || []).length ? listeSimple(src.adaptations) : null
+      ]);
+    })));
     if ((r.substitutions || []).length) extras.push(section("🔁 Substitutions", "", [listeSimple(r.substitutions)]));
     if ((r.notes || []).length) extras.push(section("📝 Notes", "", [listeSimple(r.notes)]));
     if (r.proteines) extras.push(section("Protéines", "", [el("p", { text: r.proteines + " par portion" })]));
@@ -470,8 +491,8 @@
       return el("a", { class: "btn btn-contour", href: "recette.html?r=" + encodeURIComponent(l.slug), text: l.texte + " →" });
     })));
 
-    zone.replaceChildren(figure, entete, temps,
-      el("div", { class: "colonnes" }, [blocIng, el("div", null, [blocMep, blocEtapes].concat(extras))]));
+    zone.replaceChildren.apply(zone, [figure, entete, temps,
+      el("div", { class: "colonnes" }, [blocIng, el("div", null, [blocMep, blocEtapes].concat(extras))])].filter(Boolean));
     rendreIngredients();
   }
 
@@ -535,6 +556,14 @@
   }
 
   // ---------- Cette semaine ----------
+  // Photo du plat ; sans photo (fichier absent), on affiche l'assiette par défaut.
+  function imageJour(slug) {
+    var img = el("img", { src: "images/" + slug + ".jpg", alt: "", loading: "lazy", width: "160", height: "120" });
+    var vide = el("div", { class: "jour-vide", text: "🍽" });
+    img.addEventListener("error", function () { if (img.parentNode) img.replaceWith(vide); });
+    return img;
+  }
+
   function pageSemaine() {
     var liste = document.getElementById("semaine");
     Promise.all([chargerJSON("semaine.json"), chargerJSON("recettes/index.json")]).then(function (res) {
@@ -545,7 +574,7 @@
       liste.replaceChildren.apply(liste, (s.jours || []).map(function (j) {
         var existe = j.slug && connus.indexOf(j.slug) >= 0;
         var contenu = [
-          existe ? el("img", { src: "images/" + j.slug + ".jpg", alt: "", loading: "lazy", width: "160", height: "120" }) : el("div", { class: "jour-vide", text: "🍽" }),
+          existe ? imageJour(j.slug) : el("div", { class: "jour-vide", text: "🍽" }),
           el("div", { class: "jour-texte" }, [
             el("p", { class: "jour-nom", text: j.jour + (j.date === cleAuj ? " · aujourd'hui" : "") }),
             el("p", { class: "jour-plat", text: j.titre }),

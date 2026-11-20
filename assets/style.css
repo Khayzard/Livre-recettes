@@ -303,3 +303,13 @@ a.etiquette { min-height: 32px; display: inline-flex; align-items: center; }
 }
 .jeton-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
 #erreur:not([hidden]) { margin-bottom: 1rem; }
+
+/* Sans photo : assiette par défaut (carte) */
+.carte-sans-photo { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; font-size: 3rem; }
+
+/* Source de la recette */
+.source-ligne { margin: .4rem 0 .8rem; font-size: .9rem; color: var(--doux); }
+.source-ligne a { color: var(--vert); }
+.bloc-sources .source { margin: 0 0 1rem; }
+.bloc-sources .source-titre { margin: 0 0 .15rem; }
+.bloc-sources .source-meta { margin: 0 0 .3rem; font-size: .85rem; color: var(--doux); }

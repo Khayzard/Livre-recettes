@@ -1,0 +1,280 @@
+{
+  "slug": "poulet-farci-epinards-fromage",
+  "titre": "Poitrines de poulet farcies épinards et fromage, couscous et légumes rôtis",
+  "resume": "Poitrines aplaties, farcies d'épinards, de cottage et de fromage sans lactose, dorées puis mijotées dans le bouillon, avec un couscous à l'oignon et des légumes rôtis.",
+  "portions": 9,
+  "portionsNote": "5 à table + 4 lunchs",
+  "temps": {
+    "prep": "45 min",
+    "cuisson": "40–45 min"
+  },
+  "tempsTotal": "≈ 1 h 30",
+  "etiquettes": [
+    "poulet",
+    "four"
+  ],
+  "sources": [
+    {
+      "role": "Poitrines farcies",
+      "titre": "Poitrines de poulet farcies au fromage et aux épinards — Metro",
+      "url": "https://www.metro.ca/recettes-et-occasions/recettes/poitrines-de-poulet-farcies-au-fromage-et-aux-epinards",
+      "rendement": "4 portions",
+      "facteur": "× 2,25 (9 demi-poitrines)",
+      "adaptations": [
+        "Cottage et fromage râpé sans lactose.",
+        "Cuisson en 2 poêles couvertes (9 rouleaux ne tiennent pas dans 1 poêlon).",
+        "Farce doublée : ¼ t par poitrine au lieu de 2 c. à soupe. Bouillon doublé et réduit en jus.",
+        "Température interne 77 °C (la source) ; 74 °C est le minimum sécuritaire.",
+        "Ricardo n'a pas de version aux épinards (ses poitrines farcies : brie, gruyère et prosciutto)."
+      ]
+    },
+    {
+      "role": "Couscous",
+      "titre": "Couscous à l'oignon — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/4715-couscous-a-l-oignon",
+      "rendement": "4 portions",
+      "facteur": "× 2,25",
+      "adaptations": [
+        "Coriandre retirée (estragon ou persil)."
+      ]
+    },
+    {
+      "role": "Légumes rôtis",
+      "titre": "Légumes racines rôtis — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/797-legumes-racines-rotis",
+      "rendement": "4 portions",
+      "facteur": "× 2,25",
+      "adaptations": [
+        "Panais et céleri-rave remplacés par des poivrons rouges ou orange et des oignons (légumes que les enfants mangent)."
+      ]
+    }
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet farci",
+      "temp": "77 °C (170 °F)",
+      "note": "au centre, jus clair (la source : 77 °C ; minimum sécuritaire 74 °C)"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "avec un peu de jus"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Poulet",
+      "items": [
+        {
+          "q": 9,
+          "u": "",
+          "nom": "grosses demi-poitrines de poulet désossées (≈ 1,8 à 2 kg)"
+        },
+        {
+          "q": 7,
+          "u": "c. à soupe",
+          "nom": "d'huile végétale (ou de margarine sans lactose)"
+        },
+        {
+          "q": 2.25,
+          "u": "t",
+          "nom": "de bouillon de poulet (562 ml ; version doublée)"
+        },
+        {
+          "texte": "Sel et poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Farce (doublée : ¼ t par poitrine)",
+      "items": [
+        {
+          "q": 1.125,
+          "u": "t",
+          "nom": "de fromage cottage sans lactose"
+        },
+        {
+          "q": 1.125,
+          "u": "t",
+          "nom": "de fromage râpé sans lactose (suisse ou mozzarella ; ≈ 125 g)"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "gousses d'ail, hachées (ou ½ c. à thé de poudre d'ail)"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "de persil frais, haché"
+        },
+        {
+          "q": 18,
+          "u": "",
+          "nom": "feuilles de bébés épinards (≈ 60 g)"
+        },
+        {
+          "q": 27,
+          "u": "",
+          "nom": "cure-dents (2 à 3 par rouleau)"
+        }
+      ]
+    },
+    {
+      "groupe": "Couscous à l'oignon",
+      "items": [
+        {
+          "q": 2,
+          "u": "",
+          "nom": "gros oignons, coupés en dés"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "gousses d'ail, hachées (ou 1 ¼ c. à thé de poudre d'ail)",
+          "qMax": 5
+        },
+        {
+          "q": 4.5,
+          "u": "c. à soupe",
+          "nom": "d'huile d'olive"
+        },
+        {
+          "q": 2.25,
+          "u": "t",
+          "nom": "de bouillon de poulet"
+        },
+        {
+          "q": 450,
+          "u": "g",
+          "nom": "de couscous (2 ¼ t)"
+        },
+        {
+          "q": 4.5,
+          "u": "c. à soupe",
+          "nom": "de persil plat ciselé"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'estragon ciselé, + 1 c. à thé (ou plus de persil)"
+        }
+      ]
+    },
+    {
+      "groupe": "Légumes rôtis",
+      "items": [
+        {
+          "q": 18,
+          "u": "",
+          "nom": "petites carottes (≈ 1,1 kg), pelées et coupées en 2 sur la longueur"
+        },
+        {
+          "q": 3,
+          "u": "",
+          "nom": "poivrons rouges ou orange (pas verts), en morceaux de 1 ½ po"
+        },
+        {
+          "q": 9,
+          "u": "",
+          "nom": "petits grelots, coupés en 2"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "oignons, en rondelles de ½ po"
+        },
+        {
+          "q": 4.5,
+          "u": "c. à soupe",
+          "nom": "d'huile d'olive"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de persil plat ciselé"
+        },
+        {
+          "texte": "Sel et poivre"
+        }
+      ]
+    }
+  ],
+  "miseEnPlace": [
+    "Vendredi soir : mettre les poitrines au frigo pour les décongeler.",
+    "Couper les légumes rôtis : carottes, poivrons, grelots en 2, oignons en rondelles de ½ po.",
+    "Mélanger la farce : cottage, fromage râpé, ail, persil.",
+    "Équipement : papier ciré, rouleau à pâte ou maillet, cure-dents, 2 grandes poêles avec couvercles, 2 plaques 13 × 18 po avec parchemin, thermomètre, casserole de 3 L pour le couscous."
+  ],
+  "etapes": [
+    {
+      "titre": "Préchauffer le four",
+      "texte": "Grille au centre pour les légumes.",
+      "four": "425 °F (220 °C)",
+      "duree": "15 min"
+    },
+    {
+      "titre": "Rôtir les légumes",
+      "texte": "Enrober les légumes d'huile sur 2 plaques parchemin, saler, poivrer. Remuer 2 ou 3 fois. Ajouter les poivrons après 15 min. Parsemer de persil à la sortie.",
+      "four": "425 °F (220 °C)",
+      "duree": "35–40 min",
+      "reperes": "Tendres et légèrement dorés."
+    },
+    {
+      "titre": "Aplatir les poitrines",
+      "texte": "Entre 2 feuilles de papier ciré, aplatir chaque demi-poitrine au rouleau à pâte jusqu'à ½ po (1 cm) d'épaisseur.",
+      "duree": "10 min",
+      "pourquoi": "Trop épaisses, elles sèchent sur les bords et restent crues au centre."
+    },
+    {
+      "titre": "Farcir et rouler",
+      "texte": "Sur chaque poitrine, déposer 2 feuilles d'épinards, puis environ ¼ t de farce en gardant ¾ po de marge. Rouler serré et fixer avec 2 ou 3 cure-dents. Réfrigérer 15 min sur une plaque.",
+      "duree": "20 min + 15 min",
+      "pourquoi": "Trop de farce : elle sort. Les cure-dents évitent que les rouleaux s'ouvrent."
+    },
+    {
+      "titre": "Dorer",
+      "texte": "Dans 2 grandes poêles antiadhésives, chauffer l'huile et dorer les rouleaux en les retournant de temps à autre.",
+      "feu": "moyen-vif",
+      "duree": "3 min",
+      "reperes": "Surface dorée."
+    },
+    {
+      "titre": "Mijoter couvert",
+      "texte": "Verser la moitié du bouillon dans chaque poêle, baisser le feu, couvrir et cuire en retournant une fois.",
+      "feu": "moyen-doux",
+      "duree": "≈ 20 min",
+      "reperes": "77 °C au centre, jus clair."
+    },
+    {
+      "titre": "Cuire le couscous",
+      "texte": "Attendrir l'oignon et l'ail dans l'huile d'olive. Ajouter le bouillon, porter à ébullition, saler et poivrer. Hors du feu, ajouter le couscous, couvrir et laisser gonfler 5 min. Défaire à la fourchette et ajouter les herbes.",
+      "feu": "moyen",
+      "duree": "10 min",
+      "reperes": "Grains gonflés, légers, séparés."
+    },
+    {
+      "titre": "Faire le jus et servir",
+      "texte": "Retirer les cure-dents, laisser reposer le poulet 5 min. Réduire le jus de poêle à feu vif et le verser sur le poulet. Servir avec le couscous et les légumes rôtis.",
+      "feu": "vif",
+      "duree": "3–4 min"
+    }
+  ],
+  "astuces": [
+    "Aplatir les poitrines à ½ po : cuisson uniforme.",
+    "Ne pas trop farcir : mieux vaut ¼ t bien roulé.",
+    "Garder un peu d'espace dans les poêles : les rouleaux dorent mal s'ils se touchent.",
+    "Couscous : toujours hors du feu, couvert 5 min, jamais en ébullition."
+  ],
+  "mealPrep": [
+    "Vendredi soir : décongeler les poitrines au frigo.",
+    "Dimanche en début d'après-midi : couper les légumes et préparer la farce."
+  ],
+  "conservation": [
+    "Poulet farci : 3–4 jours au frigo, réchauffé à 74 °C avec un peu de jus.",
+    "Couscous et légumes : 3–4 jours.",
+    "Lunchs : le poulet se mange chaud ou froid."
+  ],
+  "substitutions": [],
+  "notes": []
+}

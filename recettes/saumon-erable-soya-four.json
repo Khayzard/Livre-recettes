@@ -1,0 +1,247 @@
+{
+  "slug": "saumon-erable-soya-four",
+  "titre": "Saumon érable-soya au four, grelots rôtis et haricots verts",
+  "resume": "Pavés de saumon laqués au sirop d'érable, au soya, au miso et au hoisin, rôtis au four, avec des grelots dorés et des haricots verts au citron.",
+  "portions": 9,
+  "portionsNote": "5 à table + 4 lunchs",
+  "temps": {
+    "prep": "30 min (+ 30 min de séchage du saumon)",
+    "cuisson": "≈ 50 min pour tout"
+  },
+  "tempsTotal": "≈ 1 h 30",
+  "etiquettes": [
+    "poisson",
+    "four"
+  ],
+  "sources": [
+    {
+      "role": "Saumon",
+      "titre": "Saumon à l'érable et au soya cuit au four — Mordu (Radio-Canada)",
+      "url": "https://ici.radio-canada.ca/mordu/recettes/7864/saumon-erable-soya-cuit-four",
+      "rendement": "4 portions (4 pavés de 150 g)",
+      "facteur": "× 2,25 (9 pavés, 1,35 kg)",
+      "adaptations": [
+        "Bok choy et brocoli retirés : remplacés par les grelots et les haricots verts.",
+        "Laque doublée (× 4,5, ≈ 1 L) : elle sert aussi de sauce sur les grelots.",
+        "Gingembre et ail frais remplaçables par de la poudre.",
+        "Température interne ajoutée : 70 °C (norme du Canada) ; la source cuit « à peine au centre »."
+      ]
+    },
+    {
+      "role": "Grelots",
+      "titre": "Pommes de terre rôties au four — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/3061-pommes-de-terre-roties-au-four",
+      "rendement": "4 grosses pommes de terre (≈ 1,2 kg, estimé) + ¼ t d'huile d'olive",
+      "facteur": "× 2,25",
+      "adaptations": [
+        "Grelots coupés en 2 au lieu de rondelles, four à 425 °F (comme le saumon), ≈ 35 min."
+      ]
+    },
+    {
+      "role": "Haricots verts",
+      "titre": "Haricots verts amandine — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/2040-haricots-verts-amandine",
+      "rendement": "6 portions (450 g)",
+      "facteur": "× 1,5",
+      "adaptations": [
+        "Amandes retirées (lunchs sans noix), margarine sans lactose, jus d'un citron entier."
+      ]
+    }
+  ],
+  "temperatures": [
+    {
+      "quoi": "Saumon",
+      "temp": "70 °C (158 °F)",
+      "note": "au centre ; la source le cuit « à peine », vers 63 °C : à toi de voir"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "doucement, puissance moyenne"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Saumon",
+      "items": [
+        {
+          "q": 1350,
+          "u": "g",
+          "nom": "de filet de saumon sans peau (9 pavés d'environ 150 g)"
+        },
+        {
+          "texte": "Sel et poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Laque érable-soya (doublée)",
+      "items": [
+        {
+          "q": 4.5,
+          "u": "c. à soupe",
+          "nom": "de miso"
+        },
+        {
+          "q": 135,
+          "u": "ml",
+          "nom": "de vinaigre de riz (≈ ½ t + 1 c. à soupe)"
+        },
+        {
+          "q": 202,
+          "u": "ml",
+          "nom": "de sauce soya (≈ ¾ t + 1 c. à soupe)"
+        },
+        {
+          "q": 1.6667,
+          "u": "t",
+          "nom": "de sirop d'érable"
+        },
+        {
+          "q": 135,
+          "u": "ml",
+          "nom": "de sauce hoisin (≈ ½ t + 1 c. à soupe)"
+        },
+        {
+          "q": 3,
+          "u": "c. à soupe",
+          "nom": "de gingembre frais râpé (ou ¾ c. à thé de gingembre moulu)"
+        },
+        {
+          "q": 9,
+          "u": "",
+          "nom": "gousses d'ail, hachées finement (ou 2 ¼ c. à thé de poudre d'ail)"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "oignons verts, le vert ciselé en biseau (pour garnir)",
+          "qMax": 5
+        }
+      ]
+    },
+    {
+      "groupe": "Grelots rôtis",
+      "items": [
+        {
+          "q": 2.7,
+          "u": "kg",
+          "nom": "de petites pommes de terre grelots (2 sacs de 3 lb), coupées en 2"
+        },
+        {
+          "q": 9,
+          "u": "c. à soupe",
+          "nom": "d'huile d'olive (≈ ½ t + 1 c. à soupe)"
+        },
+        {
+          "q": 1.5,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "texte": "Poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Haricots verts",
+      "items": [
+        {
+          "q": 675,
+          "u": "g",
+          "nom": "de haricots verts, équeutés"
+        },
+        {
+          "q": 6,
+          "u": "c. à soupe",
+          "nom": "de margarine sans lactose"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "citron, pour le jus"
+        },
+        {
+          "texte": "Sel"
+        }
+      ]
+    }
+  ],
+  "miseEnPlace": [
+    "Décongèle le saumon au frigo mardi soir s'il est congelé.",
+    "Au moins 30 min avant : coupe le saumon en pavés d'environ 150 g (un par portion) (retire la partie ventrale mince si elle est très grasse). Assaisonne légèrement et laisse sécher à découvert au frigo.",
+    "Coupe les grelots en 2 (les gros en 4). Équeute les haricots. Râpe le gingembre et hache l'ail.",
+    "Équipement : 2 plaques 13 × 18 po avec parchemin (4 plaques en tout, utilisées en 2 temps), 2 bols, pinceau, papier d'aluminium, thermomètre, marguerite pour la vapeur."
+  ],
+  "etapes": [
+    {
+      "titre": "Préparer la laque",
+      "texte": "Délayer le miso dans le vinaigre de riz. Ajouter le soya, l'érable, le hoisin, le gingembre et l'ail. Brasser. Diviser en 2 bols égaux : « badigeonnage » et « finition ». Ne jamais tremper dans le bol de finition le pinceau qui a touché le poisson cru.",
+      "duree": "10 min",
+      "pourquoi": "Le bol de badigeonnage a touché le poisson cru ; celui de finition reste propre pour napper."
+    },
+    {
+      "titre": "Préchauffer le four",
+      "texte": "Grille au tiers du bas pour les grelots.",
+      "four": "425 °F (220 °C)",
+      "duree": "15 min"
+    },
+    {
+      "titre": "Rôtir les grelots",
+      "texte": "Mélanger les grelots avec l'huile, le sel et le poivre sur 2 plaques parchemin, face coupée vers le bas. Retourner à mi-cuisson.",
+      "four": "425 °F (220 °C)",
+      "duree": "30–35 min",
+      "reperes": "Une fourchette entre sans résistance, le dessous est doré.",
+      "pourquoi": "Couper en 2 et poser côté coupé vers le bas : ils dorent bien."
+    },
+    {
+      "titre": "Sortir les grelots",
+      "texte": "Retirer les plaques, couvrir de papier d'aluminium pour garder au chaud.",
+      "duree": "1 min"
+    },
+    {
+      "titre": "Tempérer et laquer le saumon",
+      "texte": "Sortir le saumon 15 min avant la cuisson et l'assécher au papier absorbant. Déposer les pavés sur 2 plaques parchemin à 1 po d'écart. Badigeonner avec le bol « badigeonnage ».",
+      "duree": "15 min",
+      "pourquoi": "Le poisson très sec dore mieux ; tempéré, il cuit plus également."
+    },
+    {
+      "titre": "Cuire le saumon",
+      "texte": "Cuire au centre du four jusqu'à belle coloration et à peine cuit au centre. Sortir, couvrir de papier d'aluminium et laisser reposer 3 à 5 min.",
+      "four": "425 °F (220 °C)",
+      "duree": "10 min + 3–5 min de repos",
+      "reperes": "Chair qui commence à s'opacifier, surface laquée brun foncé, pas de liquide blanc."
+    },
+    {
+      "titre": "Terminer le saumon",
+      "texte": "Badigeonner avec un peu du bol « finition » et remettre au four 2 à 3 min. Vérifier 70 °C au centre. Garnir d'oignons verts et napper de la laque restante (aussi sur les grelots).",
+      "four": "425 °F (220 °C)",
+      "duree": "2–3 min",
+      "reperes": "70 °C au centre ; chair qui se détache en gros flocons.",
+      "pourquoi": "Trop cuit, le saumon devient sec : les temps sont adaptés à 9 pavés sur 2 plaques."
+    },
+    {
+      "titre": "Haricots verts",
+      "texte": "Cuire à la vapeur environ 4 min jusqu'à tendreté. Rincer 10 s à l'eau froide pour fixer la couleur et bien égoutter. Faire fondre la margarine à feu moyen, sauter les haricots 1 à 2 min, ajouter le jus de citron et le sel. Servir aussitôt.",
+      "feu": "moyen",
+      "duree": "8 min",
+      "reperes": "Vert vif, tendres mais encore un peu croquants."
+    }
+  ],
+  "astuces": [
+    "Pavés bien secs avant de laquer, sinon pas de coloration.",
+    "Le pinceau du poisson cru ne retourne jamais dans le bol de finition.",
+    "Ne pas trop cuire : dès que la chair se détache en flocons, c'est prêt.",
+    "Poser les grelots côté coupé vers le bas pour une belle croûte dorée."
+  ],
+  "mealPrep": [
+    "Mardi soir : mettre le saumon au frigo pour le décongeler.",
+    "Mercredi après-midi : couper les pavés et les laisser sécher au frigo."
+  ],
+  "conservation": [
+    "Saumon : 2 jours au frigo, réchauffé doucement (micro-ondes à puissance moyenne) jusqu'à 74 °C.",
+    "Grelots et haricots verts : 3–4 jours au frigo."
+  ],
+  "substitutions": [],
+  "notes": []
+}

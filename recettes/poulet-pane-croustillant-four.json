@@ -1,0 +1,294 @@
+{
+  "slug": "poulet-pane-croustillant-four",
+  "titre": "Poulet pané croustillant au four, frites maison et salade de chou",
+  "resume": "Lanières de poitrines marinées au lait de beurre, panées au panko et cuites au four, avec une trempette moutarde-abricot, des frites maison au four et la salade de chou.",
+  "portions": 5,
+  "portionsNote": "5 à table, pas de lunchs",
+  "temps": {
+    "prep": "40 min (+ marinade de 4 h à une nuit)",
+    "cuisson": "30–35 min"
+  },
+  "tempsTotal": "≈ 1 h 15 le jour même",
+  "etiquettes": [
+    "poulet",
+    "four"
+  ],
+  "sources": [
+    {
+      "role": "Poulet pané",
+      "titre": "Filets de poulet croustillants — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/5488-filets-de-poulet-croustillants",
+      "rendement": "4 à 6 portions (675 g de poitrines)",
+      "facteur": "× 1,25 (850 g)",
+      "adaptations": [
+        "Cuisson entièrement au four à 450 °F (la source dore à la poêle 3 min par côté puis finit 5 min au four à 350 °F). Le panko est mélangé à l'huile de la recette pour dorer. Temps non testés.",
+        "Lait de beurre = lait sans lactose + vinaigre (méthode Ricardo).",
+        "Assaisonnement au chili doux.",
+        "Marinade au lait de beurre doublée (× 2,5) et trempette doublée (× 2,5)."
+      ]
+    },
+    {
+      "role": "Trempette",
+      "titre": "Trempette à la moutarde et abricot — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/5489-trempette-a-la-moutarde-et-abricot",
+      "rendement": "180 ml (¾ t)",
+      "facteur": "× 2,5",
+      "adaptations": [
+        "Doublée."
+      ]
+    },
+    {
+      "role": "Frites maison",
+      "titre": "Frites au four à l'huile d'olive — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/3405-frites-au-four-a-l-huile-d-olive",
+      "rendement": "4 portions (5 pommes de terre Russet)",
+      "facteur": "× 1,25",
+      "adaptations": []
+    },
+    {
+      "role": "Salade de chou",
+      "titre": "Salade de chou crémeuse — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/3426-salade-de-chou-cremeuse",
+      "rendement": "2 L (8 tasses)",
+      "facteur": "× 0,625 (5 tasses : 5 portions)",
+      "adaptations": [
+        "Lait sans lactose.",
+        "Chou, céleri et oignon hachés à la main (la source utilise le robot).",
+        "Vinaigrette non doublée.",
+        "Se garde 2 à 3 jours (Ricardo) : on peut aussi faire un lot double vendredi pour samedi."
+      ]
+    }
+  ],
+  "temperatures": [
+    {
+      "quoi": "Poulet pané",
+      "temp": "74 °C (165 °F)",
+      "note": "au centre des lanières, jus clair"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Marinade au lait de beurre (doublée)",
+      "items": [
+        {
+          "q": 850,
+          "u": "g",
+          "nom": "de poitrines de poulet désossées et sans peau, en lanières d'environ ¾ po de large"
+        },
+        {
+          "q": 2.5,
+          "u": "t",
+          "nom": "de lait sans lactose (625 ml)"
+        },
+        {
+          "q": 2.5,
+          "u": "c. à soupe",
+          "nom": "de vinaigre blanc ou de jus de citron"
+        }
+      ]
+    },
+    {
+      "groupe": "Panure",
+      "items": [
+        {
+          "q": 0.625,
+          "u": "t",
+          "nom": "de farine tout usage (½ t + 2 c. à soupe)"
+        },
+        {
+          "q": 1,
+          "u": "c. à soupe",
+          "nom": "d'assaisonnement au chili doux, + 1 c. à thé"
+        },
+        {
+          "q": 0.75,
+          "u": "c. à thé",
+          "nom": "de poudre d'ail"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "œufs de nos poules, légèrement battus"
+        },
+        {
+          "q": 3.125,
+          "u": "t",
+          "nom": "de panko (250 g)"
+        },
+        {
+          "q": 4,
+          "u": "c. à soupe",
+          "nom": "d'huile de canola, mélangée au panko"
+        },
+        {
+          "texte": "Sel et poivre, généreusement"
+        }
+      ]
+    },
+    {
+      "groupe": "Trempette moutarde-abricot (doublée)",
+      "items": [
+        {
+          "q": 1.25,
+          "u": "t",
+          "nom": "de mayonnaise"
+        },
+        {
+          "q": 5,
+          "u": "c. à soupe",
+          "nom": "de moutarde à l'ancienne"
+        },
+        {
+          "q": 5,
+          "u": "c. à soupe",
+          "nom": "de confiture d'abricots, fondue et tempérée"
+        }
+      ]
+    },
+    {
+      "groupe": "Frites maison",
+      "items": [
+        {
+          "q": 6,
+          "u": "",
+          "nom": "pommes de terre Russet moyennes (≈ 1,5 kg), non pelées et bien lavées"
+        },
+        {
+          "q": 5,
+          "u": "c. à soupe",
+          "nom": "d'huile d'olive"
+        },
+        {
+          "texte": "Sel"
+        }
+      ]
+    },
+    {
+      "groupe": "Salade de chou crémeuse",
+      "items": [
+        {
+          "q": 0.6,
+          "u": "kg",
+          "nom": "de chou vert, haché finement (≈ ½ petit chou)"
+        },
+        {
+          "q": 0.625,
+          "u": "t",
+          "nom": "de céleri, haché finement"
+        },
+        {
+          "q": 2.5,
+          "u": "c. à soupe",
+          "nom": "d'oignon, haché finement"
+        },
+        {
+          "q": 5,
+          "u": "c. à soupe",
+          "nom": "de relish"
+        },
+        {
+          "q": 7.5,
+          "u": "c. à soupe",
+          "nom": "de mayonnaise"
+        },
+        {
+          "q": 2.5,
+          "u": "c. à soupe",
+          "nom": "de lait sans lactose"
+        },
+        {
+          "q": 1.25,
+          "u": "c. à soupe",
+          "nom": "de vinaigre blanc"
+        },
+        {
+          "q": 1.25,
+          "u": "c. à soupe",
+          "nom": "de sucre"
+        },
+        {
+          "texte": "Sel et poivre"
+        }
+      ]
+    }
+  ],
+  "miseEnPlace": [
+    "Vendredi soir ou samedi matin (4 h minimum, jusqu'à une nuit) : mélange le lait et le vinaigre, laisse reposer 5 à 10 min, remue. Coupe chaque demi-poitrine en 2 sur l'épaisseur, puis en lanières d'environ ¾ po de large. Mets-les dans le « lait de beurre », couvre et réfrigère.",
+    "Jeudi soir : mets les poitrines au frigo pour les décongeler.",
+    "Fais la trempette (mayonnaise, moutarde, confiture fondue) et la salade de chou au moins 1 h avant.",
+    "Coupe les pommes de terre en bâtonnets d'environ ⅜ po et trempe-les dans l'eau chaude pendant que le four préchauffe.",
+    "Prépare 3 assiettes creuses : farine et épices ; œufs battus ; panko mélangé à l'huile.",
+    "Équipement : 2 plaques épaisses 13 × 18 po, parchemin, thermomètre."
+  ],
+  "etapes": [
+    {
+      "titre": "Faire la salade de chou",
+      "texte": "Mélanger tous les ingrédients dans un grand bol, saler, poivrer. Réfrigérer au moins 1 h. Remuer avant de servir : elle rend de l'eau.",
+      "duree": "15 min + 1 h au frigo",
+      "reperes": "Chou enrobé d'une sauce crémeuse, pas liquide.",
+      "pourquoi": "Le repos au frigo laisse les saveurs se marier."
+    },
+    {
+      "titre": "Préchauffer avec les plaques",
+      "texte": "Placer la grille en bas du four avec 2 plaques épaisses dedans.",
+      "four": "450 °F (230 °C)",
+      "duree": "15 min"
+    },
+    {
+      "titre": "Préparer les frites",
+      "texte": "Couper les pommes de terre non pelées en bâtonnets d'environ ⅜ po. Les tremper dans l'eau chaude 10 min, égoutter et bien assécher dans un linge propre. Les mélanger avec la plus grande partie de l'huile et du sel.",
+      "duree": "15 min",
+      "pourquoi": "Le trempage retire l'amidon : les frites sont plus croustillantes."
+    },
+    {
+      "titre": "Enfourner les frites",
+      "texte": "Sortir les plaques, verser le reste de l'huile dessus et étaler les frites en une couche sur 2 plaques. Cuire, retourner à la spatule après 20 min.",
+      "four": "450 °F (230 °C)",
+      "duree": "20 min + 5 min",
+      "reperes": "Elles commencent à dorer.",
+      "pourquoi": "Plaques préchauffées : les frites grésillent dès qu'elles touchent."
+    },
+    {
+      "titre": "Paner le poulet",
+      "texte": "Égoutter les lanières. Une ou deux à la fois : farine (secouer l'excès), œufs (égoutter), panko en pressant. Les déposer sur une plaque tapissée de parchemin sans se toucher.",
+      "duree": "20 min",
+      "reperes": "Panko bien collé, sans trous.",
+      "pourquoi": "Presser le panko : il ne tombe pas à la cuisson."
+    },
+    {
+      "titre": "Regrouper les frites et cuire le poulet",
+      "texte": "À 25 min, regrouper les frites sur une seule plaque (elles ont réduit). Mettre la plaque de poulet sur l'autre grille. Cuire en retournant le poulet à mi-cuisson. Gratiner 1 à 2 min sous le gril si pas assez doré.",
+      "four": "450 °F (230 °C)",
+      "duree": "10–12 min",
+      "reperes": "Panure dorée et croustillante ; 74 °C au centre, chair blanche.",
+      "pourquoi": "La source cuit à 350 °F ; ici 450 °F pour partager le four avec les frites. Temps non testés : fie-toi au thermomètre."
+    },
+    {
+      "titre": "Reposer et servir",
+      "texte": "Laisser reposer le poulet 3 min. Égoutter les frites sur du papier, saler à nouveau. Servir avec la trempette et la salade de chou.",
+      "duree": "3 min"
+    }
+  ],
+  "astuces": [
+    "Presser le panko sur le poulet : il tient mieux.",
+    "Plaques non bondées : sinon le poulet et les frites ramollissent.",
+    "Les lanières panées crues se congèlent sur plaque puis en sac (+ 2 à 3 min de cuisson, selon Ricardo).",
+    "Si le four ne sert qu'au poulet, 425 °F suffit."
+  ],
+  "mealPrep": [
+    "Jeudi soir : décongeler les poitrines au frigo.",
+    "Vendredi soir ou samedi matin : mariner le poulet."
+  ],
+  "conservation": [
+    "Poulet : 3 jours au frigo, réchauffé au four à 375 °F, 10 min, jusqu'à 74 °C.",
+    "Frites : à manger sur le coup.",
+    "Trempette : 1 semaine au frigo (Ricardo)."
+  ],
+  "substitutions": [],
+  "notes": []
+}

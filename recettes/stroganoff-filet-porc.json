@@ -1,0 +1,242 @@
+{
+  "slug": "stroganoff-filet-porc",
+  "titre": "Stroganoff de filet de porc, nouilles aux œufs et haricots verts",
+  "resume": "Lanières de filet de porc dans une sauce crémeuse aux champignons, au vin blanc et à la crème sure sans lactose, servies sur des nouilles aux œufs avec des haricots verts.",
+  "portions": 9,
+  "portionsNote": "5 à table + 4 lunchs",
+  "temps": {
+    "prep": "20 min",
+    "cuisson": "35 min"
+  },
+  "tempsTotal": "≈ 55 min",
+  "etiquettes": [
+    "porc"
+  ],
+  "sources": [
+    {
+      "role": "Stroganoff",
+      "titre": "Porc stroganoff — Le porc du Québec",
+      "url": "https://www.leporcduquebec.com/recette/370-porc-stroganoff/",
+      "rendement": "4 portions (454 g de lanières de porc)",
+      "facteur": "× 2,25 (1 kg de lanières)",
+      "adaptations": [
+        "La source oublie de remettre le porc dans la sauce : on le remet et on le fait mijoter jusqu'à 71 °C.",
+        "Crème sure et margarine sans lactose.",
+        "Nouilles aux œufs à la place des pappardelles (la source ne donne pas de quantité : ≈ 90 à 100 g sèches par portion).",
+        "Sauce doublée (× 4,5) : farine, margarine du roux, vin, bouillon et crème sure.",
+        "Le vin mijote 5 min ; on peut le remplacer par du bouillon + 1 c. à soupe de vinaigre blanc."
+      ]
+    },
+    {
+      "role": "Haricots verts",
+      "titre": "Haricots verts amandine — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/2040-haricots-verts-amandine",
+      "rendement": "6 portions (450 g)",
+      "facteur": "× 1,5",
+      "adaptations": [
+        "Amandes retirées, margarine sans lactose, jus d'un citron entier."
+      ]
+    }
+  ],
+  "temperatures": [
+    {
+      "quoi": "Porc (lanières)",
+      "temp": "71 °C (160 °F)",
+      "note": "au centre, en mijotant dans la sauce"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "à feu doux avec un peu de bouillon"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Porc",
+      "items": [
+        {
+          "q": 1,
+          "u": "kg",
+          "nom": "de filet de porc (≈ 2 filets), en lanières de ½ po d'épaisseur × 2 po de long"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "d'huile végétale + 1 c. à thé"
+        },
+        {
+          "q": 2,
+          "u": "c. à soupe",
+          "nom": "de margarine sans lactose + 1 c. à thé (pour saisir)"
+        },
+        {
+          "texte": "Sel et poivre"
+        }
+      ]
+    },
+    {
+      "groupe": "Légumes",
+      "items": [
+        {
+          "q": 2,
+          "u": "",
+          "nom": "petits oignons, hachés finement"
+        },
+        {
+          "q": 2,
+          "u": "",
+          "nom": "gousses d'ail, hachées (ou ½ c. à thé de poudre d'ail)"
+        },
+        {
+          "q": 1,
+          "u": "kg",
+          "nom": "de champignons blancs, en quartiers"
+        }
+      ]
+    },
+    {
+      "groupe": "Sauce (doublée)",
+      "items": [
+        {
+          "q": 202,
+          "u": "ml",
+          "nom": "de margarine sans lactose pour le roux (≈ ¾ t + 1 c. à soupe)"
+        },
+        {
+          "q": 202,
+          "u": "ml",
+          "nom": "de farine tout usage (≈ ¾ t + 1 c. à soupe)"
+        },
+        {
+          "q": 1.5,
+          "u": "t",
+          "nom": "de vin blanc (ou bouillon + 1 c. à soupe de vinaigre blanc)"
+        },
+        {
+          "q": 4.5,
+          "u": "t",
+          "nom": "de bouillon de volaille"
+        },
+        {
+          "q": 4.5,
+          "u": "t",
+          "nom": "de crème sure sans lactose"
+        },
+        {
+          "q": 0.5,
+          "u": "t",
+          "nom": "de persil frais, ciselé (facultatif pour les enfants)"
+        }
+      ]
+    },
+    {
+      "groupe": "Nouilles",
+      "items": [
+        {
+          "q": 850,
+          "u": "g",
+          "nom": "de nouilles aux œufs sèches (≈ 2 paquets de 400–450 g)"
+        }
+      ]
+    },
+    {
+      "groupe": "Haricots verts",
+      "items": [
+        {
+          "q": 675,
+          "u": "g",
+          "nom": "de haricots verts, équeutés"
+        },
+        {
+          "q": 6,
+          "u": "c. à soupe",
+          "nom": "de margarine sans lactose"
+        },
+        {
+          "q": 1,
+          "u": "",
+          "nom": "citron, pour le jus"
+        },
+        {
+          "texte": "Sel"
+        }
+      ]
+    }
+  ],
+  "miseEnPlace": [
+    "Mercredi soir : mettre les filets de porc au frigo (dans un plat qui ne coule pas) pour les décongeler.",
+    "Couper le porc en lanières de ½ po d'épaisseur sur 2 po de long. Les assécher au papier absorbant, saler et poivrer.",
+    "Couper les champignons en quartiers, hacher les oignons et l'ail, équeuter les haricots verts.",
+    "Mettre une grande casserole d'eau salée sur le feu au moment de faire la sauce.",
+    "Équipement : très grand chaudron de 6 L (la sauce fait ≈ 2,6 L), très grande poêle, thermomètre."
+  ],
+  "etapes": [
+    {
+      "titre": "Saisir le porc",
+      "texte": "Dans une très grande poêle, chauffer l'huile et une partie de la margarine. Dorer le porc en 3 fournées, sans le cuire complètement. Réserver avec son jus dans un grand bol.",
+      "feu": "vif",
+      "duree": "2–3 min par fournée",
+      "reperes": "Dessus doré, intérieur encore rosé : il finira dans la sauce.",
+      "pourquoi": "Trop de porc d'un coup : il bout, devient gris et sec."
+    },
+    {
+      "titre": "Dorer les légumes",
+      "texte": "Dans le chaudron, faire fondre la margarine du roux. Faire revenir les oignons, l'ail et les champignons, jusqu'à ce que l'eau s'évapore et qu'ils soient dorés. Saler et poivrer.",
+      "feu": "moyen-vif",
+      "duree": "10–12 min",
+      "reperes": "Champignons bien dorés, plus de liquide dans le fond.",
+      "pourquoi": "Des champignons pas assez dorés donnent une sauce fade."
+    },
+    {
+      "titre": "Faire le roux et la sauce",
+      "texte": "Ajouter la farine et brasser 1 min. Déglacer avec le vin en grattant le fond, ajouter le bouillon. Porter à ébullition en brassant, puis laisser mijoter doucement.",
+      "feu": "moyen-vif puis doux",
+      "duree": "1 min + 5 min",
+      "reperes": "La sauce nappe le dos d'une cuillère."
+    },
+    {
+      "titre": "Remettre le porc",
+      "texte": "Remettre les lanières et leur jus dans la sauce. Mijoter doucement jusqu'à 71 °C au centre.",
+      "feu": "doux",
+      "duree": "4–5 min",
+      "reperes": "Lanières cuites, sans jus rosé.",
+      "pourquoi": "La source oublie cette étape : sans elle, le porc n'est pas dans la sauce."
+    },
+    {
+      "titre": "Ajouter la crème sure",
+      "texte": "Hors du feu, incorporer la crème sure sans lactose. Remettre sur feu doux et réchauffer sans bouillir. Goûter, ajuster le sel et le poivre, parsemer de persil.",
+      "feu": "doux",
+      "duree": "3–4 min",
+      "reperes": "Sauce lisse, brillante, qui enrobe. Trop épaisse : ajouter un peu de bouillon.",
+      "pourquoi": "La crème bouillie tranche (elle se sépare)."
+    },
+    {
+      "titre": "Nouilles et haricots",
+      "texte": "Cuire les nouilles selon l'emballage et les égoutter. Haricots : vapeur environ 4 min, rincer 10 s à l'eau froide, puis sauter dans la margarine 1 à 2 min avec le jus de citron et le sel.",
+      "duree": "10 min",
+      "reperes": "Nouilles tendres ; haricots vert vif et un peu croquants."
+    },
+    {
+      "titre": "Servir",
+      "texte": "Servir la sauce sur les nouilles avec les haricots verts.",
+      "duree": "2 min"
+    }
+  ],
+  "astuces": [
+    "Saisir le porc en plusieurs fournées : il dore au lieu de bouillir.",
+    "Ne jamais faire bouillir la sauce après la crème sure.",
+    "Le stroganoff se congèle mal (la crème se sépare) : à manger dans 3–4 jours.",
+    "La sauce est doublée : si elle te semble trop abondante, garde la moitié de la crème sure pour le lendemain."
+  ],
+  "mealPrep": [
+    "Mercredi soir : décongeler les filets de porc au frigo.",
+    "Jeudi après-midi : couper le porc et les champignons."
+  ],
+  "conservation": [
+    "Frigo : 3–4 jours, dans des contenants peu profonds, réfrigérés dans les 2 h.",
+    "Réchauffer à feu doux avec un peu de bouillon, jusqu'à 74 °C.",
+    "Ne pas congeler (la crème se sépare)."
+  ],
+  "substitutions": [],
+  "notes": []
+}

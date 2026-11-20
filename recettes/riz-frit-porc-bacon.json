@@ -1,0 +1,220 @@
+{
+  "slug": "riz-frit-porc-bacon",
+  "titre": "Riz frit au porc, bacon et légumes",
+  "resume": "Un riz frit à la Ricardo avec les côtelettes de porc déjà cuites, du bacon croustillant, des légumes et du maïs. Rapide si le riz est cuit et refroidi d'avance.",
+  "portions": 9,
+  "portionsNote": "5 à table + 4 lunchs",
+  "temps": {
+    "prep": "25 min (riz cuit et refroidi d'avance)",
+    "cuisson": "30–35 min"
+  },
+  "tempsTotal": "1 h (35 min si riz et légumes sont prêts)",
+  "etiquettes": [
+    "porc",
+    "rapide"
+  ],
+  "sources": [
+    {
+      "role": "Recette de base",
+      "titre": "Riz frit (le meilleur) — Ricardo",
+      "url": "https://www.ricardocuisine.com/recettes/10576-riz-frit-le-meilleur",
+      "rendement": "4 portions",
+      "facteur": "× 2,25",
+      "adaptations": [
+        "Ajout du porc cuit (4 ou 5 des 7 côtelettes du congélateur) et du bacon : la source est végétarienne et suggère d'ajouter du poulet cuit.",
+        "Petits pois remplacés par du maïs surgelé (même poids).",
+        "Sambal oelek retiré (épices douces) : les adultes en ajoutent à table.",
+        "Une partie de l'huile est remplacée par le gras de bacon.",
+        "Sauce soya doublée (270 ml au lieu de 135 ml), toujours réduite en sodium à cause du bacon salé."
+      ]
+    }
+  ],
+  "temperatures": [
+    {
+      "quoi": "Porc cuit en dés (réchauffé dans le riz)",
+      "temp": "74 °C (165 °F)",
+      "note": "bien chaud au centre des dés"
+    },
+    {
+      "quoi": "Restes réchauffés",
+      "temp": "74 °C (165 °F)",
+      "note": "jusqu'au centre"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Riz (à cuire et refroidir d'avance)",
+      "items": [
+        {
+          "q": 4,
+          "u": "t",
+          "nom": "de riz à grains longs étuvé, sec (donne ≈ 11 t de riz cuit, soit 1 690 g)"
+        },
+        {
+          "texte": "Eau selon l'emballage (riz étuvé : en général 2 t d'eau pour 1 t de riz)"
+        }
+      ]
+    },
+    {
+      "groupe": "Viandes",
+      "items": [
+        {
+          "q": 4,
+          "u": "",
+          "nom": "côtelettes de porc déjà cuites (du congélateur), décongelées au frigo, en dés de ½ po (≈ 700 à 900 g)",
+          "qMax": 5
+        },
+        {
+          "q": 375,
+          "u": "g",
+          "nom": "de bacon, en tronçons de ½ po"
+        }
+      ]
+    },
+    {
+      "groupe": "Légumes",
+      "items": [
+        {
+          "q": 2,
+          "u": "",
+          "nom": "gros oignons, hachés"
+        },
+        {
+          "q": 7,
+          "u": "",
+          "nom": "oignons verts, émincés (blanc et vert séparés)"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "grosses carottes, en petits dés de ¼ po"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "branches de céleri, en petits dés de ¼ po",
+          "qMax": 5
+        },
+        {
+          "q": 5,
+          "u": "",
+          "nom": "gousses d'ail, hachées (ou 1 ¼ c. à thé de poudre d'ail)"
+        },
+        {
+          "q": 500,
+          "u": "g",
+          "nom": "de maïs en grains surgelé, décongelé"
+        }
+      ]
+    },
+    {
+      "groupe": "Œufs",
+      "items": [
+        {
+          "q": 11,
+          "u": "",
+          "nom": "œufs de nos poules (1 pour enrober le riz + 10 brouillés)"
+        }
+      ]
+    },
+    {
+      "groupe": "Huile et sauce (sauce soya doublée)",
+      "items": [
+        {
+          "q": 5,
+          "u": "c. à soupe",
+          "nom": "d'huile végétale (+ 2 c. à soupe de gras de bacon gardé dans la poêle)"
+        },
+        {
+          "q": 35,
+          "u": "ml",
+          "nom": "d'huile de sésame grillé (≈ 2 c. à soupe + 1 c. à thé)"
+        },
+        {
+          "q": 270,
+          "u": "ml",
+          "nom": "de sauce soya réduite en sodium (≈ 1 t + 1 c. à soupe ; version doublée)"
+        },
+        {
+          "texte": "Poivre"
+        }
+      ]
+    }
+  ],
+  "miseEnPlace": [
+    "Riz : cuis-le dimanche soir ou lundi avant midi, étale-le sur 2 plaques, refroidis-le complètement, puis couvre-le et mets-le au frigo. Du riz chaud ou frais donne un riz frit pâteux.",
+    "Dimanche soir : sors les côtelettes cuites du congélateur et mets-les au frigo, sur une assiette.",
+    "Coupe les carottes et le céleri en petits dés de ¼ po. Hache les oignons. Émince les oignons verts en gardant les blancs séparés des verts. Hache l'ail.",
+    "Coupe les côtelettes cuites en dés de ½ po et le bacon en tronçons de ½ po.",
+    "Bats 10 œufs dans un bol ; garde 1 œuf à part dans un très grand bol pour le riz.",
+    "Équipement : un très grand chaudron ou 2 grandes poêles (ou un wok), cuillère de bois, papier absorbant."
+  ],
+  "etapes": [
+    {
+      "titre": "Dorer le bacon",
+      "texte": "Dans une grande poêle froide, étaler le bacon et chauffer. Quand il est doré et croquant, l'égoutter sur du papier absorbant. Garder 2 c. à soupe de gras dans la poêle et jeter le reste.",
+      "feu": "moyen",
+      "duree": "8–10 min",
+      "reperes": "Bacon doré, croquant, qui fait des petites bulles puis se calme.",
+      "pourquoi": "Le gras de bacon remplace une partie de l'huile et donne du goût au riz."
+    },
+    {
+      "titre": "Brouiller les œufs",
+      "texte": "Chauffer la poêle avec un peu d'huile. Verser les œufs battus en 2 fournées et les émietter à la cuillère de bois jusqu'à ce qu'ils soient dorés. Réserver sur une assiette.",
+      "feu": "élevé",
+      "duree": "2–3 min par fournée",
+      "reperes": "Petits morceaux d'œuf dorés, secs (pas de liquide)."
+    },
+    {
+      "titre": "Enrober le riz",
+      "texte": "Dans le très grand bol, mélanger le riz froid avec l'œuf battu mis de côté. Défaire les paquets avec les doigts.",
+      "duree": "2 min",
+      "pourquoi": "L'œuf enrobe chaque grain : le riz dore et ne colle pas."
+    },
+    {
+      "titre": "Cuire les légumes",
+      "texte": "Dans le grand chaudron avec le gras de bacon et l'huile, attendrir les oignons et les blancs d'oignons verts. Ajouter les carottes et le céleri jusqu'à ce qu'ils soient « al dente ». Ajouter l'ail et l'huile de sésame, brasser 1 min.",
+      "feu": "moyen-élevé",
+      "duree": "10–12 min",
+      "reperes": "Légumes tendres mais encore croquants sous la dent."
+    },
+    {
+      "titre": "Faire dorer le riz",
+      "texte": "Monter à feu élevé. Ajouter le riz (en 2 fournées si la poêle est petite) et cuire en brassant souvent.",
+      "feu": "élevé",
+      "duree": "8–10 min",
+      "reperes": "Grains secs, séparés, légèrement dorés. Pas collés, pas de flaque.",
+      "pourquoi": "Trop de riz d'un coup : il vapote au lieu de dorer. En 2 fournées, il croustille."
+    },
+    {
+      "titre": "Ajouter porc et maïs",
+      "texte": "Ajouter les dés de porc et le maïs, et chauffer jusqu'à ce que tout soit bien chaud.",
+      "feu": "élevé",
+      "duree": "2–3 min",
+      "reperes": "Porc chaud à cœur : 74 °C minimum."
+    },
+    {
+      "titre": "Assaisonner et finir",
+      "texte": "Verser la moitié de la sauce soya, brasser 1 min, goûter. Ajouter le reste au goût (le bacon est déjà salé), puis les œufs, le bacon et le vert des oignons verts. Brasser 1 min, poivrer et servir tout de suite.",
+      "feu": "élevé",
+      "duree": "2 min"
+    }
+  ],
+  "astuces": [
+    "Riz froid et sec = riz frit réussi. Riz chaud ou mouillé = riz pâteux.",
+    "Ne pas remuer sans arrêt : laisser le riz toucher le fond chaud quelques secondes pour qu'il dore.",
+    "Goûter avant de mettre toute la sauce soya : le bacon sale déjà beaucoup.",
+    "Épices douces : les adultes ajoutent du sambal ou de la sauce piquante à table."
+  ],
+  "mealPrep": [
+    "Dimanche soir : sortir les côtelettes cuites du congélateur, cuire et refroidir le riz.",
+    "Lundi après-midi ou la veille : couper tous les légumes, le porc et le bacon."
+  ],
+  "conservation": [
+    "Frigo : 3–4 jours, dans des contenants peu profonds, réfrigérés dans les 2 h.",
+    "Réchauffer : micro-ondes à couvert avec 1 c. à soupe d'eau, jusqu'à 74 °C au centre.",
+    "Lunchs : se mange chaud ou tiède."
+  ],
+  "substitutions": [],
+  "notes": []
+}
