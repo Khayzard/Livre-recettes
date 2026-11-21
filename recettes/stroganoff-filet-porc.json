@@ -23,7 +23,7 @@
         "La source oublie de remettre le porc dans la sauce : on le remet et on le fait mijoter jusqu'à 71 °C.",
         "Crème sure et margarine sans lactose.",
         "Nouilles aux œufs à la place des pappardelles (la source ne donne pas de quantité : ≈ 90 à 100 g sèches par portion).",
-        "Sauce doublée (× 4,5) : farine, margarine du roux, vin, bouillon et crème sure.",
+        "Sauce doublée (× 4,5) : farine, margarine du roux, vin, bouillon et crème sure. 2 t (500 ml) du bouillon sont remplacées par 2 t de jus de porc effiloché dégraissé ; il reste 2½ t (625 ml) de bouillon (total des liquides inchangé : 1 125 ml / 4½ t).",
         "Le vin mijote 5 min ; on peut le remplacer par du bouillon + 1 c. à soupe de vinaigre blanc."
       ]
     },
@@ -113,9 +113,14 @@
           "nom": "de vin blanc (ou bouillon + 1 c. à soupe de vinaigre blanc)"
         },
         {
-          "q": 4.5,
+          "q": 2,
           "u": "t",
-          "nom": "de bouillon de volaille"
+          "nom": "de jus de porc effiloché, dégraissé (restes ; 500 ml)"
+        },
+        {
+          "q": 2.5,
+          "u": "t",
+          "nom": "de bouillon de volaille (625 ml ; total jus + bouillon inchangé : 4½ t / 1 125 ml)"
         },
         {
           "q": 4.5,
@@ -164,8 +169,9 @@
     }
   ],
   "miseEnPlace": [
-    "Mercredi soir : mettre les filets de porc au frigo (dans un plat qui ne coule pas) pour les décongeler.",
-    "Couper le porc en lanières de ½ po d'épaisseur sur 2 po de long. Les assécher au papier absorbant, saler et poivrer.",
+    "Mercredi soir : mettre les filets de porc au frigo (dans un plat qui ne coule pas) pour les décongeler. Sortir aussi le jus de porc effiloché au frigo s'il est congelé.",
+    "Dégraisser le jus de porc : le mettre au froid, puis retirer le gras solidifié à la surface.",
+    "Couper le porc en lanières de ½ po d'épaisseur sur 2 po de long. Les assécher au papier absorbant, poivrer (sale peu : le jus peut être salé ; on ajuste le sel à la fin).",
     "Couper les champignons en quartiers, hacher les oignons et l'ail, équeuter les haricots verts.",
     "Mettre une grande casserole d'eau salée sur le feu au moment de faire la sauce.",
     "Équipement : très grand chaudron de 6 L (la sauce fait ≈ 2,6 L), très grande poêle, thermomètre."
@@ -181,7 +187,7 @@
     },
     {
       "titre": "Dorer les légumes",
-      "texte": "Dans le chaudron, faire fondre la margarine du roux. Faire revenir les oignons, l'ail et les champignons, jusqu'à ce que l'eau s'évapore et qu'ils soient dorés. Saler et poivrer.",
+      "texte": "Dans le chaudron, faire fondre la margarine du roux. Faire revenir les oignons, l'ail et les champignons, jusqu'à ce que l'eau s'évapore et qu'ils soient dorés. Poivrer (va doucement sur le sel : le jus de porc peut être salé ; on sale seulement à la fin).",
       "feu": "moyen-vif",
       "duree": "10–12 min",
       "reperes": "Champignons bien dorés, plus de liquide dans le fond.",
@@ -189,7 +195,7 @@
     },
     {
       "titre": "Faire le roux et la sauce",
-      "texte": "Ajouter la farine et brasser 1 min. Déglacer avec le vin en grattant le fond, ajouter le bouillon. Porter à ébullition en brassant, puis laisser mijoter doucement.",
+      "texte": "Ajouter la farine et brasser 1 min. Déglacer avec le vin en grattant le fond, ajouter le jus de porc effiloché dégraissé (2 t) et le bouillon restant (2½ t). Porter à ébullition en brassant, puis laisser mijoter doucement.",
       "feu": "moyen-vif puis doux",
       "duree": "1 min + 5 min",
       "reperes": "La sauce nappe le dos d'une cuillère."
@@ -204,7 +210,7 @@
     },
     {
       "titre": "Ajouter la crème sure",
-      "texte": "Hors du feu, incorporer la crème sure sans lactose. Remettre sur feu doux et réchauffer sans bouillir. Goûter, ajuster le sel et le poivre, parsemer de persil.",
+      "texte": "Hors du feu, incorporer la crème sure sans lactose. Remettre sur feu doux et réchauffer sans bouillir. Goûter avant de saler (le jus peut être salé), ajuster le sel seulement à la fin, poivrer, parsemer de persil.",
       "feu": "doux",
       "duree": "3–4 min",
       "reperes": "Sauce lisse, brillante, qui enrobe. Trop épaisse : ajouter un peu de bouillon.",
@@ -230,7 +236,8 @@
   ],
   "mealPrep": [
     "Mercredi soir : décongeler les filets de porc au frigo.",
-    "Jeudi après-midi : couper le porc et les champignons."
+    "Mercredi soir : sortir le jus de porc effiloché au frigo (si congelé).",
+    "Jeudi après-midi : couper le porc et les champignons. Dégraisser le jus (froid, retirer le gras)."
   ],
   "conservation": [
     "Frigo : 3–4 jours, dans des contenants peu profonds, réfrigérés dans les 2 h.",
@@ -238,5 +245,9 @@
     "Ne pas congeler (la crème se sépare)."
   ],
   "substitutions": [],
-  "notes": []
+  "notes": [
+    "Dégraisser le jus de porc effiloché d'abord : le mettre au froid, puis retirer le gras à la surface. S'il est congelé, le sortir au frigo mercredi soir.",
+    "Goûter avant de saler : le jus peut être salé. Saler seulement à la fin.",
+    "Si le vin est remplacé par du bouillon + 1 c. à soupe de vinaigre blanc, ça reste comme c'est écrit (en plus des 2½ t de bouillon et des 2 t de jus)."
+  ]
 }
