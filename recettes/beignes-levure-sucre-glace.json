@@ -1,0 +1,200 @@
+{
+  "slug": "beignes-levure-sucre-glace",
+  "titre": "Beignes à la levure au sucre à glacer",
+  "resume": "Beignes moelleux à la levure, frits et enrobés de sucre à glacer encore tièdes. Une belle batch du week-end, avec une option pour faire lever la pâte au frigo toute la nuit.",
+  "portions": 24,
+  "portionsNote": "24 beignes et 24 trous",
+  "temps": {
+    "prep": "40 min de travail + 2 h à 2 h 30 de levée",
+    "cuisson": "15–20 min, par lots"
+  },
+  "tempsTotal": "environ 3 h (surtout de l'attente)",
+  "etiquettes": [
+    "dessert",
+    "beignes"
+  ],
+  "sources": [
+    {
+      "role": "Pâte et friture",
+      "titre": "Homemade Glazed Doughnuts — Sally's Baking Addiction",
+      "url": "https://sallysbakingaddiction.com/how-to-make-homemade-glazed-doughnuts/",
+      "rendement": "12 beignes et 12 trous",
+      "facteur": "× 2 (24 beignes et 24 trous)",
+      "adaptations": [
+        "Lait entier remplacé par du lait sans lactose (idéalement 3,25 % ou le plus riche que tu as). Le beurre ordinaire contient très peu de lactose ; beurre sans lactose en option.",
+        "Enrobage au sucre à glacer (secoués dans un sac encore tièdes, avec une pincée de fécule de maïs facultative) à la place du glaçage liquide de la source (sucre à glacer, crème et vanille).",
+        "La source suppose un batteur sur socle ; ici, mélange à la cuillère de bois puis pétrissage à la main (les crochets à pâte d'un batteur à main peuvent aider pour le premier mélange).",
+        "La température de friture testée par la source est 191 °C (375 °F), 1 min par côté. On la garde, parce que le temps de 1 min est lié à cette température."
+      ]
+    }
+  ],
+  "temperatures": [
+    {
+      "quoi": "Lait pour activer la levure",
+      "temp": "43 °C (110 °F)",
+      "note": "tiède comme un bain, pas plus chaud : trop chaud, la levure meurt"
+    },
+    {
+      "quoi": "Huile de friture (température testée par la source)",
+      "temp": "191 °C (375 °F)",
+      "note": "thermomètre dans l'huile ; ajuster le feu pour la garder stable"
+    }
+  ],
+  "ingredients": [
+    {
+      "groupe": "Pâte",
+      "items": [
+        {
+          "q": 2,
+          "u": "t",
+          "nom": "de lait sans lactose, tiède à 43 °C (110 °F) (480 ml)"
+        },
+        {
+          "q": 4.5,
+          "u": "c. à thé",
+          "nom": "de levure sèche instantanée ou active (14 g, 2 paquets)"
+        },
+        {
+          "q": 0.6667,
+          "u": "t",
+          "nom": "de sucre granulé, divisé (130 g) : 2 c. à soupe pour la levure, le reste dans la pâte"
+        },
+        {
+          "q": 4,
+          "u": "",
+          "nom": "gros œufs (nos poules)"
+        },
+        {
+          "q": 12,
+          "u": "c. à soupe",
+          "nom": "de beurre non salé, fondu et un peu refroidi (170 g / ¾ t) ; beurre sans lactose si désiré"
+        },
+        {
+          "q": 2,
+          "u": "c. à thé",
+          "nom": "d'extrait de vanille"
+        },
+        {
+          "q": 0.5,
+          "u": "c. à thé",
+          "nom": "de muscade moulue"
+        },
+        {
+          "q": 1,
+          "u": "c. à thé",
+          "nom": "de sel"
+        },
+        {
+          "q": 8,
+          "u": "t",
+          "nom": "de farine tout usage, plus un peu pour le plan de travail (1 kg), mesurée sans tasser"
+        }
+      ]
+    },
+    {
+      "groupe": "Friture",
+      "items": [
+        {
+          "texte": "1 à 2 L d'huile de canola ou d'huile végétale, assez pour remplir le chaudron au tiers (la quantité dépend de la largeur du chaudron, pas du nombre de beignes)"
+        }
+      ]
+    },
+    {
+      "groupe": "Enrobage",
+      "items": [
+        {
+          "q": 1.5,
+          "qMax": 2,
+          "u": "t",
+          "nom": "de sucre à glacer (180 à 240 g), assez pour enrober"
+        },
+        {
+          "texte": "1 pincée à 1 c. à thé de fécule de maïs (facultatif, pour que le sucre fonde moins sur les beignes tièdes)"
+        }
+      ]
+    }
+  ],
+  "miseEnPlace": [
+    "Chauffer le lait jusqu'à 43 °C (110 °F) : tiède au doigt, comme un bain. S'il est trop chaud, le laisser refroidir, sinon la levure meurt.",
+    "Faire fondre le beurre et le laisser tiédir : il ne doit pas être brûlant au moment de l'ajouter aux œufs et à la levure.",
+    "Mesurer le sucre et en réserver 2 c. à soupe pour la levure.",
+    "Équipement : grand bol ; cuillère de bois ou spatule (batteur à main avec crochets à pâte, facultatif) ; rouleau à pâtisserie ; emporte-pièce à beignes de 3 à 3 ½ po, ou un grand cercle de 3 ½ po et un petit pour le trou (un petit verre ou un bouchon ferme font l'affaire) ; 2 plaques avec papier parchemin ; grille au-dessus d'une plaque ; chaudron lourd et assez profond ; thermomètre à huile ; écumoire ou cuillère trouée en métal ; grand sac congélation pour le sucre ; mitaines ou gants de cuisine."
+  ],
+  "etapes": [
+    {
+      "titre": "Activer la levure",
+      "texte": "Dans un grand bol, fouetter le lait tiède, la levure et les 2 c. à soupe de sucre réservées. Couvrir sans serrer et laisser reposer jusqu'à ce que ça mousse à la surface. Si rien ne se passe, le lait était trop chaud ou trop froid, ou la levure n'est plus bonne : recommencer cette étape avant d'ajouter le reste.",
+      "duree": "5–10 min",
+      "reperes": "Mousse et petites bulles à la surface."
+    },
+    {
+      "titre": "Mélanger la pâte",
+      "texte": "Ajouter le reste du sucre, les œufs, le beurre fondu tiédi, la vanille, la muscade, le sel et la moitié de la farine. Mélanger à la cuillère de bois (ou avec les crochets à pâte d'un batteur à main, à basse vitesse) environ 1 min. Ajouter le reste de la farine et mélanger jusqu'à ce que la pâte se tienne et se décolle des parois, environ 2 min. Si elle est vraiment trop collante, ajouter de la farine 1 c. à soupe à la fois. Tu veux une pâte encore un peu collante et molle : trop de farine donne des beignes durs. Un batteur à main avec les fouets ordinaires n'est pas idéal : la pâte s'enroule autour. La cuillère de bois, puis le pétrissage à la main, c'est plus simple.",
+      "duree": "3–5 min"
+    },
+    {
+      "titre": "Pétrir",
+      "texte": "Pétrir 5 à 7 min pleines sur un plan de travail légèrement fariné. La pâte est généreuse (batch double) : si c'est trop lourd, la couper en deux, pétrir chaque moitié, puis les rejoindre en une boule. Si elle colle trop, saupoudrer 1 c. à thé de farine à la fois sur le plan ou sur la pâte. Elle doit rester douce et un peu tacky. Poke-test : un doigt enfoncé, la pâte revient lentement. Test du voile : un petit morceau s'étire assez mince pour laisser passer la lumière sans se déchirer. Sinon, continue de pétrir.",
+      "duree": "5–7 min",
+      "reperes": "Pâte lisse, encore un peu molle ; elle revient lentement quand on la pique."
+    },
+    {
+      "titre": "Première levée (ou option veille au frigo)",
+      "texte": "Huiler légèrement un grand bol. Y déposer la pâte, la tourner pour l'enduire, couvrir. Laisser gonfler dans un endroit tiède jusqu'à ce qu'elle double. Option veille : au lieu de la laisser lever au chaud, mettre le bol couvert au frigo pour 8 à 12 h. Le lendemain matin, la sortir et la laisser finir de gonfler au chaud jusqu'à ce qu'elle double. Elle aura un peu levé au frigo, donc la levée du matin est plus courte.",
+      "duree": "1 h 30–2 h (ou 8–12 h au frigo, puis levée du matin)",
+      "reperes": "La pâte a doublé de volume."
+    },
+    {
+      "titre": "Abaisser et couper",
+      "texte": "Dégonfler la pâte en appuyant dessus, puis la tourner sur un plan légèrement fariné. L'abaisser au rouleau à ½ po d'épaisseur. Couper avec un emporte-pièce de 3 à 3 ½ po (ou un grand cercle de 3 ½ po et un petit pour le trou). Réutiliser les retailles : les rassembler sans trop les retravailler, abaisser et recouper. Déposer les beignes et les trous sur les plaques tapissées, en laissant de l'espace.",
+      "duree": "10–15 min"
+    },
+    {
+      "titre": "Deuxième levée et chauffer l'huile",
+      "texte": "Couvrir les beignes sans serrer et les laisser reposer pendant que l'huile chauffe : ils gonflent un peu. Verser l'huile dans le chaudron (environ le tiers de sa hauteur). Thermomètre dans l'huile, feu moyen, jusqu'à 191 °C (375 °F). Préparer la grille au-dessus d'une plaque, et un grand sac avec le sucre à glacer et, si tu veux, la fécule de maïs.",
+      "feu": "moyen",
+      "duree": "30 min de repos, le temps que l'huile arrive à température",
+      "reperes": "Les beignes ont un peu gonflé ; l'huile est stable à 191 °C (375 °F).",
+      "pourquoi": "C'est la température testée par la source, avec 1 min par côté. Si l'huile est plus froide, les beignes absorbent plus d'huile ; trop chaude, ils brunissent trop vite et restent crus au centre."
+    },
+    {
+      "titre": "Frire",
+      "texte": "Glisser 2 ou 3 beignes à la fois dans l'huile (pas plus, sinon la température tombe). Cuire 1 min, retourner, cuire 1 min de l'autre côté, jusqu'à doré. Sortir avec l'écumoire et déposer sur la grille. Surveiller le thermomètre et baisser le feu si ça dépasse 191 °C (375 °F). Attention aux éclaboussures ; tenir les enfants à distance. Les trous : environ 30 secondes de chaque côté, jusqu'à doré. Éteindre le feu quand tout est cuit. Ne jamais verser l'huile usée dans l'évier : la laisser refroidir, puis la verser dans un contenant vide pour la jeter ou la réutiliser.",
+      "feu": "ajuster pour garder 191 °C (375 °F)",
+      "duree": "1 min par côté (trous : 30 s par côté)",
+      "reperes": "Beignes dorés des deux côtés."
+    },
+    {
+      "titre": "Égoutter, puis enrober encore tièdes",
+      "texte": "Laisser égoutter une minute sur la grille, juste assez pour qu'ils ne dégoulinent plus d'huile, mais qu'ils restent tièdes. Mettre 1 ou 2 beignes à la fois dans le sac de sucre à glacer (avec la fécule, si tu en as mis) et secouer pour les enrober. Reposer sur la grille. Les trous aussi. S'ils sont complètement froids, le sucre accroche moins.",
+      "duree": "quelques minutes",
+      "reperes": "Couche de sucre uniforme, beignes encore un peu tièdes.",
+      "pourquoi": "Encore tièdes, le sucre accroche. La fécule de maïs aide le sucre à moins fondre."
+    }
+  ],
+  "astuces": [
+    "Ne pas trop fariner : une pâte un peu collante donne des beignes moelleux. Farine sur les mains et le plan, pas une tasse de plus dans la pâte.",
+    "Garder l'huile à 191 °C (375 °F) avec un thermomètre, et ne frire que 2 ou 3 beignes à la fois.",
+    "Enrober encore tièdes, dans un sac, après une courte égouttée. Une pincée de fécule de maïs dans le sucre aide à ce qu'il fonde moins.",
+    "Si tu n'as pas d'emporte-pièce à beignes : un verre de 3 à 3 ½ po et un petit bouchon ou un petit verre pour le trou."
+  ],
+  "substitutions": [
+    "Levure instantanée ou levure active : les deux conviennent. Avec l'instantanée, la levée est un peu plus courte.",
+    "Lait : sans lactose, le plus riche possible (3,25 % si tu en as). Un lait plus maigre fonctionne, mais la pâte est moins riche.",
+    "Beurre ordinaire ou beurre sans lactose, même quantité."
+  ],
+  "mealPrep": [
+    "Option veille : après le pétrissage, mettre la pâte dans un bol huilé, couvrir, et réfrigérer 8 à 12 h au lieu de la première levée au chaud. Le matin, sortir la pâte et la laisser finir de doubler au chaud, puis abaisser, couper, laisser reposer 30 min et frire comme d'habitude."
+  ],
+  "conservation": [
+    "Meilleurs le jour même.",
+    "Restes : contenant hermétique, température pièce ou frigo, 1 à 2 jours.",
+    "Congélation, pâte déjà coupée (avant friture) : jusqu'à 3 mois. Le jour J, décongeler et laisser reposer 4 à 5 h à température pièce, puis frire comme d'habitude.",
+    "Congélation, beignes déjà frits : les laisser refroidir, les congeler sans sucre jusqu'à 3 mois. Décongeler au frigo ou à température pièce, réchauffer (le micro-ondes va bien), puis enrober de sucre à glacer frais."
+  ],
+  "notes": [
+    "Recette de base : Homemade Glazed Doughnuts de Sally McKenney (Sally's Baking Addiction), proportions originales conservées et doublées pour 24 beignes. La source est adaptée de Mark Bittman et de Top Pot Doughnuts.",
+    "Les œufs viennent de nos poules.",
+    "La source frit à 191 °C (375 °F) pendant 1 min par côté. On ne descend pas à 350–360 °F ici, parce que ce temps de 1 min n'a pas été testé à une huile plus froide."
+  ]
+}
