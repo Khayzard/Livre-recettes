@@ -2,11 +2,12 @@
   "titre": "Menu de la semaine",
   "periode": "Du lundi 23 au dimanche 29 novembre 2026",
   "notes": [
+    "Changements du 22 nov. (13 h 31, heure de l'Est) : saumon retiré (reste au congélo, non utilisé) ; stroganoff déplacé au mercredi ; jeudi, anniversaire de Théo (rice cakes et salade, Joel cuisine, pas de recette) ; samedi, poke bowls (Joel fait sa recette, 0,85 kg de poitrines).",
     "Dimanche 22 nov. (semaine précédente) : porc à la portugaise, riz, grelots et haricots verts. Recherche « portugaise » dans les recettes.",
     "Page de meal prep à cocher : https://khayzard.github.io/Livre-recettes/mealprep/2026-11-23.html (les cases restent cochées ; l'écran reste allumé).",
     "Chaque recette indique sa source (Ricardo, Mordu, Metro, Le porc du Québec), le rendement d'origine et le facteur d'échelle. Marinades et sauces de viande doublées.",
-    "Achats : samedi 21 nov. (circulaires valides jusqu'au mer. 25 nov.). Congeler les viandes ; les sortir au frigo la veille (voir la note de chaque jour).",
     "Pas de coriandre (persil à la place), pas de poivron vert, produits laitiers sans lactose, épices douces.",
+    "Pas de pâtes ou de nouilles deux soirs de suite : nouilles mercredi, jeudi sans pâtes (rice cakes).",
     "Réfrigérer les restes dans les 2 h ; réchauffer à 74 °C."
   ],
   "jours": [
@@ -16,7 +17,7 @@
       "slug": "riz-frit-porc-bacon",
       "titre": "Riz frit au porc, bacon et légumes",
       "portions": "9",
-      "note": "Rapide (danse de Cindy). Riz cuit et refroidi d'avance. Dimanche soir : sortir les côtelettes cuites."
+      "note": "Rapide (danse de Cindy). Riz cuit et refroidi d'avance. Côtelettes déjà en dés dans le #3, réchauffer à 74 °C. Lundi soir : sortir les sacs #5 et #6."
     },
     {
       "date": "2026-11-24",
@@ -24,23 +25,22 @@
       "slug": "poulet-shish-taouk-four",
       "titre": "Poulet shish taouk au four, riz, sauce à l'ail, salade concombres-tomates",
       "portions": "9",
-      "note": "Lundi soir : sauce à l'ail. Mardi vers 7 h : mariner le poulet. Poulet à 74 °C."
+      "note": "Lundi soir : sauce à l'ail déjà faite. Mardi soir : sortir #11 et #21 pour mercredi. Poulet à 74 °C."
     },
     {
       "date": "2026-11-25",
       "jour": "Mercredi 25",
-      "slug": "saumon-erable-soya-four",
-      "titre": "Saumon érable-soya au four, grelots rôtis, haricots verts",
+      "slug": "stroganoff-filet-porc",
+      "titre": "Stroganoff de filet de porc, nouilles aux œufs, haricots verts",
       "portions": "9",
-      "note": "Mardi soir : décongeler le saumon. Saumon à 70 °C."
+      "note": "Mardi soir : décongeler les filets (#11) et le contenant de jus et bouillon (#21). Mercredi : champignons en quartiers, puis cuire. Porc à 71 °C."
     },
     {
       "date": "2026-11-26",
       "jour": "Jeudi 26",
-      "slug": "stroganoff-filet-porc",
-      "titre": "Stroganoff de filet de porc, nouilles aux œufs, haricots verts",
-      "portions": "9",
-      "note": "Mercredi soir : décongeler les filets et sortir le jus de porc effiloché au frigo (si congelé). Porc à 71 °C."
+      "titre": "Anniversaire de Théo : rice cakes et salade",
+      "portions": "à table",
+      "note": "Joel cuisine, pas de recette et pas de prep."
     },
     {
       "date": "2026-11-27",
@@ -48,15 +48,14 @@
       "slug": "batonnets-poisson-frites-salade-chou",
       "titre": "Bâtonnets de poisson, frites, salade de chou",
       "portions": "5",
-      "note": "Jeudi soir : sortir les poitrines du samedi au frigo."
+      "note": "Salade de chou pour ce soir seulement (mélanger #19 et #20 au moins 1 h avant). Vendredi soir : sortir le poulet des poke bowls (#13) et les poitrines farcies (#15–#16)."
     },
     {
       "date": "2026-11-28",
       "jour": "Samedi 28",
-      "slug": "poulet-pane-croustillant-four",
-      "titre": "Poulet pané croustillant au four, frites maison, salade de chou",
+      "titre": "Poke bowls (Joel fait sa recette)",
       "portions": "5",
-      "note": "Mariner le poulet vendredi soir ou samedi matin. Poulet à 74 °C. Vendredi soir : sortir les poitrines de dimanche."
+      "note": "Vendredi soir : décongeler les poitrines crues (#13, 0,85 kg, sans marinade). Pas d'autre prep. Joel fait sa recette."
     },
     {
       "date": "2026-11-29",
