@@ -1,308 +1,200 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="robots" content="noindex">
-<title>Meal prep 23 nov.</title>
-<style>
-:root{
-  --bg:#f4f1eb;--card:#fff;--ink:#1a1a1a;--muted:#5c574e;--line:#e4dfd6;
-  --lun:#c45c26;--mar:#b56a0e;--mer:#1f7a45;--jeu:#1c5ea3;--ven:#6938a0;--sam:#b03066;--dim:#8a1d32;
-  --badge:#1a1a1a;
-}
-*{box-sizing:border-box}
-body{margin:0 auto;max-width:720px;padding:16px 14px 96px;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;font-size:17px;line-height:1.4;color:var(--ink);background:var(--bg)}
-h1{font-size:1.45rem;margin:0 0 6px;line-height:1.2}
-.sub{font-size:.95rem;color:var(--muted);margin:0 0 16px}
-.sub a{color:var(--jeu)}
-h2{font-size:1.15rem;margin:22px 0 10px;padding:8px 0;border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--bg);z-index:5}
-h3{font-size:1.08rem;margin:0 0 8px}
-.hint{background:#fff8e8;border:1px solid #efd7a0;border-radius:12px;padding:10px 12px;margin:0 0 14px;font-size:.95rem}
-.totals{font-weight:700;margin:0 0 10px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 14px 8px;margin:0 0 12px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
-.bags{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0;padding:0;list-style:none}
-@media(min-width:640px){.bags{grid-template-columns:1fr 1fr 1fr}}
-.bags.cb{margin:0}
-.bags.cb li{margin:0;list-style:none}
-.bags.cb li label{display:flex;gap:8px;align-items:flex-start;padding:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;min-height:100%;cursor:pointer}
-.bags.cb li.done label{opacity:.55}
-.bag-body{display:flex;flex-direction:column;gap:3px;min-width:0}
-.bag-top{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
-.num{display:inline-block;background:var(--badge);color:#fff;font-weight:800;font-size:.95rem;padding:2px 8px;border-radius:999px;letter-spacing:.02em;line-height:1.4}
-.sz{font-size:.8rem;color:var(--muted);font-weight:600;text-transform:uppercase}
-.tag{display:inline-block;color:#fff;font-weight:700;font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:999px;line-height:1.4}
-.tag.lun{background:var(--lun)}.tag.mar{background:var(--mar)}.tag.mer{background:var(--mer)}
-.tag.jeu{background:var(--jeu)}.tag.ven{background:var(--ven)}.tag.sam{background:var(--sam)}.tag.dim{background:var(--dim)}
-.bag-name{font-weight:700;font-size:.92rem;line-height:1.25}
-.bag-dest{font-size:.8rem;color:var(--muted)}
-ul.cb{margin:0;padding:0}
-ul.cb li{list-style:none;margin:0}
-ul.cb li label{display:flex;gap:10px;align-items:flex-start;cursor:pointer;padding:8px 0;border-top:1px solid var(--line)}
-ul.cb li:first-child label{border-top:0}
-ul.cb input{width:26px;height:26px;flex:none;margin-top:1px;accent-color:#1a1a1a}
-ul.cb li.done label span{text-decoration:line-through;color:#888}
-.ings{margin:0 0 8px;padding:0 0 0 18px}
-.ings li{margin:3px 0}
-.pour{margin:0}
-#reset{position:fixed;right:12px;bottom:12px;padding:12px 14px;font-size:1rem;font-weight:700;border-radius:10px;border:1px solid #222;background:#fff;z-index:6}
-#wl{position:fixed;left:12px;bottom:12px;font-size:.9rem;background:#eee;padding:8px 10px;border-radius:10px;z-index:6;max-width:55%}
-@media print{#reset,#wl{display:none}body{background:#fff;padding:0}h2{position:static}}
-</style>
-</head>
-<body>
-<h1>Meal prep — 23 au 29 novembre</h1>
-<p class="sub">Recettes : <a href="../semaine.html">menu de la semaine</a> · 9 portions dim.–jeu. · 5 ven.–sam. · porc 71 °C · poulet 74 °C (farci 77 °C, 74 °C min.) · saumon 70 °C</p>
-<p class="hint"><b>But :</b> faire le maximum aujourd’hui (sauces, coupes, riz, viandes dans les sacs). Pendant la semaine, il ne reste en principe que sortir le sac au frigo la veille et cuire. Lance le riz (section Autre) dès que tu peux, pour qu’il refroidisse pendant le reste. Tout en bas : seulement la décongélation et les rares gestes qui ont une raison de ne pas se faire aujourd’hui.</p>
+<!DOCTYPE html><html lang="fr"><head><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Meal prep 23 nov.</title><meta charset="utf-8"><style>
+@page{size:letter;margin:11mm}
+body{font-family:Arial,sans-serif;font-size:9.6pt;line-height:1.28;color:#000}
+h1{font-size:16pt;margin:0 0 2px}
+.sub{font-size:9.5pt;margin-bottom:8px}
+h2{font-size:11.5pt;margin:7px 0 2px;border-bottom:1px solid #000;padding-bottom:1px}
+h3{font-size:11pt;margin:8px 0 2px}
+ul{margin:2px 0 2px 18px;padding:0}li{margin:1px 0}
+.cb li{list-style:none;margin-left:-18px}
+.cb li label{display:flex;gap:8px;align-items:flex-start;cursor:pointer;padding:3px 0}
+.cb input{width:20px;height:20px;flex:none;margin-top:1px}
+.cb li.done label span{text-decoration:line-through;color:#888}
+body{max-width:820px;margin:16px auto;padding:0 14px 72px;font-size:12pt}
+#reset{position:fixed;right:12px;bottom:12px;padding:8px 12px}
+@media print{#reset,#wl{display:none}}
 
-<h2>Sacs</h2>
-<p class="totals">2 sacs moyens (≈ 1 L) · 12 sacs larges (≈ 4 L) · 4 contenants · coche chaque item une fois étiqueté</p>
-<ul class="cb bags">
-<li><span class="bag-body"><span class="bag-top"><b class="num">#1</b> <span class="tag lun">Lun 23</span> <span class="sz">contenant</span></span><span class="bag-name">LUN 23 – Riz frit – riz cuit</span><span class="bag-dest">≈ 11 t · frigo véranda</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#2</b> <span class="tag lun">Lun 23</span> <span class="sz">large</span></span><span class="bag-name">LUN 23 – Riz frit – légumes</span><span class="bag-dest">frigo véranda</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#3</b> <span class="tag lun">Lun 23</span> <span class="sz">large</span></span><span class="bag-name">LUN 23 – Riz frit – côtelettes cuites</span><span class="bag-dest">frigo véranda dès ce soir</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#4</b> <span class="tag lun">Lun 23</span> <span class="sz">moyen</span></span><span class="bag-name">LUN 23 – Riz frit – bacon</span><span class="bag-dest">frigo véranda</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#5</b> <span class="tag mar">Mar 24</span> <span class="sz">large 1/2</span></span><span class="bag-name">MAR 24 – Poulet shish taouk – marinade</span><span class="bag-dest">congélo, frigo lundi soir</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#6</b> <span class="tag mar">Mar 24</span> <span class="sz">large 2/2</span></span><span class="bag-name">MAR 24 – Poulet shish taouk – marinade</span><span class="bag-dest">congélo, frigo lundi soir</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#7</b> <span class="tag mar">Mar 24</span> <span class="sz">contenant</span></span><span class="bag-name">MAR 24 – Sauce à l’ail</span><span class="bag-dest">frigo · à remplir aujourd’hui</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#8</b> <span class="tag mer">Mer 25</span> <span class="sz">large</span></span><span class="bag-name">MER 25 – Saumon érable-soya – saumon</span><span class="bag-dest">congélo véranda</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#9</b> <span class="tag mer">Mer 25</span> <span class="sz">contenant ≈ 1 L</span></span><span class="bag-name">MER 25 – Saumon érable-soya – laque</span><span class="bag-dest">frigo véranda</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#10</b> <span class="tag mer">Mer 25</span> <span class="sz">large</span></span><span class="bag-name">MER 25 – Haricots verts</span><span class="bag-dest">frigo véranda</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#11</b> <span class="tag jeu">Jeu 26</span> <span class="sz">large</span></span><span class="bag-name">JEU 26 – Stroganoff – filets de porc</span><span class="bag-dest">congélo véranda</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#12</b> <span class="tag jeu">Jeu 26</span> <span class="sz">large</span></span><span class="bag-name">JEU 26 – Haricots verts</span><span class="bag-dest">frigo véranda</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#13</b> <span class="tag sam">Sam 28</span> <span class="sz">large</span></span><span class="bag-name">SAM 28 – Poulet pané</span><span class="bag-dest">congélo, frigo vendredi soir</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#14</b> <span class="tag sam">Sam 28</span> <span class="sz">contenant</span></span><span class="bag-name">SAM 28 – Trempette moutarde-abricot</span><span class="bag-dest">frigo</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#15</b> <span class="tag dim">Dim 29</span> <span class="sz">large 1/2</span></span><span class="bag-name">DIM 29 – Poulet farci</span><span class="bag-dest">congélo, frigo dès ven. soir</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#16</b> <span class="tag dim">Dim 29</span> <span class="sz">large 2/2</span></span><span class="bag-name">DIM 29 – Poulet farci</span><span class="bag-dest">congélo, frigo dès ven. soir</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#17</b> <span class="tag jeu">Jeu 26</span> <span class="sz">moyen</span></span><span class="bag-name">JEU 26 – Stroganoff – oignons et ail</span><span class="bag-dest">frigo véranda</span></span></li>
-<li><span class="bag-body"><span class="bag-top"><b class="num">#18</b> <span class="tag dim">Dim 29</span> <span class="sz">large</span></span><span class="bag-name">DIM 29 – Oignons, carottes et ail</span><span class="bag-dest">frigo véranda</span></span></li>
+</style></head><body>
+<h1>Meal prep — 23 au 29 novembre</h1>
+<div class="sub">Recettes : <a href="../semaine.html">menu de la semaine</a> · 9 portions dim.–jeu. · 5 ven.–sam.<br>
+Faire le maximum aujourd'hui. Pendant la semaine : sortir le sac au frigo la veille, puis cuire. Lance le riz (Autre) en premier, pour qu'il refroidisse.<br>
+Pas de poivron vert, pas de coriandre · laitiers sans lactose · porc 71 °C · poulet 74 °C (farci 77 °C, 74 °C min.) · saumon 70 °C</div>
+
+<h2>1. Sacs</h2>
+<div class="sub">2 sacs moyens (≈ 1 L) · 12 sacs larges (≈ 4 L) · 4 contenants · coche une fois étiqueté</div>
+<ul class="cb">
+<li>#1 – Riz frit – riz cuit – contenant (≈ 11 t) – Lun 23 – frigo</li>
+<li>#2 – Riz frit – légumes – large – Lun 23 – frigo</li>
+<li>#3 – Riz frit – côtelettes cuites – large – Lun 23 – frigo dès ce soir</li>
+<li>#4 – Riz frit – bacon – moyen – Lun 23 – frigo</li>
+<li>#5 – Poulet shish taouk – marinade – large (1/2) – Mar 24 – congélo (frigo lundi soir)</li>
+<li>#6 – Poulet shish taouk – marinade – large (2/2) – Mar 24 – congélo (frigo lundi soir)</li>
+<li>#7 – Sauce à l'ail – contenant – Mar 24 – frigo</li>
+<li>#8 – Saumon érable-soya – saumon – large – Mer 25 – congélo</li>
+<li>#9 – Saumon érable-soya – laque – contenant ≈ 1 L – Mer 25 – frigo</li>
+<li>#10 – Haricots verts – large – Mer 25 – frigo</li>
+<li>#11 – Stroganoff – filets de porc – large – Jeu 26 – congélo</li>
+<li>#12 – Haricots verts – large – Jeu 26 – frigo</li>
+<li>#13 – Poulet pané – large – Sam 28 – congélo (frigo vendredi soir)</li>
+<li>#14 – Trempette moutarde-abricot – contenant – Sam 28 – frigo</li>
+<li>#15 – Poulet farci – large (1/2) – Dim 29 – congélo (frigo vendredi soir)</li>
+<li>#16 – Poulet farci – large (2/2) – Dim 29 – congélo (frigo vendredi soir)</li>
+<li>#17 – Stroganoff – oignons et ail – moyen – Jeu 26 – frigo</li>
+<li>#18 – Oignons, carottes et ail – large – Dim 29 – frigo</li>
 </ul>
 
-<h2>Marinades / Sauces</h2>
+<h2>2. Marinades / Sauces</h2>
 
-<article class="card">
-<div class="bag-top" style="margin-bottom:8px"><b class="num">#9</b> <span class="tag mer">Mer 25</span> <span class="sz">contenant ≈ 1 L</span></div>
-<h3>Laque du saumon érable-soya</h3>
-<ul class="ings">
+<h3>Laque du saumon → contenant #9 (mercredi)</h3>
+<ul class="cb">
 <li>≈ 2¼ c. à soupe de miso Haiku en granules (environ la moitié de 4½ c. à soupe de pâte)</li>
 <li>135 ml (½ t + 1 c. à soupe) de vinaigre de riz</li>
 <li>202 ml (¾ t + 1 c. à soupe) de sauce soya réduite en sodium</li>
-<li>405 ml (1⅔ t) de sirop d’érable</li>
+<li>405 ml (1⅔ t) de sirop d'érable</li>
 <li>135 ml (½ t + 1 c. à soupe) de sauce hoisin</li>
 <li>3 c. à soupe de gingembre frais râpé (ou ¾ c. à thé de moulu)</li>
-<li>9 gousses d’ail hachées fin (ou 2¼ c. à thé de poudre d’ail)</li>
+<li>9 gousses d'ail hachées fin (ou 2¼ c. à thé de poudre d'ail)</li>
+<li>Mélanger (dissoudre le miso dans le vinaigre ou un peu d'eau chaude, puis le reste ; goûter, c'est salé) et verser dans le contenant #9, frigo. Mercredi : 2 bols égaux (badigeonnage / finition ; ne pas remettre le pinceau cru dans le bol de finition).</li>
 </ul>
-<ul class="cb pour">
-<li>Dissoudre le miso dans le vinaigre (ou un peu d’eau chaude). Ajouter le reste, brasser, goûter (c’est salé). Verser dans le contenant <b class="num">#9</b> MER 25 – Saumon érable-soya – laque, frigo de la véranda. Mercredi : diviser en 2 bols égaux (badigeonnage / finition ; ne pas remettre le pinceau cru dans le bol de finition).</li>
-</ul>
-</article>
 
-<article class="card">
-<div class="bag-top" style="margin-bottom:8px"><b class="num">#14</b> <span class="tag sam">Sam 28</span> <span class="sz">contenant</span></div>
-<h3>Trempette moutarde-abricot (doublée, se garde 1 semaine)</h3>
-<ul class="ings">
+<h3>Trempette moutarde-abricot → contenant #14 (samedi)</h3>
+<ul class="cb">
 <li>1¼ t (312 ml) de mayonnaise</li>
-<li>5 c. à soupe (75 ml) de moutarde à l’ancienne</li>
-<li>5 c. à soupe (75 ml) de confiture d’abricots, fondue et tempérée</li>
+<li>5 c. à soupe (75 ml) de moutarde à l'ancienne</li>
+<li>5 c. à soupe (75 ml) de confiture d'abricots, fondue et tempérée</li>
+<li>Mélanger, verser dans le contenant #14, frigo (se garde 1 semaine).</li>
 </ul>
-<ul class="cb pour">
-<li>Fouetter et verser dans le contenant <b class="num">#14</b> SAM 28 – Trempette moutarde-abricot, couvrir, frigo.</li>
-</ul>
-</article>
 
-<article class="card">
-<div class="bag-top" style="margin-bottom:8px"><b class="num">#7</b> <span class="tag mar">Mar 24</span> <span class="sz">contenant</span></div>
-<h3>Sauce à l’ail (en 2 lots : le plongeur ne tient pas 1 L)</h3>
-<ul class="ings">
-<li>Lot 1 : 4 gousses d’ail en quartiers · 3 blancs d’œufs · 2½ c. à soupe de jus de citron · ⅔ c. à thé de sel · 2 t (500 ml) d’huile de canola · 4 c. à soupe d’eau</li>
-<li>Lot 2 : 3 gousses d’ail en quartiers · 2 blancs d’œufs · 2 c. à soupe de jus de citron · ½ c. à thé de sel · 1⅓ t (333 ml) d’huile de canola · 2½ c. à soupe d’eau</li>
+<h3>Sauce à l'ail → contenant #7 (mardi)</h3>
+<ul class="cb">
+<li>Lot 1 : 4 gousses d'ail en quartiers · 3 blancs d'œufs · 2½ c. à soupe de jus de citron · ⅔ c. à thé de sel · 2 t (500 ml) d'huile de canola · 4 c. à soupe d'eau</li>
+<li>Lot 2 : 3 gousses d'ail en quartiers · 2 blancs d'œufs · 2 c. à soupe de jus de citron · ½ c. à thé de sel · 1⅓ t (333 ml) d'huile de canola · 2½ c. à soupe d'eau</li>
+<li>Mélanger chaque lot au plongeur (ail, blancs, citron, sel ; plongeur en marche, les ⅔ de l'huile en un mince filet, puis l'eau en alternant avec le reste). Réunir les 2 lots. Prélever 1⅓ t (337 ml) pour la marinade ci-dessous. Verser le reste (≈ 650 à 700 ml) dans le contenant #7, frigo. (Mardi est dans les 3 jours, limite du blanc d'œuf cru.)</li>
 </ul>
-<ul class="cb pour">
-<li>À faire aujourd’hui (le souper de mardi est dans les 3 jours, limite du blanc d’œuf cru). Pour chaque lot, dans un contenant haut : ail, blancs, citron et sel en purée au plongeur. Plongeur en marche, verser les ⅔ de l’huile en un mince filet (comme une mayonnaise, en moins d’1 min), puis l’eau en alternant avec le reste d’huile. Réunir les 2 lots. Prélever 1⅓ t (337 ml) et l’utiliser tout de suite dans la marinade shish taouk ci-dessous (sacs <b class="num">#5</b> et <b class="num">#6</b>). Verser le reste (≈ 650 à 700 ml) dans le contenant <b class="num">#7</b> MAR 24 – Sauce à l’ail, frigo.</li>
-</ul>
-</article>
 
-<article class="card">
-<div class="bag-top" style="margin-bottom:8px"><b class="num">#5</b> <b class="num">#6</b> <span class="tag mar">Mar 24</span> <span class="sz">2 sacs larges</span></div>
-<h3>Marinade shish taouk (doublée)</h3>
-<ul class="ings">
-<li>1⅓ t (337 ml) de sauce à l’ail réservée (ci-dessus)</li>
+<h3>Marinade shish taouk → sacs #5 et #6 (mardi)</h3>
+<ul class="cb">
+<li>1⅓ t (337 ml) de sauce à l'ail réservée (ci-dessus)</li>
 <li>202 ml (¾ t + 1 c. à soupe) de crème Natrel 35 % sans lactose</li>
-<li>135 ml (½ t + 1 c. à soupe) d’huile de canola</li>
+<li>135 ml (½ t + 1 c. à soupe) d'huile de canola</li>
 <li>4½ c. à soupe (67 ml) de jus de citron</li>
-<li>1 c. à thé de 7 épices maison (piment de la Jamaïque, cannelle, cumin, coriandre moulue, poivre noir, paprika à parts égales + pincée de muscade)</li>
+<li>1 c. à thé de 7 épices maison</li>
 <li>1 c. à thé de thym séché</li>
 <li>2 c. à thé de sel · poivre généreux</li>
+<li>Mélanger, verser dans les sacs #5 et #6 avec le poulet (1,5 kg, déjà en morceaux de ¾ po), enrober, congélo véranda. La congélation arrête le temps de marinade ; elle reprend au dégel, lundi soir.</li>
 </ul>
-<ul class="cb pour">
-<li>Fouetter la marinade. Couper chaque demi-poitrine (1,5 kg) en 2 sur l’épaisseur (morceaux de ¾ po). Répartir dans les sacs larges <b class="num">#5</b> et <b class="num">#6</b> MAR 24 – Poulet shish taouk – marinade, verser la marinade, enrober, chasser l’air, à plat, <b>congélateur de la véranda</b>. La congélation arrête le temps de marinade (pas de trop-marinade). Elle reprend pendant la décongélation au frigo, lundi soir.</li>
-</ul>
-</article>
 
-<article class="card">
-<div class="bag-top" style="margin-bottom:8px"><b class="num">#13</b> <span class="tag sam">Sam 28</span> <span class="sz">sac large</span></div>
-<h3>Lait de beurre du poulet pané (doublé)</h3>
-<ul class="ings">
+<h3>Lait de beurre du poulet pané → sac #13 (samedi)</h3>
+<ul class="cb">
 <li>625 ml (2½ t) de lait sans lactose</li>
 <li>2½ c. à soupe (37 ml) de vinaigre blanc</li>
+<li>Mélanger, reposer 5 à 10 min, remuer, verser dans le sac #13 avec le poulet (0,85 kg, déjà en lanières de ¾ po), enrober, congélo véranda. La marinade reprend au dégel, vendredi soir.</li>
 </ul>
-<ul class="cb pour">
-<li>Mélanger, reposer 5 à 10 min, remuer. Couper chaque demi-poitrine (0,85 kg) en 2 sur l’épaisseur, puis en lanières d’environ ¾ po de large. Verser le lait de beurre dans le sac large <b class="num">#13</b> SAM 28 – Poulet pané, enrober, chasser l’air, <b>congélateur de la véranda</b>. La congélation arrête le temps de marinade ; elle reprend à la décongélation, vendredi soir (la veille du souper). Trempette déjà dans le contenant <b class="num">#14</b>. Mélange de panure : section Autre.</li>
-</ul>
-</article>
 
-<h2>Légumes</h2>
-<p class="sub">Un légume à la fois, seulement ce qu’il faut couper maintenant. Planche propre, avant la viande crue.</p>
+<h2>3. Légumes</h2>
+<div class="sub">Un légume à la fois. Planche propre, avant la viande crue.</div>
 
-<article class="card">
 <h3>Oignon</h3>
 <ul class="cb">
-<li>2 gros, hachés → sac large <b class="num">#2</b> LUN 23 – Riz frit – légumes <span class="tag lun">Lun 23</span></li>
-<li>2 petits, hachés fin → sac moyen <b class="num">#17</b> JEU 26 – Stroganoff – oignons et ail <span class="tag jeu">Jeu 26</span></li>
-<li>2 gros, en dés → sac large <b class="num">#18</b> DIM 29 – Oignons, carottes et ail <span class="tag dim">Dim 29</span> (couscous)</li>
-<li>2, en rondelles de ½ po → sac large <b class="num">#18</b> DIM 29 – Oignons, carottes et ail <span class="tag dim">Dim 29</span> (légumes rôtis)</li>
+<li>2 gros, hachés → sac #2 (lundi)</li>
+<li>2 petits, hachés fin → sac #17 (jeudi)</li>
+<li>2 gros, en dés → sac #18 (dimanche, couscous)</li>
+<li>2, en rondelles de ½ po → sac #18 (dimanche, légumes rôtis)</li>
 </ul>
-</article>
 
-<article class="card">
 <h3>Carotte</h3>
 <ul class="cb">
-<li>4 grosses, en petits dés de ¼ po → sac large <b class="num">#2</b> LUN 23 – Riz frit – légumes <span class="tag lun">Lun 23</span></li>
-<li>18 petites (≈ 1,1 kg) ou 9 grosses, en bâtonnets de 3 po → sac large <b class="num">#18</b> DIM 29 – Oignons, carottes et ail <span class="tag dim">Dim 29</span></li>
+<li>4 grosses, en petits dés de ¼ po → sac #2 (lundi)</li>
+<li>18 petites (≈ 1,1 kg) ou 9 grosses, en bâtonnets de 3 po → sac #18 (dimanche)</li>
 </ul>
-</article>
 
-<article class="card">
 <h3>Céleri</h3>
 <ul class="cb">
-<li>4 à 5 branches, en petits dés de ¼ po → sac large <b class="num">#2</b> LUN 23 – Riz frit – légumes <span class="tag lun">Lun 23</span></li>
+<li>4 à 5 branches, en petits dés de ¼ po → sac #2 (lundi)</li>
 </ul>
-</article>
 
-<article class="card">
 <h3>Oignon vert</h3>
 <ul class="cb">
-<li>7, émincés, blanc et vert séparés → sac large <b class="num">#2</b> LUN 23 – Riz frit – légumes <span class="tag lun">Lun 23</span></li>
+<li>7, émincés, blanc et vert séparés → sac #2 (lundi)</li>
 </ul>
-</article>
 
-<article class="card">
 <h3>Ail</h3>
 <ul class="cb">
-<li>5 gousses, hachées → sac large <b class="num">#2</b> LUN 23 – Riz frit – légumes <span class="tag lun">Lun 23</span></li>
-<li>9 gousses, hachées fin → contenant <b class="num">#9</b> MER 25 – Saumon érable-soya – laque <span class="tag mer">Mer 25</span> (si pas déjà dans la laque ci-dessus)</li>
-<li>7 gousses, en quartiers (4 + 3) → contenant <b class="num">#7</b> MAR 24 – Sauce à l’ail <span class="tag mar">Mar 24</span> (si pas déjà dans la sauce ci-dessus)</li>
-<li>2 gousses, hachées → sac moyen <b class="num">#17</b> JEU 26 – Stroganoff – oignons et ail <span class="tag jeu">Jeu 26</span></li>
-<li>4 à 5 gousses, hachées → sac large <b class="num">#18</b> DIM 29 – Oignons, carottes et ail <span class="tag dim">Dim 29</span> (couscous)</li>
+<li>5 gousses, hachées → sac #2 (lundi)</li>
+<li>9 gousses, hachées fin → contenant #9 (mercredi, si pas déjà dans la laque)</li>
+<li>7 gousses, en quartiers (4 + 3) → contenant #7 (mardi, si pas déjà dans la sauce)</li>
+<li>2 gousses, hachées → sac #17 (jeudi)</li>
+<li>4 à 5 gousses, hachées → sac #18 (dimanche, couscous)</li>
 </ul>
-</article>
 
-<article class="card">
 <h3>Haricots verts</h3>
 <ul class="cb">
-<li>675 g, équeutés → sac large <b class="num">#10</b> MER 25 – Haricots verts <span class="tag mer">Mer 25</span></li>
-<li>675 g, équeutés → sac large <b class="num">#12</b> JEU 26 – Haricots verts <span class="tag jeu">Jeu 26</span></li>
+<li>675 g, équeutés → sac #10 (mercredi)</li>
+<li>675 g, équeutés → sac #12 (jeudi)</li>
 </ul>
-</article>
 
-<h2>Viande</h2>
-<p class="sub">Viandes crues en dernier, planche à part. Sacs à la tablette du bas, dans un plat qui ne coule pas. Chasser l’air, sacs à plat. Laver planche et comptoir après.</p>
+<h2>4. Viande</h2>
+<div class="sub">Viandes crues en dernier, planche à part. Sacs à plat, air chassé, tablette du bas, plat qui ne coule pas. Laver planche et comptoir après.</div>
 
-<article class="card">
 <h3>Poitrine de poulet</h3>
 <ul class="cb">
-<li>1,5 kg (7 demi-poitrines), chaque demi-poitrine en 2 sur l’épaisseur (¾ po), avec la marinade → sacs larges <b class="num">#5</b> et <b class="num">#6</b> MAR 24 – Poulet shish taouk – marinade <span class="tag mar">Mar 24</span> · congélo véranda</li>
-<li>0,85 kg, en lanières d’environ ¾ po, avec le lait de beurre → sac large <b class="num">#13</b> SAM 28 – Poulet pané <span class="tag sam">Sam 28</span> · congélo véranda</li>
-<li>1,8–2 kg (9 demi-poitrines) → sacs larges <b class="num">#15</b> et <b class="num">#16</b> DIM 29 – Poulet farci <span class="tag dim">Dim 29</span> · congélo véranda</li>
+<li>1,5 kg (7 demi-poitrines), chaque demi-poitrine en 2 sur l'épaisseur (¾ po), avec la marinade → sacs #5 et #6 (mardi) · congélo</li>
+<li>0,85 kg, en lanières d'environ ¾ po, avec le lait de beurre → sac #13 (samedi) · congélo</li>
+<li>1,8–2 kg (9 demi-poitrines) → sacs #15 et #16 (dimanche) · congélo</li>
 </ul>
-</article>
 
-<article class="card">
 <h3>Saumon</h3>
 <ul class="cb">
-<li>1,4 kg → sac large <b class="num">#8</b> MER 25 – Saumon érable-soya – saumon <span class="tag mer">Mer 25</span> · congélo véranda</li>
+<li>1,4 kg → sac #8 (mercredi) · congélo</li>
 </ul>
-</article>
 
-<article class="card">
 <h3>Filet de porc</h3>
 <ul class="cb">
-<li>1,1 kg (≈ 2 filets, pour 1 kg de lanières), en lanières de ½ po × 2 po → sac large <b class="num">#11</b> JEU 26 – Stroganoff – filets de porc <span class="tag jeu">Jeu 26</span> · congélo véranda</li>
+<li>1,1 kg (≈ 2 filets, pour 1 kg de lanières), en lanières de ½ po × 2 po → sac #11 (jeudi) · congélo</li>
 </ul>
-</article>
 
-<article class="card">
 <h3>Bacon</h3>
 <ul class="cb">
-<li>375 g, en tronçons de ½ po → sac moyen <b class="num">#4</b> LUN 23 – Riz frit – bacon <span class="tag lun">Lun 23</span> · frigo véranda</li>
+<li>375 g, en tronçons de ½ po → sac #4 (lundi) · frigo</li>
 </ul>
-</article>
 
-<article class="card">
 <h3>Côtelettes de porc cuites</h3>
 <ul class="cb">
-<li>4 ou 5 (sur les 7 ; ≈ 700 à 900 g), en dés de ½ po une fois décongelées → sac large <b class="num">#3</b> LUN 23 – Riz frit – côtelettes cuites <span class="tag lun">Lun 23</span> · sortir au frigo de la véranda aujourd’hui, sur une assiette, puis couper. Réchauffer à 74 °C dans le riz frit.</li>
+<li>4 ou 5 (sur les 7 ; ≈ 700 à 900 g), en dés de ½ po une fois décongelées → sac #3 (lundi) · sortir au frigo aujourd'hui, puis couper. Réchauffer à 74 °C dans le riz frit.</li>
 </ul>
-</article>
 
-<h2>Autre</h2>
-<article class="card">
-<h3>Riz étuvé</h3>
+<h2>5. Autre</h2>
 <ul class="cb">
-<li>Cuire 4 t de riz étuvé cru (1 t de riz : 2 t d’eau, 20 min, selon l’emballage) — ça donne ≈ 11 t de riz cuit. Étaler tout de suite sur 2 plaques, refroidir complètement, puis mettre dans le contenant <b class="num">#1</b> LUN 23 – Riz frit – riz cuit <span class="tag lun">Lun 23</span>, couvert, frigo de la véranda. Pas de riz chaud qui traîne sur le comptoir.</li>
+<li><b>Riz étuvé :</b> cuire 4 t cru (1 t de riz : 2 t d'eau, 20 min, selon l'emballage) — ≈ 11 t cuit. Étaler tout de suite sur 2 plaques, refroidir complètement, puis contenant #1 (lundi), couvert, frigo. Pas de riz chaud qui traîne sur le comptoir.</li>
+<li><b>7 épices maison :</b> à parts égales piment de la Jamaïque (allspice), cannelle, cumin, coriandre moulue, poivre noir, paprika, plus une pincée de muscade (ex. ¼ c. à thé de chaque). 1 c. à thé va dans la marinade shish taouk.</li>
+<li><b>Mélange de panure (samedi) :</b> farine ⅝ t (½ t + 2 c. à soupe) · chili doux 1 c. à soupe + 1 c. à thé (ou paprika + pincée de cumin) · poudre d'ail ¾ c. à thé · sel et poivre. Panko : 3 t + 2 c. à soupe mélangé à 4 c. à soupe d'huile de canola. Garde-manger, au sec.</li>
+<li>Laver et désinfecter planches et comptoir.</li>
 </ul>
-</article>
-<article class="card">
-<h3>7 épices libanais (maison)</h3>
-<ul class="cb">
-<li>Mélange à parts égales : piment de la Jamaïque (allspice), cannelle, cumin, coriandre moulue, poivre noir, paprika, plus une pincée de muscade. Ex. : ¼ c. à thé de chaque + une pincée de muscade. Petit pot au garde-manger. Tu en mets 1 c. à thé dans la marinade de mardi.</li>
-</ul>
-</article>
-<article class="card">
-<h3>Mélange de panure (samedi)</h3>
-<ul class="cb">
-<li>Assiette ou contenant « farine » : ⅝ t (½ t + 2 c. à soupe) de farine · 1 c. à soupe + 1 c. à thé d’assaisonnement au chili doux (ou la même quantité de paprika et une pincée de cumin) · ¾ c. à thé de poudre d’ail · sel et poivre généreux. Assiette ou contenant « panko » : 3 t + 2 c. à soupe de panko mélangé à 4 c. à soupe d’huile de canola. Garde-manger, à l’abri de l’humidité, pour samedi.</li>
-</ul>
-</article>
-<article class="card">
-<h3>Nettoyage</h3>
-<ul class="cb">
-<li>Laver et désinfecter planches et comptoir. Sacs de viande crue : tablette du bas, plat qui ne coule pas.</li>
-</ul>
-</article>
 
-<h2>Plus tard dans la semaine</h2>
-<p class="sub">Décongélation au frigo seulement, jamais sur le comptoir. Chaque geste autre qu’une sortie au frigo a sa raison.</p>
-
-<article class="card">
+<h2>6. Plus tard dans la semaine</h2>
+<div class="sub">Décongélation au frigo seulement, jamais sur le comptoir. Chaque geste autre qu'une sortie au frigo a sa raison.</div>
 <ul class="cb">
-<li><span class="tag lun">Lun 23</span> soir : sortir les sacs larges <b class="num">#5</b> et <b class="num">#6</b> MAR 24 – Poulet shish taouk – marinade (1,5 kg déjà dans la marinade) au frigo de la véranda, tablette du bas, plat qui ne coule pas. La marinade reprend en décongelant (la congélation avait arrêté le temps). <i>Raison : décongélation la veille.</i></li>
-<li><span class="tag mar">Mar 24</span> soir : sortir le sac large <b class="num">#8</b> MER 25 – Saumon érable-soya – saumon (1,4 kg) au frigo. <i>Raison : décongélation la veille.</i></li>
-<li><span class="tag mer">Mer 25</span> après-midi : couper le saumon décongelé du sac <b class="num">#8</b> en 9 pavés d’environ 150 g, sel et poivre léger, sécher à découvert au frigo au moins 30 min. Laque dans le contenant <b class="num">#9</b>. <i>Raison : pavés après décongélation, juste avant la cuisson.</i></li>
-<li><span class="tag mer">Mer 25</span> soir : sortir le sac large <b class="num">#11</b> JEU 26 – Stroganoff – filets de porc (déjà en lanières) au frigo, plat qui ne coule pas. <b>Sortir le jus de porc effiloché au frigo (si congelé).</b> Dégraisser une fois froid (retirer le gras) : 2 t (500 ml) de jus + 2½ t (625 ml) de bouillon. Goûter avant de saler ; sale seulement à la fin. <i>Raison : décongélation la veille.</i></li>
-<li><span class="tag jeu">Jeu 26</span> après-midi : couper 1 kg de champignons blancs en quartiers (oignons, ail et haricots sont déjà dans les sacs <b class="num">#17</b> et <b class="num">#12</b>). <i>Raison : les champignons coupés deviennent visqueux.</i></li>
-<li><span class="tag jeu">Jeu 26</span> soir : faire la salade de chou (vendredi, ou les 2 soirs d’un coup). Par soir : chou ≈ 0,6 kg (3¾ t) haché fin · céleri ⅝ t · oignon 2½ c. à soupe · relish ⅜ t (5 c. à soupe) · mayonnaise 7½ c. à soupe (112 ml) · lait sans lactose 2½ c. à soupe · vinaigre blanc 1¼ c. à soupe · sucre 1¼ c. à soupe · sel, poivre. Réfrigérer au moins 1 h. Vinaigrette non doublée. <i>Raison : la salade de chou assaisonnée se garde 2 à 3 jours — trop tôt si on la fait aujourd’hui pour vendredi et samedi.</i></li>
-<li><span class="tag ven">Ven 27</span> soir : sortir le sac large <b class="num">#13</b> SAM 28 – Poulet pané (0,85 kg déjà dans le lait de beurre) au frigo, et les sacs larges <b class="num">#15</b> et <b class="num">#16</b> DIM 29 – Poulet farci (1,8–2 kg). <i>Raison : décongélation la veille (le poulet pané marine en décongelant ; un dégel dès jeudi laisserait trop longtemps dans le lait de beurre une fois décongelé).</i></li>
-<li><span class="tag dim">Dim 29</span> : farce — cottage sans lactose 1⅛ t · fromage Bergeron râpé 1⅛ t (≈ 125 g) · 2 gousses d’ail hachées · 1 c. à soupe de persil. Poitrines des sacs <b class="num">#15</b> et <b class="num">#16</b> : aplatir à ½ po, 2 feuilles d’épinards et ¼ t de farce par poitrine (marge de ¾ po). <i>Raison : farce et roulades le jour même.</i> Couper 3 poivrons rouges, orange ou jaunes en morceaux de 1½ po et 9 grelots (≈ 450 g) en 2. Les oignons et carottes sont déjà dans le sac <b class="num">#18</b>. <i>Raison : grelots (patates) au plus 24 h dans l’eau au frigo ; poivrons plus frais coupés le jour même.</i></li>
+<li><b>Lun 23 soir :</b> sortir les sacs #5 et #6 (shish taouk) au frigo, tablette du bas, plat qui ne coule pas. La marinade reprend au dégel.</li>
+<li><b>Mar 24 soir :</b> sortir le sac #8 (saumon 1,4 kg) au frigo.</li>
+<li><b>Mer 25 après-midi :</b> couper le saumon du sac #8 en 9 pavés d'environ 150 g, sel et poivre léger, sécher à découvert au frigo 30 min. Laque : contenant #9. (Raison : pavés après décongélation, juste avant la cuisson.)</li>
+<li><b>Mer 25 soir :</b> sortir le sac #11 (filets déjà en lanières) au frigo, plat qui ne coule pas. Sortir le jus de porc effiloché au frigo (si congelé). Dégraisser une fois froid : 2 t (500 ml) de jus + 2½ t (625 ml) de bouillon. Goûter avant de saler ; sale seulement à la fin.</li>
+<li><b>Jeu 26 après-midi :</b> couper 1 kg de champignons blancs en quartiers (oignons, ail et haricots déjà dans les sacs #17 et #12). (Raison : les champignons coupés deviennent visqueux.)</li>
+<li><b>Jeu 26 soir :</b> salade de chou (vendredi, ou les 2 soirs). Par soir : chou ≈ 0,6 kg (3¾ t) haché fin · céleri ⅝ t · oignon 2½ c. à soupe · relish ⅜ t (5 c. à soupe) · mayonnaise 7½ c. à soupe (112 ml) · lait sans lactose 2½ c. à soupe · vinaigre blanc 1¼ c. à soupe · sucre 1¼ c. à soupe · sel, poivre. Réfrigérer au moins 1 h. (Raison : se garde 2 à 3 jours.)</li>
+<li><b>Ven 27 soir :</b> sortir le sac #13 (poulet pané, lait de beurre) et les sacs #15 et #16 (poulet farci) au frigo. (Le #13 dégelé dès jeudi resterait trop longtemps dans le lait de beurre.)</li>
+<li><b>Dim 29 :</b> farce — cottage sans lactose 1⅛ t · fromage Bergeron râpé 1⅛ t (≈ 125 g) · 2 gousses d'ail hachées · 1 c. à soupe de persil. Poitrines des sacs #15 et #16 : aplatir à ½ po, 2 feuilles d'épinards et ¼ t de farce par poitrine (marge de ¾ po). (Raison : farce et roulades le jour même.) Couper 3 poivrons rouges, orange ou jaunes en morceaux de 1½ po et 9 grelots (≈ 450 g) en 2. Oignons et carottes déjà dans le sac #18. (Raison : grelots au plus 24 h ; poivrons plus frais le jour même.)</li>
 </ul>
-</article>
-
-<p class="sub" style="margin-top:16px">Restes dans les 2 h · réchauffer à 74 °C · bâtonnets de vendredi 74 °C</p>
+<div class="sub" style="margin-top:8px">Restes dans les 2 h · réchauffer à 74 °C · bâtonnets de vendredi 74 °C</div>
 <button id="reset">Tout décocher</button>
-<div id="wl">Écran : …</div>
 <script>
-const K='mp23-v6-checks';const st=JSON.parse(localStorage.getItem(K)||'{}');
-document.querySelectorAll('.cb li').forEach((li,i)=>{
-  if(li.querySelector('input[type=checkbox]'))return;
-  const sp=document.createElement('span');sp.innerHTML=li.innerHTML;li.innerHTML='';
-  const lb=document.createElement('label');const cb=document.createElement('input');cb.type='checkbox';cb.checked=!!st[i];if(cb.checked)li.classList.add('done');
-  cb.onchange=()=>{st[i]=cb.checked;li.classList.toggle('done',cb.checked);localStorage.setItem(K,JSON.stringify(st));};
-  lb.append(cb,sp);li.append(lb);
-});
+const K='mp23-v7-checks';const st=JSON.parse(localStorage.getItem(K)||'{}');
+document.querySelectorAll('.cb li').forEach((li,i)=>{const sp=document.createElement('span');sp.innerHTML=li.innerHTML;li.innerHTML='';
+const lb=document.createElement('label');const cb=document.createElement('input');cb.type='checkbox';cb.checked=!!st[i];if(cb.checked)li.classList.add('done');
+cb.onchange=()=>{st[i]=cb.checked;li.classList.toggle('done',cb.checked);localStorage.setItem(K,JSON.stringify(st));};
+lb.append(cb,sp);li.append(lb);});
 document.getElementById('reset').onclick=()=>{if(confirm('Tout décocher?')){localStorage.removeItem(K);location.reload();}};
+</script><div id="wl" style="position:fixed;left:12px;bottom:12px;font-size:10pt;background:#eee;padding:6px 10px;border-radius:6px">Écran : …</div>
+<script>
 let lock=null;const wl=document.getElementById('wl');
 async function keepOn(){try{lock=await navigator.wakeLock.request('screen');wl.textContent='🔆 Écran toujours allumé';lock.addEventListener('release',()=>{wl.textContent='Écran : touche la page pour le garder allumé';});}catch(e){wl.textContent='Écran : touche la page pour le garder allumé';}}
 if('wakeLock' in navigator){keepOn();document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')keepOn();});document.addEventListener('click',()=>{if(!lock||lock.released)keepOn();});}else{wl.textContent='Écran : non supporté par ce navigateur';}
-</script>
-</body>
-</html>
+</script></body></html>
