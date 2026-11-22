@@ -331,7 +331,7 @@ Changements du 22 nov. : saumon retiré (reste au congélo) ; stroganoff mercred
 <div class="sub" style="margin-top:8px">Restes dans les 2 h · réchauffer à 74 °C · bâtonnets de vendredi 74 °C</div>
 <button id="reset">Tout décocher</button>
 <script>
-const K='mp23-v9-checks';const st=JSON.parse(localStorage.getItem(K)||'{}');
+const K='mp23-v10-checks';const st=JSON.parse(localStorage.getItem(K)||'{}');
 const items=[...document.querySelectorAll('.cb li')];
 let syncing=false;
 function setCheck(li,on){
@@ -343,8 +343,19 @@ function setCheck(li,on){
   st[i]=on;
 }
 function save(){localStorage.setItem(K,JSON.stringify(st));}
-function bagOf(n){return items.filter(li=>li.dataset.bag===String(n));}
-function linesOf(n){return items.filter(li=>!li.dataset.bag&&(li.dataset.bags||'').split(',').includes(String(n)));}
+function bagChecked(n){
+  const bag=items.find(li=>li.dataset.bag===String(n));
+  const cb=bag&&bag.querySelector('input[type=checkbox]');
+  return !!(cb&&cb.checked);
+}
+function recomputeLines(){
+  items.forEach(li=>{
+    if(!li.dataset.bags)return;
+    const bags=li.dataset.bags.split(',').filter(Boolean);
+    if(!bags.length)return;
+    setCheck(li,bags.every(n=>bagChecked(n)));
+  });
+}
 items.forEach((li,i)=>{
   const sp=document.createElement('span');sp.innerHTML=li.innerHTML;li.innerHTML='';
   const lb=document.createElement('label');const cb=document.createElement('input');cb.type='checkbox';cb.checked=!!st[i];if(cb.checked)li.classList.add('done');
@@ -352,13 +363,8 @@ items.forEach((li,i)=>{
     st[i]=cb.checked;li.classList.toggle('done',cb.checked);
     if(!syncing){
       syncing=true;
-      try{
-        if(li.dataset.bag){
-          linesOf(li.dataset.bag).forEach(line=>setCheck(line,cb.checked));
-        }else if(li.dataset.bags){
-          li.dataset.bags.split(',').filter(Boolean).forEach(n=>bagOf(n).forEach(bag=>setCheck(bag,cb.checked)));
-        }
-      }finally{syncing=false;}
+      try{if(li.dataset.bag)recomputeLines();}
+      finally{syncing=false;}
     }
     save();
   };
